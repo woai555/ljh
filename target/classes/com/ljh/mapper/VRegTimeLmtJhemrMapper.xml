@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VRegTimeLmtJhemrMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRegTimeLmtJhemr">
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="TIME_CODE" property="timeCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="EMPL_NAME" property="emplName" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="REGLEVL_NAME" property="reglevlName" />
+        <result column="TIME_LMT" property="timeLmt" />
+        <result column="BOOK_NUM" property="bookNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, TIME_CODE, DEPT_CODE, EMPL_CODE, EMPL_NAME, REGLEVL_CODE, REGLEVL_NAME, TIME_LMT, BOOK_NUM
+    </sql>
+
+</mapper>

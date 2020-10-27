@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHlhtCdrvisitItemlistsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrvisitItemlists">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="VISIT_NO" property="visitNo" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="FORM_NO" property="formNo" />
+        <result column="PRES_STATUS" property="presStatus" />
+        <result column="DURATION" property="duration" />
+        <result column="HERB_DOSAGE_QTY" property="herbDosageQty" />
+        <result column="PRESCRIPTION_TYPE_CODE" property="prescriptionTypeCode" />
+        <result column="PRESCRIPTION_TYPE_DESC" property="prescriptionTypeDesc" />
+        <result column="ZYYPCF" property="zyypcf" />
+        <result column="CHINESE_MEDICINE_CODE" property="chineseMedicineCode" />
+        <result column="CHINESE_MEDICINE_DESC" property="chineseMedicineDesc" />
+        <result column="ITEM_TYPE_CODE" property="itemTypeCode" />
+        <result column="ITEM_TYPE_DESC" property="itemTypeDesc" />
+        <result column="EXEC_SUBSPECIALTY_CODE" property="execSubspecialtyCode" />
+        <result column="EXEC_SUBSPECIALTY_DESC" property="execSubspecialtyDesc" />
+        <result column="ORDERITEM_CODE" property="orderitemCode" />
+        <result column="ORDERITEM_DESC" property="orderitemDesc" />
+        <result column="CHARGEITEM_CODE" property="chargeitemCode" />
+        <result column="DRUGITEM_CODE" property="drugitemCode" />
+        <result column="TOTAL_COST" property="totalCost" />
+        <result column="DRUGITEM_DESC" property="drugitemDesc" />
+        <result column="DOSAGE_FORM_CODE" property="dosageFormCode" />
+        <result column="DOSAGE_FORM_DESC" property="dosageFormDesc" />
+        <result column="PACKAGE_NO" property="packageNo" />
+        <result column="SPECIFICATION" property="specification" />
+        <result column="DRUG_SPEC" property="drugSpec" />
+        <result column="DOSAGE_QTY" property="dosageQty" />
+        <result column="DOSAGE_UNIT_CODE" property="dosageUnitCode" />
+        <result column="DOSAGE_UNIT_DESC" property="dosageUnitDesc" />
+        <result column="TOTAL_DOSAGE_QTY" property="totalDosageQty" />
+        <result column="ORDERED_QTY" property="orderedQty" />
+        <result column="ORDERED_QTY_UOM_CODE" property="orderedQtyUomCode" />
+        <result column="ORDERED_QTY_UOM_DES" property="orderedQtyUomDes" />
+        <result column="ACTUAL_UNIT_PRICE" property="actualUnitPrice" />
+        <result column="ORDER_ID" property="orderId" />
+        <result column="ORDER_DATE" property="orderDate" />
+        <result column="REMARK" property="remark" />
+        <result column="ROA_CODE" property="roaCode" />
+        <result column="ROA_DESC" property="roaDesc" />
+        <result column="OE_ORDER_INFO" property="oeOrderInfo" />
+        <result column="OE_ORDER_REMARKS" property="oeOrderRemarks" />
+        <result column="FREQUENCY_CODE" property="frequencyCode" />
+        <result column="FREQUENCY_DESC" property="frequencyDesc" />
+        <result column="DURATION_QTY" property="durationQty" />
+        <result column="DURATION_CODE" property="durationCode" />
+        <result column="DURATION_DESC" property="durationDesc" />
+        <result column="PACKINGNUMBER" property="packingnumber" />
+        <result column="HERBAL_DOSAGE_NUMBER" property="herbalDosageNumber" />
+        <result column="YINPIAN_DECOCTION_DESC" property="yinpianDecoctionDesc" />
+        <result column="EXEC_TIME" property="execTime" />
+        <result column="THERAPEUTIC_PRINCIPLE_DESC" property="therapeuticPrincipleDesc" />
+        <result column="ORDER_CLASS" property="orderClass" />
+        <result column="CHARGE_STATUS" property="chargeStatus" />
+        <result column="COST_TYPE" property="costType" />
+        <result column="DRUG_ALLERGY" property="drugAllergy" />
+        <result column="DOCTOR_TYPE_CODE" property="doctorTypeCode" />
+        <result column="DOCTOR_TYPE_DESC" property="doctorTypeDesc" />
+        <result column="EXAMINE_DATE" property="examineDate" />
+        <result column="IMPLEMENT_DOCTOR" property="implementDoctor" />
+        <result column="IMPLEMENT_DOCTOR_CODE" property="implementDoctorCode" />
+        <result column="EXAMINE_DOCTOR_CODE" property="examineDoctorCode" />
+        <result column="EXAMINE_DOCTOR" property="examineDoctor" />
+        <result column="STANDARD_CODE" property="standardCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, SEE_NO, VISIT_NO, ORDER_NO, FORM_NO, PRES_STATUS, DURATION, HERB_DOSAGE_QTY, PRESCRIPTION_TYPE_CODE, PRESCRIPTION_TYPE_DESC, ZYYPCF, CHINESE_MEDICINE_CODE, CHINESE_MEDICINE_DESC, ITEM_TYPE_CODE, ITEM_TYPE_DESC, EXEC_SUBSPECIALTY_CODE, EXEC_SUBSPECIALTY_DESC, ORDERITEM_CODE, ORDERITEM_DESC, CHARGEITEM_CODE, DRUGITEM_CODE, TOTAL_COST, DRUGITEM_DESC, DOSAGE_FORM_CODE, DOSAGE_FORM_DESC, PACKAGE_NO, SPECIFICATION, DRUG_SPEC, DOSAGE_QTY, DOSAGE_UNIT_CODE, DOSAGE_UNIT_DESC, TOTAL_DOSAGE_QTY, ORDERED_QTY, ORDERED_QTY_UOM_CODE, ORDERED_QTY_UOM_DES, ACTUAL_UNIT_PRICE, ORDER_ID, ORDER_DATE, REMARK, ROA_CODE, ROA_DESC, OE_ORDER_INFO, OE_ORDER_REMARKS, FREQUENCY_CODE, FREQUENCY_DESC, DURATION_QTY, DURATION_CODE, DURATION_DESC, PACKINGNUMBER, HERBAL_DOSAGE_NUMBER, YINPIAN_DECOCTION_DESC, EXEC_TIME, THERAPEUTIC_PRINCIPLE_DESC, ORDER_CLASS, CHARGE_STATUS, COST_TYPE, DRUG_ALLERGY, DOCTOR_TYPE_CODE, DOCTOR_TYPE_DESC, EXAMINE_DATE, IMPLEMENT_DOCTOR, IMPLEMENT_DOCTOR_CODE, EXAMINE_DOCTOR_CODE, EXAMINE_DOCTOR, STANDARD_CODE
+    </sql>
+
+</mapper>

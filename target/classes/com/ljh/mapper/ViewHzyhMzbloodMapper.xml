@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHzyhMzbloodMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHzyhMzblood">
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="NAME" property="name" />
+        <result column="DEPARTMENTID" property="departmentid" />
+        <result column="DEPATRMENTNAME" property="depatrmentname" />
+        <result column="BLBARCODE" property="blbarcode" />
+        <result column="BLKINDDETIALNAME" property="blkinddetialname" />
+        <result column="PACKQTY" property="packqty" />
+        <result column="UNIT" property="unit" />
+        <result column="PACKPRICE" property="packprice" />
+        <result column="OPERID" property="operid" />
+        <result column="OPERDATE" property="operdate" />
+        <result column="BLTYPENAME" property="bltypename" />
+        <result column="BLTYPECODE" property="bltypecode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENTNO, NAME, DEPARTMENTID, DEPATRMENTNAME, BLBARCODE, BLKINDDETIALNAME, PACKQTY, UNIT, PACKPRICE, OPERID, OPERDATE, BLTYPENAME, BLTYPECODE
+    </sql>
+
+</mapper>

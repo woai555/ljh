@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LStencilListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LStencilList">
+        <result column="CONTROLNO" property="controlno" />
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="STENCILKIND" property="stencilkind" />
+        <result column="CONTROLKIND" property="controlkind" />
+        <result column="CONTROLCODE" property="controlcode" />
+        <result column="BEGIN_X" property="beginX" />
+        <result column="BEGIN_Y" property="beginY" />
+        <result column="END_X" property="endX" />
+        <result column="END_Y" property="endY" />
+        <result column="HEIGHT" property="height" />
+        <result column="WIDTH" property="width" />
+        <result column="PEN_STYLE" property="penStyle" />
+        <result column="PEN_WIDTH" property="penWidth" />
+        <result column="FONT_FACE" property="fontFace" />
+        <result column="FONT_HEIGHT" property="fontHeight" />
+        <result column="FONT_WEIGHT" property="fontWeight" />
+        <result column="FONT_ITALIC" property="fontItalic" />
+        <result column="FONT_UNDERLINE" property="fontUnderline" />
+        <result column="TEXT" property="text" />
+        <result column="TABORDER" property="taborder" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORTIME" property="operatortime" />
+        <result column="FONT_CHARSET" property="fontCharset" />
+        <result column="TEMWIDTH" property="temwidth" />
+        <result column="TEMHEIGHT" property="temheight" />
+        <result column="STENCILNO" property="stencilno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CONTROLNO, MACHINECODE, STENCILKIND, CONTROLKIND, CONTROLCODE, BEGIN_X, BEGIN_Y, END_X, END_Y, HEIGHT, WIDTH, PEN_STYLE, PEN_WIDTH, FONT_FACE, FONT_HEIGHT, FONT_WEIGHT, FONT_ITALIC, FONT_UNDERLINE, TEXT, TABORDER, OPERATORID, OPERATORTIME, FONT_CHARSET, TEMWIDTH, TEMHEIGHT, STENCILNO
+    </sql>
+
+</mapper>

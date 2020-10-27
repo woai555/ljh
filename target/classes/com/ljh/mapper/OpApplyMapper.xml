@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpApplyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpApply">
+        <id column="OPERATIONNO" property="operationno" />
+        <result column="RECORDNO" property="recordno" />
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="BED_NO" property="bedNo" />
+        <result column="PASOURCE" property="pasource" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="PREPAY_COST" property="prepayCost" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="BLOODCODE" property="bloodcode" />
+        <result column="OPERATIONKIND" property="operationkind" />
+        <result column="OPERATIONITEM" property="operationitem" />
+        <result column="DIAGNOSE" property="diagnose" />
+        <result column="OPERATEDOC" property="operatedoc" />
+        <result column="GUIDEDOC" property="guidedoc" />
+        <result column="YNEMCLINIC" property="ynemclinic" />
+        <result column="SEEDOCTYPE" property="seedoctype" />
+        <result column="SICKROOM" property="sickroom" />
+        <result column="DURATION" property="duration" />
+        <result column="PREDTIME" property="predtime" />
+        <result column="ANESTYPE" property="anestype" />
+        <result column="HELPERNUM" property="helpernum" />
+        <result column="WASHNURSE" property="washnurse" />
+        <result column="ACCONURSE" property="acconurse" />
+        <result column="PREPNURSE" property="prepnurse" />
+        <result column="EXECDEPT" property="execdept" />
+        <result column="CONSOLETYPE" property="consoletype" />
+        <result column="APPLYDOC" property="applydoc" />
+        <result column="APPLYTIME" property="applytime" />
+        <result column="APPLYNOTE" property="applynote" />
+        <result column="APPROVEDOC" property="approvedoc" />
+        <result column="APPROVETIME" property="approvetime" />
+        <result column="APPROVENOTE" property="approvenote" />
+        <result column="ANESDOC" property="anesdoc" />
+        <result column="FEE" property="fee" />
+        <result column="DEGREE" property="degree" />
+        <result column="INCISIONTYPE" property="incisiontype" />
+        <result column="YNGERM" property="yngerm" />
+        <result column="SCREENUPE" property="screenupe" />
+        <result column="OPEROOM" property="operoom" />
+        <result column="CONSOLE" property="console" />
+        <result column="RECEPTTIME" property="recepttime" />
+        <result column="BLOODKIND" property="bloodkind" />
+        <result column="BLOODNUM" property="bloodnum" />
+        <result column="BLOODUNIT" property="bloodunit" />
+        <result column="OPERATENOTE" property="operatenote" />
+        <result column="ANESTHNOTE" property="anesthnote" />
+        <result column="EXECSTATUS" property="execstatus" />
+        <result column="YNFINISHED" property="ynfinished" />
+        <result column="YNANESTH" property="ynanesth" />
+        <result column="FOLK" property="folk" />
+        <result column="RELATION" property="relation" />
+        <result column="FOLKCOMMENT" property="folkcomment" />
+        <result column="YNURGENT" property="ynurgent" />
+        <result column="YNCHANGE" property="ynchange" />
+        <result column="YNHEAVY" property="ynheavy" />
+        <result column="OPERATOR" property="operator" />
+        <result column="OPERATETIME" property="operatetime" />
+        <result column="YNVALID" property="ynvalid" />
+        <result column="YNUNITE" property="ynunite" />
+        <result column="UNITE_NO" property="uniteNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATIONNO, RECORDNO, INPATIENT_NO, PATIENT_NO, CARD_NO, REG_DATE, BED_NO, PASOURCE, NAME, SEX, BIRTHDAY, PREPAY_COST, DEPT_CODE, BLOODCODE, OPERATIONKIND, OPERATIONITEM, DIAGNOSE, OPERATEDOC, GUIDEDOC, YNEMCLINIC, SEEDOCTYPE, SICKROOM, DURATION, PREDTIME, ANESTYPE, HELPERNUM, WASHNURSE, ACCONURSE, PREPNURSE, EXECDEPT, CONSOLETYPE, APPLYDOC, APPLYTIME, APPLYNOTE, APPROVEDOC, APPROVETIME, APPROVENOTE, ANESDOC, FEE, DEGREE, INCISIONTYPE, YNGERM, SCREENUPE, OPEROOM, CONSOLE, RECEPTTIME, BLOODKIND, BLOODNUM, BLOODUNIT, OPERATENOTE, ANESTHNOTE, EXECSTATUS, YNFINISHED, YNANESTH, FOLK, RELATION, FOLKCOMMENT, YNURGENT, YNCHANGE, YNHEAVY, OPERATOR, OPERATETIME, YNVALID, YNUNITE, UNITE_NO
+    </sql>
+
+</mapper>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RegisterAssignMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RegisterAssign">
+        <id column="REG_ID" property="regId" />
+        <result column="TREAT_CARD_NO" property="treatCardNo" />
+        <result column="HEALTHCARE_CARD_NO" property="healthcareCardNo" />
+        <result column="JYT_CARD_NO" property="jytCardNo" />
+        <result column="PAT_CODE" property="patCode" />
+        <result column="PAT_NAME" property="patName" />
+        <result column="PAT_SEX" property="patSex" />
+        <result column="DOCTOR_CODE" property="doctorCode" />
+        <result column="DOCTOR_NAME" property="doctorName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="PROF_CODE" property="profCode" />
+        <result column="PROF_NAME" property="profName" />
+        <result column="REG_GRADE" property="regGrade" />
+        <result column="REG_SEQ_NO" property="regSeqNo" />
+        <result column="REG_TIME" property="regTime" />
+        <result column="NOON_FLAG" property="noonFlag" />
+        <result column="IS_JZ" property="isJz" />
+        <result column="ROOM" property="room" />
+        <result column="STATUS" property="status" />
+        <result column="CALL_TIME" property="callTime" />
+        <result column="ARRIVAL" property="arrival" />
+        <result column="ARRIVAL_TIME" property="arrivalTime" />
+        <result column="AGE" property="age" />
+        <result column="UP_SCREEN_TIME" property="upScreenTime" />
+        <result column="UP_SCREEN" property="upScreen" />
+        <result column="WITHDRAW_FLAG" property="withdrawFlag" />
+        <result column="TRIAGE_DOCT" property="triageDoct" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="TRIAGE_DOCTNAME" property="triageDoctname" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="CALL_DOCTCODE" property="callDoctcode" />
+        <result column="WAITING_AREA" property="waitingArea" />
+        <result column="WEIGHT" property="weight" />
+        <result column="REAL_DOCTCODE" property="realDoctcode" />
+        <result column="REAL_DOCTNAME" property="realDoctname" />
+        <result column="IDENNO" property="idenno" />
+        <result column="GRADE" property="grade" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REG_ID, TREAT_CARD_NO, HEALTHCARE_CARD_NO, JYT_CARD_NO, PAT_CODE, PAT_NAME, PAT_SEX, DOCTOR_CODE, DOCTOR_NAME, DEPT_CODE, DEPT_NAME, PROF_CODE, PROF_NAME, REG_GRADE, REG_SEQ_NO, REG_TIME, NOON_FLAG, IS_JZ, ROOM, STATUS, CALL_TIME, ARRIVAL, ARRIVAL_TIME, AGE, UP_SCREEN_TIME, UP_SCREEN, WITHDRAW_FLAG, TRIAGE_DOCT, CLINIC_CODE, TRIAGE_DOCTNAME, ROOMNAME, CALL_DOCTCODE, WAITING_AREA, WEIGHT, REAL_DOCTCODE, REAL_DOCTNAME, IDENNO, GRADE
+    </sql>
+
+</mapper>

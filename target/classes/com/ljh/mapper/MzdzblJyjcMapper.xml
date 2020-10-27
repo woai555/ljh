@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MzdzblJyjcMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MzdzblJyjc">
+        <result column="JYJC_ID" property="jyjcId" />
+        <result column="REG_TIME" property="regTime" />
+        <result column="PROJECTNAME" property="projectname" />
+        <result column="BM" property="bm" />
+        <result column="JC_TIME" property="jcTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JYJC_ID, REG_TIME, PROJECTNAME, BM, JC_TIME
+    </sql>
+
+</mapper>

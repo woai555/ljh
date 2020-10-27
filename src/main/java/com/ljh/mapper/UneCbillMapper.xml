@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UneCbillMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UneCbill">
+        <result column="FBILLNO" property="fbillno" />
+        <result column="FCREATETIME" property="fcreatetime" />
+        <result column="FAUTHOR" property="fauthor" />
+        <result column="FBUSNO" property="fbusno" />
+        <result column="APPCONTENT" property="appcontent" />
+        <result column="APPCODE" property="appcode" />
+        <result column="ERRMSG" property="errmsg" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FBILLNO, FCREATETIME, FAUTHOR, FBUSNO, APPCONTENT, APPCODE, ERRMSG
+    </sql>
+
+</mapper>

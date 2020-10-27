@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewYbTradeinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYbTradeinfo">
+        <result column="FUNDTYPE" property="fundtype" />
+        <result column="FUND" property="fund" />
+        <result column="PERSONCOUNTPAY" property="personcountpay" />
+        <result column="TRADEDATE" property="tradedate" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FUNDTYPE, FUND, PERSONCOUNTPAY, TRADEDATE, CANCEL_FLAG
+    </sql>
+
+</mapper>

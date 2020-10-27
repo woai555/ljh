@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytRobinPatientsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytRobinPatients">
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="HIS_REG_NO" property="hisRegNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="INDEX_NO" property="indexNo" />
+        <result column="STATUS" property="status" />
+        <result column="TRIAGE" property="triage" />
+        <result column="WAITING_ROOM" property="waitingRoom" />
+        <result column="TREAT_ROOM" property="treatRoom" />
+        <result column="TREAT_ROOM_CODE" property="treatRoomCode" />
+        <result column="DOCTOR_CODE" property="doctorCode" />
+        <result column="TREAT_TIME" property="treatTime" />
+        <result column="QUEUE_TYPE" property="queueType" />
+        <result column="DEPT_CODE" property="deptCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_NAME, HIS_REG_NO, CARD_NO, CARD_TYPE, INDEX_NO, STATUS, TRIAGE, WAITING_ROOM, TREAT_ROOM, TREAT_ROOM_CODE, DOCTOR_CODE, TREAT_TIME, QUEUE_TYPE, DEPT_CODE
+    </sql>
+
+</mapper>

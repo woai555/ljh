@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RPatientinfoGhBooktypeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPatientinfoGhBooktype">
+        <id column="BOOK_TYPE" property="bookType" />
+        <result column="BOOK_TYPE_NAME" property="bookTypeName" />
+        <result column="ORDERID" property="orderid" />
+        <result column="IFVALID" property="ifvalid" />
+        <result column="YGJ_BOOKTYPE" property="ygjBooktype" />
+        <result column="BOOK_TYPE_JYT" property="bookTypeJyt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BOOK_TYPE, BOOK_TYPE_NAME, ORDERID, IFVALID, YGJ_BOOKTYPE, BOOK_TYPE_JYT
+    </sql>
+
+</mapper>

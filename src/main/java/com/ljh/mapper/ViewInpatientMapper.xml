@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewInpatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewInpatient">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="INPATIENT_NUM" property="inpatientNum" />
+        <result column="CITY_INSUR_NUM" property="cityInsurNum" />
+        <result column="PRO_INSUR_NUM" property="proInsurNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, INPATIENT_NUM, CITY_INSUR_NUM, PRO_INSUR_NUM
+    </sql>
+
+</mapper>

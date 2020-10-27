@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MrmsopcdMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsopcd">
+        <id column="OPER_CODE" property="operCode" />
+        <result column="OPER_PYCD" property="operPycd" />
+        <result column="OPER_CNNAME" property="operCnname" />
+        <result column="OPER_ENNAME" property="operEnname" />
+        <result column="OPER_CODE1" property="operCode1" />
+        <result column="OPER_CODE2" property="operCode2" />
+        <result column="OPER_NUM1" property="operNum1" />
+        <result column="WB_CODE" property="wbCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_CODE, OPER_PYCD, OPER_CNNAME, OPER_ENNAME, OPER_CODE1, OPER_CODE2, OPER_NUM1, WB_CODE
+    </sql>
+
+</mapper>

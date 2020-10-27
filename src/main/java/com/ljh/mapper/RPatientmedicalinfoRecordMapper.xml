@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RPatientmedicalinfoRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPatientmedicalinfoRecord">
+        <id column="SERIALNO" property="serialno" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="SUBJECT" property="subject" />
+        <result column="EXP_DEPT_CODE" property="expDeptCode" />
+        <result column="EXP_DEPT_NAME" property="expDeptName" />
+        <result column="LENDING_PERSONAL_ID" property="lendingPersonalId" />
+        <result column="LENDING_PERSONAL_NAME" property="lendingPersonalName" />
+        <result column="EXP_DATE" property="expDate" />
+        <result column="EXP_OPER" property="expOper" />
+        <result column="RETURN" property="return" />
+        <result column="RETURN_DATE" property="returnDate" />
+        <result column="RETURN_OPER" property="returnOper" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SERIALNO, CLINIC_NO, SUBJECT, EXP_DEPT_CODE, EXP_DEPT_NAME, LENDING_PERSONAL_ID, LENDING_PERSONAL_NAME, EXP_DATE, EXP_OPER, RETURN, RETURN_DATE, RETURN_OPER
+    </sql>
+
+</mapper>

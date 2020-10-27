@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.SupGoodsinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SupGoodsinfo">
+        <id column="GOODS_CODE" property="goodsCode" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="GOODS_NAME" property="goodsName" />
+        <result column="ENGLISH_NAME" property="englishName" />
+        <result column="SPECS" property="specs" />
+        <result column="UNIT" property="unit" />
+        <result column="PAY_DEPT" property="payDept" />
+        <result column="KIND" property="kind" />
+        <result column="OWNER" property="owner" />
+        <result column="COST" property="cost" />
+        <result column="PACK_COUNT" property="packCount" />
+        <result column="MEMO" property="memo" />
+        <result column="GOODS_PRICE" property="goodsPrice" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        GOODS_CODE, SPELL_CODE, GOODS_NAME, ENGLISH_NAME, SPECS, UNIT, PAY_DEPT, KIND, OWNER, COST, PACK_COUNT, MEMO, GOODS_PRICE
+    </sql>
+
+</mapper>

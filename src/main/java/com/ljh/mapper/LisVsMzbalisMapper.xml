@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LisVsMzbalisMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LisVsMzbalis">
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="PRICE" property="price" />
+        <result column="UNIT" property="unit" />
+        <result column="ITEM_CLASS" property="itemClass" />
+        <result column="ITEM_CLASS_BA" property="itemClassBa" />
+        <result column="CHARGE_ACCORDING" property="chargeAccording" />
+        <result column="BZ" property="bz" />
+        <result column="LIS_ITEM_CODE" property="lisItemCode" />
+        <result column="LIS_ITEM_NAME" property="lisItemName" />
+        <result column="SPELL" property="spell" />
+        <result column="SPELL1" property="spell1" />
+        <result column="XH" property="xh" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ITEM_CODE, ITEM_NAME, PRICE, UNIT, ITEM_CLASS, ITEM_CLASS_BA, CHARGE_ACCORDING, BZ, LIS_ITEM_CODE, LIS_ITEM_NAME, SPELL, SPELL1, XH
+    </sql>
+
+</mapper>

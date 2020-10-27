@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpOperationitemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpOperationitem">
+        <id column="OPERATIONNO" property="operationno" />
+        <result column="RECORDNO" property="recordno" />
+        <result column="OPE_ITEM" property="opeItem" />
+        <result column="OPE_NAME" property="opeName" />
+        <result column="QTY" property="qty" />
+        <result column="DEGREE" property="degree" />
+        <result column="ICNI_TYPE" property="icniType" />
+        <result column="SCREENUP" property="screenup" />
+        <result column="YNGERM" property="yngerm" />
+        <result column="YNSCAR" property="ynscar" />
+        <result column="OPE_POS" property="opePos" />
+        <result column="DANGER" property="danger" />
+        <result column="DIE" property="die" />
+        <result column="BEFORE" property="before" />
+        <result column="YNURGENT" property="ynurgent" />
+        <result column="PRICE" property="price" />
+        <result column="FEE_RATE" property="feeRate" />
+        <result column="MARK" property="mark" />
+        <result column="YNVALID" property="ynvalid" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATIONNO, RECORDNO, OPE_ITEM, OPE_NAME, QTY, DEGREE, ICNI_TYPE, SCREENUP, YNGERM, YNSCAR, OPE_POS, DANGER, DIE, BEFORE, YNURGENT, PRICE, FEE_RATE, MARK, YNVALID, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

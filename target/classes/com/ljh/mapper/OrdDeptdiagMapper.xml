@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OrdDeptdiagMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdDeptdiag">
+        <id column="DEPT_CODE" property="deptCode" />
+        <result column="DIAG_TYPE" property="diagType" />
+        <result column="DIAG_CODE" property="diagCode" />
+        <result column="DIAG_NAME" property="diagName" />
+        <result column="DIAG_SPELL" property="diagSpell" />
+        <result column="DIAG_CHNAME" property="diagChname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DIAG_TYPE, DIAG_CODE, DIAG_NAME, DIAG_SPELL, DIAG_CHNAME
+    </sql>
+
+</mapper>

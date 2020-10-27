@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJhKqYyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhKqYy">
+        <result column="HOSPITAL_NO" property="hospitalNo" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="ID_NO" property="idNo" />
+        <result column="PHONE_NUMBER_HOME" property="phoneNumberHome" />
+        <result column="PHONE_NUMBER_BUSINESS" property="phoneNumberBusiness" />
+        <result column="VIP_INDICATOR" property="vipIndicator" />
+        <result column="CREATE_DATE" property="createDate" />
+        <result column="OPERATOR" property="operator" />
+        <result column="APPOINTMENT_CODE" property="appointmentCode" />
+        <result column="VISIT_UNIQUE_ID" property="visitUniqueId" />
+        <result column="REGISTER_TYPE_CODE" property="registerTypeCode" />
+        <result column="MICROSOPE_CODE" property="microsopeCode" />
+        <result column="TREATMENT_CODE" property="treatmentCode" />
+        <result column="APPT_DOCTOR" property="apptDoctor" />
+        <result column="APPOINTED_PHONE" property="appointedPhone" />
+        <result column="START_DATETIME" property="startDatetime" />
+        <result column="END_DATETIME" property="endDatetime" />
+        <result column="IS_OPERATING" property="isOperating" />
+        <result column="BODY_PART" property="bodyPart" />
+        <result column="OPERATION_TIME" property="operationTime" />
+        <result column="CREATE_USER_KEY" property="createUserKey" />
+        <result column="CREATE_DATETIME" property="createDatetime" />
+        <result column="APPT_STATUS" property="apptStatus" />
+        <result column="CONFIRMED_STATUS" property="confirmedStatus" />
+        <result column="MEMO" property="memo" />
+        <result column="NUMBER_OF_PRINTS" property="numberOfPrints" />
+        <result column="CLINIC_ROOM_ID" property="clinicRoomId" />
+        <result column="CLINIC_CHAIR_ID" property="clinicChairId" />
+        <result column="APPT_DOCTOR_ID" property="apptDoctorId" />
+        <result column="IS_BREAK" property="isBreak" />
+        <result column="APP_DEPT" property="appDept" />
+        <result column="DIAGNOSE_DEPICT" property="diagnoseDepict" />
+        <result column="IS_FIRST" property="isFirst" />
+        <result column="IS_RETURN_VISIT" property="isReturnVisit" />
+        <result column="HIS_APPT_CODE" property="hisApptCode" />
+        <result column="BAKPHONE" property="bakphone" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="IF_REG" property="ifReg" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSPITAL_NO, PATIENTID, NAME, SEX, ID_NO, PHONE_NUMBER_HOME, PHONE_NUMBER_BUSINESS, VIP_INDICATOR, CREATE_DATE, OPERATOR, APPOINTMENT_CODE, VISIT_UNIQUE_ID, REGISTER_TYPE_CODE, MICROSOPE_CODE, TREATMENT_CODE, APPT_DOCTOR, APPOINTED_PHONE, START_DATETIME, END_DATETIME, IS_OPERATING, BODY_PART, OPERATION_TIME, CREATE_USER_KEY, CREATE_DATETIME, APPT_STATUS, CONFIRMED_STATUS, MEMO, NUMBER_OF_PRINTS, CLINIC_ROOM_ID, CLINIC_CHAIR_ID, APPT_DOCTOR_ID, IS_BREAK, APP_DEPT, DIAGNOSE_DEPICT, IS_FIRST, IS_RETURN_VISIT, HIS_APPT_CODE, BAKPHONE, DATE_OF_BIRTH, IF_REG
+    </sql>
+
+</mapper>

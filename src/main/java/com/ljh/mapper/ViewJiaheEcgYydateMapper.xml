@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheEcgYydateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheEcgYydate">
+        <result column="YY_DATE" property="yyDate" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        YY_DATE, RECIPE_NO, SEQUENCE_NO
+    </sql>
+
+</mapper>

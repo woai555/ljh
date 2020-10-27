@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewYzReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYzReport">
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="EXE_DEPT" property="exeDept" />
+        <result column="JZ_INVOICE" property="jzInvoice" />
+        <result column="JZ_MONEY" property="jzMoney" />
+        <result column="MZ_INVOICE" property="mzInvoice" />
+        <result column="MZ_MONEY" property="mzMoney" />
+        <result column="ZY_INVOICE" property="zyInvoice" />
+        <result column="ZY_MONEY" property="zyMoney" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FEE_STAT_CATE, FEE_STAT_NAME, EXE_DEPT, JZ_INVOICE, JZ_MONEY, MZ_INVOICE, MZ_MONEY, ZY_INVOICE, ZY_MONEY
+    </sql>
+
+</mapper>

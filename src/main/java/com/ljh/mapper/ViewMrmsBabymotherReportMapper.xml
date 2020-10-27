@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsBabymotherReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsBabymotherReport">
+        <result column="BABY_COUNT" property="babyCount" />
+        <result column="MOTHER_COUNT" property="motherCount" />
+        <result column="MODE_PF" property="modePf" />
+        <result column="MODE_XY" property="modeXy" />
+        <result column="MODE_TQ" property="modeTq" />
+        <result column="MODE_QC" property="modeQc" />
+        <result column="MODE_SC" property="modeSc" />
+        <result column="END_LIVE" property="endLive" />
+        <result column="END_DIE" property="endDie" />
+        <result column="END_ST" property="endSt" />
+        <result column="LOWWEIGH_COUNT" property="lowweighCount" />
+        <result column="MAN_COUNT" property="manCount" />
+        <result column="WOMAN_COUNT" property="womanCount" />
+        <result column="SALV_COUNT" property="salvCount" />
+        <result column="SUCC_COUNT" property="succCount" />
+        <result column="ZG_04" property="zg04" />
+        <result column="ZG_05" property="zg05" />
+        <result column="INFECT_COUNT" property="infectCount" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BABY_COUNT, MOTHER_COUNT, MODE_PF, MODE_XY, MODE_TQ, MODE_QC, MODE_SC, END_LIVE, END_DIE, END_ST, LOWWEIGH_COUNT, MAN_COUNT, WOMAN_COUNT, SALV_COUNT, SUCC_COUNT, ZG_04, ZG_05, INFECT_COUNT
+    </sql>
+
+</mapper>

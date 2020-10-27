@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VClinicPayDiaginfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VClinicPayDiaginfo">
+        <result column="RECIPENO" property="recipeno" />
+        <result column="RECIPEDATE" property="recipedate" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="DIAG_CODE" property="diagCode" />
+        <result column="DIAG_NAME" property="diagName" />
+        <result column="MEDICALRECORD" property="medicalrecord" />
+        <result column="SECTIONCODE" property="sectioncode" />
+        <result column="SECTIONNAME" property="sectionname" />
+        <result column="HISSECTIONNAME" property="hissectionname" />
+        <result column="DRID" property="drid" />
+        <result column="DRNAME" property="drname" />
+        <result column="RECIPETYPE" property="recipetype" />
+        <result column="REGISTERTRADENO" property="registertradeno" />
+        <result column="BILLSTYPE" property="billstype" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        RECIPENO, RECIPEDATE, CARD_NO, SEE_NO, DIAG_CODE, DIAG_NAME, MEDICALRECORD, SECTIONCODE, SECTIONNAME, HISSECTIONNAME, DRID, DRNAME, RECIPETYPE, REGISTERTRADENO, BILLSTYPE
+    </sql>
+
+</mapper>

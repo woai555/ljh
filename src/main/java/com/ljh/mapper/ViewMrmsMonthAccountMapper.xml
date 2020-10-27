@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsMonthAccountMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsMonthAccount">
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="NAME" property="name" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DAYS" property="days" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, NAME, FEE_CODE, TOT_COST, DEPT_CODE, DAYS
+    </sql>
+
+</mapper>

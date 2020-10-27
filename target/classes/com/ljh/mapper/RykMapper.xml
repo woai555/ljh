@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RykMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Ryk">
+        <result column="BH" property="bh" />
+        <result column="XM" property="xm" />
+        <result column="LKH" property="lkh" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="CARDNO" property="cardno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, XM, LKH, CARD_NO, NAME, CLINIC_NO, CARDNO
+    </sql>
+
+</mapper>

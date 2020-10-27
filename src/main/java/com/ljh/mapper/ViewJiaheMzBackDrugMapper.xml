@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheMzBackDrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzBackDrug">
+        <result column="PRESC_NO" property="prescNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="OUTP_ID" property="outpId" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="RECIPE_FLAG" property="recipeFlag" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="PACK_QTY" property="packQty" />
+        <result column="BACK_QTY" property="backQty" />
+        <result column="MIN_UNIT" property="minUnit" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="STOCK_CODE" property="stockCode" />
+        <result column="STOCK_NAME" property="stockName" />
+        <result column="MINUS_STOCK_FLAG" property="minusStockFlag" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="DISPENSING_TIME" property="dispensingTime" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="DISPENSING_NO" property="dispensingNo" />
+        <result column="PHARMACY_NAME" property="pharmacyName" />
+        <result column="SPECS" property="specs" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="CHARGE_OPER_CODE" property="chargeOperCode" />
+        <result column="DISPENSER" property="dispenser" />
+        <result column="DISPENSER_NAME" property="dispenserName" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="DAYS" property="days" />
+        <result column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="RECEIVE_OPER_CODE" property="receiveOperCode" />
+        <result column="BATCH_NO" property="batchNo" />
+        <result column="IPADDRESS" property="ipaddress" />
+        <result column="MACADDRESS" property="macaddress" />
+        <result column="MACHINENAME" property="machinename" />
+        <result column="STORE_SUM_BEFORE_UPDATE" property="storeSumBeforeUpdate" />
+        <result column="COMMENT_PERSON" property="commentPerson" />
+        <result column="COMMENT_PERSON_NAME" property="commentPersonName" />
+        <result column="COMMENT_TIME" property="commentTime" />
+        <result column="PROVISION_PERSON" property="provisionPerson" />
+        <result column="PROVISION_PERSON_NAME" property="provisionPersonName" />
+        <result column="PROVISION_BEGIN_TIME" property="provisionBeginTime" />
+        <result column="PROVISION_END_TIME" property="provisionEndTime" />
+        <result column="AUDIT_PERSON" property="auditPerson" />
+        <result column="AUDIT_PERSON_NAME" property="auditPersonName" />
+        <result column="AUDIT_TIME" property="auditTime" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="DISPERSING_WINDOW" property="dispersingWindow" />
+        <result column="VISIT_TYPE" property="visitType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PRESC_NO, SEQUENCE_NO, OUTP_ID, REG_DATE, DRUG_CODE, RECIPE_FLAG, UNIT_PRICE, PACK_QTY, BACK_QTY, MIN_UNIT, PUB_COST, PAY_COST, OWN_COST, STOCK_CODE, STOCK_NAME, MINUS_STOCK_FLAG, OPER_CODE, DISPENSING_TIME, TRANS_TYPE, DISPENSING_NO, PHARMACY_NAME, SPECS, DEPT_CODE, CHARGE_OPER_CODE, DISPENSER, DISPENSER_NAME, PAYKIND_CODE, DJB_FLAG, DAYS, CHECK_OPER_CODE, RECEIVE_OPER_CODE, BATCH_NO, IPADDRESS, MACADDRESS, MACHINENAME, STORE_SUM_BEFORE_UPDATE, COMMENT_PERSON, COMMENT_PERSON_NAME, COMMENT_TIME, PROVISION_PERSON, PROVISION_PERSON_NAME, PROVISION_BEGIN_TIME, PROVISION_END_TIME, AUDIT_PERSON, AUDIT_PERSON_NAME, AUDIT_TIME, PATIENT_ID, DISPERSING_WINDOW, VISIT_TYPE
+    </sql>
+
+</mapper>

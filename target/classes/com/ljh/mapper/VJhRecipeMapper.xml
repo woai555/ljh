@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VJhRecipeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VJhRecipe">
+        <result column="SEE_NO" property="seeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="ONCE_DOSE" property="onceDose" />
+        <result column="ONCE_UNIT" property="onceUnit" />
+        <result column="FREQ_CODE" property="freqCode" />
+        <result column="USAGENAME" property="usagename" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="ORDERTYPE" property="ordertype" />
+        <result column="ORDER_GROUP" property="orderGroup" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_NO, SEQUENCE_NO, CARD_NO, REG_DATE, ITEM_NAME, ONCE_DOSE, ONCE_UNIT, FREQ_CODE, USAGENAME, OPER_DATE, ORDERTYPE, ORDER_GROUP
+    </sql>
+
+</mapper>

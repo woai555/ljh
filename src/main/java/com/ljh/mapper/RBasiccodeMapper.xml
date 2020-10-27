@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RBasiccodeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RBasiccode">
+        <result column="TBL_NAME" property="tblName" />
+        <result column="DW_NAME" property="dwName" />
+        <result column="TBL_CNAME" property="tblCname" />
+        <result column="GROUP_CODE" property="groupCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TBL_NAME, DW_NAME, TBL_CNAME, GROUP_CODE
+    </sql>
+
+</mapper>

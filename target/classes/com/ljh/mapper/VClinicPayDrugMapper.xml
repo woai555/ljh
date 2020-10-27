@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VClinicPayDrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VClinicPayDrug">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="ITEMNO" property="itemno" />
+        <result column="RECIPENO" property="recipeno" />
+        <result column="HISCODE" property="hiscode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="YBCODE" property="ybcode" />
+        <result column="ITEMTYPE" property="itemtype" />
+        <result column="UNITPRICE" property="unitprice" />
+        <result column="COUNT" property="count" />
+        <result column="FEE" property="fee" />
+        <result column="HOWTOUSE" property="howtouse" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="PACKAGING" property="packaging" />
+        <result column="MINPACKAGE" property="minpackage" />
+        <result column="CONVERSION" property="conversion" />
+        <result column="DAYS" property="days" />
+        <result column="SPECIFICATION" property="specification" />
+        <result column="UNIT" property="unit" />
+        <result column="DOSE" property="dose" />
+        <result column="DRUGAPPROVALNUMBER" property="drugapprovalnumber" />
+        <result column="ITEMGRADE" property="itemgrade" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, SEE_NO, ITEMNO, RECIPENO, HISCODE, ITEMNAME, YBCODE, ITEMTYPE, UNITPRICE, COUNT, FEE, HOWTOUSE, DOSAGE, PACKAGING, MINPACKAGE, CONVERSION, DAYS, SPECIFICATION, UNIT, DOSE, DRUGAPPROVALNUMBER, ITEMGRADE
+    </sql>
+
+</mapper>

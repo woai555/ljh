@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewDeptSeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewDeptSee">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="REG_NUM" property="regNum" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="REG_FEE" property="regFee" />
+        <result column="CLINIC_INCOME" property="clinicIncome" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DEPT_NAME, REG_NUM, REG_DATE, REG_FEE, CLINIC_INCOME
+    </sql>
+
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytChargeDrugDetMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytChargeDrugDet">
+        <result column="HISREGNO" property="hisregno" />
+        <result column="ITEMNO" property="itemno" />
+        <result column="RECIPENO" property="recipeno" />
+        <result column="HISCODE" property="hiscode" />
+        <result column="ITEM_TYPE" property="itemType" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="ITEMTYPE" property="itemtype" />
+        <result column="UNITPRICE" property="unitprice" />
+        <result column="COUNT" property="count" />
+        <result column="FEE" property="fee" />
+        <result column="DOSE" property="dose" />
+        <result column="SPECIFICATION" property="specification" />
+        <result column="UNIT" property="unit" />
+        <result column="HOWTOUSE" property="howtouse" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="PACKAGING" property="packaging" />
+        <result column="MINPACKAGE" property="minpackage" />
+        <result column="CONVERSION" property="conversion" />
+        <result column="DAYS" property="days" />
+        <result column="DRUGAPPROVALNUMBER" property="drugapprovalnumber" />
+        <result column="ITEMGRADE" property="itemgrade" />
+        <result column="COMB_NO" property="combNo" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HISREGNO, ITEMNO, RECIPENO, HISCODE, ITEM_TYPE, ITEMNAME, ITEMTYPE, UNITPRICE, COUNT, FEE, DOSE, SPECIFICATION, UNIT, HOWTOUSE, DOSAGE, PACKAGING, MINPACKAGE, CONVERSION, DAYS, DRUGAPPROVALNUMBER, ITEMGRADE, COMB_NO, ITEM_CODE, CARD_NO, OPER_DATE
+    </sql>
+
+</mapper>

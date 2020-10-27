@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ROutpClinicRegmessMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ROutpClinicRegmess">
+        <id column="COMPUTER_IP" property="computerIp" />
+        <result column="COMPUTER_MAC" property="computerMac" />
+        <result column="COMPUTER_NAME" property="computerName" />
+        <result column="COMPUTER_ADDRESS" property="computerAddress" />
+        <result column="SORT_ID" property="sortId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        COMPUTER_IP, COMPUTER_MAC, COMPUTER_NAME, COMPUTER_ADDRESS, SORT_ID
+    </sql>
+
+</mapper>

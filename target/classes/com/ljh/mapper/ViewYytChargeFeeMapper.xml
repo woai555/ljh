@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewYytChargeFeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYytChargeFee">
+        <result column="ZHUYUAN_HAO" property="zhuyuanHao" />
+        <result column="TIMES" property="times" />
+        <result column="NAME" property="name" />
+        <result column="SPECS" property="specs" />
+        <result column="NUM" property="num" />
+        <result column="PRICE" property="price" />
+        <result column="JIZHANG" property="jizhang" />
+        <result column="TOTAL" property="total" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ZHUYUAN_HAO, TIMES, NAME, SPECS, NUM, PRICE, JIZHANG, TOTAL
+    </sql>
+
+</mapper>

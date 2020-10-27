@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewXtDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewXtDept">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="LAST_UPDATE_TIME" property="lastUpdateTime" />
+        <result column="TYPE" property="type" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DEPT_NAME, DEPT_TYPE, LAST_UPDATE_TIME, TYPE
+    </sql>
+
+</mapper>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJhDzblRegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhDzblRegister">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="INP_NO" property="inpNo" />
+        <result column="NAME" property="name" />
+        <result column="NAME_PHONETIC" property="namePhonetic" />
+        <result column="SEX" property="sex" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="BIRTH_PLACE" property="birthPlace" />
+        <result column="CITIZENSHIP" property="citizenship" />
+        <result column="NATION" property="nation" />
+        <result column="ID_NO" property="idNo" />
+        <result column="IDENTITY" property="identity" />
+        <result column="P_CHARGE_TYPE" property="pChargeType" />
+        <result column="PHONE_NUMBER_HOME" property="phoneNumberHome" />
+        <result column="PHONE_NUMBER_BUSINESS" property="phoneNumberBusiness" />
+        <result column="JIGUAN" property="jiguan" />
+        <result column="HOME_ZIP" property="homeZip" />
+        <result column="HOME_CODE" property="homeCode" />
+        <result column="HOSPITAL_NO" property="hospitalNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="REGISTER_TYPE_CODE" property="registerTypeCode" />
+        <result column="VISIT_DATE" property="visitDate" />
+        <result column="HIS_REGISTER_PK" property="hisRegisterPk" />
+        <result column="REGISTER_DATE" property="registerDate" />
+        <result column="TREATMENT_TIME" property="treatmentTime" />
+        <result column="TREATMENT_NO" property="treatmentNo" />
+        <result column="VISIT_DEPT" property="visitDept" />
+        <result column="ARRIVAL_TIME" property="arrivalTime" />
+        <result column="DOCTOR_IN_CHARGE" property="doctorInCharge" />
+        <result column="AGE" property="age" />
+        <result column="CHARGE_TYPE" property="chargeType" />
+        <result column="INSURANCE_TYPE" property="insuranceType" />
+        <result column="INSURANCE_NO" property="insuranceNo" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="SERVICE_AGENCY" property="serviceAgency" />
+        <result column="MAILING_ADDRESS" property="mailingAddress" />
+        <result column="ZIP_CODE" property="zipCode" />
+        <result column="NEXT_OF_KIN" property="nextOfKin" />
+        <result column="RELATIONSHIP" property="relationship" />
+        <result column="NEXT_OF_KIN_ADDR" property="nextOfKinAddr" />
+        <result column="NEXT_OF_KIN_ZIPCODE" property="nextOfKinZipcode" />
+        <result column="NEXT_OF_KIN_PHONE" property="nextOfKinPhone" />
+        <result column="CLINIC_ROOM_ID" property="clinicRoomId" />
+        <result column="CLINIC_CHAIR_ID" property="clinicChairId" />
+        <result column="BODY_WEIGHT" property="bodyWeight" />
+        <result column="BODY_HEIGHT" property="bodyHeight" />
+        <result column="HEALTH" property="health" />
+        <result column="START_PERFORM_TIME" property="startPerformTime" />
+        <result column="FINISH_PERFORM_TIME" property="finishPerformTime" />
+        <result column="NEXT_OF_KIN_ID_NO" property="nextOfKinIdNo" />
+        <result column="HIS_VISIT_ID" property="hisVisitId" />
+        <result column="TEST_FLAG" property="testFlag" />
+        <result column="TREATE_STATUS" property="treateStatus" />
+        <result column="DOCTOR_IN_CHECK" property="doctorInCheck" />
+        <result column="HOCUS_DIAG_FLAG" property="hocusDiagFlag" />
+        <result column="REGISTER_TYPE_ID" property="registerTypeId" />
+        <result column="VISIT_FLAG" property="visitFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, INP_NO, NAME, NAME_PHONETIC, SEX, DATE_OF_BIRTH, BIRTH_PLACE, CITIZENSHIP, NATION, ID_NO, IDENTITY, P_CHARGE_TYPE, PHONE_NUMBER_HOME, PHONE_NUMBER_BUSINESS, JIGUAN, HOME_ZIP, HOME_CODE, HOSPITAL_NO, VISIT_ID, REGISTER_TYPE_CODE, VISIT_DATE, HIS_REGISTER_PK, REGISTER_DATE, TREATMENT_TIME, TREATMENT_NO, VISIT_DEPT, ARRIVAL_TIME, DOCTOR_IN_CHARGE, AGE, CHARGE_TYPE, INSURANCE_TYPE, INSURANCE_NO, OCCUPATION, SERVICE_AGENCY, MAILING_ADDRESS, ZIP_CODE, NEXT_OF_KIN, RELATIONSHIP, NEXT_OF_KIN_ADDR, NEXT_OF_KIN_ZIPCODE, NEXT_OF_KIN_PHONE, CLINIC_ROOM_ID, CLINIC_CHAIR_ID, BODY_WEIGHT, BODY_HEIGHT, HEALTH, START_PERFORM_TIME, FINISH_PERFORM_TIME, NEXT_OF_KIN_ID_NO, HIS_VISIT_ID, TEST_FLAG, TREATE_STATUS, DOCTOR_IN_CHECK, HOCUS_DIAG_FLAG, REGISTER_TYPE_ID, VISIT_FLAG
+    </sql>
+
+</mapper>

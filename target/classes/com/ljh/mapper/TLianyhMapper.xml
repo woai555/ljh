@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.TLianyhMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TLianyh">
+        <result column="PUB_COST" property="pubCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="JZ" property="jz" />
+        <result column="TCOST" property="tcost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PUB_COST, OWN_COST, PAY_COST, INVOICE_NO, JZ, TCOST
+    </sql>
+
+</mapper>

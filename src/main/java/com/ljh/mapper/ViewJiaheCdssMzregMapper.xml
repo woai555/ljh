@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheCdssMzregMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheCdssMzreg">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_FLAG" property="visitFlag" />
+        <result column="INP_NO" property="inpNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX_NAME" property="sexName" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="AGE_VALUE" property="ageValue" />
+        <result column="AGE_VALUE_UNIT" property="ageValueUnit" />
+        <result column="NATIONALITY_NAME" property="nationalityName" />
+        <result column="FAMILY_EXPLICIT_ADDRESS" property="familyExplicitAddress" />
+        <result column="MAILING_ADDRESS_NAME" property="mailingAddressName" />
+        <result column="NATIONAL_NAME" property="nationalName" />
+        <result column="IDENTITY_NAME" property="identityName" />
+        <result column="VISIT_TIME" property="visitTime" />
+        <result column="VISIT_DEPT_NAME" property="visitDeptName" />
+        <result column="VISIT_DEPT_CODE" property="visitDeptCode" />
+        <result column="REG_CATEGORY_CODE" property="regCategoryCode" />
+        <result column="REG_CATEGORY_NAME" property="regCategoryName" />
+        <result column="REGISTING_TIME" property="registingTime" />
+        <result column="VISIT_DOCTOR_NAME" property="visitDoctorName" />
+        <result column="VISIT_DOCTOR_CODE" property="visitDoctorCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, VISIT_ID, VISIT_FLAG, INP_NO, NAME, SEX_NAME, ID_CARD_NO, DATE_OF_BIRTH, AGE_VALUE, AGE_VALUE_UNIT, NATIONALITY_NAME, FAMILY_EXPLICIT_ADDRESS, MAILING_ADDRESS_NAME, NATIONAL_NAME, IDENTITY_NAME, VISIT_TIME, VISIT_DEPT_NAME, VISIT_DEPT_CODE, REG_CATEGORY_CODE, REG_CATEGORY_NAME, REGISTING_TIME, VISIT_DOCTOR_NAME, VISIT_DOCTOR_CODE
+    </sql>
+
+</mapper>

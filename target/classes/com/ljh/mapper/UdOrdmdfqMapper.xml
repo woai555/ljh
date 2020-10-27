@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UdOrdmdfqMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UdOrdmdfq">
+        <id column="DFQ_FREQ" property="dfqFreq" />
+        <result column="DFQ_CYCL" property="dfqCycl" />
+        <result column="DFQ_CONT" property="dfqCont" />
+        <result column="DFQ_INTV" property="dfqIntv" />
+        <result column="DFQ_CEXP" property="dfqCexp" />
+        <result column="DFQ_NOTE" property="dfqNote" />
+        <result column="DFQ_HICD" property="dfqHicd" />
+        <result column="DFQ_TIME" property="dfqTime" />
+        <result column="DFQ_ORDER" property="dfqOrder" />
+        <result column="DOESTIME" property="doestime" />
+        <result column="YGJ_COMPARE" property="ygjCompare" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DFQ_FREQ, DFQ_CYCL, DFQ_CONT, DFQ_INTV, DFQ_CEXP, DFQ_NOTE, DFQ_HICD, DFQ_TIME, DFQ_ORDER, DOESTIME, YGJ_COMPARE
+    </sql>
+
+</mapper>

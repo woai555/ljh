@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.SupInMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SupIn">
+        <id column="INBILL_CODE" property="inbillCode" />
+        <result column="GOODS_CODE" property="goodsCode" />
+        <result column="GOODS_NAME" property="goodsName" />
+        <result column="GOODS_PRICE" property="goodsPrice" />
+        <result column="IN_DATE" property="inDate" />
+        <result column="IN_COUNT" property="inCount" />
+        <result column="UNIT_CODE" property="unitCode" />
+        <result column="SPECS_CODE" property="specsCode" />
+        <result column="CURRENT_TOTAL" property="currentTotal" />
+        <result column="OPER_CODE" property="operCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INBILL_CODE, GOODS_CODE, GOODS_NAME, GOODS_PRICE, IN_DATE, IN_COUNT, UNIT_CODE, SPECS_CODE, CURRENT_TOTAL, OPER_CODE
+    </sql>
+
+</mapper>

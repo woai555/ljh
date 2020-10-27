@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpAnaedrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpAnaedrug">
+        <id column="OPERATIONNO" property="operationno" />
+        <result column="RECORDNO" property="recordno" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="TRADE_NAME" property="tradeName" />
+        <result column="SPECS" property="specs" />
+        <result column="DRUG_PRICE" property="drugPrice" />
+        <result column="DRUG_RATE" property="drugRate" />
+        <result column="DRUG_QTY" property="drugQty" />
+        <result column="DRUG_UNIT" property="drugUnit" />
+        <result column="ZT_CODE" property="ztCode" />
+        <result column="ANAE_USE" property="anaeUse" />
+        <result column="IS_BEFORE" property="isBefore" />
+        <result column="CHARGE_FLAG" property="chargeFlag" />
+        <result column="VALID_FLAG" property="validFlag" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATIONNO, RECORDNO, DRUG_CODE, TRADE_NAME, SPECS, DRUG_PRICE, DRUG_RATE, DRUG_QTY, DRUG_UNIT, ZT_CODE, ANAE_USE, IS_BEFORE, CHARGE_FLAG, VALID_FLAG, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

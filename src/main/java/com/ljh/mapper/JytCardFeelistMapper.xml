@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytCardFeelistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytCardFeelist">
+        <id column="ORDER_NO" property="orderNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="TRADE_NO" property="tradeNo" />
+        <result column="TRADE_FEE_TYPE" property="tradeFeeType" />
+        <result column="CARD_FEE_AMOUNT" property="cardFeeAmount" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="TOTAL_AMOUNT" property="totalAmount" />
+        <result column="CHARGE_AMOUNT" property="chargeAmount" />
+        <result column="OPER_CODE" property="operCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ORDER_NO, CARD_NO, TRADE_NO, TRADE_FEE_TYPE, CARD_FEE_AMOUNT, OPER_DATE, TOTAL_AMOUNT, CHARGE_AMOUNT, OPER_CODE
+    </sql>
+
+</mapper>

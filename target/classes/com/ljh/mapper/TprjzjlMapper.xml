@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.TprjzjlMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Tprjzjl">
+        <id column="TREATMENT_CODE" property="treatmentCode" />
+        <result column="MISSION_CODE" property="missionCode" />
+        <result column="JZJL_TIME" property="jzjlTime" />
+        <result column="BP1" property="bp1" />
+        <result column="BP2" property="bp2" />
+        <result column="HR" property="hr" />
+        <result column="BREATHING" property="breathing" />
+        <result column="ILLNESS" property="illness" />
+        <result column="RESCUE_EFFECT" property="rescueEffect" />
+        <result column="LASTUPDATETIME" property="lastupdatetime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TREATMENT_CODE, MISSION_CODE, JZJL_TIME, BP1, BP2, HR, BREATHING, ILLNESS, RESCUE_EFFECT, LASTUPDATETIME
+    </sql>
+
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHrpDrugInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpDrugInfo">
+        <result column="药品编码" property="药品编码" />
+        <result column="药品名称" property="药品名称" />
+        <result column="药品分类" property="药品分类" />
+        <result column="药理分类" property="药理分类" />
+        <result column="毒理分类" property="毒理分类" />
+        <result column="剂型分类" property="剂型分类" />
+        <result column="医保分类" property="医保分类" />
+        <result column="最小单位" property="最小单位" />
+        <result column="门诊包装单位与最小单位换算" property="门诊包装单位与最小单位换算" />
+        <result column="住院包装单位与最小单位换算" property="住院包装单位与最小单位换算" />
+        <result column="价格" property="价格" />
+        <result column="自费比例" property="自费比例" />
+        <result column="状态" property="状态" />
+        <result column="版本号" property="版本号" />
+        <result column="启用时间" property="启用时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        药品编码, 药品名称, 药品分类, 药理分类, 毒理分类, 剂型分类, 医保分类, 最小单位, 门诊包装单位与最小单位换算, 住院包装单位与最小单位换算, 价格, 自费比例, 状态, 版本号, 启用时间
+    </sql>
+
+</mapper>

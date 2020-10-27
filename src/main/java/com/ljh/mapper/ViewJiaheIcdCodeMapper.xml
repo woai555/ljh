@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheIcdCodeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheIcdCode">
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="ICD_NAME" property="icdName" />
+        <result column="ICD_NAME1" property="icdName1" />
+        <result column="ICD_NAME2" property="icdName2" />
+        <result column="DIE_REASON" property="dieReason" />
+        <result column="DISEASE_CODE" property="diseaseCode" />
+        <result column="STANDARD_DATE" property="standardDate" />
+        <result column="INP_GRADE" property="inpGrade" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="WB_CODE" property="wbCode" />
+        <result column="SICD10" property="sicd10" />
+        <result column="YNCONTAGION" property="yncontagion" />
+        <result column="STOP_FLAG" property="stopFlag" />
+        <result column="ICD_ALIAS" property="icdAlias" />
+        <result column="ICD_ALIAS_SPELL" property="icdAliasSpell" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ICD_CODE, SPELL_CODE, ICD_NAME, ICD_NAME1, ICD_NAME2, DIE_REASON, DISEASE_CODE, STANDARD_DATE, INP_GRADE, OPER_CODE, OPER_DATE, WB_CODE, SICD10, YNCONTAGION, STOP_FLAG, ICD_ALIAS, ICD_ALIAS_SPELL
+    </sql>
+
+</mapper>

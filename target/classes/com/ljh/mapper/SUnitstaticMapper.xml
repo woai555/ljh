@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.SUnitstaticMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SUnitstatic">
+        <id column="TABNO" property="tabno" />
+        <result column="TABNOCODE" property="tabnocode" />
+        <result column="UNITTYPE" property="unittype" />
+        <result column="UNITTYPENAME" property="unittypename" />
+        <result column="UNITTYPECODE" property="unittypecode" />
+        <result column="ORDERID" property="orderid" />
+        <result column="UNITID" property="unitid" />
+        <result column="UNITNAME" property="unitname" />
+        <result column="UNITCODE" property="unitcode" />
+        <result column="IFENABLE" property="ifenable" />
+        <result column="IFAMEND" property="ifamend" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TABNO, TABNOCODE, UNITTYPE, UNITTYPENAME, UNITTYPECODE, ORDERID, UNITID, UNITNAME, UNITCODE, IFENABLE, IFAMEND, OPERATORID, OPERATORTIME
+    </sql>
+
+</mapper>

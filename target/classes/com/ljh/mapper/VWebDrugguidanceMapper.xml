@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VWebDrugguidanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VWebDrugguidance">
+        <result column="SEE_NO" property="seeNo" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="DRUG_NAME" property="drugName" />
+        <result column="DRUG_SPECIFICATIONS" property="drugSpecifications" />
+        <result column="DRUG_USAGE" property="drugUsage" />
+        <result column="DRUG_USE_ATTENTION" property="drugUseAttention" />
+        <result column="DRUG_STOP_EFFECT" property="drugStopEffect" />
+        <result column="DRUG_REMARKS" property="drugRemarks" />
+        <result column="DRUG_EXPLAIN" property="drugExplain" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_NO, RECIPE_NO, DRUG_CODE, DRUG_NAME, DRUG_SPECIFICATIONS, DRUG_USAGE, DRUG_USE_ATTENTION, DRUG_STOP_EFFECT, DRUG_REMARKS, DRUG_EXPLAIN
+    </sql>
+
+</mapper>

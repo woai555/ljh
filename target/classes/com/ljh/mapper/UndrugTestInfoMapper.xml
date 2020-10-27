@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UndrugTestInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugTestInfo">
+        <id column="UNDRUG_CODE" property="undrugCode" />
+        <result column="UNDRUG_NAME" property="undrugName" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="STOCK_UNIT" property="stockUnit" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        UNDRUG_CODE, UNDRUG_NAME, UNIT_PRICE, STOCK_UNIT, DEPT_CODE, OPER_NAME, OPER_DATE
+    </sql>
+
+</mapper>

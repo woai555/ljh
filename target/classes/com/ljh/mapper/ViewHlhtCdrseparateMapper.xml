@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHlhtCdrseparateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrseparate">
+        <result column="OUT_PATIENT_ID" property="outPatientId" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="OUTP_NO" property="outpNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="PERSON_NAME" property="personName" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="SEX" property="sex" />
+        <result column="VISIT_DEPT" property="visitDept" />
+        <result column="VISIT_DOCTOR" property="visitDoctor" />
+        <result column="REG_CATEGORY" property="regCategory" />
+        <result column="REG_TYPE" property="regType" />
+        <result column="REG_VISIT_SEC" property="regVisitSec" />
+        <result column="REGISTING_TIME" property="registingTime" />
+        <result column="SEPARATE_TIME" property="separateTime" />
+        <result column="SEPARATE_OPER" property="separateOper" />
+        <result column="SEPARATE_NO" property="separateNo" />
+        <result column="CALL_SEQ_NO" property="callSeqNo" />
+        <result column="CALL_SEQ_TIME" property="callSeqTime" />
+        <result column="VISIT_CONSALT_ROOM" property="visitConsaltRoom" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="CALL_TIME" property="callTime" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUT_PATIENT_ID, HEALTH_CARD_NO, OUTP_NO, VISIT_ID, VISIT_TYPE, PERSON_NAME, DATE_OF_BIRTH, ID_CARD_NO, SEX, VISIT_DEPT, VISIT_DOCTOR, REG_CATEGORY, REG_TYPE, REG_VISIT_SEC, REGISTING_TIME, SEPARATE_TIME, SEPARATE_OPER, SEPARATE_NO, CALL_SEQ_NO, CALL_SEQ_TIME, VISIT_CONSALT_ROOM, OPERATE_TYPE, CALL_TIME, OPERATORTIME
+    </sql>
+
+</mapper>

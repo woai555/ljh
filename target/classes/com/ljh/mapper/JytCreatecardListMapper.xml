@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytCreatecardListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytCreatecardList">
+        <result column="CARDNO_HIS" property="cardnoHis" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="CREATEADDR" property="createaddr" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="HOS_AREA" property="hosArea" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARDNO_HIS, CARD_NO, CARD_TYPE, ID_CARD_NO, ID_CARD_TYPE, PATIENT_NAME, OPER_DATE, CREATEADDR, OPER_CODE, HOS_AREA
+    </sql>
+
+</mapper>

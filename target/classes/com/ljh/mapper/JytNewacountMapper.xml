@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytNewacountMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytNewacount">
+        <result column="card_no_by" property="cardNoBy" />
+        <result column="reg_date" property="regDate" />
+        <result column="hos_code" property="hosCode" />
+        <result column="his_order_no" property="hisOrderNo" />
+        <result column="patient" property="patient" />
+        <result column="card_no" property="cardNo" />
+        <result column="order_type" property="orderType" />
+        <result column="hos_name" property="hosName" />
+        <result column="status" property="status" />
+        <result column="visit_time" property="visitTime" />
+        <result column="total_amount" property="totalAmount" />
+        <result column="user_pay_amount" property="userPayAmount" />
+        <result column="user_refund_amount" property="userRefundAmount" />
+        <result column="medicare_amount" property="medicareAmount" />
+        <result column="medicare_refund_amount" property="medicareRefundAmount" />
+        <result column="medicare_personal_amount" property="medicarePersonalAmount" />
+        <result column="me_personal_refund_amount" property="mePersonalRefundAmount" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="source" property="source" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        card_no_by, reg_date, hos_code, his_order_no, patient, card_no, order_type, hos_name, status, visit_time, total_amount, user_pay_amount, user_refund_amount, medicare_amount, medicare_refund_amount, medicare_personal_amount, me_personal_refund_amount, create_time, update_time, source
+    </sql>
+
+</mapper>

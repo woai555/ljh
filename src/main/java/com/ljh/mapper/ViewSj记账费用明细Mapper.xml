@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewSj记账费用明细Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj记账费用明细">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="姓名" property="姓名" />
+        <result column="科室" property="科室" />
+        <result column="收费时间" property="收费时间" />
+        <result column="费用类别" property="费用类别" />
+        <result column="金额" property="金额" />
+        <result column="收款员" property="收款员" />
+        <result column="票号" property="票号" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 姓名, 科室, 收费时间, 费用类别, 金额, 收款员, 票号
+    </sql>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJhDzblPatientinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhDzblPatientinfo">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="PHONE_NUMBER_HOME" property="phoneNumberHome" />
+        <result column="PHONE_NUMBER_BUSINESS" property="phoneNumberBusiness" />
+        <result column="NEXT_OF_KIN_PHONE" property="nextOfKinPhone" />
+        <result column="INSURANCE_TYPE" property="insuranceType" />
+        <result column="BIRTHDAY" property="birthday" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, NAME, SEX, PHONE_NUMBER_HOME, PHONE_NUMBER_BUSINESS, NEXT_OF_KIN_PHONE, INSURANCE_TYPE, BIRTHDAY
+    </sql>
+
+</mapper>

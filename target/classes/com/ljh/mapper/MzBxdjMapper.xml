@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MzBxdjMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MzBxdj">
+        <id column="BAOXIAN_NO" property="baoxianNo" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="UNITINFO" property="unitinfo" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BAOXIAN_NO, PATIENT_NAME, UNITINFO, OPER_DATE, OPER_NAME
+    </sql>
+
+</mapper>

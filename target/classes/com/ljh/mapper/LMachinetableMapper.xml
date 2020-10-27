@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LMachinetableMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LMachinetable">
+        <id column="MACHINECODE" property="machinecode" />
+        <result column="MACHINENAME" property="machinename" />
+        <result column="MACHINETYPE" property="machinetype" />
+        <result column="GRAPHMARK" property="graphmark" />
+        <result column="GRAPHPOINTER" property="graphpointer" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="MODIFYDATE" property="modifydate" />
+        <result column="TEMWIDTH" property="temwidth" />
+        <result column="TEMHEIGHT" property="temheight" />
+        <result column="ISMCRO" property="ismcro" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, MACHINENAME, MACHINETYPE, GRAPHMARK, GRAPHPOINTER, OPERATORID, MODIFYDATE, TEMWIDTH, TEMHEIGHT, ISMCRO
+    </sql>
+
+</mapper>

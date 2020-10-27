@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewQianyongEmergencyAppMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewQianyongEmergencyApp">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="IDENNO" property="idenno" />
+        <result column="MISSION_CODE" property="missionCode" />
+        <result column="TEL" property="tel" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, NAME, SEX, AGE, IDENNO, MISSION_CODE, TEL
+    </sql>
+
+</mapper>

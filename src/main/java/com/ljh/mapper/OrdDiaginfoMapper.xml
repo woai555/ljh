@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OrdDiaginfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdDiaginfo">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="DIAG_KEY" property="diagKey" />
+        <result column="ORD_SUBJECT" property="ordSubject" />
+        <result column="ORD_OBJECT" property="ordObject" />
+        <result column="DIAG1" property="diag1" />
+        <result column="DIAG2" property="diag2" />
+        <result column="DIAG3" property="diag3" />
+        <result column="OPER_DTIME" property="operDtime" />
+        <result column="REG_DATE" property="regDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DOCT_CODE, DIAG_KEY, ORD_SUBJECT, ORD_OBJECT, DIAG1, DIAG2, DIAG3, OPER_DTIME, CARD_NO, REG_DATE
+    </sql>
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJhyltGhMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhyltGh">
+        <result column="FZSQZZ_DATA" property="fzsqzzData" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="SEE_DOCTNM" property="seeDoctnm" />
+        <result column="DIAG_CODE1" property="diagCode1" />
+        <result column="DIAG_NAME1" property="diagName1" />
+        <result column="DIAG_CODE2" property="diagCode2" />
+        <result column="DIAG_NAME2" property="diagName2" />
+        <result column="DIAG_CODE3" property="diagCode3" />
+        <result column="DIAG_NAME3" property="diagName3" />
+        <result column="DIAG_CODE4" property="diagCode4" />
+        <result column="DIAG_NAME4" property="diagName4" />
+        <result column="DIAG_CODE5" property="diagCode5" />
+        <result column="DIAG_NAME5" property="diagName5" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FZSQZZ_DATA, CARD_NO, NAME, REG_DATE, SEE_DATE, SEE_DOCTNM, DIAG_CODE1, DIAG_NAME1, DIAG_CODE2, DIAG_NAME2, DIAG_CODE3, DIAG_NAME3, DIAG_CODE4, DIAG_NAME4, DIAG_CODE5, DIAG_NAME5
+    </sql>
+
+</mapper>

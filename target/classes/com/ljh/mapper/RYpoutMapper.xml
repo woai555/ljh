@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RYpoutMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RYpout">
+        <id column="HISID" property="hisid" />
+        <result column="HISNAME" property="hisname" />
+        <result column="YBID" property="ybid" />
+        <result column="YBNAME" property="ybname" />
+        <result column="MODEL" property="model" />
+        <result column="SPECS" property="specs" />
+        <result column="SCALEUNIT" property="scaleunit" />
+        <result column="SALEPRICE" property="saleprice" />
+        <result column="ITEMGRADE" property="itemgrade" />
+        <result column="FEETYPE" property="feetype" />
+        <result column="REMARK" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HISID, HISNAME, YBID, YBNAME, MODEL, SPECS, SCALEUNIT, SALEPRICE, ITEMGRADE, FEETYPE, REMARK
+    </sql>
+
+</mapper>

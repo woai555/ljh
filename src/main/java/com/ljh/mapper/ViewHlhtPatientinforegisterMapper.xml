@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHlhtPatientinforegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtPatientinforegister">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="IDENNO" property="idenno" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="ID_CARD_TYPENAME" property="idCardTypename" />
+        <result column="NAME" property="name" />
+        <result column="HOME_TEL" property="homeTel" />
+        <result column="SEX" property="sex" />
+        <result column="SEX_DESC" property="sexDesc" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="HOME" property="home" />
+        <result column="HOME_PROVINCE" property="homeProvince" />
+        <result column="HOME_CITY" property="homeCity" />
+        <result column="HOME_DISTRICT" property="homeDistrict" />
+        <result column="HOME_STREET" property="homeStreet" />
+        <result column="HOME_CUN" property="homeCun" />
+        <result column="HOME_MPH" property="homeMph" />
+        <result column="HOME_ZIP" property="homeZip" />
+        <result column="MARITAL_STATUS" property="maritalStatus" />
+        <result column="MARITAL_STATUS_DESC" property="maritalStatusDesc" />
+        <result column="NATION" property="nation" />
+        <result column="NATION_DESC" property="nationDesc" />
+        <result column="NATIONALITY" property="nationality" />
+        <result column="NATIONALITY_DESC" property="nationalityDesc" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="OCCUPATION_DESC" property="occupationDesc" />
+        <result column="WORK_NAME" property="workName" />
+        <result column="WORK_TEL" property="workTel" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="HEALTHNO" property="healthno" />
+        <result column="LINK_RSCODE" property="linkRscode" />
+        <result column="LINK_RELATIONSHIP" property="linkRelationship" />
+        <result column="LINKMAN_TEL" property="linkmanTel" />
+        <result column="LINKMAN_NAME" property="linkmanName" />
+        <result column="JGNO" property="jgno" />
+        <result column="JGNAME" property="jgname" />
+        <result column="PAYKINDCODE" property="paykindcode" />
+        <result column="PAYKINDNAME" property="paykindname" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, OPER_DATE, IDENNO, ID_CARD_TYPE, ID_CARD_TYPENAME, NAME, HOME_TEL, SEX, SEX_DESC, BIRTHDAY, HOME, HOME_PROVINCE, HOME_CITY, HOME_DISTRICT, HOME_STREET, HOME_CUN, HOME_MPH, HOME_ZIP, MARITAL_STATUS, MARITAL_STATUS_DESC, NATION, NATION_DESC, NATIONALITY, NATIONALITY_DESC, OCCUPATION, OCCUPATION_DESC, WORK_NAME, WORK_TEL, CARDNO_JYT, HEALTHNO, LINK_RSCODE, LINK_RELATIONSHIP, LINKMAN_TEL, LINKMAN_NAME, JGNO, JGNAME, PAYKINDCODE, PAYKINDNAME, OPER_CODE, OPER_NAME
+    </sql>
+
+</mapper>

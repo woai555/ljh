@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsCollateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsCollate">
+        <result column="OLD_DEPTCODE" property="oldDeptcode" />
+        <result column="OLD_DEPTNAME" property="oldDeptname" />
+        <result column="NEW_DEPTCODE" property="newDeptcode" />
+        <result column="NEW_DEPTNAME" property="newDeptname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OLD_DEPTCODE, OLD_DEPTNAME, NEW_DEPTCODE, NEW_DEPTNAME
+    </sql>
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RPaykindMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPaykind">
+        <id column="PAYKIND_CODE" property="paykindCode" />
+        <result column="PAYKIND_NAME" property="paykindName" />
+        <result column="MEDI_RATE" property="mediRate" />
+        <result column="OTHERS_RATE" property="othersRate" />
+        <result column="YNPUBFEE" property="ynpubfee" />
+        <result column="PRESCRIPT_LMT" property="prescriptLmt" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="BABY_SHARE" property="babyShare" />
+        <result column="REMARK" property="remark" />
+        <result column="LABEL" property="label" />
+        <result column="STOP_FLAG" property="stopFlag" />
+        <result column="SORTID" property="sortid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PAYKIND_CODE, PAYKIND_NAME, MEDI_RATE, OTHERS_RATE, YNPUBFEE, PRESCRIPT_LMT, OPER_DATE, OPER_CODE, BABY_SHARE, REMARK, LABEL, STOP_FLAG, SORTID
+    </sql>
+
+</mapper>

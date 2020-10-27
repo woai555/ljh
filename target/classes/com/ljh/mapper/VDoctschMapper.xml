@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VDoctschMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VDoctsch">
+        <result column="DEPARTMENTCODE" property="departmentcode" />
+        <result column="DEPARTMENTNAME" property="departmentname" />
+        <result column="DOCTORCODE" property="doctorcode" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="DUTYDATE" property="dutydate" />
+        <result column="AM" property="am" />
+        <result column="REGMAXCOUNT" property="regmaxcount" />
+        <result column="ISREGTYPE" property="isregtype" />
+        <result column="OPTCODE" property="optcode" />
+        <result column="OPTNAME" property="optname" />
+        <result column="ROOMNO" property="roomno" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="DIAGNOSISDESKNO" property="diagnosisdeskno" />
+        <result column="DIAGNOSISDESKNAME" property="diagnosisdeskname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPARTMENTCODE, DEPARTMENTNAME, DOCTORCODE, DOCTORNAME, DUTYDATE, AM, REGMAXCOUNT, ISREGTYPE, OPTCODE, OPTNAME, ROOMNO, ROOMNAME, DIAGNOSISDESKNO, DIAGNOSISDESKNAME
+    </sql>
+
+</mapper>

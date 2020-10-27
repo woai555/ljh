@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VAppRemainqueryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppRemainquery">
+        <result column="ACCESSSCHID" property="accessschid" />
+        <result column="SCHDATE" property="schdate" />
+        <result column="DAYTYPE" property="daytype" />
+        <result column="DOCTORID" property="doctorid" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="DEPTID" property="deptid" />
+        <result column="DEPTNAME" property="deptname" />
+        <result column="SERVICEFEE" property="servicefee" />
+        <result column="REGFEE" property="regfee" />
+        <result column="RESNO" property="resno" />
+        <result column="REMAIN" property="remain" />
+        <result column="STARTTIME" property="starttime" />
+        <result column="ENDTIME" property="endtime" />
+        <result column="ISEXPECT" property="isexpect" />
+        <result column="CLINICADDR" property="clinicaddr" />
+        <result column="TITLETYPE" property="titletype" />
+        <result column="NUMSRCTYPE" property="numsrctype" />
+        <result column="STATE" property="state" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACCESSSCHID, SCHDATE, DAYTYPE, DOCTORID, DOCTORNAME, DEPTID, DEPTNAME, SERVICEFEE, REGFEE, RESNO, REMAIN, STARTTIME, ENDTIME, ISEXPECT, CLINICADDR, TITLETYPE, NUMSRCTYPE, STATE
+    </sql>
+
+</mapper>

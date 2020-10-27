@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RXinruiGuahaoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RXinruiGuahao">
+        <result column="HISNO" property="hisno" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_LEVEL" property="regLevel" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="SFXM" property="sfxm" />
+        <result column="SFXM_NAME" property="sfxmName" />
+        <result column="FEE_DATE" property="feeDate" />
+        <result column="QTY" property="qty" />
+        <result column="PRICE" property="price" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HISNO, CARD_NO, REG_LEVEL, DEPT_CODE, SFXM, SFXM_NAME, FEE_DATE, QTY, PRICE
+    </sql>
+
+</mapper>

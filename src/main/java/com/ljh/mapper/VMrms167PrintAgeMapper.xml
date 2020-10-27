@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VMrms167PrintAgeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VMrms167PrintAge">
+        <result column="LEFT_DISNAME" property="leftDisname" />
+        <result column="LEFT_CODE" property="leftCode" />
+        <result column="LEFT_SUM_PART" property="leftSumPart" />
+        <result column="LEFT_AGE1" property="leftAge1" />
+        <result column="LEFT_AGE2" property="leftAge2" />
+        <result column="LEFT_AGE3" property="leftAge3" />
+        <result column="LEFT_AGE4" property="leftAge4" />
+        <result column="LEFT_AGE5" property="leftAge5" />
+        <result column="LEFT_INBEDDAY" property="leftInbedday" />
+        <result column="RIGHT_DISNAME" property="rightDisname" />
+        <result column="RIGHT_CODE" property="rightCode" />
+        <result column="RIGHT_SUM_PART" property="rightSumPart" />
+        <result column="RIGHT_AGE1" property="rightAge1" />
+        <result column="RIGHT_AGE2" property="rightAge2" />
+        <result column="RIGHT_AGE3" property="rightAge3" />
+        <result column="RIGHT_AGE4" property="rightAge4" />
+        <result column="RIGHT_AGE5" property="rightAge5" />
+        <result column="RIGHT_INBEDDAY" property="rightInbedday" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LEFT_DISNAME, LEFT_CODE, LEFT_SUM_PART, LEFT_AGE1, LEFT_AGE2, LEFT_AGE3, LEFT_AGE4, LEFT_AGE5, LEFT_INBEDDAY, RIGHT_DISNAME, RIGHT_CODE, RIGHT_SUM_PART, RIGHT_AGE1, RIGHT_AGE2, RIGHT_AGE3, RIGHT_AGE4, RIGHT_AGE5, RIGHT_INBEDDAY
+    </sql>
+
+</mapper>

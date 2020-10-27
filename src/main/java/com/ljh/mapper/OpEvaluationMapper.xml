@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpEvaluationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpEvaluation">
+        <id column="OPERATIONNO" property="operationno" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="DUTY" property="duty" />
+        <result column="BASIC" property="basic" />
+        <result column="AMOUNT" property="amount" />
+        <result column="EFFECT" property="effect" />
+        <result column="RECORDER" property="recorder" />
+        <result column="RECORDTIME" property="recordtime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATIONNO, EMPL_CODE, DUTY, BASIC, AMOUNT, EFFECT, RECORDER, RECORDTIME
+    </sql>
+
+</mapper>

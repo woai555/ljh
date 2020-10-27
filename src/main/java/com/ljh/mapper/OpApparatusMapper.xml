@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpApparatusMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpApparatus">
+        <id column="CODE" property="code" />
+        <result column="NAME" property="name" />
+        <result column="TRADEMARK" property="trademark" />
+        <result column="SOURCE" property="source" />
+        <result column="CHARACTERISTIC" property="characteristic" />
+        <result column="KEEPSITE" property="keepsite" />
+        <result column="BUYTIME" property="buytime" />
+        <result column="PRICE" property="price" />
+        <result column="UNIT" property="unit" />
+        <result column="STATUS" property="status" />
+        <result column="PRODUCER" property="producer" />
+        <result column="SALER" property="saler" />
+        <result column="TYPE" property="type" />
+        <result column="ILLUSTRATION" property="illustration" />
+        <result column="WB_CODE" property="wbCode" />
+        <result column="SELF_CODE" property="selfCode" />
+        <result column="SPELL" property="spell" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CODE, NAME, TRADEMARK, SOURCE, CHARACTERISTIC, KEEPSITE, BUYTIME, PRICE, UNIT, STATUS, PRODUCER, SALER, TYPE, ILLUSTRATION, WB_CODE, SELF_CODE, SPELL
+    </sql>
+
+</mapper>

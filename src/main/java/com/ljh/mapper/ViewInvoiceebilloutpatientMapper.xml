@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewInvoiceebilloutpatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewInvoiceebilloutpatient">
+        <result column="BUSNO" property="busno" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="BUSTYPE" property="bustype" />
+        <result column="PAYER" property="payer" />
+        <result column="BUSDATETIME" property="busdatetime" />
+        <result column="PLACECODE" property="placecode" />
+        <result column="PAYEE" property="payee" />
+        <result column="AUTHOR" property="author" />
+        <result column="TOTALAMT" property="totalamt" />
+        <result column="REMARK" property="remark" />
+        <result column="ALIPAYCODE" property="alipaycode" />
+        <result column="WECHATORDERNO" property="wechatorderno" />
+        <result column="OPENID" property="openid" />
+        <result column="TEL" property="tel" />
+        <result column="EMAIL" property="email" />
+        <result column="IDCARDNO" property="idcardno" />
+        <result column="CARDTYPE" property="cardtype" />
+        <result column="CARDNO" property="cardno" />
+        <result column="MEDICALINSTITUTION" property="medicalinstitution" />
+        <result column="MEDICALCARETYPE" property="medicalcaretype" />
+        <result column="MEDCARETYPECODE" property="medcaretypecode" />
+        <result column="MEDCAREINSTITUTION" property="medcareinstitution" />
+        <result column="MEDICALINSURANCEID" property="medicalinsuranceid" />
+        <result column="CONSULTATIONDATE" property="consultationdate" />
+        <result column="CATEGORY" property="category" />
+        <result column="PATIENTCATEGORYCODE" property="patientcategorycode" />
+        <result column="PATIENTNO" property="patientno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="CASENUMBER" property="casenumber" />
+        <result column="SPECIALDISEASESNAME" property="specialdiseasesname" />
+        <result column="PAYMENTVOUCHER" property="paymentvoucher" />
+        <result column="ACCOUNTPAY" property="accountpay" />
+        <result column="FUNDPAY" property="fundpay" />
+        <result column="OTHERFUNDPAY" property="otherfundpay" />
+        <result column="OWNPAY" property="ownpay" />
+        <result column="SELFCONCEITEDAMT" property="selfconceitedamt" />
+        <result column="SELFPAYAMT" property="selfpayamt" />
+        <result column="SELFCASHPAY" property="selfcashpay" />
+        <result column="CASHPAY" property="cashpay" />
+        <result column="CHEQUEPAY" property="chequepay" />
+        <result column="TRANSFERACCOUNTPAY" property="transferaccountpay" />
+        <result column="CASHRECHARGE" property="cashrecharge" />
+        <result column="CHEQUERECHARGE" property="chequerecharge" />
+        <result column="TRANSFERRECHARGE" property="transferrecharge" />
+        <result column="CASHREFUND" property="cashrefund" />
+        <result column="CHEQUEREFUND" property="chequerefund" />
+        <result column="TRANSFERREFUND" property="transferrefund" />
+        <result column="OWNACBALANCE" property="ownacbalance" />
+        <result column="REIMBURSEMENTAMT" property="reimbursementamt" />
+        <result column="BALANCEDNUMBER" property="balancednumber" />
+        <result column="OTHERINFO" property="otherinfo" />
+        <result column="OTHERMEDICALLIST" property="othermedicallist" />
+        <result column="PAYCHANNELCODE" property="paychannelcode" />
+        <result column="PAYCHANNELVALUE" property="paychannelvalue" />
+        <result column="EBILLRELATENO" property="ebillrelateno" />
+        <result column="PBILLCODE" property="pbillcode" />
+        <result column="PBILLBATCHCODE" property="pbillbatchcode" />
+        <result column="FUNDTIME" property="fundtime" />
+        <result column="INVOICE_KIND" property="invoiceKind" />
+        <result column="JKRLX" property="jkrlx" />
+        <result column="JKDWBM" property="jkdwbm" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BUSNO, TRANS_TYPE, BUSTYPE, PAYER, BUSDATETIME, PLACECODE, PAYEE, AUTHOR, TOTALAMT, REMARK, ALIPAYCODE, WECHATORDERNO, OPENID, TEL, EMAIL, IDCARDNO, CARDTYPE, CARDNO, MEDICALINSTITUTION, MEDICALCARETYPE, MEDCARETYPECODE, MEDCAREINSTITUTION, MEDICALINSURANCEID, CONSULTATIONDATE, CATEGORY, PATIENTCATEGORYCODE, PATIENTNO, PATIENTID, SEX, AGE, CASENUMBER, SPECIALDISEASESNAME, PAYMENTVOUCHER, ACCOUNTPAY, FUNDPAY, OTHERFUNDPAY, OWNPAY, SELFCONCEITEDAMT, SELFPAYAMT, SELFCASHPAY, CASHPAY, CHEQUEPAY, TRANSFERACCOUNTPAY, CASHRECHARGE, CHEQUERECHARGE, TRANSFERRECHARGE, CASHREFUND, CHEQUEREFUND, TRANSFERREFUND, OWNACBALANCE, REIMBURSEMENTAMT, BALANCEDNUMBER, OTHERINFO, OTHERMEDICALLIST, PAYCHANNELCODE, PAYCHANNELVALUE, EBILLRELATENO, PBILLCODE, PBILLBATCHCODE, FUNDTIME, INVOICE_KIND, JKRLX, JKDWBM
+    </sql>
+
+</mapper>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheMzRecipedetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzRecipedetail">
+        <result column="SEE_NO" property="seeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="OUTP_ID" property="outpId" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="PRES_CLASS_CODE" property="presClassCode" />
+        <result column="PRES_CLASS_NAME" property="presClassName" />
+        <result column="SPEC" property="spec" />
+        <result column="DRUG_FLAG" property="drugFlag" />
+        <result column="CLASS_CODE" property="classCode" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="QTY" property="qty" />
+        <result column="DAYS" property="days" />
+        <result column="PACK_QTY" property="packQty" />
+        <result column="ITEM_UNIT" property="itemUnit" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="ONCE_DOSE" property="onceDose" />
+        <result column="ONCE_UNIT" property="onceUnit" />
+        <result column="FREQ_CODE" property="freqCode" />
+        <result column="USAGE_CODE" property="usageCode" />
+        <result column="USAGE_NAME" property="usageName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="MAIN_DRUG" property="mainDrug" />
+        <result column="COMB_NO" property="combNo" />
+        <result column="SELF_MADE" property="selfMade" />
+        <result column="DRUG_QUANLITY" property="drugQuanlity" />
+        <result column="PRES_DOCTOR" property="presDoctor" />
+        <result column="PRES_DOCTOR_NAME" property="presDoctorName" />
+        <result column="PRES_DEPT" property="presDept" />
+        <result column="PRES_TIME" property="presTime" />
+        <result column="CANCEL_USERID" property="cancelUserid" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="REMARK" property="remark" />
+        <result column="STATUS" property="status" />
+        <result column="CHECK_BODY" property="checkBody" />
+        <result column="APPLY_NO" property="applyNo" />
+        <result column="NEED_CONFIRM" property="needConfirm" />
+        <result column="CONFIRM_CODE" property="confirmCode" />
+        <result column="CONFIRM_DEPT" property="confirmDept" />
+        <result column="CONFIRM_DATE" property="confirmDate" />
+        <result column="BASE_DOSE" property="baseDose" />
+        <result column="PRES_NO" property="presNo" />
+        <result column="LAB_TYPE" property="labType" />
+        <result column="CHECK_BODY_CODE" property="checkBodyCode" />
+        <result column="ITEM_GRADE" property="itemGrade" />
+        <result column="COMBID" property="combid" />
+        <result column="USE_DAYS" property="useDays" />
+        <result column="ZT_CODE" property="ztCode" />
+        <result column="ZT_NAME" property="ztName" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="INVOICE_OPERID" property="invoiceOperid" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="LAST_DATE" property="lastDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_NO, SEQUENCE_NO, OUTP_ID, REG_DATE, PRES_CLASS_CODE, PRES_CLASS_NAME, SPEC, DRUG_FLAG, CLASS_CODE, FEE_CODE, UNIT_PRICE, QTY, DAYS, PACK_QTY, ITEM_UNIT, OWN_COST, PAY_COST, PUB_COST, ONCE_DOSE, ONCE_UNIT, FREQ_CODE, USAGE_CODE, USAGE_NAME, DEPT_CODE, DEPT_NAME, MAIN_DRUG, COMB_NO, SELF_MADE, DRUG_QUANLITY, PRES_DOCTOR, PRES_DOCTOR_NAME, PRES_DEPT, PRES_TIME, CANCEL_USERID, CANCEL_DATE, REMARK, STATUS, CHECK_BODY, APPLY_NO, NEED_CONFIRM, CONFIRM_CODE, CONFIRM_DEPT, CONFIRM_DATE, BASE_DOSE, PRES_NO, LAB_TYPE, CHECK_BODY_CODE, ITEM_GRADE, COMBID, USE_DAYS, ZT_CODE, ZT_NAME, INVOICE_NO, INVOICE_OPERID, FEE_STAT_NAME, SEE_DATE, LAST_DATE
+    </sql>
+
+</mapper>

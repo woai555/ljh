@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RReginfoInjuryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RReginfoInjury">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="INJURY_ID" property="injuryId" />
+        <result column="INJURY_TIME" property="injuryTime" />
+        <result column="INJURY_PROCES" property="injuryProces" />
+        <result column="PARTORDISEASE" property="partordisease" />
+        <result column="CHECKED" property="checked" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DATE, INJURY_ID, INJURY_TIME, INJURY_PROCES, PARTORDISEASE, CHECKED
+    </sql>
+
+</mapper>

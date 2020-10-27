@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.NeurosisReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.NeurosisReport">
+        <id column="CARD_NUMBER" property="cardNumber" />
+        <result column="BAOKA_TYPE" property="baokaType" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="LIANXIREN_NAME" property="lianxirenName" />
+        <result column="LIANXIREN_TEL" property="lianxirenTel" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="COMPANY" property="company" />
+        <result column="TEL" property="tel" />
+        <result column="PATIENT_SHUDI" property="patientShudi" />
+        <result column="ADDRESS_SHENG" property="addressSheng" />
+        <result column="ADDRESS_SHI" property="addressShi" />
+        <result column="ADDRESS_QU" property="addressQu" />
+        <result column="ADDRESS" property="address" />
+        <result column="ID_NO" property="idNo" />
+        <result column="ZHIYE_TYPE" property="zhiyeType" />
+        <result column="ZUICHUFABING_DATE" property="zuichufabingDate" />
+        <result column="QUEZHEN_DATE" property="quezhenDate" />
+        <result column="QUEZHENYIYUAN" property="quezhenyiyuan" />
+        <result column="JIBING_NAME" property="jibingName" />
+        <result column="BAOGAODANWEI" property="baogaodanwei" />
+        <result column="DANWEI_TEL" property="danweiTel" />
+        <result column="TIANKAYISHENG" property="tiankayisheng" />
+        <result column="TIANKA_DATE" property="tiankaDate" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="PATIENT_NO" property="patientNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BAOKA_TYPE, CARD_NUMBER, PATIENT_NAME, LIANXIREN_NAME, LIANXIREN_TEL, SEX, BIRTHDAY, COMPANY, TEL, PATIENT_SHUDI, ADDRESS_SHENG, ADDRESS_SHI, ADDRESS_QU, ADDRESS, ID_NO, ZHIYE_TYPE, ZUICHUFABING_DATE, QUEZHEN_DATE, QUEZHENYIYUAN, JIBING_NAME, BAOGAODANWEI, DANWEI_TEL, TIANKAYISHENG, TIANKA_DATE, CARD_TYPE, PATIENT_NO
+    </sql>
+
+</mapper>

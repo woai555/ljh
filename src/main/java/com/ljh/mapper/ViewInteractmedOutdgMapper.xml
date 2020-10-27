@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewInteractmedOutdgMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewInteractmedOutdg">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="SEE_DOCTNM" property="seeDoctnm" />
+        <result column="DIAGNOSIS_NUM" property="diagnosisNum" />
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="ICD_NAME" property="icdName" />
+        <result column="DIAGNOSIS_TIME" property="diagnosisTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, SEE_NO, SEE_DOCTNM, DIAGNOSIS_NUM, ICD_CODE, ICD_NAME, DIAGNOSIS_TIME
+    </sql>
+
+</mapper>

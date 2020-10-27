@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytPrivatecloudDoctorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytPrivatecloudDoctor">
+        <result column="DOCTID" property="doctid" />
+        <result column="DEPTID" property="deptid" />
+        <result column="DOCTNAME" property="doctname" />
+        <result column="DOCTLEVELNAME" property="doctlevelname" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="ISEXPERT" property="isexpert" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DOCTID, DEPTID, DOCTNAME, DOCTLEVELNAME, SEX_CODE, ISEXPERT
+    </sql>
+
+</mapper>

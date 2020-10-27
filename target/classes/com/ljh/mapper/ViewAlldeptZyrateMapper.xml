@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewAlldeptZyrateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewAlldeptZyrate">
+        <result column="NURSE_CELL_CODE" property="nurseCellCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PATIENT_NUM" property="patientNum" />
+        <result column="RATE" property="rate" />
+        <result column="NULLBED_NUM" property="nullbedNum" />
+        <result column="BED_ALLNUM" property="bedAllnum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        NURSE_CELL_CODE, DEPT_CODE, PATIENT_NUM, RATE, NULLBED_NUM, BED_ALLNUM
+    </sql>
+
+</mapper>

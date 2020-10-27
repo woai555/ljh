@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ReportDayfeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ReportDayfee">
+        <id column="OPER_DATE" property="operDate" />
+        <result column="REPORT_TYPE" property="reportType" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="INPATIENT_COST" property="inpatientCost" />
+        <result column="OUTPATIENT_COST" property="outpatientCost" />
+        <result column="CURRDAY_ADDCOST" property="currdayAddcost" />
+        <result column="CURRDAY_BALANCECOST" property="currdayBalancecost" />
+        <result column="ARREARAGE_COST" property="arrearageCost" />
+        <result column="OPERCODE" property="opercode" />
+        <result column="OPERDATE" property="operdate" />
+        <result column="CURRDAY_DECPREPAY" property="currdayDecprepay" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_DATE, REPORT_TYPE, TOT_COST, INPATIENT_COST, OUTPATIENT_COST, CURRDAY_ADDCOST, CURRDAY_BALANCECOST, ARREARAGE_COST, OPERCODE, OPERDATE, CURRDAY_DECPREPAY
+    </sql>
+
+</mapper>

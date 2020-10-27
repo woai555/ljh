@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheMzblwsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzblws">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="NAME" property="name" />
+        <result column="NAME_PHONETIC" property="namePhonetic" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_DATE" property="visitDate" />
+        <result column="VISIT_NO" property="visitNo" />
+        <result column="ILLNESS_DESC" property="illnessDesc" />
+        <result column="ANAMNESIS" property="anamnesis" />
+        <result column="FAMILY_ILL" property="familyIll" />
+        <result column="MARRITAL" property="marrital" />
+        <result column="INDIVIDUAL" property="individual" />
+        <result column="MENSES" property="menses" />
+        <result column="MED_HISTORY" property="medHistory" />
+        <result column="BODY_EXAM" property="bodyExam" />
+        <result column="DIAG_DESC" property="diagDesc" />
+        <result column="ADVICE" property="advice" />
+        <result column="DOCTOR" property="doctor" />
+        <result column="ORDINAL" property="ordinal" />
+        <result column="OPERATION_RECORD" property="operationRecord" />
+        <result column="MEDICAL_RECORD" property="medicalRecord" />
+        <result column="DOCTOR_NO" property="doctorNo" />
+        <result column="TOOTH" property="tooth" />
+        <result column="MEMO" property="memo" />
+        <result column="CDIAG" property="cdiag" />
+        <result column="DRUG_ALLERGY" property="drugAllergy" />
+        <result column="BLOODPRESSUREH" property="bloodpressureh" />
+        <result column="BLOODPRESSUREL" property="bloodpressurel" />
+        <result column="PULSE" property="pulse" />
+        <result column="TEMPERATURE" property="temperature" />
+        <result column="BREATH_FREQUENCY" property="breathFrequency" />
+        <result column="AUXILIARY_EXAM" property="auxiliaryExam" />
+        <result column="DENY_TREATMENT" property="denyTreatment" />
+        <result column="AUXILIARY_EXAM_HOSPITAL" property="auxiliaryExamHospital" />
+        <result column="GENERAL_ORDERS" property="generalOrders" />
+        <result column="VISIT_TYPE" property="visitType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, NAME, NAME_PHONETIC, VISIT_ID, VISIT_DATE, VISIT_NO, ILLNESS_DESC, ANAMNESIS, FAMILY_ILL, MARRITAL, INDIVIDUAL, MENSES, MED_HISTORY, BODY_EXAM, DIAG_DESC, ADVICE, DOCTOR, ORDINAL, OPERATION_RECORD, MEDICAL_RECORD, DOCTOR_NO, TOOTH, MEMO, CDIAG, DRUG_ALLERGY, BLOODPRESSUREH, BLOODPRESSUREL, PULSE, TEMPERATURE, BREATH_FREQUENCY, AUXILIARY_EXAM, DENY_TREATMENT, AUXILIARY_EXAM_HOSPITAL, GENERAL_ORDERS, VISIT_TYPE
+    </sql>
+
+</mapper>

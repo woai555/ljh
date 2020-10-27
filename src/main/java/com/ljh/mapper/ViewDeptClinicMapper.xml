@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewDeptClinicMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewDeptClinic">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="DRUG" property="drug" />
+        <result column="UNDRUG" property="undrug" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, PACT_CODE, REG_DATE, DRUG, UNDRUG
+    </sql>
+
+</mapper>

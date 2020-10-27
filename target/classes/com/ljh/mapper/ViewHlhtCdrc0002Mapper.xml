@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHlhtCdrc0002Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrc0002">
+        <result column="OUTPATIENT_NO" property="outpatientNo" />
+        <result column="APPLY_NO" property="applyNo" />
+        <result column="ID_NO" property="idNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHTIME" property="birthtime" />
+        <result column="AGE" property="age" />
+        <result column="SECTION_NAME" property="sectionName" />
+        <result column="MEDICAL_CODE" property="medicalCode" />
+        <result column="MEDICAL_NAME" property="medicalName" />
+        <result column="DATE_OF_VISIT" property="dateOfVisit" />
+        <result column="DOCTOR_NAME" property="doctorName" />
+        <result column="MEDICAL_INSTITUTION_ID" property="medicalInstitutionId" />
+        <result column="NAME_OF_THE_CUSTODIAN" property="nameOfTheCustodian" />
+        <result column="MEDICAL_STAFF_NUMBER" property="medicalStaffNumber" />
+        <result column="RESPONSIBLE_PHYSICIAN_DOCTOR" property="responsiblePhysicianDoctor" />
+        <result column="ANAPHYLAXIS" property="anaphylaxis" />
+        <result column="ANAPHYLAXIS_CODE" property="anaphylaxisCode" />
+        <result column="MAIN_COMPLAINT" property="mainComplaint" />
+        <result column="HISTORY_OF_PRESENT_ILLNESS" property="historyOfPresentIllness" />
+        <result column="PAST_HISTORY" property="pastHistory" />
+        <result column="PHYSICAL_EXAMINATION_RESULTS" property="physicalExaminationResults" />
+        <result column="AUXILIARY_EXAMINATION_RESULTS" property="auxiliaryExaminationResults" />
+        <result column="FIRST_DIAGNOSIS_SIGN_CODE" property="firstDiagnosisSignCode" />
+        <result column="ZYSZGC_RESULTS" property="zyszgcResults" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUTPATIENT_NO, APPLY_NO, ID_NO, NAME, SEX, BIRTHTIME, AGE, SECTION_NAME, MEDICAL_CODE, MEDICAL_NAME, DATE_OF_VISIT, DOCTOR_NAME, MEDICAL_INSTITUTION_ID, NAME_OF_THE_CUSTODIAN, MEDICAL_STAFF_NUMBER, RESPONSIBLE_PHYSICIAN_DOCTOR, ANAPHYLAXIS, ANAPHYLAXIS_CODE, MAIN_COMPLAINT, HISTORY_OF_PRESENT_ILLNESS, PAST_HISTORY, PHYSICAL_EXAMINATION_RESULTS, AUXILIARY_EXAMINATION_RESULTS, FIRST_DIAGNOSIS_SIGN_CODE, ZYSZGC_RESULTS, OPERATORTIME
+    </sql>
+
+</mapper>

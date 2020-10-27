@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VListreportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VListreport">
+        <id column="NDATE" property="ndate" />
+        <result column="SPECIMENNO" property="specimenno" />
+        <result column="NAME" property="name" />
+        <result column="PATINDEX" property="patindex" />
+        <result column="PATNAME" property="patname" />
+        <result column="CODE" property="code" />
+        <result column="EXPR1" property="expr1" />
+        <result column="SAMPLEDATE" property="sampledate" />
+        <result column="SAMPLETIME" property="sampletime" />
+        <result column="SPECERINDEX" property="specerindex" />
+        <result column="OTHER" property="other" />
+        <result column="SAMPLENAME" property="samplename" />
+        <result column="RECEIVEDATE" property="receivedate" />
+        <result column="RECEIVETIME" property="receivetime" />
+        <result column="RECEIVERINDEX" property="receiverindex" />
+        <result column="RECEIVERNAME" property="receivername" />
+        <result column="REVIEWDATE" property="reviewdate" />
+        <result column="REVIEWTIME" property="reviewtime" />
+        <result column="REVIEWERINDEX" property="reviewerindex" />
+        <result column="REPORTNAME" property="reportname" />
+        <result column="HIS" property="his" />
+        <result column="FLAG" property="flag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        NDATE, SPECIMENNO, NAME, PATINDEX, PATNAME, CODE, EXPR1, SAMPLEDATE, SAMPLETIME, SPECERINDEX, OTHER, SAMPLENAME, RECEIVEDATE, RECEIVETIME, RECEIVERINDEX, RECEIVERNAME, REVIEWDATE, REVIEWTIME, REVIEWERINDEX, REPORTNAME, HIS, FLAG
+    </sql>
+
+</mapper>

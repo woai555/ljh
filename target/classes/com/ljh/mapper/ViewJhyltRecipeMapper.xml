@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJhyltRecipeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhyltRecipe">
+        <result column="FZSQZZ_DATA" property="fzsqzzData" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="ITEM_UNIT" property="itemUnit" />
+        <result column="QTY" property="qty" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="SPEC" property="spec" />
+        <result column="ONCE_DOSE" property="onceDose" />
+        <result column="ONCE_UNIT" property="onceUnit" />
+        <result column="USE_NAME" property="useName" />
+        <result column="FREQ_NAME" property="freqName" />
+        <result column="USE_DAYS" property="useDays" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="CLASSNAME" property="classname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FZSQZZ_DATA, CARD_NO, NAME, REG_DATE, ITEM_CODE, ITEM_NAME, UNIT_PRICE, ITEM_UNIT, QTY, OWN_COST, SPEC, ONCE_DOSE, ONCE_UNIT, USE_NAME, FREQ_NAME, USE_DAYS, DEPT_CODE, DEPT_NAME, DOCT_CODE, DOCT_NAME, CLASSNAME
+    </sql>
+
+</mapper>

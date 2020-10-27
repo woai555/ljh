@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PbcattblMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Pbcattbl">
+        <result column="PBT_TNAM" property="pbtTnam" />
+        <result column="PBT_TID" property="pbtTid" />
+        <result column="PBT_OWNR" property="pbtOwnr" />
+        <result column="PBD_FHGT" property="pbdFhgt" />
+        <result column="PBD_FWGT" property="pbdFwgt" />
+        <result column="PBD_FITL" property="pbdFitl" />
+        <result column="PBD_FUNL" property="pbdFunl" />
+        <result column="PBD_FCHR" property="pbdFchr" />
+        <result column="PBD_FPTC" property="pbdFptc" />
+        <result column="PBD_FFCE" property="pbdFfce" />
+        <result column="PBH_FHGT" property="pbhFhgt" />
+        <result column="PBH_FWGT" property="pbhFwgt" />
+        <result column="PBH_FITL" property="pbhFitl" />
+        <result column="PBH_FUNL" property="pbhFunl" />
+        <result column="PBH_FCHR" property="pbhFchr" />
+        <result column="PBH_FPTC" property="pbhFptc" />
+        <result column="PBH_FFCE" property="pbhFfce" />
+        <result column="PBL_FHGT" property="pblFhgt" />
+        <result column="PBL_FWGT" property="pblFwgt" />
+        <result column="PBL_FITL" property="pblFitl" />
+        <result column="PBL_FUNL" property="pblFunl" />
+        <result column="PBL_FCHR" property="pblFchr" />
+        <result column="PBL_FPTC" property="pblFptc" />
+        <result column="PBL_FFCE" property="pblFfce" />
+        <result column="PBT_CMNT" property="pbtCmnt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PBT_TNAM, PBT_TID, PBT_OWNR, PBD_FHGT, PBD_FWGT, PBD_FITL, PBD_FUNL, PBD_FCHR, PBD_FPTC, PBD_FFCE, PBH_FHGT, PBH_FWGT, PBH_FITL, PBH_FUNL, PBH_FCHR, PBH_FPTC, PBH_FFCE, PBL_FHGT, PBL_FWGT, PBL_FITL, PBL_FUNL, PBL_FCHR, PBL_FPTC, PBL_FFCE, PBT_CMNT
+    </sql>
+
+</mapper>

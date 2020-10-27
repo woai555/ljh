@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsrpt1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsrpt1">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_ORDER" property="deptOrder" />
+        <result column="BED_AVGOPEN" property="bedAvgopen" />
+        <result column="RATIO_RTN1" property="ratioRtn1" />
+        <result column="RATIO_RTN4" property="ratioRtn4" />
+        <result column="BED_TRTIMES" property="bedTrtimes" />
+        <result column="RATIO_BEDUSE" property="ratioBeduse" />
+        <result column="BED_AVGDAYS" property="bedAvgdays" />
+        <result column="AVG_DAYSOP" property="avgDaysop" />
+        <result column="PATIENT_OUT" property="patientOut" />
+        <result column="ACCORD_CEPI" property="accordCepi" />
+        <result column="RATIO_CEPI" property="ratioCepi" />
+        <result column="PATIENT_OPER" property="patientOper" />
+        <result column="ACCORD_OPBA" property="accordOpba" />
+        <result column="RATIO_OPBA" property="ratioOpba" />
+        <result column="NICK_NUM" property="nickNum" />
+        <result column="CICA_NUM3" property="cicaNum3" />
+        <result column="RATIO_CICA3" property="ratioCica3" />
+        <result column="SUM_CLPA" property="sumClpa" />
+        <result column="ACCORD_CLPA" property="accordClpa" />
+        <result column="RATIO_CLPA" property="ratioClpa" />
+        <result column="RATIO_RTN2" property="ratioRtn2" />
+        <result column="PA_OUT" property="paOut" />
+        <result column="DIAG_OKNUM" property="diagOknum" />
+        <result column="RATIO_DIAGOK" property="ratioDiagok" />
+        <result column="NICK_NUM2" property="nickNum2" />
+        <result column="CICA_NUM6" property="cicaNum6" />
+        <result column="RATIO_CICA6" property="ratioCica6" />
+        <result column="SALV_NUM" property="salvNum" />
+        <result column="SUCC_NUM" property="succNum" />
+        <result column="RATIO_SUCC" property="ratioSucc" />
+        <result column="ACCORD_PIPO" property="accordPipo" />
+        <result column="RATIO_PIPO" property="ratioPipo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DEPT_NAME, DEPT_ORDER, BED_AVGOPEN, RATIO_RTN1, RATIO_RTN4, BED_TRTIMES, RATIO_BEDUSE, BED_AVGDAYS, AVG_DAYSOP, PATIENT_OUT, ACCORD_CEPI, RATIO_CEPI, PATIENT_OPER, ACCORD_OPBA, RATIO_OPBA, NICK_NUM, CICA_NUM3, RATIO_CICA3, SUM_CLPA, ACCORD_CLPA, RATIO_CLPA, RATIO_RTN2, PA_OUT, DIAG_OKNUM, RATIO_DIAGOK, NICK_NUM2, CICA_NUM6, RATIO_CICA6, SALV_NUM, SUCC_NUM, RATIO_SUCC, ACCORD_PIPO, RATIO_PIPO
+    </sql>
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewSj门诊医嘱Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj门诊医嘱">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="医嘱编号" property="医嘱编号" />
+        <result column="科别" property="科别" />
+        <result column="医生编号" property="医生编号" />
+        <result column="医嘱时间" property="医嘱时间" />
+        <result column="分项序号" property="分项序号" />
+        <result column="医嘱类别" property="医嘱类别" />
+        <result column="医嘱项目编号" property="医嘱项目编号" />
+        <result column="数量" property="数量" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 医嘱编号, 科别, 医生编号, 医嘱时间, 分项序号, 医嘱类别, 医嘱项目编号, 数量
+    </sql>
+
+</mapper>

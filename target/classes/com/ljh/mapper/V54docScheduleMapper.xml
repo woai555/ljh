@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.V54docScheduleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.V54docSchedule">
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="DOCTID" property="doctid" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="DEPTID" property="deptid" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="REGLEVL_NAME" property="reglevlName" />
+        <result column="TOTALFEE" property="totalfee" />
+        <result column="REG_HALF" property="regHalf" />
+        <result column="REG_COUNT" property="regCount" />
+        <result column="TOTAL_NUM" property="totalNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, DOCTID, DOCT_NAME, DEPTID, DEPT_NAME, REGLEVL_CODE, REGLEVL_NAME, TOTALFEE, REG_HALF, REG_COUNT, TOTAL_NUM
+    </sql>
+
+</mapper>

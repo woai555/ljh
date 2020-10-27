@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LInpatienttempMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LInpatienttemp">
+        <id column="INPATIENTNO" property="inpatientno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="INPUTDATE" property="inputdate" />
+        <result column="AGE" property="age" />
+        <result column="SEX" property="sex" />
+        <result column="ROOMID" property="roomid" />
+        <result column="STATE" property="state" />
+        <result column="NAME" property="name" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENTID, INPATIENTNO, INPUTDATE, AGE, SEX, ROOMID, STATE, NAME
+    </sql>
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LscYbTestMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LscYbTest">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARDYB" property="cardyb" />
+        <result column="FEE" property="fee" />
+        <result column="DINGDAN_TYPE" property="dingdanType" />
+        <result column="JIESUAN_TYPE" property="jiesuanType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, CARDYB, FEE, DINGDAN_TYPE, JIESUAN_TYPE
+    </sql>
+
+</mapper>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewIpPatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewIpPatient">
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTH_DATE" property="birthDate" />
+        <result column="PATIENT_CLASS" property="patientClass" />
+        <result column="PHONE_NO" property="phoneNo" />
+        <result column="MARITAL_STATUS" property="maritalStatus" />
+        <result column="OCCUPATION_GROUP" property="occupationGroup" />
+        <result column="NATIONALITY" property="nationality" />
+        <result column="RACE" property="race" />
+        <result column="ID_TYPE" property="idType" />
+        <result column="ID_NO" property="idNo" />
+        <result column="PATIENT_SOURCE" property="patientSource" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="OCCUPATION_ADDRESS" property="occupationAddress" />
+        <result column="OCCUPATION_TELNO" property="occupationTelno" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="ADDRESS_STATE" property="addressState" />
+        <result column="ADDRESS_CITY" property="addressCity" />
+        <result column="ADDRESS_DISTRICT" property="addressDistrict" />
+        <result column="ADDRESS_VILLAGE" property="addressVillage" />
+        <result column="ADDRESS_STREET" property="addressStreet" />
+        <result column="ADDRESS_HOUSE_NO" property="addressHouseNo" />
+        <result column="ADDRESS" property="address" />
+        <result column="TELNO_AT_ADDRESS" property="telnoAtAddress" />
+        <result column="ADDRESS_ZIP_CODE" property="addressZipCode" />
+        <result column="HOMEPLACE_STATE" property="homeplaceState" />
+        <result column="HOMEPLACE_CITY" property="homeplaceCity" />
+        <result column="HOMEPLACE_DISTRICT" property="homeplaceDistrict" />
+        <result column="HOMEPLACE_VILLAGE" property="homeplaceVillage" />
+        <result column="HOMEPLACE_STREET" property="homeplaceStreet" />
+        <result column="HOMEPLACE_HOUSE_NO" property="homeplaceHouseNo" />
+        <result column="HOMEPLACE_ADDRESS" property="homeplaceAddress" />
+        <result column="TELNO_AT_HOMEPLACE" property="telnoAtHomeplace" />
+        <result column="HOMEPLACE_ZIP_CODE" property="homeplaceZipCode" />
+        <result column="CONTACT_NAME" property="contactName" />
+        <result column="CONTACT_PHONE_NO" property="contactPhoneNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="MEDICAL_RECORD_NO" property="medicalRecordNo" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="JING_MCARD_NO" property="jingMcardNo" />
+        <result column="BAR_CODE" property="barCode" />
+        <result column="JING_CARD_NO" property="jingCardNo" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="HEALTH_RECORD_NO" property="healthRecordNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_NO, NAME, SEX, BIRTH_DATE, PATIENT_CLASS, PHONE_NO, MARITAL_STATUS, OCCUPATION_GROUP, NATIONALITY, RACE, ID_TYPE, ID_NO, PATIENT_SOURCE, OCCUPATION, OCCUPATION_ADDRESS, OCCUPATION_TELNO, PACT_CODE, ADDRESS_STATE, ADDRESS_CITY, ADDRESS_DISTRICT, ADDRESS_VILLAGE, ADDRESS_STREET, ADDRESS_HOUSE_NO, ADDRESS, TELNO_AT_ADDRESS, ADDRESS_ZIP_CODE, HOMEPLACE_STATE, HOMEPLACE_CITY, HOMEPLACE_DISTRICT, HOMEPLACE_VILLAGE, HOMEPLACE_STREET, HOMEPLACE_HOUSE_NO, HOMEPLACE_ADDRESS, TELNO_AT_HOMEPLACE, HOMEPLACE_ZIP_CODE, CONTACT_NAME, CONTACT_PHONE_NO, CARD_NO, CLINIC_NO, MEDICAL_RECORD_NO, MCARD_NO, JING_MCARD_NO, BAR_CODE, JING_CARD_NO, HEALTH_CARD_NO, HEALTH_RECORD_NO
+    </sql>
+
+</mapper>

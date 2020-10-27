@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.Kc22TempMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Kc22Temp">
+        <result column="AKB020" property="akb020" />
+        <result column="AKC190" property="akc190" />
+        <result column="AKC220" property="akc220" />
+        <result column="AKC515" property="akc515" />
+        <result column="CKC130" property="ckc130" />
+        <result column="CKC131" property="ckc131" />
+        <result column="AAE072" property="aae072" />
+        <result column="AAE073" property="aae073" />
+        <result column="AKC221" property="akc221" />
+        <result column="AKA063" property="aka063" />
+        <result column="AKC222" property="akc222" />
+        <result column="AKC223" property="akc223" />
+        <result column="AKC224" property="akc224" />
+        <result column="AKA065" property="aka065" />
+        <result column="AKC225" property="akc225" />
+        <result column="AKC226" property="akc226" />
+        <result column="AKC227" property="akc227" />
+        <result column="AKC228" property="akc228" />
+        <result column="AKC253" property="akc253" />
+        <result column="AKA070" property="aka070" />
+        <result column="AKA071" property="aka071" />
+        <result column="AKA072" property="aka072" />
+        <result column="AKA073" property="aka073" />
+        <result column="CKC111" property="ckc111" />
+        <result column="AKC229" property="akc229" />
+        <result column="CKC048" property="ckc048" />
+        <result column="CKC265" property="ckc265" />
+        <result column="ZKA020" property="zka020" />
+        <result column="CKC125" property="ckc125" />
+        <result column="CKC126" property="ckc126" />
+        <result column="CDC100" property="cdc100" />
+        <result column="CKC260" property="ckc260" />
+        <result column="CKC132" property="ckc132" />
+        <result column="AKA083" property="aka083" />
+        <result column="AKC254" property="akc254" />
+        <result column="AKC259" property="akc259" />
+        <result column="AKC262" property="akc262" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        AKB020, AKC190, AKC220, AKC515, CKC130, CKC131, AAE072, AAE073, AKC221, AKA063, AKC222, AKC223, AKC224, AKA065, AKC225, AKC226, AKC227, AKC228, AKC253, AKA070, AKA071, AKA072, AKA073, CKC111, AKC229, CKC048, CKC265, ZKA020, CKC125, CKC126, CDC100, CKC260, CKC132, AKA083, AKC254, AKC259, AKC262
+    </sql>
+
+</mapper>

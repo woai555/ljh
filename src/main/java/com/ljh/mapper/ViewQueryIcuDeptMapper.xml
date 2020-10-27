@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewQueryIcuDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewQueryIcuDept">
+        <result column="REPORT_CODE" property="reportCode" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="NEW_DATA_CODE" property="newDataCode" />
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="COST" property="cost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REPORT_CODE, FEE_STAT_NAME, NEW_DATA_CODE, INPATIENT_NO, COST
+    </sql>
+
+</mapper>

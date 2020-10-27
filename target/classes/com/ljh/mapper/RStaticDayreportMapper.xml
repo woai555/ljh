@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RStaticDayreportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RStaticDayreport">
+        <id column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="STAT_NUM" property="statNum" />
+        <result column="CHECK_DATE" property="checkDate" />
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="REAL_COST" property="realCost" />
+        <result column="PACT_PUB_COST" property="pactPubCost" />
+        <result column="SY_OWN_COST" property="syOwnCost" />
+        <result column="SY_PAY_COST" property="syPayCost" />
+        <result column="SY_PUB_COST" property="syPubCost" />
+        <result column="SY_DEBZ_COST" property="syDebzCost" />
+        <result column="LN_OWN_COST" property="lnOwnCost" />
+        <result column="LN_PAY_COST" property="lnPayCost" />
+        <result column="LN_PUB_COST" property="lnPubCost" />
+        <result column="LN_DEBZ_COST" property="lnDebzCost" />
+        <result column="LN_GWY_COST" property="lnGwyCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STAT_NUM, CHECK_OPER_CODE, CHECK_DATE, FEE_STAT_CATE, FEE_STAT_NAME, REAL_COST, PACT_PUB_COST, SY_OWN_COST, SY_PAY_COST, SY_PUB_COST, SY_DEBZ_COST, LN_OWN_COST, LN_PAY_COST, LN_PUB_COST, LN_DEBZ_COST, LN_GWY_COST
+    </sql>
+
+</mapper>

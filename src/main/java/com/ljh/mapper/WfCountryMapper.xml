@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.WfCountryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.WfCountry">
+        <id column="COUNTRYCODE" property="countrycode" />
+        <result column="NAME" property="name" />
+        <result column="SPELLCODE" property="spellcode" />
+        <result column="WBCODE" property="wbcode" />
+        <result column="DEFCODE" property="defcode" />
+        <result column="OPERATOR" property="operator" />
+        <result column="REGISTDATE" property="registdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        COUNTRYCODE, NAME, SPELLCODE, WBCODE, DEFCODE, OPERATOR, REGISTDATE
+    </sql>
+
+</mapper>

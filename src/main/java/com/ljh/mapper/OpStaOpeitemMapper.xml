@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpStaOpeitemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpStaOpeitem">
+        <id column="DEPT_CODE" property="deptCode" />
+        <result column="YEAR" property="year" />
+        <result column="MONTH" property="month" />
+        <result column="TOT_QTY" property="totQty" />
+        <result column="TYPE_1_QTY" property="type1Qty" />
+        <result column="TYPE_2_QTY" property="type2Qty" />
+        <result column="TYPE_3_QTY" property="type3Qty" />
+        <result column="TYPE_4_QTY" property="type4Qty" />
+        <result column="URGENT_QTY" property="urgentQty" />
+        <result column="DANGER_QTY" property="dangerQty" />
+        <result column="I_QTY" property="iQty" />
+        <result column="II_QTY" property="iiQty" />
+        <result column="III_QTY" property="iiiQty" />
+        <result column="DIE_QTY" property="dieQty" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, YEAR, MONTH, TOT_QTY, TYPE_1_QTY, TYPE_2_QTY, TYPE_3_QTY, TYPE_4_QTY, URGENT_QTY, DANGER_QTY, I_QTY, II_QTY, III_QTY, DIE_QTY
+    </sql>
+
+</mapper>

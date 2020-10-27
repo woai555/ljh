@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMdyDrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMdyDrug">
+        <result column="LOCAL_DRUG_ID" property="localDrugId" />
+        <result column="LOCAL_DRUG_NAME" property="localDrugName" />
+        <result column="LOCAL_DOSAGE_FORM" property="localDosageForm" />
+        <result column="MANUFACTURE" property="manufacture" />
+        <result column="LOCAL_DRUG_SPEC" property="localDrugSpec" />
+        <result column="APPROVE_NUMBER" property="approveNumber" />
+        <result column="DOSE_UNIT" property="doseUnit" />
+        <result column="PY_CODE" property="pyCode" />
+        <result column="STOP_DATE" property="stopDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LOCAL_DRUG_ID, LOCAL_DRUG_NAME, LOCAL_DOSAGE_FORM, MANUFACTURE, LOCAL_DRUG_SPEC, APPROVE_NUMBER, DOSE_UNIT, PY_CODE, STOP_DATE
+    </sql>
+
+</mapper>

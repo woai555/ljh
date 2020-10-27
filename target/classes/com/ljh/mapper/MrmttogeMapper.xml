@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MrmttogeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmttoge">
+        <id column="TOG_DEPATIENTNO" property="togDepatientno" />
+        <result column="TOG_REPATIENTNO" property="togRepatientno" />
+        <result column="TOG_CARDNO" property="togCardno" />
+        <result column="TOG_PNAME" property="togPname" />
+        <result column="TOG_SEX" property="togSex" />
+        <result column="TOG_BIRTH" property="togBirth" />
+        <result column="TOG_OPER" property="togOper" />
+        <result column="TOG_DATE" property="togDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TOG_DEPATIENTNO, TOG_REPATIENTNO, TOG_CARDNO, TOG_PNAME, TOG_SEX, TOG_BIRTH, TOG_OPER, TOG_DATE
+    </sql>
+
+</mapper>

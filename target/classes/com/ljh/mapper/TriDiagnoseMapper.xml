@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.TriDiagnoseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TriDiagnose">
+        <id column="REG_DATE" property="regDate" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_SEQUENCE" property="seeSequence" />
+        <result column="DIAG_SEQUENCE" property="diagSequence" />
+        <result column="DIAGNOSE_NO" property="diagnoseNo" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="DIAGNOSE_NAME" property="diagnoseName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DATE, SEE_SEQUENCE, DIAG_SEQUENCE, DIAGNOSE_NO, OPER_CODE, OPER_DATE, DIAGNOSE_NAME
+    </sql>
+
+</mapper>

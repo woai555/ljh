@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewRwzbFeeaccountMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewRwzbFeeaccount">
+        <result column="HOS_AREA" property="hosArea" />
+        <result column="PAY_TYPE" property="payType" />
+        <result column="TRADE_TYPE" property="tradeType" />
+        <result column="BILL_TYPE" property="billType" />
+        <result column="FEE_TYPE" property="feeType" />
+        <result column="YUANQU" property="yuanqu" />
+        <result column="OPERATOR" property="operator" />
+        <result column="PAT_ODE" property="patOde" />
+        <result column="SUBJECT" property="subject" />
+        <result column="TOTAL_AMOUNT" property="totalAmount" />
+        <result column="TRADE_NO" property="tradeNo" />
+        <result column="TRADE_TIME" property="tradeTime" />
+        <result column="CHANNEL" property="channel" />
+        <result column="TRADENO" property="tradeno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOS_AREA, PAY_TYPE, TRADE_TYPE, BILL_TYPE, FEE_TYPE, YUANQU, OPERATOR, PAT_ODE, SUBJECT, TOTAL_AMOUNT, TRADE_NO, TRADE_TIME, CHANNEL, TRADENO
+    </sql>
+
+</mapper>

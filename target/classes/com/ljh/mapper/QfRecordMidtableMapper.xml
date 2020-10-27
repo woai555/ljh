@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.QfRecordMidtableMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.QfRecordMidtable">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="DIVIDE_S_XML" property="divideSXml" />
+        <result column="DIVIDE_XML" property="divideXml" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, INVOICE_NO, DIVIDE_S_XML, DIVIDE_XML
+    </sql>
+
+</mapper>

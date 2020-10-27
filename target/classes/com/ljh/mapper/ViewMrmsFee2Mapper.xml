@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsFee2Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsFee2">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="SUM_PEOPLE" property="sumPeople" />
+        <result column="ZY_COUNT" property="zyCount" />
+        <result column="HZ_COUNT" property="hzCount" />
+        <result column="WY_COUNT" property="wyCount" />
+        <result column="SW_COUNT" property="swCount" />
+        <result column="AGE_0" property="age0" />
+        <result column="AGE_1" property="age1" />
+        <result column="AGE_15" property="age15" />
+        <result column="AGE_45" property="age45" />
+        <result column="AGE_65" property="age65" />
+        <result column="AGE_75" property="age75" />
+        <result column="SUM_DAYS" property="sumDays" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, SUM_PEOPLE, ZY_COUNT, HZ_COUNT, WY_COUNT, SW_COUNT, AGE_0, AGE_1, AGE_15, AGE_45, AGE_65, AGE_75, SUM_DAYS
+    </sql>
+
+</mapper>

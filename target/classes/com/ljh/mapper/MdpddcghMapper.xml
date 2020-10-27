@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MdpddcghMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mdpddcgh">
+        <id column="DECO_GRP" property="decoGrp" />
+        <result column="DECO_TIME" property="decoTime" />
+        <result column="PRN_TIME" property="prnTime" />
+        <result column="WRK_TIME" property="wrkTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DECO_GRP, DECO_TIME, PRN_TIME, WRK_TIME
+    </sql>
+
+</mapper>

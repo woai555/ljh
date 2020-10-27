@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewFeelistEMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewFeelistE">
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_NAME" property="feeName" />
+        <result column="FEE_STAT_CODE" property="feeStatCode" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="TOT_COST" property="totCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FEE_STAT_NAME, FEE_STAT_CATE, FEE_NAME, FEE_STAT_CODE, FEE_CODE, TOT_COST
+    </sql>
+
+</mapper>

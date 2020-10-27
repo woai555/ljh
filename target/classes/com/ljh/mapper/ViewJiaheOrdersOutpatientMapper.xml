@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheOrdersOutpatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheOrdersOutpatient">
+        <result column="HOSPITAL_NO" property="hospitalNo" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="REPORT_NO" property="reportNo" />
+        <result column="DRUG_NAME" property="drugName" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="DRUG_STANDARD" property="drugStandard" />
+        <result column="DRUG_UNIT_PRICE" property="drugUnitPrice" />
+        <result column="DRUG_DOSAGE_FORMS" property="drugDosageForms" />
+        <result column="DRUG_DOSE" property="drugDose" />
+        <result column="BASEUNIT" property="baseunit" />
+        <result column="DRUG_FREQUENCY" property="drugFrequency" />
+        <result column="MEDICATION_DAYS" property="medicationDays" />
+        <result column="DC" property="dc" />
+        <result column="DRUG_USAGE" property="drugUsage" />
+        <result column="COST_TYPE" property="costType" />
+        <result column="DRUG_QUANTITY" property="drugQuantity" />
+        <result column="TOTAL_COST" property="totalCost" />
+        <result column="STANDARD_CODE" property="standardCode" />
+        <result column="DRUG_ALLERGY" property="drugAllergy" />
+        <result column="REMARK" property="remark" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="ORDER_DATE" property="orderDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSPITAL_NO, PATIENT_ID, REPORT_NO, DRUG_NAME, DRUG_CODE, DRUG_STANDARD, DRUG_UNIT_PRICE, DRUG_DOSAGE_FORMS, DRUG_DOSE, BASEUNIT, DRUG_FREQUENCY, MEDICATION_DAYS, DC, DRUG_USAGE, COST_TYPE, DRUG_QUANTITY, TOTAL_COST, STANDARD_CODE, DRUG_ALLERGY, REMARK, ORDER_NO, ORDER_DATE
+    </sql>
+
+</mapper>

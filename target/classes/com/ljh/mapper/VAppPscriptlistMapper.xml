@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VAppPscriptlistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppPscriptlist">
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="START_DATE" property="startDate" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="END_DATE" property="endDate" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="HIS_PSCRIPT_NO" property="hisPscriptNo" />
+        <result column="DOC_NAME" property="docName" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="PSCRIPT_TYPE" property="pscriptType" />
+        <result column="AUDIT_DOC_NAME" property="auditDocName" />
+        <result column="CONFIRM_DOC_NAME" property="confirmDocName" />
+        <result column="DISPENSE_DOC_NAME" property="dispenseDocName" />
+        <result column="FEE_TYPE" property="feeType" />
+        <result column="PAY_STATUS" property="payStatus" />
+        <result column="ID_CARD" property="idCard" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="DIAG_NAME" property="diagName" />
+        <result column="OWN_COST" property="ownCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CREATE_TIME, CARD_NO, START_DATE, VISIT_ID, END_DATE, OPER_DATE, HIS_PSCRIPT_NO, DOC_NAME, DEPT_NAME, PSCRIPT_TYPE, AUDIT_DOC_NAME, CONFIRM_DOC_NAME, DISPENSE_DOC_NAME, FEE_TYPE, PAY_STATUS, ID_CARD, ID_CARD_TYPE, MCARD_NO, CARDNO_JYT, DIAG_NAME, OWN_COST
+    </sql>
+
+</mapper>

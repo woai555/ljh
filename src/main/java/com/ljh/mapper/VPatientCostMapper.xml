@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VPatientCostMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VPatientCost">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="INVOICE_DTIME" property="invoiceDtime" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="COST" property="cost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, NAME, INVOICE_DTIME, OWN_COST, PUB_COST, COST
+    </sql>
+
+</mapper>

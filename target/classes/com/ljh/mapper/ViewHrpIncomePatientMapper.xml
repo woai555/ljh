@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHrpIncomePatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpIncomePatient">
+        <result column="结算日期" property="结算日期" />
+        <result column="门诊" property="门诊" />
+        <result column="患者卡号" property="患者卡号" />
+        <result column="结算单位编码" property="结算单位编码" />
+        <result column="结算单位名称" property="结算单位名称" />
+        <result column="费用金额" property="费用金额" />
+        <result column="账单号" property="账单号" />
+        <result column="结算号" property="结算号" />
+        <result column="病人号码" property="病人号码" />
+        <result column="标识" property="标识" />
+        <result column="费用类型" property="费用类型" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        结算日期, 门诊, 患者卡号, 结算单位编码, 结算单位名称, 费用金额, 账单号, 结算号, 病人号码, 标识, 费用类型
+    </sql>
+
+</mapper>

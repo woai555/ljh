@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewYytMenzhenFeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYytMenzhenFee">
+        <result column="FAPIAO" property="fapiao" />
+        <result column="JYT_CARDNO" property="jytCardno" />
+        <result column="MZ_CARDNO" property="mzCardno" />
+        <result column="YB_CARDNO" property="ybCardno" />
+        <result column="TOTAL" property="total" />
+        <result column="OPERTIME" property="opertime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FAPIAO, JYT_CARDNO, MZ_CARDNO, YB_CARDNO, TOTAL, OPERTIME
+    </sql>
+
+</mapper>

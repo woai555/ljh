@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LCheckconstantMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LCheckconstant">
+        <id column="MULTIITEMCODE" property="multiitemcode" />
+        <result column="ITEMBYMANCODE" property="itembymancode" />
+        <result column="CONSTANTORDER" property="constantorder" />
+        <result column="CONSTANTNAME" property="constantname" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="MODIFYDATE" property="modifydate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MULTIITEMCODE, ITEMBYMANCODE, CONSTANTORDER, CONSTANTNAME, OPERATORID, MODIFYDATE
+    </sql>
+
+</mapper>

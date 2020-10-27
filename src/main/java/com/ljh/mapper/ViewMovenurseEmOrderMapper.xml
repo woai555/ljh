@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMovenurseEmOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMovenurseEmOrder">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="ORDER_SUB_NO" property="orderSubNo" />
+        <result column="REPEAT_INDICATOR" property="repeatIndicator" />
+        <result column="ORDER_CLASS" property="orderClass" />
+        <result column="ORDER_TEXT" property="orderText" />
+        <result column="ORDER_CODE" property="orderCode" />
+        <result column="SPEC" property="spec" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="DOSAGE_UNITS" property="dosageUnits" />
+        <result column="ADMINISTRATION" property="administration" />
+        <result column="DURATION" property="duration" />
+        <result column="DURATION_UNITS" property="durationUnits" />
+        <result column="START_DATE_TIME" property="startDateTime" />
+        <result column="STOP_DATE_TIME" property="stopDateTime" />
+        <result column="FREQUENCY" property="frequency" />
+        <result column="FREQ_COUNTER" property="freqCounter" />
+        <result column="FREQ_INTERVAL" property="freqInterval" />
+        <result column="FREQ_INTERVAL_UNIT" property="freqIntervalUnit" />
+        <result column="FREQ_DETAIL" property="freqDetail" />
+        <result column="PERFORM_SCHEDULE" property="performSchedule" />
+        <result column="PERFORM_RESULT" property="performResult" />
+        <result column="ORDERING_DEPT" property="orderingDept" />
+        <result column="DOCTOR" property="doctor" />
+        <result column="STOP_DOCTOR" property="stopDoctor" />
+        <result column="NURSE" property="nurse" />
+        <result column="ENTER_DATE_TIME" property="enterDateTime" />
+        <result column="ORDER_STATUS" property="orderStatus" />
+        <result column="BILLING_ATTR" property="billingAttr" />
+        <result column="LAST_PERFORM_DATE_TIME" property="lastPerformDateTime" />
+        <result column="LAST_ACCTING_DATE_TIME" property="lastAcctingDateTime" />
+        <result column="STOP_ORDER_DATE_TIME" property="stopOrderDateTime" />
+        <result column="STOP_NURSE" property="stopNurse" />
+        <result column="DRUG_BILLING_ATTR" property="drugBillingAttr" />
+        <result column="REMARK" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, VISIT_ID, ORDER_NO, ORDER_SUB_NO, REPEAT_INDICATOR, ORDER_CLASS, ORDER_TEXT, ORDER_CODE, SPEC, DOSAGE, DOSAGE_UNITS, ADMINISTRATION, DURATION, DURATION_UNITS, START_DATE_TIME, STOP_DATE_TIME, FREQUENCY, FREQ_COUNTER, FREQ_INTERVAL, FREQ_INTERVAL_UNIT, FREQ_DETAIL, PERFORM_SCHEDULE, PERFORM_RESULT, ORDERING_DEPT, DOCTOR, STOP_DOCTOR, NURSE, ENTER_DATE_TIME, ORDER_STATUS, BILLING_ATTR, LAST_PERFORM_DATE_TIME, LAST_ACCTING_DATE_TIME, STOP_ORDER_DATE_TIME, STOP_NURSE, DRUG_BILLING_ATTR, REMARK
+    </sql>
+
+</mapper>

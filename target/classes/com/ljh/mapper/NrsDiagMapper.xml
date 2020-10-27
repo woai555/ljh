@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.NrsDiagMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.NrsDiag">
+        <id column="DIAG_RNGE" property="diagRnge" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DIAG_NAME" property="diagName" />
+        <result column="NRS_TYPE" property="nrsType" />
+        <result column="NRS_CODE" property="nrsCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DIAG_RNGE, DEPT_CODE, DEPT_NAME, DIAG_NAME, NRS_TYPE, NRS_CODE
+    </sql>
+
+</mapper>

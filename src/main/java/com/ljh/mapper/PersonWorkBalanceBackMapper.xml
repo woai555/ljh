@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PersonWorkBalanceBackMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PersonWorkBalanceBack">
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="FROM_DATE" property="fromDate" />
+        <result column="TO_DATE" property="toDate" />
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="RETURN_COST" property="returnCost" />
+        <result column="PRINT_ORDER" property="printOrder" />
+        <result column="QUIT_TYPE" property="quitType" />
+        <result column="CHECK_FLAG" property="checkFlag" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+        <result column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="CHECK_DATE" property="checkDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_DATE, OPER_CODE, FROM_DATE, TO_DATE, FEE_STAT_CATE, FEE_STAT_NAME, TOT_COST, RETURN_COST, PRINT_ORDER, QUIT_TYPE, CHECK_FLAG, CANCEL_FLAG, CHECK_OPER_CODE, CHECK_DATE
+    </sql>
+
+</mapper>

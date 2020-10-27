@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UndrugDetailSingleitemBakMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugDetailSingleitemBak">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="ITEMPRICE" property="itemprice" />
+        <result column="SPEC" property="spec" />
+        <result column="QUANTITY" property="quantity" />
+        <result column="FEEDATE" property="feedate" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="REMARK" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, RECIPE_NO, SEQUENCE_NO, TRANS_TYPE, ITEMCODE, ITEMNAME, ITEMPRICE, SPEC, QUANTITY, FEEDATE, ITEM_CODE, INVOICE_NO, PUB_COST, PAY_COST, OWN_COST, REMARK
+    </sql>
+
+</mapper>

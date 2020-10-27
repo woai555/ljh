@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VYyjcDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VYyjcDetail">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="YY_DATE" property="yyDate" />
+        <result column="YY_WB" property="yyWb" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="ID" property="id" />
+        <result column="DJ_DATE" property="djDate" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="CANCEL" property="cancel" />
+        <result column="CANCEL_OPER" property="cancelOper" />
+        <result column="YNYY" property="ynyy" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="PRICE" property="price" />
+        <result column="SOURCE" property="source" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="IFDOCT" property="ifdoct" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="DEL_OPER" property="delOper" />
+        <result column="DEL_DATE" property="delDate" />
+        <result column="TEL" property="tel" />
+        <result column="TYPE_ID" property="typeId" />
+        <result column="TYPE_NAME" property="typeName" />
+        <result column="TIME_FROM" property="timeFrom" />
+        <result column="TIME_TO" property="timeTo" />
+        <result column="TIME_COME" property="timeCome" />
+        <result column="MB_ID" property="mbId" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="COMB_NO" property="combNo" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="WEIGHT" property="weight" />
+        <result column="REMARK" property="remark" />
+        <result column="ID_ORI" property="idOri" />
+        <result column="ID_ORI_SEQ" property="idOriSeq" />
+        <result column="YN_CHOOSEDATE" property="ynChoosedate" />
+        <result column="PATIENTSOURCE" property="patientsource" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, ITEM_CODE, YY_DATE, YY_WB, DEPT_CODE, OPER_CODE, OPER_NAME, OPER_DATE, ID, DJ_DATE, SEE_NO, CANCEL, CANCEL_OPER, YNYY, ITEM_NAME, PRICE, SOURCE, PATIENT_NAME, IFDOCT, CANCEL_DATE, DEL_OPER, DEL_DATE, TEL, TYPE_ID, TYPE_NAME, TIME_FROM, TIME_TO, TIME_COME, MB_ID, RECIPE_NO, SEQUENCE_NO, COMB_NO, ORDER_NO, NOON_CODE, WEIGHT, REMARK, ID_ORI, ID_ORI_SEQ, YN_CHOOSEDATE, PATIENTSOURCE
+    </sql>
+
+</mapper>

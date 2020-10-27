@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMzStaticBalanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMzStaticBalance">
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="S_REAL_COST" property="sRealCost" />
+        <result column="S_H_PUB_COST" property="sHPubCost" />
+        <result column="S_SY_PAY_COST" property="sSyPayCost" />
+        <result column="S_SY_PUB_COST" property="sSyPubCost" />
+        <result column="S_SY_DEBZ_COST" property="sSyDebzCost" />
+        <result column="S_LN_PAY_COST" property="sLnPayCost" />
+        <result column="S_LN_PUB_COST" property="sLnPubCost" />
+        <result column="S_LN_DEBZ_COST" property="sLnDebzCost" />
+        <result column="S_LN_GWY_COST" property="sLnGwyCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FEE_STAT_CATE, FEE_STAT_NAME, S_REAL_COST, S_H_PUB_COST, S_SY_PAY_COST, S_SY_PUB_COST, S_SY_DEBZ_COST, S_LN_PAY_COST, S_LN_PUB_COST, S_LN_DEBZ_COST, S_LN_GWY_COST
+    </sql>
+
+</mapper>

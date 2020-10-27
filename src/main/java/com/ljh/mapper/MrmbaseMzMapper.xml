@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MrmbaseMzMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmbaseMz">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="XH" property="xh" />
+        <result column="OPER" property="oper" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="PNAME" property="pname" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="AGE_YEARS" property="ageYears" />
+        <result column="AGE_DAYS" property="ageDays" />
+        <result column="NATIONALITY" property="nationality" />
+        <result column="NATION" property="nation" />
+        <result column="IDEN_NO" property="idenNo" />
+        <result column="MARRIAGE" property="marriage" />
+        <result column="BIRTH_SHENG" property="birthSheng" />
+        <result column="BIRTH_SHI" property="birthShi" />
+        <result column="BIRTH_XIAN" property="birthXian" />
+        <result column="LIVE_ADDCODE" property="liveAddcode" />
+        <result column="LIVE_SHENG" property="liveSheng" />
+        <result column="LIVE_SHI" property="liveShi" />
+        <result column="LIVE_XIAN" property="liveXian" />
+        <result column="LIVE_CODE" property="liveCode" />
+        <result column="PROFESSION_CODE" property="professionCode" />
+        <result column="WORK_ADD" property="workAdd" />
+        <result column="WORK_TEL" property="workTel" />
+        <result column="WORK_YB" property="workYb" />
+        <result column="LINK_NAME" property="linkName" />
+        <result column="LINK_CODE" property="linkCode" />
+        <result column="LINK_ADD" property="linkAdd" />
+        <result column="LINK_TEL" property="linkTel" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="YL_CARDNO" property="ylCardno" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="MEDICAL_TYPE" property="medicalType" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="TREAT_BGNDATE" property="treatBgndate" />
+        <result column="TREAT_ENDDATE" property="treatEnddate" />
+        <result column="IN_DATE" property="inDate" />
+        <result column="OUT_DATE" property="outDate" />
+        <result column="OUT_TYPE" property="outType" />
+        <result column="RECEIVE_HOSPITAL" property="receiveHospital" />
+        <result column="DIRECTOR" property="director" />
+        <result column="DIRECTOR_VICE" property="directorVice" />
+        <result column="DOCT_CHARGE" property="doctCharge" />
+        <result column="DOCT_RESIDENT" property="doctResident" />
+        <result column="DOCT_ATTEND" property="doctAttend" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="COST_ALL" property="costAll" />
+        <result column="COST_OWN" property="costOwn" />
+        <result column="COST_ZC" property="costZc" />
+        <result column="COST_EXAM_GENERAL" property="costExamGeneral" />
+        <result column="COST_PHYSIC_TREAT" property="costPhysicTreat" />
+        <result column="COST_INTERVENE" property="costIntervene" />
+        <result column="COST_SPEC_TREAT" property="costSpecTreat" />
+        <result column="COST_RECOVER_TREAT" property="costRecoverTreat" />
+        <result column="COST_TCM" property="costTcm" />
+        <result column="COST_TREAT_GENERAL" property="costTreatGeneral" />
+        <result column="COST_MIND_TREAT" property="costMindTreat" />
+        <result column="COST_MIDWIFE" property="costMidwife" />
+        <result column="COST_ANESTH" property="costAnesth" />
+        <result column="COST_OPERATION" property="costOperation" />
+        <result column="COST_NURSING_TREAT" property="costNursingTreat" />
+        <result column="COST_NURSING" property="costNursing" />
+        <result column="COST_NUCLIDE_EXAM" property="costNuclideExam" />
+        <result column="COST_NUCLIDE_TREAT" property="costNuclideTreat" />
+        <result column="COST_ULTRA" property="costUltra" />
+        <result column="COST_XRAY" property="costXray" />
+        <result column="COST_LAB_EXAM" property="costLabExam" />
+        <result column="COST_PATHOLOGY" property="costPathology" />
+        <result column="COST_RIC" property="costRic" />
+        <result column="COST_MAT_TREAT" property="costMatTreat" />
+        <result column="COST_MAT_INTERVENE" property="costMatIntervene" />
+        <result column="COST_MAT_OPER" property="costMatOper" />
+        <result column="COST_MAT_EXAM" property="costMatExam" />
+        <result column="COST_DAILYROOM" property="costDailyroom" />
+        <result column="COST_REG" property="costReg" />
+        <result column="COST_OXYGEN" property="costOxygen" />
+        <result column="COST_BLOOD" property="costBlood" />
+        <result column="COST_MEDICINE" property="costMedicine" />
+        <result column="COST_ANTIBIOTIC" property="costAntibiotic" />
+        <result column="COST_ALBUMIN" property="costAlbumin" />
+        <result column="COST_GLOBULIN" property="costGlobulin" />
+        <result column="COST_COAGULATION" property="costCoagulation" />
+        <result column="COST_CYTOKINE" property="costCytokine" />
+        <result column="COST_T_HERB" property="costTHerb" />
+        <result column="COST_T_MEDICINE" property="costTMedicine" />
+        <result column="COST_OTHER" property="costOther" />
+        <result column="EXAM_FLAG" property="examFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DTIME, XH, OPER, OPER_DATE, PNAME, SEX, BIRTHDAY, AGE_YEARS, AGE_DAYS, NATIONALITY, NATION, IDEN_NO, MARRIAGE, BIRTH_SHENG, BIRTH_SHI, BIRTH_XIAN, LIVE_ADDCODE, LIVE_SHENG, LIVE_SHI, LIVE_XIAN, LIVE_CODE, PROFESSION_CODE, WORK_ADD, WORK_TEL, WORK_YB, LINK_NAME, LINK_CODE, LINK_ADD, LINK_TEL, PAYKIND_CODE, MCARD_NO, CLINIC_CODE, YL_CARDNO, DEPT_CODE, MEDICAL_TYPE, REG_DATE, TREAT_BGNDATE, TREAT_ENDDATE, IN_DATE, OUT_DATE, OUT_TYPE, RECEIVE_HOSPITAL, DIRECTOR, DIRECTOR_VICE, DOCT_CHARGE, DOCT_RESIDENT, DOCT_ATTEND, DOCT_CODE, COST_ALL, COST_OWN, COST_ZC, COST_EXAM_GENERAL, COST_PHYSIC_TREAT, COST_INTERVENE, COST_SPEC_TREAT, COST_RECOVER_TREAT, COST_TCM, COST_TREAT_GENERAL, COST_MIND_TREAT, COST_MIDWIFE, COST_ANESTH, COST_OPERATION, COST_NURSING_TREAT, COST_NURSING, COST_NUCLIDE_EXAM, COST_NUCLIDE_TREAT, COST_ULTRA, COST_XRAY, COST_LAB_EXAM, COST_PATHOLOGY, COST_RIC, COST_MAT_TREAT, COST_MAT_INTERVENE, COST_MAT_OPER, COST_MAT_EXAM, COST_DAILYROOM, COST_REG, COST_OXYGEN, COST_BLOOD, COST_MEDICINE, COST_ANTIBIOTIC, COST_ALBUMIN, COST_GLOBULIN, COST_COAGULATION, COST_CYTOKINE, COST_T_HERB, COST_T_MEDICINE, COST_OTHER, EXAM_FLAG
+    </sql>
+
+</mapper>

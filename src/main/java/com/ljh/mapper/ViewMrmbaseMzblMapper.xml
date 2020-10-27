@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmbaseMzblMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmbaseMzbl">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="AAA01" property="aaa01" />
+        <result column="AAA02C" property="aaa02c" />
+        <result column="AAA03" property="aaa03" />
+        <result column="AAA04" property="aaa04" />
+        <result column="AAA05C" property="aaa05c" />
+        <result column="AAA40" property="aaa40" />
+        <result column="AAA06C" property="aaa06c" />
+        <result column="AAA07" property="aaa07" />
+        <result column="AAA08C" property="aaa08c" />
+        <result column="AAA09" property="aaa09" />
+        <result column="AAA10" property="aaa10" />
+        <result column="AAA11" property="aaa11" />
+        <result column="AAA54C" property="aaa54c" />
+        <result column="AAA48" property="aaa48" />
+        <result column="AAA49" property="aaa49" />
+        <result column="AAA50" property="aaa50" />
+        <result column="AAA17C" property="aaa17c" />
+        <result column="AAA18C" property="aaa18c" />
+        <result column="AAA19" property="aaa19" />
+        <result column="AAA20" property="aaa20" />
+        <result column="AAA21C" property="aaa21c" />
+        <result column="AAA22" property="aaa22" />
+        <result column="AAA23C" property="aaa23c" />
+        <result column="AAA24" property="aaa24" />
+        <result column="AAA25" property="aaa25" />
+        <result column="AAA26C" property="aaa26c" />
+        <result column="AAA27" property="aaa27" />
+        <result column="AAA52" property="aaa52" />
+        <result column="AAA53" property="aaa53" />
+        <result column="ABA01C" property="aba01c" />
+        <result column="ABA02C" property="aba02c" />
+        <result column="ABA03" property="aba03" />
+        <result column="ABA04" property="aba04" />
+        <result column="ABA05" property="aba05" />
+        <result column="ABA06" property="aba06" />
+        <result column="ABA07" property="aba07" />
+        <result column="AEM01C" property="aem01c" />
+        <result column="AEM02" property="aem02" />
+        <result column="AEE01" property="aee01" />
+        <result column="AEE02" property="aee02" />
+        <result column="AEE03" property="aee03" />
+        <result column="AEE04" property="aee04" />
+        <result column="AEE09" property="aee09" />
+        <result column="AEE11" property="aee11" />
+        <result column="ADA01" property="ada01" />
+        <result column="ADA0101" property="ada0101" />
+        <result column="ADA11" property="ada11" />
+        <result column="ADA21" property="ada21" />
+        <result column="ADA22" property="ada22" />
+        <result column="ADA23" property="ada23" />
+        <result column="ADA24" property="ada24" />
+        <result column="ADA25" property="ada25" />
+        <result column="ADA26" property="ada26" />
+        <result column="ADA27" property="ada27" />
+        <result column="ADA28" property="ada28" />
+        <result column="ADA13" property="ada13" />
+        <result column="ADA15" property="ada15" />
+        <result column="ADA12" property="ada12" />
+        <result column="ADA29" property="ada29" />
+        <result column="ADA03" property="ada03" />
+        <result column="ADA30" property="ada30" />
+        <result column="ADA31" property="ada31" />
+        <result column="ADA32" property="ada32" />
+        <result column="ADA07" property="ada07" />
+        <result column="ADA08" property="ada08" />
+        <result column="ADA33" property="ada33" />
+        <result column="ADA34" property="ada34" />
+        <result column="ADA35" property="ada35" />
+        <result column="ADA36" property="ada36" />
+        <result column="ADA37" property="ada37" />
+        <result column="ADA38" property="ada38" />
+        <result column="ADA02" property="ada02" />
+        <result column="ADA39" property="ada39" />
+        <result column="ADA09" property="ada09" />
+        <result column="ADA10" property="ada10" />
+        <result column="ADA04" property="ada04" />
+        <result column="ADA40" property="ada40" />
+        <result column="ADA41" property="ada41" />
+        <result column="ADA42" property="ada42" />
+        <result column="ADA43" property="ada43" />
+        <result column="ADA44" property="ada44" />
+        <result column="ADA05" property="ada05" />
+        <result column="ADA06" property="ada06" />
+        <result column="ADA20" property="ada20" />
+        <result column="ABB02C" property="abb02c" />
+        <result column="ABB01C" property="abb01c" />
+        <result column="ABB01N" property="abb01n" />
+        <result column="ABC01C" property="abc01c" />
+        <result column="ABC01N" property="abc01n" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DTIME, AAA01, AAA02C, AAA03, AAA04, AAA05C, AAA40, AAA06C, AAA07, AAA08C, AAA09, AAA10, AAA11, AAA54C, AAA48, AAA49, AAA50, AAA17C, AAA18C, AAA19, AAA20, AAA21C, AAA22, AAA23C, AAA24, AAA25, AAA26C, AAA27, AAA52, AAA53, ABA01C, ABA02C, ABA03, ABA04, ABA05, ABA06, ABA07, AEM01C, AEM02, AEE01, AEE02, AEE03, AEE04, AEE09, AEE11, ADA01, ADA0101, ADA11, ADA21, ADA22, ADA23, ADA24, ADA25, ADA26, ADA27, ADA28, ADA13, ADA15, ADA12, ADA29, ADA03, ADA30, ADA31, ADA32, ADA07, ADA08, ADA33, ADA34, ADA35, ADA36, ADA37, ADA38, ADA02, ADA39, ADA09, ADA10, ADA04, ADA40, ADA41, ADA42, ADA43, ADA44, ADA05, ADA06, ADA20, ABB02C, ABB01C, ABB01N, ABC01C, ABC01N, OPER_DATE
+    </sql>
+
+</mapper>

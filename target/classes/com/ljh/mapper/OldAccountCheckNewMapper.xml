@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OldAccountCheckNewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OldAccountCheckNew">
+        <result column="ALIPAYNO" property="alipayno" />
+        <result column="REFUNDNO" property="refundno" />
+        <result column="ORDER_TYPE" property="orderType" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="NAME" property="name" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="HISNO" property="hisno" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="PAY_WAY" property="payWay" />
+        <result column="TOTAL_JINE" property="totalJine" />
+        <result column="PAY_TIME" property="payTime" />
+        <result column="SBCD_JINE" property="sbcdJine" />
+        <result column="ZF_JINE" property="zfJine" />
+        <result column="SOURCE" property="source" />
+        <result column="GETREG_STATUS" property="getregStatus" />
+        <result column="SB_STATUS" property="sbStatus" />
+        <result column="SB_PIHAO" property="sbPihao" />
+        <result column="HIS_CARD_NO" property="hisCardNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ALIPAYNO, REFUNDNO, ORDER_TYPE, CARD_NO, CARD_TYPE, NAME, DEPT_NAME, HISNO, REG_DATE, PAY_WAY, TOTAL_JINE, PAY_TIME, SBCD_JINE, ZF_JINE, SOURCE, GETREG_STATUS, SB_STATUS, SB_PIHAO, HIS_CARD_NO
+    </sql>
+
+</mapper>

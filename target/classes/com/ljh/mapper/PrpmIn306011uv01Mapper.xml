@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PrpmIn306011uv01Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PrpmIn306011uv01">
+        <id column="EMPL_CODE" property="emplCode" />
+        <result column="MSG_ID" property="msgId" />
+        <result column="CREATIONTIME" property="creationtime" />
+        <result column="STUFF_CODE" property="stuffCode" />
+        <result column="STUFF_NAME" property="stuffName" />
+        <result column="WORK_PLACE" property="workPlace" />
+        <result column="TELECOM" property="telecom" />
+        <result column="EFFECTIVETIMELOW" property="effectivetimelow" />
+        <result column="EFFECTIVETIMEHIGH" property="effectivetimehigh" />
+        <result column="IDCARDNO" property="idcardno" />
+        <result column="EMPL_NAME" property="emplName" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="SEX_NAME" property="sexName" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="BIRTHPLACE" property="birthplace" />
+        <result column="RECEIVE_TIME" property="receiveTime" />
+        <result column="STATUS" property="status" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="OPER_DEPT" property="operDept" />
+        <result column="OPER_DEPT_NAME" property="operDeptName" />
+        <result column="OPER_CONT" property="operCont" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MSG_ID, EMPL_CODE, CREATIONTIME, STUFF_CODE, STUFF_NAME, WORK_PLACE, TELECOM, EFFECTIVETIMELOW, EFFECTIVETIMEHIGH, IDCARDNO, EMPL_NAME, SEX_CODE, SEX_NAME, BIRTHDAY, DEPT_CODE, DEPT_NAME, BIRTHPLACE, RECEIVE_TIME, STATUS, OPER_CODE, OPER_NAME, OPER_DEPT, OPER_DEPT_NAME, OPER_CONT
+    </sql>
+
+</mapper>

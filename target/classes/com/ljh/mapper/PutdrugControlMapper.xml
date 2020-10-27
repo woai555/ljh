@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PutdrugControlMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PutdrugControl">
+        <id column="ROOM_CODE" property="roomCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PRINT_CODE" property="printCode" />
+        <result column="PRINT_NAME" property="printName" />
+        <result column="QUE_CODE" property="queCode" />
+        <result column="FLAG" property="flag" />
+        <result column="ACTIVETIME" property="activetime" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_TIME" property="operTime" />
+        <result column="QUE_NAME" property="queName" />
+        <result column="FROM_TIME" property="fromTime" />
+        <result column="END_TIME" property="endTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, PRINT_CODE, PRINT_NAME, ROOM_CODE, QUE_CODE, FLAG, ACTIVETIME, OPER_CODE, OPER_TIME, QUE_NAME, FROM_TIME, END_TIME
+    </sql>
+
+</mapper>

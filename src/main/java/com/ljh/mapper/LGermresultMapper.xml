@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.LGermresultMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LGermresult">
+        <id column="CHECKORDER" property="checkorder" />
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="CHECKDATE" property="checkdate" />
+        <result column="SEQ_NO" property="seqNo" />
+        <result column="GROUPCODE" property="groupcode" />
+        <result column="ISGERM" property="isgerm" />
+        <result column="RESULT" property="result" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, CHECKORDER, CHECKDATE, SEQ_NO, GROUPCODE, ISGERM, RESULT
+    </sql>
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ReportDictMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ReportDict">
+        <id column="STATIC_DATE" property="staticDate" />
+        <result column="SSZX" property="sszx" />
+        <result column="JGMC" property="jgmc" />
+        <result column="TDMC" property="tdmc" />
+        <result column="FLAG" property="flag" />
+        <result column="UPLOAD_DATE" property="uploadDate" />
+        <result column="QYSJ" property="qysj" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SSZX, JGMC, TDMC, FLAG, STATIC_DATE, UPLOAD_DATE, QYSJ
+    </sql>
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsAlloperPeopleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsAlloperPeople">
+        <result column="OPER_DEPT" property="operDept" />
+        <result column="OPER_PEOPLE" property="operPeople" />
+        <result column="ZG04" property="zg04" />
+        <result column="BEFORE_OPERDAYS" property="beforeOperdays" />
+        <result column="PI_DAYS" property="piDays" />
+        <result column="TOT_COST" property="totCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_DEPT, OPER_PEOPLE, ZG04, BEFORE_OPERDAYS, PI_DAYS, TOT_COST
+    </sql>
+
+</mapper>

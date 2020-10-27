@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ReportBlankMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ReportBlank">
+        <id column="BEGIN_DATE" property="beginDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="MC" property="mc" />
+        <result column="JGMC" property="jgmc" />
+        <result column="BLANK" property="blank" />
+        <result column="DETAIL" property="detail" />
+        <result column="FLAG" property="flag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BEGIN_DATE, END_DATE, MC, JGMC, BLANK, DETAIL, FLAG
+    </sql>
+
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewEmOutPatientNewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewEmOutPatientNew">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="INP_NO" property="inpNo" />
+        <result column="DEPT_ADMISSION_TO" property="deptAdmissionTo" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="ADMISSION_DATE_TIME" property="admissionDateTime" />
+        <result column="DISCHARGE_DATE_TIME" property="dischargeDateTime" />
+        <result column="ISHLFLAG" property="ishlflag" />
+        <result column="STATE" property="state" />
+        <result column="STATE_TO" property="stateTo" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="MARITAL_STATUS" property="maritalStatus" />
+        <result column="ARMED_SERVICES" property="armedServices" />
+        <result column="DUTY" property="duty" />
+        <result column="WORKING_STATUS" property="workingStatus" />
+        <result column="INSURANCE_TYPE" property="insuranceType" />
+        <result column="INSURANCE_NO" property="insuranceNo" />
+        <result column="SERVICE_AGENCY" property="serviceAgency" />
+        <result column="HKZIP_CODE" property="hkzipCode" />
+        <result column="USER_PWD" property="userPwd" />
+        <result column="BEDNO" property="bedno" />
+        <result column="OPERCODE" property="opercode" />
+        <result column="OPERNAME" property="opername" />
+        <result column="OPERDEPTCODE" property="operdeptcode" />
+        <result column="OPERDEPTNAME" property="operdeptname" />
+        <result column="PATIENT_NO" property="patientNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, VISIT_ID, INP_NO, DEPT_ADMISSION_TO, SEE_DATE, ADMISSION_DATE_TIME, DISCHARGE_DATE_TIME, ISHLFLAG, STATE, STATE_TO, OCCUPATION, MARITAL_STATUS, ARMED_SERVICES, DUTY, WORKING_STATUS, INSURANCE_TYPE, INSURANCE_NO, SERVICE_AGENCY, HKZIP_CODE, USER_PWD, BEDNO, OPERCODE, OPERNAME, OPERDEPTCODE, OPERDEPTNAME, PATIENT_NO
+    </sql>
+
+</mapper>

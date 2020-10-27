@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHlhtAddactorderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtAddactorder">
+        <result column="ID" property="id" />
+        <result column="MSG_ID" property="msgId" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="IN_PATIENT_ID" property="inPatientId" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="JCPT_NO" property="jcptNo" />
+        <result column="VISITNO" property="visitno" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="CODE" property="code" />
+        <result column="CODENAME" property="codename" />
+        <result column="TEXT" property="text" />
+        <result column="LOW" property="low" />
+        <result column="HIGH" property="high" />
+        <result column="EFFECTIVETIME" property="effectivetime" />
+        <result column="EFFECTIVEUNIT" property="effectiveunit" />
+        <result column="ROUTECODE" property="routecode" />
+        <result column="ROUTENAME" property="routename" />
+        <result column="DOSEQUANTITY" property="dosequantity" />
+        <result column="DOSEUNIT" property="doseunit" />
+        <result column="NUMERATOR" property="numerator" />
+        <result column="NUMERATORUNIT" property="numeratorunit" />
+        <result column="DENOMINATOR" property="denominator" />
+        <result column="DENOMINATOR_UNIT" property="denominatorUnit" />
+        <result column="ADMINISTRATIONUNITCODE" property="administrationunitcode" />
+        <result column="ADMINISTRATIONUNITNAME" property="administrationunitname" />
+        <result column="ADMINISTERABLEMEDICINE_NAME" property="administerablemedicineName" />
+        <result column="CAPACITYQUANTITY" property="capacityquantity" />
+        <result column="CAPACITYUNIT" property="capacityunit" />
+        <result column="AUTHOR_TIME" property="authorTime" />
+        <result column="SIGNATURETEXT" property="signaturetext" />
+        <result column="ASSIGNEDENTITY_ID" property="assignedentityId" />
+        <result column="ASSIGNEDPERSON_NAME" property="assignedpersonName" />
+        <result column="REPRESENTEDORGANIZATION_ID" property="representedorganizationId" />
+        <result column="REPRESENTEDORGANIZATION_NAME" property="representedorganizationName" />
+        <result column="VERIFIER_TIME" property="verifierTime" />
+        <result column="VERIFIER_SIGNATURETEXT" property="verifierSignaturetext" />
+        <result column="VERIFIER_ASSIGNEDENTITY_ID" property="verifierAssignedentityId" />
+        <result column="VERIFIER_ASSIGNEDPERSONNAME" property="verifierAssignedpersonname" />
+        <result column="ANNOTATION_TEXT" property="annotationText" />
+        <result column="ANNOTATION_STATUSCODE" property="annotationStatuscode" />
+        <result column="AUTHOR_ASSIGNEDENTITY_ID" property="authorAssignedentityId" />
+        <result column="ENTITY_ASSIGNEDPERSON_NAME" property="entityAssignedpersonName" />
+        <result column="ENTITY_ORGANIZATION_ID" property="entityOrganizationId" />
+        <result column="ENTITY_ORGANIZATION_NAME" property="entityOrganizationName" />
+        <result column="ENCOUNTER_ID" property="encounterId" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="PATIENT_TELECOM" property="patientTelecom" />
+        <result column="STATUSCODE" property="statuscode" />
+        <result column="PATIENTPERSON_ID" property="patientpersonId" />
+        <result column="NAME" property="name" />
+        <result column="ADMINISTRATIVEGENDERCODE" property="administrativegendercode" />
+        <result column="ADMINISTRATIVEGENDERNAME" property="administrativegendername" />
+        <result column="BIRTHTIME" property="birthtime" />
+        <result column="ASOTHERIDS" property="asotherids" />
+        <result column="ASOTHERIDM" property="asotheridm" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, MSG_ID, RECIPE_NO, IN_PATIENT_ID, CARD_NO, JCPT_NO, VISITNO, SEE_DATE, CODE, CODENAME, TEXT, LOW, HIGH, EFFECTIVETIME, EFFECTIVEUNIT, ROUTECODE, ROUTENAME, DOSEQUANTITY, DOSEUNIT, NUMERATOR, NUMERATORUNIT, DENOMINATOR, DENOMINATOR_UNIT, ADMINISTRATIONUNITCODE, ADMINISTRATIONUNITNAME, ADMINISTERABLEMEDICINE_NAME, CAPACITYQUANTITY, CAPACITYUNIT, AUTHOR_TIME, SIGNATURETEXT, ASSIGNEDENTITY_ID, ASSIGNEDPERSON_NAME, REPRESENTEDORGANIZATION_ID, REPRESENTEDORGANIZATION_NAME, VERIFIER_TIME, VERIFIER_SIGNATURETEXT, VERIFIER_ASSIGNEDENTITY_ID, VERIFIER_ASSIGNEDPERSONNAME, ANNOTATION_TEXT, ANNOTATION_STATUSCODE, AUTHOR_ASSIGNEDENTITY_ID, ENTITY_ASSIGNEDPERSON_NAME, ENTITY_ORGANIZATION_ID, ENTITY_ORGANIZATION_NAME, ENCOUNTER_ID, PATIENT_ID, PATIENT_TELECOM, STATUSCODE, PATIENTPERSON_ID, NAME, ADMINISTRATIVEGENDERCODE, ADMINISTRATIVEGENDERNAME, BIRTHTIME, ASOTHERIDS, ASOTHERIDM, OPER_DATE
+    </sql>
+
+</mapper>

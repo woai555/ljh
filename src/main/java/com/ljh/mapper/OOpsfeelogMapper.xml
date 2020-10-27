@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OOpsfeelogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OOpsfeelog">
+        <id column="EXEC_SQN" property="execSqn" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMFEE" property="itemfee" />
+        <result column="PRESCRIPTNO" property="prescriptno" />
+        <result column="PATIENTROOMID" property="patientroomid" />
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="ROOMID" property="roomid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        EXEC_SQN, ITEMCODE, ITEMFEE, PRESCRIPTNO, PATIENTROOMID, INPATIENTNO, PATIENTID, ROOMID
+    </sql>
+
+</mapper>

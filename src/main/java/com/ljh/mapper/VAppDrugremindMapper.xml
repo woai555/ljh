@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VAppDrugremindMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppDrugremind">
+        <result column="HIS_PSCRIPT_NO" property="hisPscriptNo" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="TCM_RP_USAGE" property="tcmRpUsage" />
+        <result column="TCM_RP_AMOUNT" property="tcmRpAmount" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="DRUG_NAME" property="drugName" />
+        <result column="DRUG_SPEC" property="drugSpec" />
+        <result column="DRUG_AMOUNT" property="drugAmount" />
+        <result column="USAGE" property="usage" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="DRUG_PRICE" property="drugPrice" />
+        <result column="USE_DAYS" property="useDays" />
+        <result column="FREQ_CODE" property="freqCode" />
+        <result column="DO_NUMBER" property="doNumber" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HIS_PSCRIPT_NO, CREATE_TIME, TCM_RP_USAGE, TCM_RP_AMOUNT, DRUG_CODE, DRUG_NAME, DRUG_SPEC, DRUG_AMOUNT, USAGE, DOSAGE, DRUG_PRICE, USE_DAYS, FREQ_CODE, DO_NUMBER
+    </sql>
+
+</mapper>

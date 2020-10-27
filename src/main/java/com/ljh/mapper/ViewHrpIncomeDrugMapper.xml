@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHrpIncomeDrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpIncomeDrug">
+        <result column="日期" property="日期" />
+        <result column="门诊" property="门诊" />
+        <result column="收费编码" property="收费编码" />
+        <result column="标记" property="标记" />
+        <result column="物价代码" property="物价代码" />
+        <result column="核算归类编码" property="核算归类编码" />
+        <result column="会计核算分类编码" property="会计核算分类编码" />
+        <result column="统计分类编码" property="统计分类编码" />
+        <result column="病源分类编码" property="病源分类编码" />
+        <result column="人员编码" property="人员编码" />
+        <result column="从属科室编码" property="从属科室编码" />
+        <result column="病区编码" property="病区编码" />
+        <result column="价格" property="价格" />
+        <result column="金额" property="金额" />
+        <result column="数量" property="数量" />
+        <result column="处方记录数" property="处方记录数" />
+        <result column="实际收费日期" property="实际收费日期" />
+        <result column="自费金额" property="自费金额" />
+        <result column="病人编码" property="病人编码" />
+        <result column="医嘱号" property="医嘱号" />
+        <result column="操作耗时" property="操作耗时" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        日期, 门诊, 收费编码, 标记, 物价代码, 核算归类编码, 会计核算分类编码, 统计分类编码, 病源分类编码, 人员编码, 从属科室编码, 病区编码, 价格, 金额, 数量, 处方记录数, 实际收费日期, 自费金额, 病人编码, 医嘱号, 操作耗时
+    </sql>
+
+</mapper>

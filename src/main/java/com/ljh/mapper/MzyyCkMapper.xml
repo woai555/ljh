@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MzyyCkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MzyyCk">
+        <result column="YY_DATE" property="yyDate" />
+        <result column="HAOBIE" property="haobie" />
+        <result column="YYFS" property="yyfs" />
+        <result column="YY_TYPE" property="yyType" />
+        <result column="YY_DEPT" property="yyDept" />
+        <result column="YY_SEE_DATE" property="yySeeDate" />
+        <result column="YN_CANCEL" property="ynCancel" />
+        <result column="PIHAO" property="pihao" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        YY_DATE, HAOBIE, YYFS, YY_TYPE, YY_DEPT, YY_SEE_DATE, YN_CANCEL, PIHAO
+    </sql>
+
+</mapper>

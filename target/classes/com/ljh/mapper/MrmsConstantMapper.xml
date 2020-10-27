@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MrmsConstantMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmsConstant">
+        <id column="PAR_CLASS" property="parClass" />
+        <result column="PAR_CLASSNAME" property="parClassname" />
+        <result column="PAR_CODE" property="parCode" />
+        <result column="PAR_CODENAME" property="parCodename" />
+        <result column="REMARK" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PAR_CLASS, PAR_CLASSNAME, PAR_CODE, PAR_CODENAME, REMARK
+    </sql>
+
+</mapper>

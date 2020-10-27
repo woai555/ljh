@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VAppFeedetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppFeedetail">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="FEE_NO" property="feeNo" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="TOTALCOST" property="totalcost" />
+        <result column="HEALCOST" property="healcost" />
+        <result column="SELFCOST" property="selfcost" />
+        <result column="UNITPRICE" property="unitprice" />
+        <result column="NUMBER1" property="number1" />
+        <result column="TIPS" property="tips" />
+        <result column="SORTSUMFEE" property="sortsumfee" />
+        <result column="ITEMPRICE" property="itemprice" />
+        <result column="ITEMSPEC" property="itemspec" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, FEE_NO, REG_DTIME, ITEMNAME, TOTALCOST, HEALCOST, SELFCOST, UNITPRICE, NUMBER1, TIPS, SORTSUMFEE, ITEMPRICE, ITEMSPEC
+    </sql>
+
+</mapper>

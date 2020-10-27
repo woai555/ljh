@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RDoctreglmtDefinedMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RDoctreglmtDefined">
+        <id column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="TIME_CODE" property="timeCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="FIR_REG_LMT" property="firRegLmt" />
+        <result column="REP_REG_LMT" property="repRegLmt" />
+        <result column="WEEK" property="week" />
+        <result column="FIR_REGED" property="firReged" />
+        <result column="REP_REGED" property="repReged" />
+        <result column="YNFREGFULL" property="ynfregfull" />
+        <result column="YNRREGFULL" property="ynrregfull" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="NOTE" property="note" />
+        <result column="REDUCED_FLAG" property="reducedFlag" />
+        <result column="REDUCED_FIRNUM" property="reducedFirnum" />
+        <result column="REDUCED_REPNUM" property="reducedRepnum" />
+        <result column="ABSENT_DOCT" property="absentDoct" />
+        <result column="FLAG" property="flag" />
+        <result column="ADD_REGED" property="addReged" />
+        <result column="ADD_REG_LMT" property="addRegLmt" />
+        <result column="QUIT_REGNUM" property="quitRegnum" />
+        <result column="REGED_FLAG" property="regedFlag" />
+        <result column="JYT2_ZZ_NUM" property="jyt2ZzNum" />
+        <result column="QUIT_BOOKNUM" property="quitBooknum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, TIME_CODE, EMPL_CODE, REGLEVL_CODE, DEPT_CODE, FIR_REG_LMT, REP_REG_LMT, WEEK, FIR_REGED, REP_REGED, YNFREGFULL, YNRREGFULL, OPER_CODE, OPER_DATE, NOTE, REDUCED_FLAG, REDUCED_FIRNUM, REDUCED_REPNUM, ABSENT_DOCT, FLAG, ADD_REGED, ADD_REG_LMT, QUIT_REGNUM, REGED_FLAG, JYT2_ZZ_NUM, QUIT_BOOKNUM
+    </sql>
+
+</mapper>

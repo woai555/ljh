@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewYtappRegistatusMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYtappRegistatus">
+        <result column="ACCESS_PAT_ID" property="accessPatId" />
+        <result column="OPERDATE" property="operdate" />
+        <result column="REG_ID" property="regId" />
+        <result column="YUNTAI_PAY_NO" property="yuntaiPayNo" />
+        <result column="ORDERSTATUS" property="orderstatus" />
+        <result column="VISIT_FLAG" property="visitFlag" />
+        <result column="MEDICAL_FLAG" property="medicalFlag" />
+        <result column="MEDICAL_AMOUNT" property="medicalAmount" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACCESS_PAT_ID, OPERDATE, REG_ID, YUNTAI_PAY_NO, ORDERSTATUS, VISIT_FLAG, MEDICAL_FLAG, MEDICAL_AMOUNT
+    </sql>
+
+</mapper>

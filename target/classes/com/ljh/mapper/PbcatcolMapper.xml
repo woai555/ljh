@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PbcatcolMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Pbcatcol">
+        <result column="PBC_TNAM" property="pbcTnam" />
+        <result column="PBC_TID" property="pbcTid" />
+        <result column="PBC_OWNR" property="pbcOwnr" />
+        <result column="PBC_CNAM" property="pbcCnam" />
+        <result column="PBC_CID" property="pbcCid" />
+        <result column="PBC_LABL" property="pbcLabl" />
+        <result column="PBC_LPOS" property="pbcLpos" />
+        <result column="PBC_HDR" property="pbcHdr" />
+        <result column="PBC_HPOS" property="pbcHpos" />
+        <result column="PBC_JTFY" property="pbcJtfy" />
+        <result column="PBC_MASK" property="pbcMask" />
+        <result column="PBC_CASE" property="pbcCase" />
+        <result column="PBC_HGHT" property="pbcHght" />
+        <result column="PBC_WDTH" property="pbcWdth" />
+        <result column="PBC_PTRN" property="pbcPtrn" />
+        <result column="PBC_BMAP" property="pbcBmap" />
+        <result column="PBC_INIT" property="pbcInit" />
+        <result column="PBC_CMNT" property="pbcCmnt" />
+        <result column="PBC_EDIT" property="pbcEdit" />
+        <result column="PBC_TAG" property="pbcTag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PBC_TNAM, PBC_TID, PBC_OWNR, PBC_CNAM, PBC_CID, PBC_LABL, PBC_LPOS, PBC_HDR, PBC_HPOS, PBC_JTFY, PBC_MASK, PBC_CASE, PBC_HGHT, PBC_WDTH, PBC_PTRN, PBC_BMAP, PBC_INIT, PBC_CMNT, PBC_EDIT, PBC_TAG
+    </sql>
+
+</mapper>

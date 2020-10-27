@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHrpEmployeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpEmployee">
+        <result column="人员编码" property="人员编码" />
+        <result column="姓名" property="姓名" />
+        <result column="科室编码" property="科室编码" />
+        <result column="岗位" property="岗位" />
+        <result column="角色类型" property="角色类型" />
+        <result column="职业" property="职业" />
+        <result column="技术职级分类" property="技术职级分类" />
+        <result column="状态" property="状态" />
+        <result column="版本号" property="版本号" />
+        <result column="启用时间" property="启用时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        人员编码, 姓名, 科室编码, 岗位, 角色类型, 职业, 技术职级分类, 状态, 版本号, 启用时间
+    </sql>
+
+</mapper>

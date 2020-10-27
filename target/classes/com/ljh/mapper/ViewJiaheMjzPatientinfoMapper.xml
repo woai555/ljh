@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewJiaheMjzPatientinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMjzPatientinfo">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="OUT_DATE" property="outDate" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OPERDEPTNAME" property="operdeptname" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="EMPL_NAME" property="emplName" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="DOCTORID" property="doctorid" />
+        <result column="EMERGENCY_NO" property="emergencyNo" />
+        <result column="EM_LEAVE" property="emLeave" />
+        <result column="SEE_NO" property="seeNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DATE, PATIENT_ID, VISIT_ID, SEE_DATE, OUT_DATE, DEPT_CODE, OPERDEPTNAME, EMPL_CODE, EMPL_NAME, NAME, SEX, DOCTORID, EMERGENCY_NO, EM_LEAVE, SEE_NO
+    </sql>
+
+</mapper>

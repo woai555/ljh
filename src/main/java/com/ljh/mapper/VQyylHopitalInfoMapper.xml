@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VQyylHopitalInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VQyylHopitalInfo">
+        <result column="HOSORGCODE" property="hosorgcode" />
+        <result column="HOSNAME" property="hosname" />
+        <result column="HOSPITALGRADE" property="hospitalgrade" />
+        <result column="HOSPITALLEVEL" property="hospitallevel" />
+        <result column="HOSPITALTYPE" property="hospitaltype" />
+        <result column="PAYMODE" property="paymode" />
+        <result column="ORDERMODE" property="ordermode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSORGCODE, HOSNAME, HOSPITALGRADE, HOSPITALLEVEL, HOSPITALTYPE, PAYMODE, ORDERMODE
+    </sql>
+
+</mapper>

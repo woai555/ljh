@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.WfDepmethodMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.WfDepmethod">
+        <id column="DEPNO" property="depno" />
+        <result column="METHNAME" property="methname" />
+        <result column="METHDESC" property="methdesc" />
+        <result column="DEPRATE" property="deprate" />
+        <result column="FUNCNAME" property="funcname" />
+        <result column="OPERATOR" property="operator" />
+        <result column="REGISTDATE" property="registdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPNO, METHNAME, METHDESC, DEPRATE, FUNCNAME, OPERATOR, REGISTDATE
+    </sql>
+
+</mapper>

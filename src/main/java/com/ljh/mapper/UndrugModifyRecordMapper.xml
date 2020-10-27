@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UndrugModifyRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugModifyRecord">
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="OLD_DATE" property="oldDate" />
+        <result column="NEW_DATE" property="newDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CLINIC_CODE, CARD_NO, REG_DATE, RECIPE_NO, SEQUENCE_NO, TRANS_TYPE, OLD_DATE, NEW_DATE, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.JytBsInvoiceXnVsStMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytBsInvoiceXnVsSt">
+        <result column="SERIALNO" property="serialno" />
+        <result column="FBILLNO" property="fbillno" />
+        <result column="TRANS_TYPE" property="transType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SERIALNO, FBILLNO, TRANS_TYPE
+    </sql>
+
+</mapper>

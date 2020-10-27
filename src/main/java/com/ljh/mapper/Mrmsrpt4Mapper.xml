@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.Mrmsrpt4Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsrpt4">
+        <result column="DATE_STAT" property="dateStat" />
+        <result column="FEE_STAT_CATE" property="feeStatCate" />
+        <result column="FEE_STAT_NAME" property="feeStatName" />
+        <result column="TOTAL_TYPE" property="totalType" />
+        <result column="INVOICE_SUM" property="invoiceSum" />
+        <result column="MONEY_SUM" property="moneySum" />
+        <result column="EXE_DEPT" property="exeDept" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DATE_STAT, FEE_STAT_CATE, FEE_STAT_NAME, TOTAL_TYPE, INVOICE_SUM, MONEY_SUM, EXE_DEPT
+    </sql>
+
+</mapper>

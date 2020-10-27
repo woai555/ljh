@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MachineBranchOldMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MachineBranchOld">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="MACHINE_CODE" property="machineCode" />
+        <result column="MACHINE_NAME" property="machineName" />
+        <result column="MARK" property="mark" />
+        <result column="MACHINE_PLACE" property="machinePlace" />
+        <result column="MACHINE_TYPE" property="machineType" />
+        <result column="BZ" property="bz" />
+        <result column="ORDER_FLAG" property="orderFlag" />
+        <result column="ORDER_AFTERNOON" property="orderAfternoon" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="DEVICECODE" property="devicecode" />
+        <result column="MACHINE_TYPENAME" property="machineTypename" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, MACHINE_CODE, MACHINE_NAME, MARK, MACHINE_PLACE, MACHINE_TYPE, BZ, ORDER_FLAG, ORDER_AFTERNOON, OPER_DATE, OPER_CODE, DEVICECODE, MACHINE_TYPENAME
+    </sql>
+
+</mapper>

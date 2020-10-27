@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VWebDeptSuperiorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VWebDeptSuperior">
+        <result column="SECTNAME" property="sectname" />
+        <result column="SECTID" property="sectid" />
+        <result column="IMPORTANCE" property="importance" />
+        <result column="SECTSUMMARY" property="sectsummary" />
+        <result column="SECTADDR" property="sectaddr" />
+        <result column="SECTTYPE" property="secttype" />
+        <result column="PRIORITY" property="priority" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SECTNAME, SECTID, IMPORTANCE, SECTSUMMARY, SECTADDR, SECTTYPE, PRIORITY
+    </sql>
+
+</mapper>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.UndrugDetailTempMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugDetailTemp">
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="UNDRUG_CODE" property="undrugCode" />
+        <result column="UNDRUG_NAME" property="undrugName" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="SYS_CLASS" property="sysClass" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="QTY" property="qty" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="SDEPT_CODE" property="sdeptCode" />
+        <result column="PAY_FLAG" property="payFlag" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+        <result column="DERATE_COST" property="derateCost" />
+        <result column="EMERG_FLAG" property="emergFlag" />
+        <result column="CENTER_CODE" property="centerCode" />
+        <result column="DATA_FROM" property="dataFrom" />
+        <result column="STOCK_CODE" property="stockCode" />
+        <result column="MINUS_STOCK_FLAG" property="minusStockFlag" />
+        <result column="STOCK_UNIT" property="stockUnit" />
+        <result column="APPR_NO" property="apprNo" />
+        <result column="RECORDER" property="recorder" />
+        <result column="RECORD_DATE" property="recordDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="ITEM_GRADE" property="itemGrade" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="DOCT_DEPT" property="doctDept" />
+        <result column="IF_FRU" property="ifFru" />
+        <result column="ZT_CODE" property="ztCode" />
+        <result column="ZT_NAME" property="ztName" />
+        <result column="LIS_FLAG" property="lisFlag" />
+        <result column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="CHECK_DATE" property="checkDate" />
+        <result column="CONFIRM_FLAG" property="confirmFlag" />
+        <result column="CONFIRM_OPER_CODE" property="confirmOperCode" />
+        <result column="CONFIRM_DATE" property="confirmDate" />
+        <result column="CANCEL_OPER_CODE" property="cancelOperCode" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="MACHINE_CODE" property="machineCode" />
+        <result column="EXEC_OPER_CODE" property="execOperCode" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="MO_ORDER" property="moOrder" />
+        <result column="INVALIDDATE_OPER_CODE" property="invaliddateOperCode" />
+        <result column="INVALIDDATE_DATE" property="invaliddateDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        RECIPE_NO, SEQUENCE_NO, TRANS_TYPE, CARD_NO, REG_DTIME, UNDRUG_CODE, UNDRUG_NAME, FEE_CODE, SYS_CLASS, UNIT_PRICE, QTY, PUB_COST, PAY_COST, OWN_COST, DEPT_CODE, DEPT_NAME, SDEPT_CODE, PAY_FLAG, CANCEL_FLAG, DERATE_COST, EMERG_FLAG, CENTER_CODE, DATA_FROM, STOCK_CODE, MINUS_STOCK_FLAG, STOCK_UNIT, APPR_NO, RECORDER, RECORD_DATE, OPER_CODE, OPER_DATE, INVOICE_NO, ITEM_GRADE, DOCT_CODE, DOCT_DEPT, IF_FRU, ZT_CODE, ZT_NAME, LIS_FLAG, CHECK_OPER_CODE, CHECK_DATE, CONFIRM_FLAG, CONFIRM_OPER_CODE, CONFIRM_DATE, CANCEL_OPER_CODE, CANCEL_DATE, MACHINE_CODE, EXEC_OPER_CODE, DJB_FLAG, CLINIC_CODE, MO_ORDER, INVALIDDATE_OPER_CODE, INVALIDDATE_DATE
+    </sql>
+
+</mapper>

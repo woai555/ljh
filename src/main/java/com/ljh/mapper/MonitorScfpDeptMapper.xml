@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MonitorScfpDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MonitorScfpDept">
+        <result column="BEG_DATE" property="begDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="IF_AVG" property="ifAvg" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="M_MAN_TIME" property="mManTime" />
+        <result column="M_C_MAN_TIME" property="mCManTime" />
+        <result column="M_V_MAN_TIME" property="mVManTime" />
+        <result column="M_D_MAN_TIME" property="mDManTime" />
+        <result column="M_F_MAN_TIME" property="mFManTime" />
+        <result column="M_E_MAN_TIME" property="mEManTime" />
+        <result column="M_MAN_TIME_NATIVE" property="mManTimeNative" />
+        <result column="M_NATIVE_RATE" property="mNativeRate" />
+        <result column="M_NONLOCAL_RATE" property="mNonlocalRate" />
+        <result column="M_MC_MAN_TIME" property="mMcManTime" />
+        <result column="M_MC_C_MAN_TIME" property="mMcCManTime" />
+        <result column="M_MC_V_MAN_TIME" property="mMcVManTime" />
+        <result column="M_MC_D_MAN_TIME" property="mMcDManTime" />
+        <result column="M_MC_F_MAN_TIME" property="mMcFManTime" />
+        <result column="M_MC_E_MAN_TIME" property="mMcEManTime" />
+        <result column="R_REG_SOURCE_V" property="rRegSourceV" />
+        <result column="R_REG_SOURCE_D" property="rRegSourceD" />
+        <result column="R_REG_SOURCE_F" property="rRegSourceF" />
+        <result column="R_MC_REG_SOURCE_V" property="rMcRegSourceV" />
+        <result column="R_MC_REG_SOURCE_D" property="rMcRegSourceD" />
+        <result column="R_MC_REG_SOURCE_F" property="rMcRegSourceF" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BEG_DATE, END_DATE, IF_AVG, DEPT_TYPE, DEPT_NAME, M_MAN_TIME, M_C_MAN_TIME, M_V_MAN_TIME, M_D_MAN_TIME, M_F_MAN_TIME, M_E_MAN_TIME, M_MAN_TIME_NATIVE, M_NATIVE_RATE, M_NONLOCAL_RATE, M_MC_MAN_TIME, M_MC_C_MAN_TIME, M_MC_V_MAN_TIME, M_MC_D_MAN_TIME, M_MC_F_MAN_TIME, M_MC_E_MAN_TIME, R_REG_SOURCE_V, R_REG_SOURCE_D, R_REG_SOURCE_F, R_MC_REG_SOURCE_V, R_MC_REG_SOURCE_D, R_MC_REG_SOURCE_F
+    </sql>
+
+</mapper>

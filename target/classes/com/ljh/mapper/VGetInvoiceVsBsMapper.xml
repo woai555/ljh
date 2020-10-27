@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VGetInvoiceVsBsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VGetInvoiceVsBs">
+        <result column="GET_DTIME" property="getDtime" />
+        <result column="GET_PERSON_CODE" property="getPersonCode" />
+        <result column="INVOICE_TYPE" property="invoiceType" />
+        <result column="START_NO" property="startNo" />
+        <result column="END_NO" property="endNo" />
+        <result column="USERD_NO" property="userdNo" />
+        <result column="USED_STATE" property="usedState" />
+        <result column="BS_BILLTYPE" property="bsBilltype" />
+        <result column="BS_BILLREG" property="bsBillreg" />
+        <result column="BS_UPLOADS" property="bsUploads" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        GET_DTIME, GET_PERSON_CODE, INVOICE_TYPE, START_NO, END_NO, USERD_NO, USED_STATE, BS_BILLTYPE, BS_BILLREG, BS_UPLOADS
+    </sql>
+
+</mapper>

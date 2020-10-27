@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.RRegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RRegister">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="NAME" property="name" />
+        <result column="IDENNO" property="idenno" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="PAYKIND_NAME" property="paykindName" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="PACT_NAME" property="pactName" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="REGLEVL_NAME" property="reglevlName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="SEENO" property="seeno" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="YNREGCHRG" property="ynregchrg" />
+        <result column="YNBOOK" property="ynbook" />
+        <result column="REG_FEE" property="regFee" />
+        <result column="CHCK_FEE" property="chckFee" />
+        <result column="DIAG_FEE" property="diagFee" />
+        <result column="OTH_FEE" property="othFee" />
+        <result column="YNFRU" property="ynfru" />
+        <result column="YNCANCEL" property="yncancel" />
+        <result column="OWN_RATIO" property="ownRatio" />
+        <result column="PUB_RATIO" property="pubRatio" />
+        <result column="PAY_RATIO" property="payRatio" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="YNSEE" property="ynsee" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="DISCOUNT_RATIO" property="discountRatio" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="CANCEL_OPERCODE" property="cancelOpercode" />
+        <result column="MEDICAL_TYPE" property="medicalType" />
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="END_FLAG" property="endFlag" />
+        <result column="EXAM_CODE" property="examCode" />
+        <result column="EXAM_DATE" property="examDate" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="YN_ADD" property="ynAdd" />
+        <result column="BX_FEE" property="bxFee" />
+        <result column="TRADENO" property="tradeno" />
+        <result column="REAL_DOCTID" property="realDoctid" />
+        <result column="REAL_DOCTNAME" property="realDoctname" />
+        <result column="ICD_NAME" property="icdName" />
+        <result column="IPADDRESS" property="ipaddress" />
+        <result column="MACADDRESS" property="macaddress" />
+        <result column="MACHINENAME" property="machinename" />
+        <result column="YLCARD_NO" property="ylcardNo" />
+        <result column="NOON_TIME" property="noonTime" />
+        <result column="PAY_WAY" property="payWay" />
+        <result column="QUIT_TYPE" property="quitType" />
+        <result column="TRADENO_JYT" property="tradenoJyt" />
+        <result column="FUNDTYPE" property="fundtype" />
+        <result column="CLINIC_CODE_OLD" property="clinicCodeOld" />
+        <result column="YNTIMECODE_DEF" property="yntimecodeDef" />
+        <result column="PAY_WAY_QUIT" property="payWayQuit" />
+        <result column="ALIPAY_DATE" property="alipayDate" />
+        <result column="ALIORDERID" property="aliorderid" />
+        <result column="ALIPAYTRADENO" property="alipaytradeno" />
+        <result column="YNSENDMSG_ALI" property="ynsendmsgAli" />
+        <result column="YN_RTN" property="ynRtn" />
+        <result column="TRADENO_BAKBX" property="tradenoBakbx" />
+        <result column="HISREGNO" property="hisregno" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="PAY_COST_QUIT" property="payCostQuit" />
+        <result column="JYT_CHANNEL" property="jytChannel" />
+        <result column="YN_JYT2_ZZ" property="ynJyt2Zz" />
+        <result column="PAY_WAY_JYT" property="payWayJyt" />
+        <result column="REFUND_NO" property="refundNo" />
+        <result column="JYT_GETFROMWINDOW" property="jytGetfromwindow" />
+        <result column="JYT_REMARK" property="jytRemark" />
+        <result column="RTN_DATE" property="rtnDate" />
+        <result column="CANCEL_REASON" property="cancelReason" />
+        <result column="RTN_RESOURCE" property="rtnResource" />
+        <result column="AUTO_CANCEL_MINUTES" property="autoCancelMinutes" />
+        <result column="PAYFEE_JYT" property="payfeeJyt" />
+        <result column="HOS_AREA" property="hosArea" />
+        <result column="TRIAGESERIALNO" property="triageserialno" />
+        <result column="TRIAL_SEQNO" property="trialSeqno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, CARD_NO, NAME, IDENNO, SEX_CODE, BIRTHDAY, PAYKIND_CODE, PAYKIND_NAME, MCARD_NO, PACT_CODE, PACT_NAME, REG_DATE, REGLEVL_CODE, REGLEVL_NAME, DEPT_CODE, DEPT_NAME, SEENO, EMPL_CODE, DOCT_NAME, YNREGCHRG, YNBOOK, REG_FEE, CHCK_FEE, DIAG_FEE, OTH_FEE, YNFRU, YNCANCEL, OWN_RATIO, PUB_RATIO, PAY_RATIO, OPER_CODE, YNSEE, CLINIC_CODE, DISCOUNT_RATIO, CANCEL_DATE, CANCEL_OPERCODE, MEDICAL_TYPE, ICD_CODE, END_FLAG, EXAM_CODE, EXAM_DATE, CLINIC_NO, DJB_FLAG, YN_ADD, BX_FEE, TRADENO, REAL_DOCTID, REAL_DOCTNAME, ICD_NAME, IPADDRESS, MACADDRESS, MACHINENAME, YLCARD_NO, NOON_TIME, PAY_WAY, QUIT_TYPE, TRADENO_JYT, FUNDTYPE, CLINIC_CODE_OLD, YNTIMECODE_DEF, PAY_WAY_QUIT, ALIPAY_DATE, ALIORDERID, ALIPAYTRADENO, YNSENDMSG_ALI, YN_RTN, TRADENO_BAKBX, HISREGNO, CARDNO_JYT, PAY_COST, PAY_COST_QUIT, JYT_CHANNEL, YN_JYT2_ZZ, PAY_WAY_JYT, REFUND_NO, JYT_GETFROMWINDOW, JYT_REMARK, RTN_DATE, CANCEL_REASON, RTN_RESOURCE, AUTO_CANCEL_MINUTES, PAYFEE_JYT, HOS_AREA, TRIAGESERIALNO, TRIAL_SEQNO
+    </sql>
+
+</mapper>

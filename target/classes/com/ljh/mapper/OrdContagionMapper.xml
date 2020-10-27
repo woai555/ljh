@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OrdContagionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdContagion">
+        <id column="CONTAGION_CODE" property="contagionCode" />
+        <result column="CONTAGION_NAME" property="contagionName" />
+        <result column="CONTAGIONDETAIL_CODE" property="contagiondetailCode" />
+        <result column="CONTAGIONDETAIL_NAME" property="contagiondetailName" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="ORDER_NO" property="orderNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CONTAGION_CODE, CONTAGION_NAME, CONTAGIONDETAIL_CODE, CONTAGIONDETAIL_NAME, OPER_CODE, OPER_DATE, SPELL_CODE, ORDER_NO
+    </sql>
+
+</mapper>

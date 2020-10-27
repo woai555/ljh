@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OrdUndrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdUndrug">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="ITEM_CLASS" property="itemClass" />
+        <result column="ITEM_TYPE" property="itemType" />
+        <result column="ITEM_TYPENAME" property="itemTypename" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="INPUT_CODE" property="inputCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, ITEM_CLASS, ITEM_TYPE, ITEM_TYPENAME, ITEM_CODE, ITEM_NAME, INPUT_CODE
+    </sql>
+
+</mapper>

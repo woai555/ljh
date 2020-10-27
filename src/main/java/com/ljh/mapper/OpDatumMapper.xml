@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.OpDatumMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpDatum">
+        <id column="OPERATIONNO" property="operationno" />
+        <result column="RECORDNO" property="recordno" />
+        <result column="ISFORE" property="isfore" />
+        <result column="DATUMTYPE" property="datumtype" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="YNATTACHED" property="ynattached" />
+        <result column="NUMS" property="nums" />
+        <result column="UNIT" property="unit" />
+        <result column="OPERATIONTIME" property="operationtime" />
+        <result column="DURATION" property="duration" />
+        <result column="OPERATOR" property="operator" />
+        <result column="OPERATORTIME" property="operatortime" />
+        <result column="YNVALID" property="ynvalid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATIONNO, RECORDNO, ISFORE, DATUMTYPE, ITEMCODE, ITEMNAME, YNATTACHED, NUMS, UNIT, OPERATIONTIME, DURATION, OPERATOR, OPERATORTIME, YNVALID
+    </sql>
+
+</mapper>

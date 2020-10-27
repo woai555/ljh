@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewHzyhCfxxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHzyhCfxx">
+        <result column="CFHM" property="cfhm" />
+        <result column="BRID" property="brid" />
+        <result column="KFYSXM" property="kfysxm" />
+        <result column="KFKSDM" property="kfksdm" />
+        <result column="KFKSMC" property="kfksmc" />
+        <result column="KFSJ" property="kfsj" />
+        <result column="ZDMC" property="zdmc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CFHM, BRID, KFYSXM, KFKSDM, KFKSMC, KFSJ, ZDMC
+    </sql>
+
+</mapper>

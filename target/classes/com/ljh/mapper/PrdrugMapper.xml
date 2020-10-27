@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.PrdrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Prdrug">
+        <id column="PR_CODE" property="prCode" />
+        <result column="TREATMENT_CODE" property="treatmentCode" />
+        <result column="DEAL_NUMBER" property="dealNumber" />
+        <result column="DELIVERY_WAY" property="deliveryWay" />
+        <result column="MEDICINE_NAME" property="medicineName" />
+        <result column="SPEC" property="spec" />
+        <result column="QTY" property="qty" />
+        <result column="REMARK" property="remark" />
+        <result column="YN_OUT" property="ynOut" />
+        <result column="DOSE" property="dose" />
+        <result column="YN_BREAK_UP" property="ynBreakUp" />
+        <result column="LASTUPDATETIME" property="lastupdatetime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PR_CODE, TREATMENT_CODE, DEAL_NUMBER, DELIVERY_WAY, MEDICINE_NAME, SPEC, QTY, REMARK, YN_OUT, DOSE, YN_BREAK_UP, LASTUPDATETIME
+    </sql>
+
+</mapper>

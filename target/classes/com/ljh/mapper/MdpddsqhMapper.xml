@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.MdpddsqhMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mdpddsqh">
+        <id column="QUE_CODE" property="queCode" />
+        <result column="QUE_NAME" property="queName" />
+        <result column="PRN_PROG" property="prnProg" />
+        <result column="PRN_SHEL" property="prnShel" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="WRK_BGTM" property="wrkBgtm" />
+        <result column="WRK_EDTM" property="wrkEdtm" />
+        <result column="QUE_BACK" property="queBack" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        QUE_CODE, QUE_NAME, PRN_PROG, PRN_SHEL, DEPT_CODE, WRK_BGTM, WRK_EDTM, QUE_BACK
+    </sql>
+
+</mapper>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.VRegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRegister">
+        <result column="REGISTERNO" property="registerno" />
+        <result column="DEPARTMENTCODE" property="departmentcode" />
+        <result column="DEPARTMENTNAME" property="departmentname" />
+        <result column="REGISTERTYPECODE" property="registertypecode" />
+        <result column="REGISTERTYPENAME" property="registertypename" />
+        <result column="OCCURDATE" property="occurdate" />
+        <result column="OCCURTIME" property="occurtime" />
+        <result column="OPTCODE" property="optcode" />
+        <result column="OPTNAME" property="optname" />
+        <result column="DOCTORCODE" property="doctorcode" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="PATIENTNAME" property="patientname" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="AMOUNT" property="amount" />
+        <result column="REGISTERFEE" property="registerfee" />
+        <result column="ITEMFEE" property="itemfee" />
+        <result column="EXPERTFEE" property="expertfee" />
+        <result column="ISSTRIKED" property="isstriked" />
+        <result column="STRIKEDATE" property="strikedate" />
+        <result column="STRIKETIME" property="striketime" />
+        <result column="STRIKEOPTCODE" property="strikeoptcode" />
+        <result column="STRIKEOPTNAME" property="strikeoptname" />
+        <result column="STRIKEDREGISTERNO" property="strikedregisterno" />
+        <result column="REDREGISTERFLAG" property="redregisterflag" />
+        <result column="MEDICAREFLAG" property="medicareflag" />
+        <result column="CENTERCODE" property="centercode" />
+        <result column="DESKNO" property="deskno" />
+        <result column="DESKNAME" property="deskname" />
+        <result column="ROOMNO" property="roomno" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="DIAGNOSISDESKNO" property="diagnosisdeskno" />
+        <result column="DIAGNOSISDESKNAME" property="diagnosisdeskname" />
+        <result column="DIAGNOSISSTATE" property="diagnosisstate" />
+        <result column="ISREGISTER" property="isregister" />
+        <result column="REGNO" property="regno" />
+        <result column="AM" property="am" />
+        <result column="NOTE" property="note" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REGISTERNO, DEPARTMENTCODE, DEPARTMENTNAME, REGISTERTYPECODE, REGISTERTYPENAME, OCCURDATE, OCCURTIME, OPTCODE, OPTNAME, DOCTORCODE, DOCTORNAME, PATIENTID, PATIENTNAME, SEX, AGE, AMOUNT, REGISTERFEE, ITEMFEE, EXPERTFEE, ISSTRIKED, STRIKEDATE, STRIKETIME, STRIKEOPTCODE, STRIKEOPTNAME, STRIKEDREGISTERNO, REDREGISTERFLAG, MEDICAREFLAG, CENTERCODE, DESKNO, DESKNAME, ROOMNO, ROOMNAME, DIAGNOSISDESKNO, DIAGNOSISDESKNAME, DIAGNOSISSTATE, ISREGISTER, REGNO, AM, NOTE
+    </sql>
+
+</mapper>

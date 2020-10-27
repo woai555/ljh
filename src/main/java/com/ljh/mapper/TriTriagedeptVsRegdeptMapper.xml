@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.TriTriagedeptVsRegdeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TriTriagedeptVsRegdept">
+        <id column="REGDEPT_CODE" property="regdeptCode" />
+        <result column="TRIAGEDEPT_CODE" property="triagedeptCode" />
+        <result column="ORDERID" property="orderid" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REGDEPT_CODE, TRIAGEDEPT_CODE, ORDERID, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.Th3BsUserInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Th3BsUserInfo">
+        <id column="LOGIN_NAME" property="loginName" />
+        <result column="USER_CODE" property="userCode" />
+        <result column="USER_NAME" property="userName" />
+        <result column="BS_INVOICE_NODE" property="bsInvoiceNode" />
+        <result column="BS_CHECK_KEY" property="bsCheckKey" />
+        <result column="BS_BILL_TYPE" property="bsBillType" />
+        <result column="BS_BILL_REG" property="bsBillReg" />
+        <result column="LAST_UP_INVOICE" property="lastUpInvoice" />
+        <result column="NEW_INVOICE" property="newInvoice" />
+        <result column="IF_CALREG_OUTOFDATE" property="ifCalregOutofdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LOGIN_NAME, USER_CODE, USER_NAME, BS_INVOICE_NODE, BS_CHECK_KEY, BS_BILL_TYPE, BS_BILL_REG, LAST_UP_INVOICE, NEW_INVOICE, IF_CALREG_OUTOFDATE
+    </sql>
+
+</mapper>

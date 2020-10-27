@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.ViewMrmsTempLxlcfyReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsTempLxlcfyReport">
+        <result column="STAT_KIND" property="statKind" />
+        <result column="STAT_NAME" property="statName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="ZG_01" property="zg01" />
+        <result column="ZG_02" property="zg02" />
+        <result column="ZG_03" property="zg03" />
+        <result column="ZG_04" property="zg04" />
+        <result column="ZG_05" property="zg05" />
+        <result column="ZG_06" property="zg06" />
+        <result column="S_INDAYS" property="sIndays" />
+        <result column="S_PATIENT_INDAYS" property="sPatientIndays" />
+        <result column="S_ZG01_INDAYS" property="sZg01Indays" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STAT_KIND, STAT_NAME, DEPT_CODE, ZG_01, ZG_02, ZG_03, ZG_04, ZG_05, ZG_06, S_INDAYS, S_PATIENT_INDAYS, S_ZG01_INDAYS
+    </sql>
+
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapper.Mrmsrpt3Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsrpt3">
+        <id column="DATE_STAT" property="dateStat" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="NUM_CLI" property="numCli" />
+        <result column="NUM_EMC" property="numEmc" />
+        <result column="NUM_EMCD" property="numEmcd" />
+        <result column="NUM_OBSRV" property="numObsrv" />
+        <result column="NUM_OBSRVD" property="numObsrvd" />
+        <result column="NUM_FCNSLT" property="numFcnslt" />
+        <result column="NUM_CNSLT" property="numCnslt" />
+        <result column="NUM_SPCL" property="numSpcl" />
+        <result column="YB_NUM" property="ybNum" />
+        <result column="NUM_BDCHK" property="numBdchk" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DATE_STAT, DEPT_CODE, NUM_CLI, NUM_EMC, NUM_EMCD, NUM_OBSRV, NUM_OBSRVD, NUM_FCNSLT, NUM_CNSLT, NUM_SPCL, YB_NUM, NUM_BDCHK
+    </sql>
+
+</mapper>
