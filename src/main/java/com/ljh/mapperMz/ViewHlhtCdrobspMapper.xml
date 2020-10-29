@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtCdrobspMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrobsp">
+        <result column="OUT_PATIENT_ID" property="outPatientId" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="OUTP_NO" property="outpNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="RESCUE_START_TIME" property="rescueStartTime" />
+        <result column="RESCUE_END_TIME" property="rescueEndTime" />
+        <result column="RESCUE_DOCTOR" property="rescueDoctor" />
+        <result column="RESCUE_NURSE" property="rescueNurse" />
+        <result column="RESCUE_RESULT" property="rescueResult" />
+        <result column="IN_OBSERVATION_ROOM_TIME" property="inObservationRoomTime" />
+        <result column="OBSERVATION_ROOM" property="observationRoom" />
+        <result column="OBSERVE_DOCTOR" property="observeDoctor" />
+        <result column="OUT_OBSERVATION_ROOM_TIME" property="outObservationRoomTime" />
+        <result column="OBSERVE_ORDER" property="observeOrder" />
+        <result column="ORDER_DOCTOR" property="orderDoctor" />
+        <result column="ORDER_TIME" property="orderTime" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="IN_DATE" property="inDate" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUT_PATIENT_ID, HEALTH_CARD_NO, OUTP_NO, VISIT_ID, VISIT_TYPE, RESCUE_START_TIME, RESCUE_END_TIME, RESCUE_DOCTOR, RESCUE_NURSE, RESCUE_RESULT, IN_OBSERVATION_ROOM_TIME, OBSERVATION_ROOM, OBSERVE_DOCTOR, OUT_OBSERVATION_ROOM_TIME, OBSERVE_ORDER, ORDER_DOCTOR, ORDER_TIME, OPERATE_TYPE, IN_DATE, OPERATORTIME
+    </sql>
+
+</mapper>

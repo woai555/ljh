@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MijianLoginlog;
-import com.ljh.mapper.MijianLoginlogMapper;
+import com.ljh.daoMz.MijianLoginlogMapper;
 import com.ljh.service.MijianLoginlogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

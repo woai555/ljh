@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdSeeresultdept;
-import com.ljh.mapper.OrdSeeresultdeptMapper;
+import com.ljh.daoMz.OrdSeeresultdeptMapper;
 import com.ljh.service.OrdSeeresultdeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

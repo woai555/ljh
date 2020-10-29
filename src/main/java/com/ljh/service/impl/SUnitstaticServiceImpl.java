@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SUnitstatic;
-import com.ljh.mapper.SUnitstaticMapper;
+import com.ljh.daoMz.SUnitstaticMapper;
 import com.ljh.service.SUnitstaticService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

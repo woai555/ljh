@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RYbypSpecialKind;
-import com.ljh.mapper.RYbypSpecialKindMapper;
+import com.ljh.daoMz.RYbypSpecialKindMapper;
 import com.ljh.service.RYbypSpecialKindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

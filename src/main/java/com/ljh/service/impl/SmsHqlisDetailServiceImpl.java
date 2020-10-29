@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SmsHqlisDetail;
-import com.ljh.mapper.SmsHqlisDetailMapper;
+import com.ljh.daoMz.SmsHqlisDetailMapper;
 import com.ljh.service.SmsHqlisDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

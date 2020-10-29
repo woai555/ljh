@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LItemcontrolMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LItemcontrol">
+        <id column="MACHINECODE" property="machinecode" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="UPSTANDARD" property="upstandard" />
+        <result column="DOWNSTANDARD" property="downstandard" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="MODIFYDATE" property="modifydate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, ITEMCODE, ITEMNAME, UPSTANDARD, DOWNSTANDARD, OPERATORID, MODIFYDATE
+    </sql>
+
+</mapper>

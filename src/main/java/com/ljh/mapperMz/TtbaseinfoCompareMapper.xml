@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.TtbaseinfoCompareMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TtbaseinfoCompare">
+        <id column="TYPE_CODE" property="typeCode" />
+        <result column="ZY_CODE" property="zyCode" />
+        <result column="MZ_CODE" property="mzCode" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TYPE_CODE, ZY_CODE, MZ_CODE, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDoctreglmtMaintance;
-import com.ljh.mapper.RDoctreglmtMaintanceMapper;
+import com.ljh.daoMz.RDoctreglmtMaintanceMapper;
 import com.ljh.service.RDoctreglmtMaintanceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdAppPatnarrate;
-import com.ljh.mapper.OrdAppPatnarrateMapper;
+import com.ljh.daoMz.OrdAppPatnarrateMapper;
 import com.ljh.service.OrdAppPatnarrateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

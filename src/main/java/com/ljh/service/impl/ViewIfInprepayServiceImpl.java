@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewIfInprepay;
-import com.ljh.mapper.ViewIfInprepayMapper;
+import com.ljh.daoMz.ViewIfInprepayMapper;
 import com.ljh.service.ViewIfInprepayService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

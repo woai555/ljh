@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RMari;
-import com.ljh.mapper.RMariMapper;
+import com.ljh.daoMz.RMariMapper;
 import com.ljh.service.RMariService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewYp;
-import com.ljh.mapper.ViewYpMapper;
+import com.ljh.daoMz.ViewYpMapper;
 import com.ljh.service.ViewYpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

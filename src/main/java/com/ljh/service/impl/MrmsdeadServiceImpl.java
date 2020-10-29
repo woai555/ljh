@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsdead;
-import com.ljh.mapper.MrmsdeadMapper;
+import com.ljh.daoMz.MrmsdeadMapper;
 import com.ljh.service.MrmsdeadService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

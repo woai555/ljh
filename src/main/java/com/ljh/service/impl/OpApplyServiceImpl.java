@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpApply;
-import com.ljh.mapper.OpApplyMapper;
+import com.ljh.daoMz.OpApplyMapper;
 import com.ljh.service.OpApplyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

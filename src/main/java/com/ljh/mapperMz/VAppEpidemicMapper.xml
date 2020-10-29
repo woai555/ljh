@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppEpidemicMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppEpidemic">
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="ID_CARD_NAME" property="idCardName" />
+        <result column="PAT_NAME" property="patName" />
+        <result column="PHONE" property="phone" />
+        <result column="PROVINCE" property="province" />
+        <result column="CITY" property="city" />
+        <result column="AREA" property="area" />
+        <result column="ADDRESS" property="address" />
+        <result column="TEMPERATURE" property="temperature" />
+        <result column="FOURTEEN_LIVE" property="fourteenLive" />
+        <result column="FOURTEEN_CONTACT" property="fourteenContact" />
+        <result column="AROUND_VIRUS" property="aroundVirus" />
+        <result column="CONTACT_VIRUS" property="contactVirus" />
+        <result column="IS_SPE_TRIP" property="isSpeTrip" />
+        <result column="FROM_COUNTRY" property="fromCountry" />
+        <result column="BJ_PROVINCE" property="bjProvince" />
+        <result column="BJ_CITY" property="bjCity" />
+        <result column="BJ_AREA" property="bjArea" />
+        <result column="BJ_ADDRESS" property="bjAddress" />
+        <result column="ARRIVE_DATE" property="arriveDate" />
+        <result column="FLIGHT_NUMBER" property="flightNumber" />
+        <result column="SEAT_NUMBER" property="seatNumber" />
+        <result column="COUNTRY_DEPARTURE" property="countryDeparture" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="IS_MARKETS" property="isMarkets" />
+        <result column="MARKETS_ADDR" property="marketsAddr" />
+        <result column="IS_FEBRILE_SYMPTOMS" property="isFebrileSymptoms" />
+        <result column="IS_COMMUNITY" property="isCommunity" />
+        <result column="IS_HIGH_RISK" property="isHighRisk" />
+        <result column="HIGH_RISK_ADDR" property="highRiskAddr" />
+        <result column="PLAGUE_AREA" property="plagueArea" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID_CARD_NO, ID_CARD_TYPE, ID_CARD_NAME, PAT_NAME, PHONE, PROVINCE, CITY, AREA, ADDRESS, TEMPERATURE, FOURTEEN_LIVE, FOURTEEN_CONTACT, AROUND_VIRUS, CONTACT_VIRUS, IS_SPE_TRIP, FROM_COUNTRY, BJ_PROVINCE, BJ_CITY, BJ_AREA, BJ_ADDRESS, ARRIVE_DATE, FLIGHT_NUMBER, SEAT_NUMBER, COUNTRY_DEPARTURE, START_DATE, END_DATE, IS_MARKETS, MARKETS_ADDR, IS_FEBRILE_SYMPTOMS, IS_COMMUNITY, IS_HIGH_RISK, HIGH_RISK_ADDR, PLAGUE_AREA
+    </sql>
+
+</mapper>

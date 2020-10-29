@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VClinicPayAutoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VClinicPayAuto">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="DEPARTMENTID" property="departmentid" />
+        <result column="DEPARTMENTNAME" property="departmentname" />
+        <result column="DOCTORID" property="doctorid" />
+        <result column="DOCTORNAME" property="doctorname" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="TOTALPAYCOST" property="totalpaycost" />
+        <result column="RECIPE_TYPE" property="recipeType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DATE, SEE_NO, OPER_DATE, DEPARTMENTID, DEPARTMENTNAME, DOCTORID, DOCTORNAME, OWN_COST, TOTALPAYCOST, RECIPE_TYPE
+    </sql>
+
+</mapper>

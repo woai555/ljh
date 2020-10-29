@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppFeelist;
-import com.ljh.mapper.VAppFeelistMapper;
+import com.ljh.daoMz.VAppFeelistMapper;
 import com.ljh.service.VAppFeelistService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

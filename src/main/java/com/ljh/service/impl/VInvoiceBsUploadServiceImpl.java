@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VInvoiceBsUpload;
-import com.ljh.mapper.VInvoiceBsUploadMapper;
+import com.ljh.daoMz.VInvoiceBsUploadMapper;
 import com.ljh.service.VInvoiceBsUploadService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

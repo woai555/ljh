@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewItemBalanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewItemBalance">
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="NAME" property="name" />
+        <result column="QUANTITY" property="quantity" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="SPECS" property="specs" />
+        <result column="SALE_PRICE" property="salePrice" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="MIN_UNIT" property="minUnit" />
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="BALANCE_NO" property="balanceNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DRUG_CODE, NAME, QUANTITY, TOT_COST, OWN_COST, FEE_CODE, SPECS, SALE_PRICE, PAYKIND_CODE, MIN_UNIT, INPATIENT_NO, BALANCE_NO
+    </sql>
+
+</mapper>

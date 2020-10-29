@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsAlloperPeople;
-import com.ljh.mapper.ViewMrmsAlloperPeopleMapper;
+import com.ljh.daoMz.ViewMrmsAlloperPeopleMapper;
 import com.ljh.service.ViewMrmsAlloperPeopleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

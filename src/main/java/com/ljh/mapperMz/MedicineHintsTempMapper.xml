@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MedicineHintsTempMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MedicineHintsTemp">
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="INDICATION" property="indication" />
+        <result column="USAGE" property="usage" />
+        <result column="CHILDRENUSAGE" property="childrenusage" />
+        <result column="SENIORUSAGE" property="seniorusage" />
+        <result column="PREGNANTUSAGE" property="pregnantusage" />
+        <result column="NOTE1" property="note1" />
+        <result column="NOTE2" property="note2" />
+        <result column="NOTE3" property="note3" />
+        <result column="NOTE4" property="note4" />
+        <result column="NOTE5" property="note5" />
+        <result column="ISDANGER" property="isdanger" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DRUG_CODE, INDICATION, USAGE, CHILDRENUSAGE, SENIORUSAGE, PREGNANTUSAGE, NOTE1, NOTE2, NOTE3, NOTE4, NOTE5, ISDANGER
+    </sql>
+
+</mapper>

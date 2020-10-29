@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheH1n1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheH1n1">
+        <result column="P900" property="p900" />
+        <result column="P6891" property="p6891" />
+        <result column="P686" property="p686" />
+        <result column="P800" property="p800" />
+        <result column="P7501" property="p7501" />
+        <result column="P7502" property="p7502" />
+        <result column="P4" property="p4" />
+        <result column="P5" property="p5" />
+        <result column="P6" property="p6" />
+        <result column="P7" property="p7" />
+        <result column="P7503" property="p7503" />
+        <result column="P13" property="p13" />
+        <result column="P7504" property="p7504" />
+        <result column="P7505" property="p7505" />
+        <result column="P7506" property="p7506" />
+        <result column="P7507" property="p7507" />
+        <result column="P321" property="p321" />
+        <result column="P322" property="p322" />
+        <result column="P324" property="p324" />
+        <result column="P325" property="p325" />
+        <result column="P327" property="p327" />
+        <result column="P328" property="p328" />
+        <result column="P3291" property="p3291" />
+        <result column="P3292" property="p3292" />
+        <result column="P3294" property="p3294" />
+        <result column="P3295" property="p3295" />
+        <result column="P3297" property="p3297" />
+        <result column="P3298" property="p3298" />
+        <result column="P3281" property="p3281" />
+        <result column="P3282" property="p3282" />
+        <result column="P3284" property="p3284" />
+        <result column="P3285" property="p3285" />
+        <result column="P3287" property="p3287" />
+        <result column="P3288" property="p3288" />
+        <result column="P3271" property="p3271" />
+        <result column="P3272" property="p3272" />
+        <result column="P3274" property="p3274" />
+        <result column="P3275" property="p3275" />
+        <result column="P6911" property="p6911" />
+        <result column="P6912" property="p6912" />
+        <result column="P6913" property="p6913" />
+        <result column="P6915" property="p6915" />
+        <result column="P6916" property="p6916" />
+        <result column="P6917" property="p6917" />
+        <result column="P6918" property="p6918" />
+        <result column="P6919" property="p6919" />
+        <result column="P6920" property="p6920" />
+        <result column="P6921" property="p6921" />
+        <result column="P6922" property="p6922" />
+        <result column="P6923" property="p6923" />
+        <result column="P6924" property="p6924" />
+        <result column="P6925" property="p6925" />
+        <result column="P1" property="p1" />
+        <result column="P7508" property="p7508" />
+        <result column="P7509" property="p7509" />
+        <result column="P7510" property="p7510" />
+        <result column="P7511" property="p7511" />
+        <result column="P7512" property="p7512" />
+        <result column="P8508" property="p8508" />
+        <result column="P8509" property="p8509" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        P900, P6891, P686, P800, P7501, P7502, P4, P5, P6, P7, P7503, P13, P7504, P7505, P7506, P7507, P321, P322, P324, P325, P327, P328, P3291, P3292, P3294, P3295, P3297, P3298, P3281, P3282, P3284, P3285, P3287, P3288, P3271, P3272, P3274, P3275, P6911, P6912, P6913, P6915, P6916, P6917, P6918, P6919, P6920, P6921, P6922, P6923, P6924, P6925, P1, P7508, P7509, P7510, P7511, P7512, P8508, P8509
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Testdecim;
-import com.ljh.mapper.TestdecimMapper;
+import com.ljh.daoMz.TestdecimMapper;
 import com.ljh.service.TestdecimService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

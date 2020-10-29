@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TriTriagedeptVsRegdept;
-import com.ljh.mapper.TriTriagedeptVsRegdeptMapper;
+import com.ljh.daoMz.TriTriagedeptVsRegdeptMapper;
 import com.ljh.service.TriTriagedeptVsRegdeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

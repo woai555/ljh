@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmpldeptTest123;
-import com.ljh.mapper.REmpldeptTest123Mapper;
+import com.ljh.daoMz.REmpldeptTest123Mapper;
 import com.ljh.service.REmpldeptTest123Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.PaykindModifyRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PaykindModifyRecord">
+        <id column="HAPPEN_NO" property="happenNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="OLD_PAYKIND" property="oldPaykind" />
+        <result column="NEW_PAYKIND" property="newPaykind" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HAPPEN_NO, CARD_NO, OLD_PAYKIND, NEW_PAYKIND, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

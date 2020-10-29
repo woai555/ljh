@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheEcgMzinfoJczd;
-import com.ljh.mapper.ViewJiaheEcgMzinfoJczdMapper;
+import com.ljh.daoMz.ViewJiaheEcgMzinfoJczdMapper;
 import com.ljh.service.ViewJiaheEcgMzinfoJczdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

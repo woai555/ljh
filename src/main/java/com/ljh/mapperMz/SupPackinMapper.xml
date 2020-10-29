@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SupPackinMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SupPackin">
+        <id column="PACK_CODE" property="packCode" />
+        <result column="PACK_NAME" property="packName" />
+        <result column="GOODS_CODE" property="goodsCode" />
+        <result column="GOODS_NAME" property="goodsName" />
+        <result column="INC_COUNT" property="incCount" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PACK_CODE, PACK_NAME, GOODS_CODE, GOODS_NAME, INC_COUNT
+    </sql>
+
+</mapper>

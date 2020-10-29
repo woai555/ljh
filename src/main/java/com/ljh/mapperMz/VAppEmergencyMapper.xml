@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppEmergencyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppEmergency">
+        <result column="ACCESS_PAT_ID" property="accessPatId" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="PAT_NAME" property="patName" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="REGISTER_ID" property="registerId" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_ID" property="deptId" />
+        <result column="VISIT_DATE" property="visitDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACCESS_PAT_ID, CARD_NO, CARDNO_JYT, MCARD_NO, ID_CARD_NO, PAT_NAME, ID_CARD_TYPE, REGISTER_ID, DEPT_NAME, DEPT_ID, VISIT_DATE
+    </sql>
+
+</mapper>

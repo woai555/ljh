@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RCountryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RCountry">
+        <id column="COUN_CODE" property="counCode" />
+        <result column="COUN" property="coun" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="COUN_FL" property="counFl" />
+        <result column="ORDER_ID" property="orderId" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="COUN_CODE_YJ" property="counCodeYj" />
+        <result column="COUN_YJ" property="counYj" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        COUN_CODE, COUN, OPER_DATE, OPER_CODE, COUN_FL, ORDER_ID, SPELL_CODE, COUN_CODE_YJ, COUN_YJ
+    </sql>
+
+</mapper>

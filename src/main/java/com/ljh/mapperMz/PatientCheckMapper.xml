@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.PatientCheckMapper">
+
+    
+<select id="patientCheck" parameterType="map" useCache="false"
+    statementType="CALLABLE" >
+    <![CDATA[
+    {call prc_app_identity(
+    #{PatCardNo,mode=IN,jdbcType=VARCHAR},
+    #{PatCardType,mode=IN,jdbcType=VARCHAR},
+    #{IdCardNo,mode=IN,jdbcType=VARCHAR},
+    #{IdCardType,mode=IN,jdbcType=VARCHAR},
+    #{PatName,mode=IN,jdbcType=VARCHAR},
+    #{PhoneNo,mode=IN,jdbcType=VARCHAR},
+    #{Sex,mode=IN,jdbcType=VARCHAR},
+    #{GuardianName,mode=IN,jdbcType=VARCHAR},
+    #{accesspatid,mode=OUT,jdbcType=VARCHAR},
+    #{patientid,mode=OUT,jdbcType=VARCHAR},
+    #{appcode,mode=OUT,jdbcType=INTEGER},
+    #{errmsg,mode=OUT,jdbcType=VARCHAR}
+    )}
+]]>
+</select>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RevolutionDayWeek;
-import com.ljh.mapper.RevolutionDayWeekMapper;
+import com.ljh.daoMz.RevolutionDayWeekMapper;
 import com.ljh.service.RevolutionDayWeekService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

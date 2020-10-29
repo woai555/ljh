@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRwzbConsisConstantset;
-import com.ljh.mapper.ViewRwzbConsisConstantsetMapper;
+import com.ljh.daoMz.ViewRwzbConsisConstantsetMapper;
 import com.ljh.service.ViewRwzbConsisConstantsetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

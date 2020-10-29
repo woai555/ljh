@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RDictTransferMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RDictTransfer">
+        <result column="TABLE_SRC" property="tableSrc" />
+        <result column="TABLE_DES" property="tableDes" />
+        <result column="PRIM_KEY" property="primKey" />
+        <result column="EXE_DATE" property="exeDate" />
+        <result column="FLAG" property="flag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TABLE_SRC, TABLE_DES, PRIM_KEY, EXE_DATE, FLAG
+    </sql>
+
+</mapper>

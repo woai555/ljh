@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsopcd;
-import com.ljh.mapper.MrmsopcdMapper;
+import com.ljh.daoMz.MrmsopcdMapper;
 import com.ljh.service.MrmsopcdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

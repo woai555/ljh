@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheMzItemdetail;
-import com.ljh.mapper.ViewJiaheMzItemdetailMapper;
+import com.ljh.daoMz.ViewJiaheMzItemdetailMapper;
 import com.ljh.service.ViewJiaheMzItemdetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

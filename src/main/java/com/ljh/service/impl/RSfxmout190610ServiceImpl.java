@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSfxmout190610;
-import com.ljh.mapper.RSfxmout190610Mapper;
+import com.ljh.daoMz.RSfxmout190610Mapper;
 import com.ljh.service.RSfxmout190610Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

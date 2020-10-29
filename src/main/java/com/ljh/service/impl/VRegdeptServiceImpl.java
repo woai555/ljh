@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRegdept;
-import com.ljh.mapper.VRegdeptMapper;
+import com.ljh.daoMz.VRegdeptMapper;
 import com.ljh.service.VRegdeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

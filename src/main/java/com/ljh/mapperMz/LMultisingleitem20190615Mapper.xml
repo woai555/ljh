@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LMultisingleitem20190615Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LMultisingleitem20190615">
+        <result column="MULTIITEMCODE" property="multiitemcode" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="MODIFYDATE" property="modifydate" />
+        <result column="QUANTITY" property="quantity" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MULTIITEMCODE, ITEMCODE, OPERATORID, MODIFYDATE, QUANTITY
+    </sql>
+
+</mapper>

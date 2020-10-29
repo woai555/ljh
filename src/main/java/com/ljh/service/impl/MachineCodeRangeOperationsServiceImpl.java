@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MachineCodeRangeOperations;
-import com.ljh.mapper.MachineCodeRangeOperationsMapper;
+import com.ljh.daoMz.MachineCodeRangeOperationsMapper;
 import com.ljh.service.MachineCodeRangeOperationsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

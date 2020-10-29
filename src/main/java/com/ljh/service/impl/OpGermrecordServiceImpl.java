@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpGermrecord;
-import com.ljh.mapper.OpGermrecordMapper;
+import com.ljh.daoMz.OpGermrecordMapper;
 import com.ljh.service.OpGermrecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

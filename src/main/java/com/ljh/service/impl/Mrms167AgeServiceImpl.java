@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrms167Age;
-import com.ljh.mapper.Mrms167AgeMapper;
+import com.ljh.daoMz.Mrms167AgeMapper;
 import com.ljh.service.Mrms167AgeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

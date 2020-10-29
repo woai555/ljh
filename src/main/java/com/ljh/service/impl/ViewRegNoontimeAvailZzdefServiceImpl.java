@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRegNoontimeAvailZzdef;
-import com.ljh.mapper.ViewRegNoontimeAvailZzdefMapper;
+import com.ljh.daoMz.ViewRegNoontimeAvailZzdefMapper;
 import com.ljh.service.ViewRegNoontimeAvailZzdefService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

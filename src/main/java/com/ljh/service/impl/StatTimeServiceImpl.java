@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.StatTime;
-import com.ljh.mapper.StatTimeMapper;
+import com.ljh.daoMz.StatTimeMapper;
 import com.ljh.service.StatTimeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

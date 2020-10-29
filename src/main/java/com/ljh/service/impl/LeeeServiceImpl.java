@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Leee;
-import com.ljh.mapper.LeeeMapper;
+import com.ljh.daoMz.LeeeMapper;
 import com.ljh.service.LeeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

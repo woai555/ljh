@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpEvaluation;
-import com.ljh.mapper.OpEvaluationMapper;
+import com.ljh.daoMz.OpEvaluationMapper;
 import com.ljh.service.OpEvaluationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

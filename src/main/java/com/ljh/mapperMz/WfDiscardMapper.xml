@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.WfDiscardMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.WfDiscard">
+        <id column="DISCODE" property="discode" />
+        <result column="DISNO" property="disno" />
+        <result column="FACINAMECODE" property="facinamecode" />
+        <result column="FACILITYNAME" property="facilityname" />
+        <result column="SPECI" property="speci" />
+        <result column="SPELLCODE" property="spellcode" />
+        <result column="LIFESPAN" property="lifespan" />
+        <result column="FACILITYSOURCE" property="facilitysource" />
+        <result column="PURCHASEDATE" property="purchasedate" />
+        <result column="COUNTRY" property="country" />
+        <result column="FACTORY" property="factory" />
+        <result column="STOREMAN" property="storeman" />
+        <result column="DEPTCODE" property="deptcode" />
+        <result column="USE" property="use" />
+        <result column="CONTRACTCODE" property="contractcode" />
+        <result column="FACIUNIT" property="faciunit" />
+        <result column="MONEY" property="money" />
+        <result column="DISDATE" property="disdate" />
+        <result column="AGING" property="aging" />
+        <result column="RATIFIER" property="ratifier" />
+        <result column="TREATWITH" property="treatwith" />
+        <result column="NOTATION" property="notation" />
+        <result column="SCRAPVALUE" property="scrapvalue" />
+        <result column="PRODUCTIONCODE" property="productioncode" />
+        <result column="KEEPLEVEL" property="keeplevel" />
+        <result column="FUNDSSOURCE" property="fundssource" />
+        <result column="WITHACCES" property="withacces" />
+        <result column="INHOSPITALCODE" property="inhospitalcode" />
+        <result column="MONTHDEPRE" property="monthdepre" />
+        <result column="ISVALID" property="isvalid" />
+        <result column="OPERATOR" property="operator" />
+        <result column="REGISTDATE" property="registdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DISCODE, DISNO, FACINAMECODE, FACILITYNAME, SPECI, SPELLCODE, LIFESPAN, FACILITYSOURCE, PURCHASEDATE, COUNTRY, FACTORY, STOREMAN, DEPTCODE, USE, CONTRACTCODE, FACIUNIT, MONEY, DISDATE, AGING, RATIFIER, TREATWITH, NOTATION, SCRAPVALUE, PRODUCTIONCODE, KEEPLEVEL, FUNDSSOURCE, WITHACCES, INHOSPITALCODE, MONTHDEPRE, ISVALID, OPERATOR, REGISTDATE
+    </sql>
+
+</mapper>

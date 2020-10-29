@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewEmOrder;
-import com.ljh.mapper.ViewEmOrderMapper;
+import com.ljh.daoMz.ViewEmOrderMapper;
 import com.ljh.service.ViewEmOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

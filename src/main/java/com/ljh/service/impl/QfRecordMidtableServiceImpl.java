@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfRecordMidtable;
-import com.ljh.mapper.QfRecordMidtableMapper;
+import com.ljh.daoMz.QfRecordMidtableMapper;
 import com.ljh.service.QfRecordMidtableService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

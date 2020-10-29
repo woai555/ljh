@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LAntiresultMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LAntiresult">
+        <id column="CHECKORDER" property="checkorder" />
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="CHECKDATE" property="checkdate" />
+        <result column="SEQ_NO" property="seqNo" />
+        <result column="GROUPCODE" property="groupcode" />
+        <result column="GERMRESULT_NO" property="germresultNo" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="GERMGROUPID" property="germgroupid" />
+        <result column="RESULT" property="result" />
+        <result column="SUPERSCALE_FLAG" property="superscaleFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, CHECKORDER, CHECKDATE, SEQ_NO, GROUPCODE, GERMRESULT_NO, ITEMCODE, GERMGROUPID, RESULT, SUPERSCALE_FLAG
+    </sql>
+
+</mapper>

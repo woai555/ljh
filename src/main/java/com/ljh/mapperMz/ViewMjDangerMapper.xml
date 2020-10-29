@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMjDangerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMjDanger">
+        <result column="TOKEN" property="token" />
+        <result column="ROOMID" property="roomid" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="BEDNO" property="bedno" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="CONTECT" property="contect" />
+        <result column="SENDTIME" property="sendtime" />
+        <result column="SMS_TYPE" property="smsType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TOKEN, ROOMID, ROOMNAME, BEDNO, CARD_NO, NAME, CONTECT, SENDTIME, SMS_TYPE
+    </sql>
+
+</mapper>

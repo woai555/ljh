@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytBsInvoiceQuerybillMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytBsInvoiceQuerybill">
+        <result column="transtype" property="transtype" />
+        <result column="fisSync" property="fisSync" />
+        <result column="fisPrint" property="fisPrint" />
+        <result column="fserialNo" property="fserialNo" />
+        <result column="fsecurityPayNo" property="fsecurityPayNo" />
+        <result column="fsecurityNo" property="fsecurityNo" />
+        <result column="fpayeeCode" property="fpayeeCode" />
+        <result column="fpayeeName" property="fpayeeName" />
+        <result column="fdrawerCode" property="fdrawerCode" />
+        <result column="fdrawerName" property="fdrawerName" />
+        <result column="fbillType" property="fbillType" />
+        <result column="fhisOrgType" property="fhisOrgType" />
+        <result column="fuserName" property="fuserName" />
+        <result column="fuserSex" property="fuserSex" />
+        <result column="fsecurityType" property="fsecurityType" />
+        <result column="fsecurityTypeName" property="fsecurityTypeName" />
+        <result column="fbillNo" property="fbillNo" />
+        <result column="fprintTime" property="fprintTime" />
+        <result column="fdateTime" property="fdateTime" />
+        <result column="fcountMoney" property="fcountMoney" />
+        <result column="foldSerialNo" property="foldSerialNo" />
+        <result column="foldBillNo" property="foldBillNo" />
+        <result column="cancelflag" property="cancelflag" />
+        <result column="fbusinessType" property="fbusinessType" />
+        <result column="faccountPay" property="faccountPay" />
+        <result column="fownPayMoney" property="fownPayMoney" />
+        <result column="ffundPay" property="ffundPay" />
+        <result column="fcaseNo" property="fcaseNo" />
+        <result column="fhospitalNo" property="fhospitalNo" />
+        <result column="fhospitalTime" property="fhospitalTime" />
+        <result column="fhospitalDay" property="fhospitalDay" />
+        <result column="fpreMoney" property="fpreMoney" />
+        <result column="fsuppleMoney" property="fsuppleMoney" />
+        <result column="fbackMoney" property="fbackMoney" />
+        <result column="ftype" property="ftype" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        transtype, fisSync, fisPrint, fserialNo, fsecurityPayNo, fsecurityNo, fpayeeCode, fpayeeName, fdrawerCode, fdrawerName, fbillType, fhisOrgType, fuserName, fuserSex, fsecurityType, fsecurityTypeName, fbillNo, fprintTime, fdateTime, fcountMoney, foldSerialNo, foldBillNo, cancelflag, fbusinessType, faccountPay, fownPayMoney, ffundPay, fcaseNo, fhospitalNo, fhospitalTime, fhospitalDay, fpreMoney, fsuppleMoney, fbackMoney, ftype
+    </sql>
+
+</mapper>

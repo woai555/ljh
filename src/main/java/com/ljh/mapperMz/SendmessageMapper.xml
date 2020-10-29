@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SendmessageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Sendmessage">
+        <id column="SENDMESSAGE_CODE" property="sendmessageCode" />
+        <result column="WARD_CODE" property="wardCode" />
+        <result column="SEND_COMPUTER" property="sendComputer" />
+        <result column="LOCAL_FLAG" property="localFlag" />
+        <result column="SEND_FLAG" property="sendFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SENDMESSAGE_CODE, WARD_CODE, SEND_COMPUTER, LOCAL_FLAG, SEND_FLAG
+    </sql>
+
+</mapper>

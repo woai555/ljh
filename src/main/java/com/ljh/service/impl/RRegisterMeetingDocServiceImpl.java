@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RRegisterMeetingDoc;
-import com.ljh.mapper.RRegisterMeetingDocMapper;
+import com.ljh.daoMz.RRegisterMeetingDocMapper;
 import com.ljh.service.RRegisterMeetingDocService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

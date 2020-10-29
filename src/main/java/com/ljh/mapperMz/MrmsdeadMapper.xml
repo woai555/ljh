@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsdeadMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsdead">
+        <id column="INPATIENT_NO" property="inpatientNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="DEAD_DATE" property="deadDate" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="DEAD_REASON" property="deadReason" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="METHOD1" property="method1" />
+        <result column="METHOD2" property="method2" />
+        <result column="METHOD3" property="method3" />
+        <result column="DEAD_NO" property="deadNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, PATIENT_NO, CARD_NO, NAME, SEX, BIRTHDAY, DEAD_DATE, OPER_DATE, DEAD_REASON, OPER_CODE, OPER_NAME, METHOD1, METHOD2, METHOD3, DEAD_NO
+    </sql>
+
+</mapper>

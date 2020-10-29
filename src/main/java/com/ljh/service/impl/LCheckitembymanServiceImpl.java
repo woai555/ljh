@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LCheckitembyman;
-import com.ljh.mapper.LCheckitembymanMapper;
+import com.ljh.daoMz.LCheckitembymanMapper;
 import com.ljh.service.LCheckitembymanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

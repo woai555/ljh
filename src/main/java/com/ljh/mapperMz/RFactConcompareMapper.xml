@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RFactConcompareMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RFactConcompare">
+        <result column="P_CODE" property="pCode" />
+        <result column="O_CODE" property="oCode" />
+        <result column="O_NAME" property="oName" />
+        <result column="C_CODE" property="cCode" />
+        <result column="C_NAME" property="cName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        P_CODE, O_CODE, O_NAME, C_CODE, C_NAME
+    </sql>
+
+</mapper>

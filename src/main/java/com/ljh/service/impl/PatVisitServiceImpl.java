@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PatVisit;
-import com.ljh.mapper.PatVisitMapper;
+import com.ljh.daoMz.PatVisitMapper;
 import com.ljh.service.PatVisitService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

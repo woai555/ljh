@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRwzbFeedetail;
-import com.ljh.mapper.VRwzbFeedetailMapper;
+import com.ljh.daoMz.VRwzbFeedetailMapper;
 import com.ljh.service.VRwzbFeedetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

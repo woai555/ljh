@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.PlanTableMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PlanTable">
+        <result column="STATEMENT_ID" property="statementId" />
+        <result column="TIMESTAMP" property="timestamp" />
+        <result column="REMARKS" property="remarks" />
+        <result column="OPERATION" property="operation" />
+        <result column="OPTIONS" property="options" />
+        <result column="OBJECT_NODE" property="objectNode" />
+        <result column="OBJECT_OWNER" property="objectOwner" />
+        <result column="OBJECT_NAME" property="objectName" />
+        <result column="OBJECT_INSTANCE" property="objectInstance" />
+        <result column="OBJECT_TYPE" property="objectType" />
+        <result column="OPTIMIZER" property="optimizer" />
+        <result column="SEARCH_COLUMNS" property="searchColumns" />
+        <result column="ID" property="id" />
+        <result column="PARENT_ID" property="parentId" />
+        <result column="POSITION" property="position" />
+        <result column="COST" property="cost" />
+        <result column="CARDINALITY" property="cardinality" />
+        <result column="BYTES" property="bytes" />
+        <result column="OTHER_TAG" property="otherTag" />
+        <result column="PARTITION_START" property="partitionStart" />
+        <result column="PARTITION_STOP" property="partitionStop" />
+        <result column="PARTITION_ID" property="partitionId" />
+        <result column="OTHER" property="other" />
+        <result column="DISTRIBUTION" property="distribution" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STATEMENT_ID, TIMESTAMP, REMARKS, OPERATION, OPTIONS, OBJECT_NODE, OBJECT_OWNER, OBJECT_NAME, OBJECT_INSTANCE, OBJECT_TYPE, OPTIMIZER, SEARCH_COLUMNS, ID, PARENT_ID, POSITION, COST, CARDINALITY, BYTES, OTHER_TAG, PARTITION_START, PARTITION_STOP, PARTITION_ID, OTHER, DISTRIBUTION
+    </sql>
+
+</mapper>

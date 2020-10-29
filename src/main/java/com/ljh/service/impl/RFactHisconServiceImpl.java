@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFactHiscon;
-import com.ljh.mapper.RFactHisconMapper;
+import com.ljh.daoMz.RFactHisconMapper;
 import com.ljh.service.RFactHisconService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

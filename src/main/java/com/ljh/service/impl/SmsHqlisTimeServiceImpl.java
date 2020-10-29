@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SmsHqlisTime;
-import com.ljh.mapper.SmsHqlisTimeMapper;
+import com.ljh.daoMz.SmsHqlisTimeMapper;
 import com.ljh.service.SmsHqlisTimeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

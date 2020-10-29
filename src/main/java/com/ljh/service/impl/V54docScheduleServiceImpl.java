@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.V54docSchedule;
-import com.ljh.mapper.V54docScheduleMapper;
+import com.ljh.daoMz.V54docScheduleMapper;
 import com.ljh.service.V54docScheduleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

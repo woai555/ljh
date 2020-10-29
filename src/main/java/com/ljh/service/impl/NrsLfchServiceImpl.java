@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NrsLfch;
-import com.ljh.mapper.NrsLfchMapper;
+import com.ljh.daoMz.NrsLfchMapper;
 import com.ljh.service.NrsLfchService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

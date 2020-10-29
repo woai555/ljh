@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewListdetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewListdetail">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="LISTDETAILNO" property="listdetailno" />
+        <result column="CHARGECODE" property="chargecode" />
+        <result column="CHARGENAME" property="chargename" />
+        <result column="PRESCRIBECODE" property="prescribecode" />
+        <result column="LISTTYPECODE" property="listtypecode" />
+        <result column="LISTTYPENAME" property="listtypename" />
+        <result column="CODE1" property="code1" />
+        <result column="NAME1" property="name1" />
+        <result column="FORM" property="form" />
+        <result column="SPECIFICATION1" property="specification1" />
+        <result column="UNIT" property="unit" />
+        <result column="STD" property="std" />
+        <result column="NUMBER1" property="number1" />
+        <result column="AMT" property="amt" />
+        <result column="SELFAMT" property="selfamt" />
+        <result column="RECEIVABLEAMT" property="receivableamt" />
+        <result column="MEDICALCARETYPE" property="medicalcaretype" />
+        <result column="MEDCAREITEMTYPE" property="medcareitemtype" />
+        <result column="MEDREIMBURSERATE" property="medreimburserate" />
+        <result column="REMARK" property="remark" />
+        <result column="SORTNO" property="sortno" />
+        <result column="CHRGTYPE" property="chrgtype" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, INVOICE_NO, TRANS_TYPE, LISTDETAILNO, CHARGECODE, CHARGENAME, PRESCRIBECODE, LISTTYPECODE, LISTTYPENAME, CODE1, NAME1, FORM, SPECIFICATION1, UNIT, STD, NUMBER1, AMT, SELFAMT, RECEIVABLEAMT, MEDICALCARETYPE, MEDCAREITEMTYPE, MEDREIMBURSERATE, REMARK, SORTNO, CHRGTYPE
+    </sql>
+
+</mapper>

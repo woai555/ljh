@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.NrsTendImportantMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.NrsTendImportant">
+        <id column="INPATIENT_NO" property="inpatientNo" />
+        <result column="TEND_TIME" property="tendTime" />
+        <result column="TEMPRATURE" property="temprature" />
+        <result column="PULSE" property="pulse" />
+        <result column="BREATH" property="breath" />
+        <result column="BLOOD" property="blood" />
+        <result column="OUT_NAME" property="outName" />
+        <result column="OUT_WATER" property="outWater" />
+        <result column="IN_FOOD" property="inFood" />
+        <result column="IN_WATER" property="inWater" />
+        <result column="IN_MEDICINE" property="inMedicine" />
+        <result column="IN_COUNT" property="inCount" />
+        <result column="TEND_IMPOR" property="tendImpor" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, TEND_TIME, TEMPRATURE, PULSE, BREATH, BLOOD, OUT_NAME, OUT_WATER, IN_FOOD, IN_WATER, IN_MEDICINE, IN_COUNT, TEND_IMPOR, OPER_CODE, OPER_NAME
+    </sql>
+
+</mapper>

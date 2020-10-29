@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MApproveNewmrmsclass;
-import com.ljh.mapper.MApproveNewmrmsclassMapper;
+import com.ljh.daoMz.MApproveNewmrmsclassMapper;
 import com.ljh.service.MApproveNewmrmsclassService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

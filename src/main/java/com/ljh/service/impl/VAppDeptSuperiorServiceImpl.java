@@ -1,9 +1,8 @@
 package com.ljh.service.impl;
 
 import com.ljh.ToolUtil.Json2Xml;
-import com.ljh.bean.VAppDept;
 import com.ljh.bean.VAppDeptSuperior;
-import com.ljh.mapper.VAppDeptSuperiorMapper;
+import com.ljh.daoMz.VAppDeptSuperiorMapper;
 import com.ljh.returnjson.ResultObject;
 import com.ljh.service.VAppDeptSuperiorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

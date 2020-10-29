@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMdyDepartment;
-import com.ljh.mapper.ViewMdyDepartmentMapper;
+import com.ljh.daoMz.ViewMdyDepartmentMapper;
 import com.ljh.service.ViewMdyDepartmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdUsageSetqty;
-import com.ljh.mapper.OrdUsageSetqtyMapper;
+import com.ljh.daoMz.OrdUsageSetqtyMapper;
 import com.ljh.service.OrdUsageSetqtyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

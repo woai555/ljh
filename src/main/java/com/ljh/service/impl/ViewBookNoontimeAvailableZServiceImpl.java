@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewBookNoontimeAvailableZ;
-import com.ljh.mapper.ViewBookNoontimeAvailableZMapper;
+import com.ljh.daoMz.ViewBookNoontimeAvailableZMapper;
 import com.ljh.service.ViewBookNoontimeAvailableZService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

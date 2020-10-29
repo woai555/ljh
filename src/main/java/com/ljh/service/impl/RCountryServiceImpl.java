@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RCountry;
-import com.ljh.mapper.RCountryMapper;
+import com.ljh.daoMz.RCountryMapper;
 import com.ljh.service.RCountryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

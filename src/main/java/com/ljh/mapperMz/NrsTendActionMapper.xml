@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.NrsTendActionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.NrsTendAction">
+        <id column="INPATIENT_NO" property="inpatientNo" />
+        <result column="ACTION_TIME" property="actionTime" />
+        <result column="NRSCELL_CODE" property="nrscellCode" />
+        <result column="ACTION1" property="action1" />
+        <result column="ACTION2" property="action2" />
+        <result column="ACTION3" property="action3" />
+        <result column="ACTION4" property="action4" />
+        <result column="ACTION5" property="action5" />
+        <result column="ACTION6" property="action6" />
+        <result column="ACTION7" property="action7" />
+        <result column="ACTION8" property="action8" />
+        <result column="ACTION9" property="action9" />
+        <result column="ACTION10" property="action10" />
+        <result column="ACTION11" property="action11" />
+        <result column="ACTION12" property="action12" />
+        <result column="ACTION13" property="action13" />
+        <result column="ACTION14" property="action14" />
+        <result column="ACTION15" property="action15" />
+        <result column="ACTION16" property="action16" />
+        <result column="ACTION17" property="action17" />
+        <result column="ACTION18" property="action18" />
+        <result column="ACTION19" property="action19" />
+        <result column="ACTION20" property="action20" />
+        <result column="ACTION21" property="action21" />
+        <result column="ACTION22" property="action22" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, ACTION_TIME, NRSCELL_CODE, ACTION1, ACTION2, ACTION3, ACTION4, ACTION5, ACTION6, ACTION7, ACTION8, ACTION9, ACTION10, ACTION11, ACTION12, ACTION13, ACTION14, ACTION15, ACTION16, ACTION17, ACTION18, ACTION19, ACTION20, ACTION21, ACTION22, OPER_CODE, OPER_NAME
+    </sql>
+
+</mapper>

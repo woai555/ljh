@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpConsole;
-import com.ljh.mapper.OpConsoleMapper;
+import com.ljh.daoMz.OpConsoleMapper;
 import com.ljh.service.OpConsoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

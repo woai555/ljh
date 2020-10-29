@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewSj门诊收费YpMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj门诊收费Yp">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="科室编码" property="科室编码" />
+        <result column="科室名称" property="科室名称" />
+        <result column="医嘱编号" property="医嘱编号" />
+        <result column="分项序号" property="分项序号" />
+        <result column="收费项目" property="收费项目" />
+        <result column="类型" property="类型" />
+        <result column="剂型" property="剂型" />
+        <result column="剂量" property="剂量" />
+        <result column="单价" property="单价" />
+        <result column="数量" property="数量" />
+        <result column="付数" property="付数" />
+        <result column="金额" property="金额" />
+        <result column="交费时间" property="交费时间" />
+        <result column="收款员" property="收款员" />
+        <result column="结账时间" property="结账时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 科室编码, 科室名称, 医嘱编号, 分项序号, 收费项目, 类型, 剂型, 剂量, 单价, 数量, 付数, 金额, 交费时间, 收款员, 结账时间
+    </sql>
+
+</mapper>

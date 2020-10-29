@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VClinicPayUndrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VClinicPayUndrug">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="ITEMNO" property="itemno" />
+        <result column="RECIPENO" property="recipeno" />
+        <result column="UNDRUG_CODE" property="undrugCode" />
+        <result column="UNDRUG_NAME" property="undrugName" />
+        <result column="UNITPRICE" property="unitprice" />
+        <result column="COUNT" property="count" />
+        <result column="FEE" property="fee" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, SEE_NO, ITEMNO, RECIPENO, UNDRUG_CODE, UNDRUG_NAME, UNITPRICE, COUNT, FEE
+    </sql>
+
+</mapper>

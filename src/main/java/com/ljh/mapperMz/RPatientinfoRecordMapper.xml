@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RPatientinfoRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPatientinfoRecord">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="IDENNO" property="idenno" />
+        <result column="BLOOD_CODE" property="bloodCode" />
+        <result column="PROF_CODE" property="profCode" />
+        <result column="WORK_NAME" property="workName" />
+        <result column="WORK_TEL" property="workTel" />
+        <result column="WORK_ZIP" property="workZip" />
+        <result column="HOME" property="home" />
+        <result column="HOME_TEL" property="homeTel" />
+        <result column="HOME_ZIP" property="homeZip" />
+        <result column="DIST" property="dist" />
+        <result column="NATION_CODE" property="nationCode" />
+        <result column="LINKMAN_NAME" property="linkmanName" />
+        <result column="LINKMAN_TEL" property="linkmanTel" />
+        <result column="LINKMAN_ADD" property="linkmanAdd" />
+        <result column="RELA_CODE" property="relaCode" />
+        <result column="MARI" property="mari" />
+        <result column="COUN_CODE" property="counCode" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="PAYKIND_NAME" property="paykindName" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="PACT_NAME" property="pactName" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="AREA" property="area" />
+        <result column="FRAMT" property="framt" />
+        <result column="YNALGY" property="ynalgy" />
+        <result column="YNDRUG" property="yndrug" />
+        <result column="YNDISE" property="yndise" />
+        <result column="ACT_CODE" property="actCode" />
+        <result column="ACT_AMT" property="actAmt" />
+        <result column="LACT_SUM" property="lactSum" />
+        <result column="LBANK_SUM" property="lbankSum" />
+        <result column="ARREAR_TIMES" property="arrearTimes" />
+        <result column="ARREAR_SUM" property="arrearSum" />
+        <result column="INHOS_SRC" property="inhosSrc" />
+        <result column="INHOS_DATE" property="inhosDate" />
+        <result column="INHOS_TIMES" property="inhosTimes" />
+        <result column="OUTHOS_DATE" property="outhosDate" />
+        <result column="FIR_SEE_DATE" property="firSeeDate" />
+        <result column="LREG_DATE" property="lregDate" />
+        <result column="DISOBY_CNT" property="disobyCnt" />
+        <result column="END_DATE" property="endDate" />
+        <result column="PAGE" property="page" />
+        <result column="MARK" property="mark" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="BANK_NO" property="bankNo" />
+        <result column="WORK_ADD" property="workAdd" />
+        <result column="FACTCODE" property="factcode" />
+        <result column="FACTJZKH" property="factjzkh" />
+        <result column="SEQ_NO" property="seqNo" />
+        <result column="YLCARD_NO" property="ylcardNo" />
+        <result column="STATUS" property="status" />
+        <result column="JCPTTJ" property="jcpttj" />
+        <result column="CARDTYPE" property="cardtype" />
+        <result column="TEMP_NO" property="tempNo" />
+        <result column="APPTJ" property="apptj" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, NAME, BIRTHDAY, SEX_CODE, IDENNO, BLOOD_CODE, PROF_CODE, WORK_NAME, WORK_TEL, WORK_ZIP, HOME, HOME_TEL, HOME_ZIP, DIST, NATION_CODE, LINKMAN_NAME, LINKMAN_TEL, LINKMAN_ADD, RELA_CODE, MARI, COUN_CODE, PAYKIND_CODE, PAYKIND_NAME, PACT_CODE, PACT_NAME, MCARD_NO, AREA, FRAMT, YNALGY, YNDRUG, YNDISE, ACT_CODE, ACT_AMT, LACT_SUM, LBANK_SUM, ARREAR_TIMES, ARREAR_SUM, INHOS_SRC, INHOS_DATE, INHOS_TIMES, OUTHOS_DATE, FIR_SEE_DATE, LREG_DATE, DISOBY_CNT, END_DATE, PAGE, MARK, OPER_DATE, OPER_CODE, CLINIC_NO, PATIENT_NO, BANK_NO, WORK_ADD, FACTCODE, FACTJZKH, SEQ_NO, YLCARD_NO, STATUS, JCPTTJ, CARDTYPE, TEMP_NO, APPTJ
+    </sql>
+
+</mapper>

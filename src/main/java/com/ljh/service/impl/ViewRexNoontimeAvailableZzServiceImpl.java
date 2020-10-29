@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRexNoontimeAvailableZz;
-import com.ljh.mapper.ViewRexNoontimeAvailableZzMapper;
+import com.ljh.daoMz.ViewRexNoontimeAvailableZzMapper;
 import com.ljh.service.ViewRexNoontimeAvailableZzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MedicineHintsTemp;
-import com.ljh.mapper.MedicineHintsTempMapper;
+import com.ljh.daoMz.MedicineHintsTempMapper;
 import com.ljh.service.MedicineHintsTempService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

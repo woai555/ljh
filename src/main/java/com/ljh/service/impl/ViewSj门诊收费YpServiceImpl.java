@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSj门诊收费Yp;
-import com.ljh.mapper.ViewSj门诊收费YpMapper;
+import com.ljh.daoMz.ViewSj门诊收费YpMapper;
 import com.ljh.service.ViewSj门诊收费YpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

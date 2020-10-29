@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TriSeeRoom;
-import com.ljh.mapper.TriSeeRoomMapper;
+import com.ljh.daoMz.TriSeeRoomMapper;
 import com.ljh.service.TriSeeRoomService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

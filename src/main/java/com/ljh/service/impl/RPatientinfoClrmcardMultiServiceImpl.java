@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientinfoClrmcardMulti;
-import com.ljh.mapper.RPatientinfoClrmcardMultiMapper;
+import com.ljh.daoMz.RPatientinfoClrmcardMultiMapper;
 import com.ljh.service.RPatientinfoClrmcardMultiService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

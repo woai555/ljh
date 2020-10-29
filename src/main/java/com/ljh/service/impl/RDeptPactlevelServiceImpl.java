@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDeptPactlevel;
-import com.ljh.mapper.RDeptPactlevelMapper;
+import com.ljh.daoMz.RDeptPactlevelMapper;
 import com.ljh.service.RDeptPactlevelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

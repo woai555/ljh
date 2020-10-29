@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VQyylDoctorInfo;
-import com.ljh.mapper.VQyylDoctorInfoMapper;
+import com.ljh.daoMz.VQyylDoctorInfoMapper;
 import com.ljh.service.VQyylDoctorInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

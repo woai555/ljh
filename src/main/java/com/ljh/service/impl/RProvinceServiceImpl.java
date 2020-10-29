@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RProvince;
-import com.ljh.mapper.RProvinceMapper;
+import com.ljh.daoMz.RProvinceMapper;
 import com.ljh.service.RProvinceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

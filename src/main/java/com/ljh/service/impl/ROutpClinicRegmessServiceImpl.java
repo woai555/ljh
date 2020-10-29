@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ROutpClinicRegmess;
-import com.ljh.mapper.ROutpClinicRegmessMapper;
+import com.ljh.daoMz.ROutpClinicRegmessMapper;
 import com.ljh.service.ROutpClinicRegmessService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

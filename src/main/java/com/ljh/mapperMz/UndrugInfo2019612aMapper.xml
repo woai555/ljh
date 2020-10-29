@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.UndrugInfo2019612aMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugInfo2019612a">
+        <result column="UNDRUG_CODE" property="undrugCode" />
+        <result column="UNDRUG_NAME" property="undrugName" />
+        <result column="INPUT_CODE" property="inputCode" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="SELF_PAY_FLAG" property="selfPayFlag" />
+        <result column="COST_PRICE" property="costPrice" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="STOCK_UNIT" property="stockUnit" />
+        <result column="EMERG_SCALE" property="emergScale" />
+        <result column="EMERG_PUB_SCALE" property="emergPubScale" />
+        <result column="EMERG_PAY_SCALE" property="emergPayScale" />
+        <result column="EMERG_OWN_SCALE" property="emergOwnScale" />
+        <result column="OPERATE_TIME" property="operateTime" />
+        <result column="NEED_REPORT" property="needReport" />
+        <result column="DEPT_SCALE" property="deptScale" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="SDEPT_CODE" property="sdeptCode" />
+        <result column="APPEND_ITEM" property="appendItem" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="SYS_CLASS" property="sysClass" />
+        <result column="FAMILY_PLAN" property="familyPlan" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="SPECIAL_ITEM" property="specialItem" />
+        <result column="OPERATE_CODE" property="operateCode" />
+        <result column="WB_CODE" property="wbCode" />
+        <result column="PUB_RATE" property="pubRate" />
+        <result column="ITEM_GRADE" property="itemGrade" />
+        <result column="CONFIRM_FLAG" property="confirmFlag" />
+        <result column="NATIONAL_CODE" property="nationalCode" />
+        <result column="MARK" property="mark" />
+        <result column="STOP_FLAG" property="stopFlag" />
+        <result column="SHOW_FLAG" property="showFlag" />
+        <result column="SPECS" property="specs" />
+        <result column="GB_CODE" property="gbCode" />
+        <result column="EXEDEPT_INFO" property="exedeptInfo" />
+        <result column="USED_RANGE" property="usedRange" />
+        <result column="PRODUCT" property="product" />
+        <result column="INTRODUCT" property="introduct" />
+        <result column="REMARK" property="remark" />
+        <result column="HH_CODE" property="hhCode" />
+        <result column="ICD9_CM3_CODE" property="icd9Cm3Code" />
+        <result column="ICD9_CM3_NAME" property="icd9Cm3Name" />
+        <result column="IFQUICKFEE" property="ifquickfee" />
+        <result column="REMARKNEW" property="remarknew" />
+        <result column="ADDRESS" property="address" />
+        <result column="PACSNAME" property="pacsname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        UNDRUG_CODE, UNDRUG_NAME, INPUT_CODE, SPELL_CODE, SELF_PAY_FLAG, COST_PRICE, UNIT_PRICE, STOCK_UNIT, EMERG_SCALE, EMERG_PUB_SCALE, EMERG_PAY_SCALE, EMERG_OWN_SCALE, OPERATE_TIME, NEED_REPORT, DEPT_SCALE, DEPT_CODE, DEPT_NAME, SDEPT_CODE, APPEND_ITEM, FEE_CODE, SYS_CLASS, FAMILY_PLAN, OPER_DATE, OPER_CODE, OPER_NAME, SPECIAL_ITEM, OPERATE_CODE, WB_CODE, PUB_RATE, ITEM_GRADE, CONFIRM_FLAG, NATIONAL_CODE, MARK, STOP_FLAG, SHOW_FLAG, SPECS, GB_CODE, EXEDEPT_INFO, USED_RANGE, PRODUCT, INTRODUCT, REMARK, HH_CODE, ICD9_CM3_CODE, ICD9_CM3_NAME, IFQUICKFEE, REMARKNEW, ADDRESS, PACSNAME
+    </sql>
+
+</mapper>

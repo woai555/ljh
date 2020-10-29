@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VInterfaceMzplacecode;
-import com.ljh.mapper.VInterfaceMzplacecodeMapper;
+import com.ljh.daoMz.VInterfaceMzplacecodeMapper;
 import com.ljh.service.VInterfaceMzplacecodeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDictTransfer;
-import com.ljh.mapper.RDictTransferMapper;
+import com.ljh.daoMz.RDictTransferMapper;
 import com.ljh.service.RDictTransferService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

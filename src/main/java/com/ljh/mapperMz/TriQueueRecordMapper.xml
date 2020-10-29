@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.TriQueueRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TriQueueRecord">
+        <id column="QUEUE_CODE" property="queueCode" />
+        <result column="TRIAGEDEPT_CODE" property="triagedeptCode" />
+        <result column="DATE_CODE" property="dateCode" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="QUEUE_NAME" property="queueName" />
+        <result column="ORDERID" property="orderid" />
+        <result column="QUEUE_COMEMNT" property="queueComemnt" />
+        <result column="QUEUE_FLAG" property="queueFlag" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TRIAGEDEPT_CODE, DATE_CODE, NOON_CODE, QUEUE_CODE, QUEUE_NAME, ORDERID, QUEUE_COMEMNT, QUEUE_FLAG, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

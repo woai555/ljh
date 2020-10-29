@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UndrugDetailTemp;
-import com.ljh.mapper.UndrugDetailTempMapper;
+import com.ljh.daoMz.UndrugDetailTempMapper;
 import com.ljh.service.UndrugDetailTempService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

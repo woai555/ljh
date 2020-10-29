@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WatchOutGo;
-import com.ljh.mapper.WatchOutGoMapper;
+import com.ljh.daoMz.WatchOutGoMapper;
 import com.ljh.service.WatchOutGoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

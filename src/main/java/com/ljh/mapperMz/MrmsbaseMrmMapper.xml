@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsbaseMrmMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmsbaseMrm">
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="HOUSE_DOC_CODE" property="houseDocCode" />
+        <result column="CHARGE_DOC_CODE" property="chargeDocCode" />
+        <result column="CHIEF_DOC_CODE" property="chiefDocCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, HOUSE_DOC_CODE, CHARGE_DOC_CODE, CHIEF_DOC_CODE
+    </sql>
+
+</mapper>

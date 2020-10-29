@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMrmsFeeReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsFeeReport">
+        <result column="IF_INVOICE_NO" property="ifInvoiceNo" />
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="BALANCE_NO" property="balanceNo" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="DERATE_COST" property="derateCost" />
+        <result column="BALANCE_DTIME" property="balanceDtime" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="BALANCE_TYPE" property="balanceType" />
+        <result column="IS_BABY" property="isBaby" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="WASTE_FLAG" property="wasteFlag" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DEPT_CODE" property="operDeptCode" />
+        <result column="WASTE_OPER_CODE" property="wasteOperCode" />
+        <result column="WASTE_DEPT_CODE" property="wasteDeptCode" />
+        <result column="WASTE_DTIME" property="wasteDtime" />
+        <result column="PKEY" property="pkey" />
+        <result column="FROMDATE" property="fromdate" />
+        <result column="ENDDATE" property="enddate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        IF_INVOICE_NO, INPATIENT_NO, BALANCE_NO, FEE_CODE, TOT_COST, OWN_COST, PAY_COST, PUB_COST, DERATE_COST, BALANCE_DTIME, DEPT_CODE, PACT_CODE, BALANCE_TYPE, IS_BABY, INVOICE_NO, WASTE_FLAG, OPER_CODE, OPER_DEPT_CODE, WASTE_OPER_CODE, WASTE_DEPT_CODE, WASTE_DTIME, PKEY, FROMDATE, ENDDATE
+    </sql>
+
+</mapper>

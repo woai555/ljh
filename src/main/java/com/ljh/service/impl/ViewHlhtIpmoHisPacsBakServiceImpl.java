@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtIpmoHisPacsBak;
-import com.ljh.mapper.ViewHlhtIpmoHisPacsBakMapper;
+import com.ljh.daoMz.ViewHlhtIpmoHisPacsBakMapper;
 import com.ljh.service.ViewHlhtIpmoHisPacsBakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

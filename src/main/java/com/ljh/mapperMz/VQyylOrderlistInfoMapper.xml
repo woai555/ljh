@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VQyylOrderlistInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VQyylOrderlistInfo">
+        <result column="QUERYPERSONTYPE" property="querypersontype" />
+        <result column="USERCARDTYPE" property="usercardtype" />
+        <result column="USERCARDID" property="usercardid" />
+        <result column="QUERYDATETYPE" property="querydatetype" />
+        <result column="STARTTIME" property="starttime" />
+        <result column="ENDTIME" property="endtime" />
+        <result column="ORDERID" property="orderid" />
+        <result column="HOSORGCODE" property="hosorgcode" />
+        <result column="ORDERSTATUS" property="orderstatus" />
+        <result column="ONEDEPTCODE" property="onedeptcode" />
+        <result column="DEPTCODE" property="deptcode" />
+        <result column="ORDERTYPE" property="ordertype" />
+        <result column="RESOURCECODE" property="resourcecode" />
+        <result column="SCHEDULEID" property="scheduleid" />
+        <result column="NUMSOURCEID" property="numsourceid" />
+        <result column="NUMSOURCEDETAILID" property="numsourcedetailid" />
+        <result column="HOSNAME" property="hosname" />
+        <result column="DEPTNAME" property="deptname" />
+        <result column="RESOURCENAME" property="resourcename" />
+        <result column="ORDERTIME" property="ordertime" />
+        <result column="TIMERANGE" property="timerange" />
+        <result column="PAYMODE" property="paymode" />
+        <result column="PAYSTATE" property="paystate" />
+        <result column="MEDICARDID" property="medicardid" />
+        <result column="MEDICARDTYPE" property="medicardtype" />
+        <result column="USERNAME" property="username" />
+        <result column="USERPHONE" property="userphone" />
+        <result column="APPLYDATE" property="applydate" />
+        <result column="CANCELDATE" property="canceldate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        QUERYPERSONTYPE, USERCARDTYPE, USERCARDID, QUERYDATETYPE, STARTTIME, ENDTIME, ORDERID, HOSORGCODE, ORDERSTATUS, ONEDEPTCODE, DEPTCODE, ORDERTYPE, RESOURCECODE, SCHEDULEID, NUMSOURCEID, NUMSOURCEDETAILID, HOSNAME, DEPTNAME, RESOURCENAME, ORDERTIME, TIMERANGE, PAYMODE, PAYSTATE, MEDICARDID, MEDICARDTYPE, USERNAME, USERPHONE, APPLYDATE, CANCELDATE
+    </sql>
+
+</mapper>

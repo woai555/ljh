@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytPrivatecloudBookIntraday;
-import com.ljh.mapper.JytPrivatecloudBookIntradayMapper;
+import com.ljh.daoMz.JytPrivatecloudBookIntradayMapper;
 import com.ljh.service.JytPrivatecloudBookIntradayService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

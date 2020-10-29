@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppPscriptdetailDruglistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppPscriptdetailDruglist">
+        <result column="HIS_PSCRIPT_NO" property="hisPscriptNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="RP_TITLE" property="rpTitle" />
+        <result column="RP_TYPE" property="rpType" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="ID_CARD" property="idCard" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="DOC_NAME" property="docName" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="TOTAL_AMOUNT" property="totalAmount" />
+        <result column="SELF_PAY_AMOUNT" property="selfPayAmount" />
+        <result column="INSURANCE_AMOUNT" property="insuranceAmount" />
+        <result column="DOC_ADMONISH" property="docAdmonish" />
+        <result column="DRUG_NAME" property="drugName" />
+        <result column="DRUG_SPEC" property="drugSpec" />
+        <result column="DRUG_AMOUNT" property="drugAmount" />
+        <result column="USAGE" property="usage" />
+        <result column="FREQUENCY" property="frequency" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="TCM_RP_USAGE" property="tcmRpUsage" />
+        <result column="TCM_RP_AMOUNT" property="tcmRpAmount" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="DRUG_PRICE" property="drugPrice" />
+        <result column="USE_DAYS" property="useDays" />
+        <result column="AGE_DESC" property="ageDesc" />
+        <result column="SEX" property="sex" />
+        <result column="DIAG_RESULT" property="diagResult" />
+        <result column="HIS_DIAG_CODE" property="hisDiagCode" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HIS_PSCRIPT_NO, VISIT_ID, RP_TITLE, RP_TYPE, CREATE_TIME, OPER_DATE, START_DATE, END_DATE, ID_CARD, ID_CARD_TYPE, MCARD_NO, CARDNO_JYT, DOC_NAME, DEPT_NAME, TOTAL_AMOUNT, SELF_PAY_AMOUNT, INSURANCE_AMOUNT, DOC_ADMONISH, DRUG_NAME, DRUG_SPEC, DRUG_AMOUNT, USAGE, FREQUENCY, DOSAGE, TCM_RP_USAGE, TCM_RP_AMOUNT, DRUG_CODE, DRUG_PRICE, USE_DAYS, AGE_DESC, SEX, DIAG_RESULT, HIS_DIAG_CODE, CARD_NO, REG_DATE
+    </sql>
+
+</mapper>

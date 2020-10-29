@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SParamtable;
-import com.ljh.mapper.SParamtableMapper;
+import com.ljh.daoMz.SParamtableMapper;
 import com.ljh.service.SParamtableService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

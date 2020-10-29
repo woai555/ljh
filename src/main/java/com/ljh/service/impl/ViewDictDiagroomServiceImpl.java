@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewDictDiagroom;
-import com.ljh.mapper.ViewDictDiagroomMapper;
+import com.ljh.daoMz.ViewDictDiagroomMapper;
 import com.ljh.service.ViewDictDiagroomService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

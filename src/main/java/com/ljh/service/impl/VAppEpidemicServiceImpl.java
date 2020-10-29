@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppEpidemic;
-import com.ljh.mapper.VAppEpidemicMapper;
+import com.ljh.daoMz.VAppEpidemicMapper;
 import com.ljh.service.VAppEpidemicService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

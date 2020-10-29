@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MedicationSumModifyRecords;
-import com.ljh.mapper.MedicationSumModifyRecordsMapper;
+import com.ljh.daoMz.MedicationSumModifyRecordsMapper;
 import com.ljh.service.MedicationSumModifyRecordsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

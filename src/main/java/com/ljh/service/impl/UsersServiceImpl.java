@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Users;
-import com.ljh.mapper.UsersMapper;
+import com.ljh.daoMz.UsersMapper;
 import com.ljh.service.UsersService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

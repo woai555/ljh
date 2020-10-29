@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MrmsReportDict;
-import com.ljh.mapper.MrmsReportDictMapper;
+import com.ljh.daoMz.MrmsReportDictMapper;
 import com.ljh.service.MrmsReportDictService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

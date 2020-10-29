@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VGetInvoiceVsBs;
-import com.ljh.mapper.VGetInvoiceVsBsMapper;
+import com.ljh.daoMz.VGetInvoiceVsBsMapper;
 import com.ljh.service.VGetInvoiceVsBsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.StatSql;
-import com.ljh.mapper.StatSqlMapper;
+import com.ljh.daoMz.StatSqlMapper;
 import com.ljh.service.StatSqlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

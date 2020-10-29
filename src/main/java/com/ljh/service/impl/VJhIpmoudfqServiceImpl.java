@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VJhIpmoudfq;
-import com.ljh.mapper.VJhIpmoudfqMapper;
+import com.ljh.daoMz.VJhIpmoudfqMapper;
 import com.ljh.service.VJhIpmoudfqService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

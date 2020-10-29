@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpDatumkind;
-import com.ljh.mapper.OpDatumkindMapper;
+import com.ljh.daoMz.OpDatumkindMapper;
 import com.ljh.service.OpDatumkindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

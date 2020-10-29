@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdRecipedetailBak;
-import com.ljh.mapper.OrdRecipedetailBakMapper;
+import com.ljh.daoMz.OrdRecipedetailBakMapper;
 import com.ljh.service.OrdRecipedetailBakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RegisterAccountReportdetail;
-import com.ljh.mapper.RegisterAccountReportdetailMapper;
+import com.ljh.daoMz.RegisterAccountReportdetailMapper;
 import com.ljh.service.RegisterAccountReportdetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSex;
-import com.ljh.mapper.RSexMapper;
+import com.ljh.daoMz.RSexMapper;
 import com.ljh.service.RSexService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

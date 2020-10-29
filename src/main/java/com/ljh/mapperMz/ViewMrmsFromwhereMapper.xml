@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMrmsFromwhereMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsFromwhere">
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="S_BQ" property="sBq" />
+        <result column="S_BSHI" property="sBshi" />
+        <result column="S_BSHENG" property="sBsheng" />
+        <result column="S_WS" property="sWs" />
+        <result column="S_GW" property="sGw" />
+        <result column="S_GAT" property="sGat" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_NAME, DEPT_CODE, S_BQ, S_BSHI, S_BSHENG, S_WS, S_GW, S_GAT
+    </sql>
+
+</mapper>

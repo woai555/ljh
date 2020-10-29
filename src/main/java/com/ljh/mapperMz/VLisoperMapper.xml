@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VLisoperMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VLisoper">
+        <id column="OPERID" property="operid" />
+        <result column="NAME" property="name" />
+        <result column="LISCODE" property="liscode" />
+        <result column="UNITID" property="unitid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERID, NAME, LISCODE, UNITID
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytBsInvoiceQuerybillTest;
-import com.ljh.mapper.JytBsInvoiceQuerybillTestMapper;
+import com.ljh.daoMz.JytBsInvoiceQuerybillTestMapper;
 import com.ljh.service.JytBsInvoiceQuerybillTestService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

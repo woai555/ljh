@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRwzbConsisOpwinset;
-import com.ljh.mapper.ViewRwzbConsisOpwinsetMapper;
+import com.ljh.daoMz.ViewRwzbConsisOpwinsetMapper;
 import com.ljh.service.ViewRwzbConsisOpwinsetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

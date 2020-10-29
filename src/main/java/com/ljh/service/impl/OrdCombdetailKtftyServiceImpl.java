@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdCombdetailKtfty;
-import com.ljh.mapper.OrdCombdetailKtftyMapper;
+import com.ljh.daoMz.OrdCombdetailKtftyMapper;
 import com.ljh.service.OrdCombdetailKtftyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

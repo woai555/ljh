@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LscBenmu;
-import com.ljh.mapper.LscBenmuMapper;
+import com.ljh.daoMz.LscBenmuMapper;
 import com.ljh.service.LscBenmuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

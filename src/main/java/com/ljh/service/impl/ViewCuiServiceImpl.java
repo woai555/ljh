@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewCui;
-import com.ljh.mapper.ViewCuiMapper;
+import com.ljh.daoMz.ViewCuiMapper;
 import com.ljh.service.ViewCuiService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

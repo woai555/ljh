@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VStoresum;
-import com.ljh.mapper.VStoresumMapper;
+import com.ljh.daoMz.VStoresumMapper;
 import com.ljh.service.VStoresumService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

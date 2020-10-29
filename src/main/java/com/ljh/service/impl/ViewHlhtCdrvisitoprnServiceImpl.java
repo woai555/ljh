@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdrvisitoprn;
-import com.ljh.mapper.ViewHlhtCdrvisitoprnMapper;
+import com.ljh.daoMz.ViewHlhtCdrvisitoprnMapper;
 import com.ljh.service.ViewHlhtCdrvisitoprnService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RRelative;
-import com.ljh.mapper.RRelativeMapper;
+import com.ljh.daoMz.RRelativeMapper;
 import com.ljh.service.RRelativeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

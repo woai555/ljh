@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SuperloginLog;
-import com.ljh.mapper.SuperloginLogMapper;
+import com.ljh.daoMz.SuperloginLogMapper;
 import com.ljh.service.SuperloginLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

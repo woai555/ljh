@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdTaboodetail;
-import com.ljh.mapper.OrdTaboodetailMapper;
+import com.ljh.daoMz.OrdTaboodetailMapper;
 import com.ljh.service.OrdTaboodetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

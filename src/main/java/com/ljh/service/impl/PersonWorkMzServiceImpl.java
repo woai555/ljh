@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PersonWorkMz;
-import com.ljh.mapper.PersonWorkMzMapper;
+import com.ljh.daoMz.PersonWorkMzMapper;
 import com.ljh.service.PersonWorkMzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

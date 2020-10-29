@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewPatinfoZy;
-import com.ljh.mapper.ViewPatinfoZyMapper;
+import com.ljh.daoMz.ViewPatinfoZyMapper;
 import com.ljh.service.ViewPatinfoZyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

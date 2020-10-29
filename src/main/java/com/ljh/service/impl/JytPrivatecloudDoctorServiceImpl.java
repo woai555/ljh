@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytPrivatecloudDoctor;
-import com.ljh.mapper.JytPrivatecloudDoctorMapper;
+import com.ljh.daoMz.JytPrivatecloudDoctorMapper;
 import com.ljh.service.JytPrivatecloudDoctorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

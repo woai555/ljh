@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RStatRegistor;
-import com.ljh.mapper.RStatRegistorMapper;
+import com.ljh.daoMz.RStatRegistorMapper;
 import com.ljh.service.RStatRegistorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

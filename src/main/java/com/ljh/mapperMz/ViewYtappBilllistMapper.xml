@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewYtappBilllistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYtappBilllist">
+        <result column="HOS_CODE" property="hosCode" />
+        <result column="CHANNEL_TYPE" property="channelType" />
+        <result column="TRADE_TYPE" property="tradeType" />
+        <result column="PAY_TYPE" property="payType" />
+        <result column="TRADE_FEE" property="tradeFee" />
+        <result column="OUT_TRADE_NO" property="outTradeNo" />
+        <result column="IN_TRADE_NO" property="inTradeNo" />
+        <result column="TRADE_TIME" property="tradeTime" />
+        <result column="TRADE_NO" property="tradeNo" />
+        <result column="BIZ_TYPE" property="bizType" />
+        <result column="DISTRICT_ID" property="districtId" />
+        <result column="SOURCE_TYPE" property="sourceType" />
+        <result column="STAT_TYPE" property="statType" />
+        <result column="DEVICE_NO" property="deviceNo" />
+        <result column="EMP_NO" property="empNo" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOS_CODE, CHANNEL_TYPE, TRADE_TYPE, PAY_TYPE, TRADE_FEE, OUT_TRADE_NO, IN_TRADE_NO, TRADE_TIME, TRADE_NO, BIZ_TYPE, DISTRICT_ID, SOURCE_TYPE, STAT_TYPE, DEVICE_NO, EMP_NO, START_DATE, END_DATE
+    </sql>
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LMachineidMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LMachineid">
+        <id column="MACHINEID" property="machineid" />
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="MACHINEIDNAME" property="machineidname" />
+        <result column="GROUPCODE" property="groupcode" />
+        <result column="GROUPNAME" property="groupname" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORDATE" property="operatordate" />
+        <result column="BAUDRATE" property="baudrate" />
+        <result column="PARITY" property="parity" />
+        <result column="STOPBITS" property="stopbits" />
+        <result column="BYTESIZE" property="bytesize" />
+        <result column="WHICHCOM" property="whichcom" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, MACHINEID, MACHINEIDNAME, GROUPCODE, GROUPNAME, DEPT_CODE, OPERATORID, OPERATORDATE, BAUDRATE, PARITY, STOPBITS, BYTESIZE, WHICHCOM
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfRecordJzinfo;
-import com.ljh.mapper.QfRecordJzinfoMapper;
+import com.ljh.daoMz.QfRecordJzinfoMapper;
 import com.ljh.service.QfRecordJzinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

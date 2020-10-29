@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LStencilList;
-import com.ljh.mapper.LStencilListMapper;
+import com.ljh.daoMz.LStencilListMapper;
 import com.ljh.service.LStencilListService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

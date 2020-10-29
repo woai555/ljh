@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Kc22Temp;
-import com.ljh.mapper.Kc22TempMapper;
+import com.ljh.daoMz.Kc22TempMapper;
 import com.ljh.service.Kc22TempService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

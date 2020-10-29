@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmttoge;
-import com.ljh.mapper.MrmttogeMapper;
+import com.ljh.daoMz.MrmttogeMapper;
 import com.ljh.service.MrmttogeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TeleKeshi;
-import com.ljh.mapper.TeleKeshiMapper;
+import com.ljh.daoMz.TeleKeshiMapper;
 import com.ljh.service.TeleKeshiService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

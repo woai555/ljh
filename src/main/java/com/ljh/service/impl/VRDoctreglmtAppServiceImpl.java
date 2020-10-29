@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRDoctreglmtApp;
-import com.ljh.mapper.VRDoctreglmtAppMapper;
+import com.ljh.daoMz.VRDoctreglmtAppMapper;
 import com.ljh.service.VRDoctreglmtAppService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

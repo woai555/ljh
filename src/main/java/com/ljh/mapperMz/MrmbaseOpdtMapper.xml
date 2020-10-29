@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmbaseOpdtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmbaseOpdt">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="XH" property="xh" />
+        <result column="OPER_XH" property="operXh" />
+        <result column="OPER_BGN_DATETIME" property="operBgnDatetime" />
+        <result column="OPER_END_DATETIME" property="operEndDatetime" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="NARC_KIND" property="narcKind" />
+        <result column="DOCT_NARC_CODE" property="doctNarcCode" />
+        <result column="DOCT_NARC_NAME" property="doctNarcName" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_CNNAME" property="operCnname" />
+        <result column="MAJOR_FLAG" property="majorFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, REG_DTIME, XH, OPER_XH, OPER_BGN_DATETIME, OPER_END_DATETIME, DOCT_CODE, DOCT_NAME, NARC_KIND, DOCT_NARC_CODE, DOCT_NARC_NAME, OPER_CODE, OPER_CNNAME, MAJOR_FLAG
+    </sql>
+
+</mapper>

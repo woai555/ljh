@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsFeeReport;
-import com.ljh.mapper.ViewMrmsFeeReportMapper;
+import com.ljh.daoMz.ViewMrmsFeeReportMapper;
 import com.ljh.service.ViewMrmsFeeReportService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

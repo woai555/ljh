@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Temp;
-import com.ljh.mapper.TempMapper;
+import com.ljh.daoMz.TempMapper;
 import com.ljh.service.TempService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewDsStorage;
-import com.ljh.mapper.ViewDsStorageMapper;
+import com.ljh.daoMz.ViewDsStorageMapper;
 import com.ljh.service.ViewDsStorageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

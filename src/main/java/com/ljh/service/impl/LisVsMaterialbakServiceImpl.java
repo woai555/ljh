@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LisVsMaterialbak;
-import com.ljh.mapper.LisVsMaterialbakMapper;
+import com.ljh.daoMz.LisVsMaterialbakMapper;
 import com.ljh.service.LisVsMaterialbakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

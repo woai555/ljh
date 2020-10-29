@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Med4and7;
-import com.ljh.mapper.Med4and7Mapper;
+import com.ljh.daoMz.Med4and7Mapper;
 import com.ljh.service.Med4and7Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

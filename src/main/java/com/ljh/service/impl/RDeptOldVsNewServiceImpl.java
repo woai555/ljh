@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDeptOldVsNew;
-import com.ljh.mapper.RDeptOldVsNewMapper;
+import com.ljh.daoMz.RDeptOldVsNewMapper;
 import com.ljh.service.RDeptOldVsNewService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VSex;
-import com.ljh.mapper.VSexMapper;
+import com.ljh.daoMz.VSexMapper;
 import com.ljh.service.VSexService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

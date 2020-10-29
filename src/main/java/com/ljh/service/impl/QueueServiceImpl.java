@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Queue;
-import com.ljh.mapper.QueueMapper;
+import com.ljh.daoMz.QueueMapper;
 import com.ljh.service.QueueService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

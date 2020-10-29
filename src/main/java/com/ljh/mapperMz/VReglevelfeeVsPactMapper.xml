@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VReglevelfeeVsPactMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VReglevelfeeVsPact">
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="REGFEE_HISID" property="regfeeHisid" />
+        <result column="DIAGFEE_HISID" property="diagfeeHisid" />
+        <result column="JZREGFEE_HISID" property="jzregfeeHisid" />
+        <result column="REG_HISNAME" property="regHisname" />
+        <result column="DIAG_HISNAME" property="diagHisname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REGLEVL_CODE, PACT_CODE, REGFEE_HISID, DIAGFEE_HISID, JZREGFEE_HISID, REG_HISNAME, DIAG_HISNAME
+    </sql>
+
+</mapper>

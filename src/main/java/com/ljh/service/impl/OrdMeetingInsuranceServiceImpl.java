@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdMeetingInsurance;
-import com.ljh.mapper.OrdMeetingInsuranceMapper;
+import com.ljh.daoMz.OrdMeetingInsuranceMapper;
 import com.ljh.service.OrdMeetingInsuranceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

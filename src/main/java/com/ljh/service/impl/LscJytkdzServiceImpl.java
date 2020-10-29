@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LscJytkdz;
-import com.ljh.mapper.LscJytkdzMapper;
+import com.ljh.daoMz.LscJytkdzMapper;
 import com.ljh.service.LscJytkdzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

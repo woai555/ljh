@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewDictSymptom;
-import com.ljh.mapper.ViewDictSymptomMapper;
+import com.ljh.daoMz.ViewDictSymptomMapper;
 import com.ljh.service.ViewDictSymptomService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

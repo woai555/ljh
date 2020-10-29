@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LResultphrase;
-import com.ljh.mapper.LResultphraseMapper;
+import com.ljh.daoMz.LResultphraseMapper;
 import com.ljh.service.LResultphraseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

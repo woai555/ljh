@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtAddactorder;
-import com.ljh.mapper.ViewHlhtAddactorderMapper;
+import com.ljh.daoMz.ViewHlhtAddactorderMapper;
 import com.ljh.service.ViewHlhtAddactorderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

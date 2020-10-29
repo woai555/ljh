@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFactConcompare;
-import com.ljh.mapper.RFactConcompareMapper;
+import com.ljh.daoMz.RFactConcompareMapper;
 import com.ljh.service.RFactConcompareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VTestLis;
-import com.ljh.mapper.VTestLisMapper;
+import com.ljh.daoMz.VTestLisMapper;
 import com.ljh.service.VTestLisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OutpSchemePerformedItemsBMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OutpSchemePerformedItemsB">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_DATE" property="visitDate" />
+        <result column="PRESCRIPTION_NO" property="prescriptionNo" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="ORDER_SUB_NO" property="orderSubNo" />
+        <result column="ORDER_CODE" property="orderCode" />
+        <result column="ORDER_CLASS" property="orderClass" />
+        <result column="ORDER_TEXT_M" property="orderTextM" />
+        <result column="ORDER_TEXT_B" property="orderTextB" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="DOSAGE_UNITS" property="dosageUnits" />
+        <result column="ADMINISTRATION" property="administration" />
+        <result column="FREQUENCY" property="frequency" />
+        <result column="DUTATION" property="dutation" />
+        <result column="FREQ_DETAIL" property="freqDetail" />
+        <result column="ORDERING_DEPT" property="orderingDept" />
+        <result column="ORDERING_DOC" property="orderingDoc" />
+        <result column="USE_DAYS" property="useDays" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, VISIT_ID, VISIT_DATE, PRESCRIPTION_NO, ORDER_NO, ORDER_SUB_NO, ORDER_CODE, ORDER_CLASS, ORDER_TEXT_M, ORDER_TEXT_B, DOSAGE, DOSAGE_UNITS, ADMINISTRATION, FREQUENCY, DUTATION, FREQ_DETAIL, ORDERING_DEPT, ORDERING_DOC, USE_DAYS
+    </sql>
+
+</mapper>

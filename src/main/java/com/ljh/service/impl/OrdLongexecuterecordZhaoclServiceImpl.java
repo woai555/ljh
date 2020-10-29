@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdLongexecuterecordZhaocl;
-import com.ljh.mapper.OrdLongexecuterecordZhaoclMapper;
+import com.ljh.daoMz.OrdLongexecuterecordZhaoclMapper;
 import com.ljh.service.OrdLongexecuterecordZhaoclService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

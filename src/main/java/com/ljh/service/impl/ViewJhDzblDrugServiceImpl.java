@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJhDzblDrug;
-import com.ljh.mapper.ViewJhDzblDrugMapper;
+import com.ljh.daoMz.ViewJhDzblDrugMapper;
 import com.ljh.service.ViewJhDzblDrugService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

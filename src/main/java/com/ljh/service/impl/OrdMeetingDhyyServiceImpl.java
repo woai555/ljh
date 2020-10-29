@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdMeetingDhyy;
-import com.ljh.mapper.OrdMeetingDhyyMapper;
+import com.ljh.daoMz.OrdMeetingDhyyMapper;
 import com.ljh.service.OrdMeetingDhyyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfLevel;
-import com.ljh.mapper.QfLevelMapper;
+import com.ljh.daoMz.QfLevelMapper;
 import com.ljh.service.QfLevelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

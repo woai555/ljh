@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LAntibioticMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LAntibiotic">
+        <id column="ITEMCODE" property="itemcode" />
+        <result column="ANTICNAME" property="anticname" />
+        <result column="ANTIENAME" property="antiename" />
+        <result column="SHORTNAME" property="shortname" />
+        <result column="INPUTCODE" property="inputcode" />
+        <result column="ANTIUNIT" property="antiunit" />
+        <result column="UPPERLIMIT" property="upperlimit" />
+        <result column="LOWERLIMIT" property="lowerlimit" />
+        <result column="REMARK" property="remark" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERDATE" property="operdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ITEMCODE, ANTICNAME, ANTIENAME, SHORTNAME, INPUTCODE, ANTIUNIT, UPPERLIMIT, LOWERLIMIT, REMARK, OPERATORID, OPERDATE
+    </sql>
+
+</mapper>

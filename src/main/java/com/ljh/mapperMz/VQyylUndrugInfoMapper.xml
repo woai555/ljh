@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VQyylUndrugInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VQyylUndrugInfo">
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="PRICE" property="price" />
+        <result column="YYDATE" property="yydate" />
+        <result column="TIMECODE" property="timecode" />
+        <result column="TIXING" property="tixing" />
+        <result column="ADDR" property="addr" />
+        <result column="KYXE" property="kyxe" />
+        <result column="MB_ID" property="mbId" />
+        <result column="FLAG_QZ" property="flagQz" />
+        <result column="TYPE_ID" property="typeId" />
+        <result column="TYPE_NAME" property="typeName" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="PACSNAME" property="pacsname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ITEMCODE, ITEMNAME, PRICE, YYDATE, TIMECODE, TIXING, ADDR, KYXE, MB_ID, FLAG_QZ, TYPE_ID, TYPE_NAME, DEPT_NAME, PACSNAME
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MrUploadDateRegion;
-import com.ljh.mapper.MrUploadDateRegionMapper;
+import com.ljh.daoMz.MrUploadDateRegionMapper;
 import com.ljh.service.MrUploadDateRegionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

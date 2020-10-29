@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytWsQrytime;
-import com.ljh.mapper.JytWsQrytimeMapper;
+import com.ljh.daoMz.JytWsQrytimeMapper;
 import com.ljh.service.JytWsQrytimeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

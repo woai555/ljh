@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientGreenChannel;
-import com.ljh.mapper.RPatientGreenChannelMapper;
+import com.ljh.daoMz.RPatientGreenChannelMapper;
 import com.ljh.service.RPatientGreenChannelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

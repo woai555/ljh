@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientmedicalinfo;
-import com.ljh.mapper.RPatientmedicalinfoMapper;
+import com.ljh.daoMz.RPatientmedicalinfoMapper;
 import com.ljh.service.RPatientmedicalinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

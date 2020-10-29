@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewInteractmedSeerecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewInteractmedSeerecord">
+        <result column="TREATMENT_NO" property="treatmentNo" />
+        <result column="PATIENTNAME" property="patientname" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="SEX" property="sex" />
+        <result column="SEXNAME" property="sexname" />
+        <result column="AGE" property="age" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="VISIT_TYPENAME" property="visitTypename" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DOCTOR_CODE" property="doctorCode" />
+        <result column="DOCTOR_NAME" property="doctorName" />
+        <result column="RECIPE_TYPE" property="recipeType" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="HOST_TELL" property="hostTell" />
+        <result column="CURRENT_ILLNESS" property="currentIllness" />
+        <result column="SEE_NO" property="seeNo" />
+        <result column="REGID" property="regid" />
+        <result column="ANAMNESIS" property="anamnesis" />
+        <result column="DIAG_TEMP" property="diagTemp" />
+        <result column="PAYABLE" property="payable" />
+        <result column="UNPAYABLE_REASON" property="unpayableReason" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TREATMENT_NO, PATIENTNAME, CARD_NO, SEX, SEXNAME, AGE, VISIT_TYPE, VISIT_TYPENAME, DEPT_CODE, DEPT_NAME, DOCTOR_CODE, DOCTOR_NAME, RECIPE_TYPE, SEE_DATE, HOST_TELL, CURRENT_ILLNESS, SEE_NO, REGID, ANAMNESIS, DIAG_TEMP, PAYABLE, UNPAYABLE_REASON
+    </sql>
+
+</mapper>

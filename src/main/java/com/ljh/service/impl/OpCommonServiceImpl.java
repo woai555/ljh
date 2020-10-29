@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpCommon;
-import com.ljh.mapper.OpCommonMapper;
+import com.ljh.daoMz.OpCommonMapper;
 import com.ljh.service.OpCommonService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

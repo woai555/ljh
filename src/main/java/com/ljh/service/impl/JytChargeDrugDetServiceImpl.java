@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytChargeDrugDet;
-import com.ljh.mapper.JytChargeDrugDetMapper;
+import com.ljh.daoMz.JytChargeDrugDetMapper;
 import com.ljh.service.JytChargeDrugDetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

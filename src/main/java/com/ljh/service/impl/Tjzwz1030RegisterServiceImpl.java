@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Tjzwz1030Register;
-import com.ljh.mapper.Tjzwz1030RegisterMapper;
+import com.ljh.daoMz.Tjzwz1030RegisterMapper;
 import com.ljh.service.Tjzwz1030RegisterService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

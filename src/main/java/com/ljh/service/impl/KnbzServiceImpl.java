@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Knbz;
-import com.ljh.mapper.KnbzMapper;
+import com.ljh.daoMz.KnbzMapper;
 import com.ljh.service.KnbzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

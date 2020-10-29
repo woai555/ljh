@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LscTest1125Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LscTest1125">
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_TYPE" property="regType" />
+        <result column="FEE1" property="fee1" />
+        <result column="FEE2" property="fee2" />
+        <result column="FEE3" property="fee3" />
+        <result column="FEE4" property="fee4" />
+        <result column="FEE5" property="fee5" />
+        <result column="FEE6" property="fee6" />
+        <result column="FEE7" property="fee7" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CLINIC_NO, CARD_NO, REG_TYPE, FEE1, FEE2, FEE3, FEE4, FEE5, FEE6, FEE7
+    </sql>
+
+</mapper>

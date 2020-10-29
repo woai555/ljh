@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VQyylIcdcode;
-import com.ljh.mapper.VQyylIcdcodeMapper;
+import com.ljh.daoMz.VQyylIcdcodeMapper;
 import com.ljh.service.VQyylIcdcodeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

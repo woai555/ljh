@@ -2,6 +2,7 @@ package com.ljh.service;
 
 import com.ljh.bean.VAppRemainquery;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.dom4j.DocumentException;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface VAppRemainqueryService extends IService<VAppRemainquery> {
 
+    String getRemainQuery(String message) throws DocumentException;
 }

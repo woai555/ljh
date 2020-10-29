@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RRegisterQfbs;
-import com.ljh.mapper.RRegisterQfbsMapper;
+import com.ljh.daoMz.RRegisterQfbsMapper;
 import com.ljh.service.RRegisterQfbsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

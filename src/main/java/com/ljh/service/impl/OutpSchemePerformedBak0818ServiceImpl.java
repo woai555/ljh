@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OutpSchemePerformedBak0818;
-import com.ljh.mapper.OutpSchemePerformedBak0818Mapper;
+import com.ljh.daoMz.OutpSchemePerformedBak0818Mapper;
 import com.ljh.service.OutpSchemePerformedBak0818Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmbaseMzJcbwMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmbaseMzJcbw">
+        <result column="JCBW_NAME" property="jcbwName" />
+        <result column="SPELL" property="spell" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEVICE_NAME" property="deviceName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JCBW_NAME, SPELL, DEPT_NAME, DEVICE_NAME
+    </sql>
+
+</mapper>

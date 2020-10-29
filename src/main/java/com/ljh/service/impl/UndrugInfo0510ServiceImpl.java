@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UndrugInfo0510;
-import com.ljh.mapper.UndrugInfo0510Mapper;
+import com.ljh.daoMz.UndrugInfo0510Mapper;
 import com.ljh.service.UndrugInfo0510Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

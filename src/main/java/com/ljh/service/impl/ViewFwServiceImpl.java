@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewFw;
-import com.ljh.mapper.ViewFwMapper;
+import com.ljh.daoMz.ViewFwMapper;
 import com.ljh.service.ViewFwService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

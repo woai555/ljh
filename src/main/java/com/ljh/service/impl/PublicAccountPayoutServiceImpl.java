@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PublicAccountPayout;
-import com.ljh.mapper.PublicAccountPayoutMapper;
+import com.ljh.daoMz.PublicAccountPayoutMapper;
 import com.ljh.service.PublicAccountPayoutService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewBookingDocinfo;
-import com.ljh.mapper.ViewBookingDocinfoMapper;
+import com.ljh.daoMz.ViewBookingDocinfoMapper;
 import com.ljh.service.ViewBookingDocinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

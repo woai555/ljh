@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SuperloginLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SuperloginLog">
+        <id column="REAL_OPERID" property="realOperid" />
+        <result column="REAL_NAME" property="realName" />
+        <result column="OPERATORTIME" property="operatortime" />
+        <result column="SUPERLOGIN_OPERID" property="superloginOperid" />
+        <result column="SUPERLOGIN_NAME" property="superloginName" />
+        <result column="IPADDRESS" property="ipaddress" />
+        <result column="SUPERLOGIN_GROUP" property="superloginGroup" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REAL_OPERID, REAL_NAME, OPERATORTIME, SUPERLOGIN_OPERID, SUPERLOGIN_NAME, IPADDRESS, SUPERLOGIN_GROUP
+    </sql>
+
+</mapper>

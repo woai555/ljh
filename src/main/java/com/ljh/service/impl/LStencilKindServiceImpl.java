@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LStencilKind;
-import com.ljh.mapper.LStencilKindMapper;
+import com.ljh.daoMz.LStencilKindMapper;
 import com.ljh.service.LStencilKindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

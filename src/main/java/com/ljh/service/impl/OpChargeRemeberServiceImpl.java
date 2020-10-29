@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpChargeRemeber;
-import com.ljh.mapper.OpChargeRemeberMapper;
+import com.ljh.daoMz.OpChargeRemeberMapper;
 import com.ljh.service.OpChargeRemeberService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFactcodeRecord;
-import com.ljh.mapper.RFactcodeRecordMapper;
+import com.ljh.daoMz.RFactcodeRecordMapper;
 import com.ljh.service.RFactcodeRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

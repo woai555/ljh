@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SupOutMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SupOut">
+        <id column="OUTBILL_CODE" property="outbillCode" />
+        <result column="GOODS_CODE" property="goodsCode" />
+        <result column="GOODS_NAME" property="goodsName" />
+        <result column="OUT_DATE" property="outDate" />
+        <result column="OUT_COUNT" property="outCount" />
+        <result column="UNIT_CODE" property="unitCode" />
+        <result column="SPECS_CODE" property="specsCode" />
+        <result column="OUT_KIND" property="outKind" />
+        <result column="CURRENT_TOTAL" property="currentTotal" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="MEMO" property="memo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUTBILL_CODE, GOODS_CODE, GOODS_NAME, OUT_DATE, OUT_COUNT, UNIT_CODE, SPECS_CODE, OUT_KIND, CURRENT_TOTAL, OPER_CODE, MEMO
+    </sql>
+
+</mapper>

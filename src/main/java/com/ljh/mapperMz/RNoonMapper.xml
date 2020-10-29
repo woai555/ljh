@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RNoonMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RNoon">
+        <id column="NOON_CODE" property="noonCode" />
+        <result column="NOON_NAME" property="noonName" />
+        <result column="BEGTIME" property="begtime" />
+        <result column="ENDTIME" property="endtime" />
+        <result column="YNURG" property="ynurg" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="BEG_SEE" property="begSee" />
+        <result column="END_SEE" property="endSee" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        NOON_CODE, NOON_NAME, BEGTIME, ENDTIME, YNURG, OPER_DATE, OPER_CODE, BEG_SEE, END_SEE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRegNoontimeLmt;
-import com.ljh.mapper.ViewRegNoontimeLmtMapper;
+import com.ljh.daoMz.ViewRegNoontimeLmtMapper;
 import com.ljh.service.ViewRegNoontimeLmtService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LQcstdMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LQcstd">
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="SAMPLECODE" property="samplecode" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="STD" property="std" />
+        <result column="SD" property="sd" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MACHINECODE, SAMPLECODE, ITEMCODE, STD, SD, OPERATORID, OPERATORTIME
+    </sql>
+
+</mapper>

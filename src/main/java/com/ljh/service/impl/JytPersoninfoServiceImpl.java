@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytPersoninfo;
-import com.ljh.mapper.JytPersoninfoMapper;
+import com.ljh.daoMz.JytPersoninfoMapper;
 import com.ljh.service.JytPersoninfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

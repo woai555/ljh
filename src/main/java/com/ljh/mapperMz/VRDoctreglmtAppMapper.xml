@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VRDoctreglmtAppMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRDoctreglmtApp">
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="FIR_REG_LMT" property="firRegLmt" />
+        <result column="REP_REG_LMT" property="repRegLmt" />
+        <result column="BK_REG_LMT" property="bkRegLmt" />
+        <result column="FIR_REGED" property="firReged" />
+        <result column="REP_REGED" property="repReged" />
+        <result column="URG_REGED" property="urgReged" />
+        <result column="BK_REGED" property="bkReged" />
+        <result column="YNFREGFULL" property="ynfregfull" />
+        <result column="YNRREGFULL" property="ynrregfull" />
+        <result column="YNBKREGFULL" property="ynbkregfull" />
+        <result column="FIR_REG_FEE" property="firRegFee" />
+        <result column="REP_REG_FEE" property="repRegFee" />
+        <result column="CHCK_FEE" property="chckFee" />
+        <result column="DIAG_FEE" property="diagFee" />
+        <result column="OTH_FEE" property="othFee" />
+        <result column="URG_REG_FEE" property="urgRegFee" />
+        <result column="URG_CHCK_FEE" property="urgChckFee" />
+        <result column="URG_DIAG_FEE" property="urgDiagFee" />
+        <result column="URG_OTH_FEE" property="urgOthFee" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="WEEK" property="week" />
+        <result column="NOTE" property="note" />
+        <result column="BK_BEGIN" property="bkBegin" />
+        <result column="BK_END" property="bkEnd" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, EMPL_CODE, DEPT_CODE, REGLEVL_CODE, FIR_REG_LMT, REP_REG_LMT, BK_REG_LMT, FIR_REGED, REP_REGED, URG_REGED, BK_REGED, YNFREGFULL, YNRREGFULL, YNBKREGFULL, FIR_REG_FEE, REP_REG_FEE, CHCK_FEE, DIAG_FEE, OTH_FEE, URG_REG_FEE, URG_CHCK_FEE, URG_DIAG_FEE, URG_OTH_FEE, OPER_DATE, OPER_CODE, WEEK, NOTE, BK_BEGIN, BK_END
+    </sql>
+
+</mapper>

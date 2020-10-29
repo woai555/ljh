@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewSj影像检查全记录表门诊Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj影像检查全记录表门诊">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="医嘱编号" property="医嘱编号" />
+        <result column="检查编号" property="检查编号" />
+        <result column="检查日期" property="检查日期" />
+        <result column="总费用" property="总费用" />
+        <result column="固定资产编号" property="固定资产编号" />
+        <result column="操作人" property="操作人" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 医嘱编号, 检查编号, 检查日期, 总费用, 固定资产编号, 操作人
+    </sql>
+
+</mapper>

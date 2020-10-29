@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MedicareTranscations;
-import com.ljh.mapper.MedicareTranscationsMapper;
+import com.ljh.daoMz.MedicareTranscationsMapper;
 import com.ljh.service.MedicareTranscationsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

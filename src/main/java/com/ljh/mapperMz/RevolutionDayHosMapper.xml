@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RevolutionDayHosMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RevolutionDayHos">
+        <result column="BEGINDATE" property="begindate" />
+        <result column="ENDDATE" property="enddate" />
+        <result column="OPERTIME" property="opertime" />
+        <result column="RC" property="rc" />
+        <result column="ALLCOST" property="allcost" />
+        <result column="YPCOST" property="ypcost" />
+        <result column="CTCOST" property="ctcost" />
+        <result column="MRCOST" property="mrcost" />
+        <result column="ZLCOST" property="zlcost" />
+        <result column="SSCOST" property="sscost" />
+        <result column="CLCOST" property="clcost" />
+        <result column="ALLAVG" property="allavg" />
+        <result column="YPAVG" property="ypavg" />
+        <result column="CTAVG" property="ctavg" />
+        <result column="MRAVG" property="mravg" />
+        <result column="ZLAVG" property="zlavg" />
+        <result column="SSAVG" property="ssavg" />
+        <result column="CLAVG" property="clavg" />
+        <result column="YNMZ" property="ynmz" />
+        <result column="YPRC" property="yprc" />
+        <result column="CTRC" property="ctrc" />
+        <result column="MRRC" property="mrrc" />
+        <result column="ZLRC" property="zlrc" />
+        <result column="SSRC" property="ssrc" />
+        <result column="CLRC" property="clrc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BEGINDATE, ENDDATE, OPERTIME, RC, ALLCOST, YPCOST, CTCOST, MRCOST, ZLCOST, SSCOST, CLCOST, ALLAVG, YPAVG, CTAVG, MRAVG, ZLAVG, SSAVG, CLAVG, YNMZ, YPRC, CTRC, MRRC, ZLRC, SSRC, CLRC
+    </sql>
+
+</mapper>

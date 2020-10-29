@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SupClear;
-import com.ljh.mapper.SupClearMapper;
+import com.ljh.daoMz.SupClearMapper;
 import com.ljh.service.SupClearService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

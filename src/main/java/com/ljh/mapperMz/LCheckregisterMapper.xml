@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LCheckregisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LCheckregister">
+        <id column="PRESCRIPTNO" property="prescriptno" />
+        <result column="INOROUT" property="inorout" />
+        <result column="CARDID" property="cardid" />
+        <result column="CLINICNO" property="clinicno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="MACHINECODE" property="machinecode" />
+        <result column="CHECKORDER" property="checkorder" />
+        <result column="CHECKDATE" property="checkdate" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="ADDRESS" property="address" />
+        <result column="HOMEPLACE" property="homeplace" />
+        <result column="CHECKDEPTID" property="checkdeptid" />
+        <result column="TREATMENTNUM" property="treatmentnum" />
+        <result column="TREATMENTTIME" property="treatmenttime" />
+        <result column="REGISTERID" property="registerid" />
+        <result column="CHECKMARK" property="checkmark" />
+        <result column="DRAWTIME" property="drawtime" />
+        <result column="CONFIRMID" property="confirmid" />
+        <result column="AUTOMARK" property="automark" />
+        <result column="BYMANMARK" property="bymanmark" />
+        <result column="MULTIITEMCODE" property="multiitemcode" />
+        <result column="MULTIITEMNAME" property="multiitemname" />
+        <result column="REMARK" property="remark" />
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="ICD_NAME" property="icdName" />
+        <result column="ROOMID" property="roomid" />
+        <result column="REMARK1" property="remark1" />
+        <result column="COMB_NO" property="combNo" />
+        <result column="GROUPCODE" property="groupcode" />
+        <result column="PROCESSNO" property="processno" />
+        <result column="COST" property="cost" />
+        <result column="MACHINEID" property="machineid" />
+        <result column="LAB_TYPE" property="labType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PRESCRIPTNO, INOROUT, CARDID, CLINICNO, PATIENTID, INPATIENTNO, MACHINECODE, CHECKORDER, CHECKDATE, NAME, SEX, AGE, ADDRESS, HOMEPLACE, CHECKDEPTID, TREATMENTNUM, TREATMENTTIME, REGISTERID, CHECKMARK, DRAWTIME, CONFIRMID, AUTOMARK, BYMANMARK, MULTIITEMCODE, MULTIITEMNAME, REMARK, ICD_CODE, ICD_NAME, ROOMID, REMARK1, COMB_NO, GROUPCODE, PROCESSNO, COST, MACHINEID, LAB_TYPE
+    </sql>
+
+</mapper>

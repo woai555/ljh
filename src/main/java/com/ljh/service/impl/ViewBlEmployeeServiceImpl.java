@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewBlEmployee;
-import com.ljh.mapper.ViewBlEmployeeMapper;
+import com.ljh.daoMz.ViewBlEmployeeMapper;
 import com.ljh.service.ViewBlEmployeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

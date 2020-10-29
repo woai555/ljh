@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJhDzblRegtypeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhDzblRegtype">
+        <result column="HOSPITAL_NO" property="hospitalNo" />
+        <result column="REGISTER_DICT_CODE" property="registerDictCode" />
+        <result column="REGISTER_DICT_NAME" property="registerDictName" />
+        <result column="PYM" property="pym" />
+        <result column="IS_DELETE" property="isDelete" />
+        <result column="SORT_CODE" property="sortCode" />
+        <result column="REGISTER_GROUP_CODE" property="registerGroupCode" />
+        <result column="REGISTER_GROUP_NAME" property="registerGroupName" />
+        <result column="IS_DELETE_B" property="isDeleteB" />
+        <result column="SORT_CODE_B" property="sortCodeB" />
+        <result column="PYM_B" property="pymB" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSPITAL_NO, REGISTER_DICT_CODE, REGISTER_DICT_NAME, PYM, IS_DELETE, SORT_CODE, REGISTER_GROUP_CODE, REGISTER_GROUP_NAME, IS_DELETE_B, SORT_CODE_B, PYM_B
+    </sql>
+
+</mapper>

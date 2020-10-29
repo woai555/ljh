@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsDocControl;
-import com.ljh.mapper.ViewMrmsDocControlMapper;
+import com.ljh.daoMz.ViewMrmsDocControlMapper;
 import com.ljh.service.ViewMrmsDocControlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

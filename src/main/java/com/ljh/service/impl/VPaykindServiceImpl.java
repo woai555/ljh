@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VPaykind;
-import com.ljh.mapper.VPaykindMapper;
+import com.ljh.daoMz.VPaykindMapper;
 import com.ljh.service.VPaykindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

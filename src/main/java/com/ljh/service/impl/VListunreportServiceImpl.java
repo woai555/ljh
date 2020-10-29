@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VListunreport;
-import com.ljh.mapper.VListunreportMapper;
+import com.ljh.daoMz.VListunreportMapper;
 import com.ljh.service.VListunreportService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

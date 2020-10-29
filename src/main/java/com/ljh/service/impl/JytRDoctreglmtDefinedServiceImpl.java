@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytRDoctreglmtDefined;
-import com.ljh.mapper.JytRDoctreglmtDefinedMapper;
+import com.ljh.daoMz.JytRDoctreglmtDefinedMapper;
 import com.ljh.service.JytRDoctreglmtDefinedService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

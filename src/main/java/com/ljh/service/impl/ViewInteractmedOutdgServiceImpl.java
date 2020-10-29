@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewInteractmedOutdg;
-import com.ljh.mapper.ViewInteractmedOutdgMapper;
+import com.ljh.daoMz.ViewInteractmedOutdgMapper;
 import com.ljh.service.ViewInteractmedOutdgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

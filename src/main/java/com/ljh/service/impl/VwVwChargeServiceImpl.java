@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VwVwCharge;
-import com.ljh.mapper.VwVwChargeMapper;
+import com.ljh.daoMz.VwVwChargeMapper;
 import com.ljh.service.VwVwChargeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

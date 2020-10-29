@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mz54doctor;
-import com.ljh.mapper.Mz54doctorMapper;
+import com.ljh.daoMz.Mz54doctorMapper;
 import com.ljh.service.Mz54doctorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

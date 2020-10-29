@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UndrugZtQnf;
-import com.ljh.mapper.UndrugZtQnfMapper;
+import com.ljh.daoMz.UndrugZtQnfMapper;
 import com.ljh.service.UndrugZtQnfService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

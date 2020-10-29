@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VwWword;
-import com.ljh.mapper.VwWwordMapper;
+import com.ljh.daoMz.VwWwordMapper;
 import com.ljh.service.VwWwordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

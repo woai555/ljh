@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MzZdzmdjMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MzZdzmdj">
+        <id column="ZHENDUAN_NO" property="zhenduanNo" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="INTRODUCTION" property="introduction" />
+        <result column="DOCT_DEPTID" property="doctDeptid" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="REMARK" property="remark" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ZHENDUAN_NO, PATIENT_NAME, INTRODUCTION, DOCT_DEPTID, CARD_NO, DOCT_NAME, OPER_DATE, REMARK, OPER_NAME
+    </sql>
+
+</mapper>

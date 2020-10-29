@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsbaseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsbase">
+        <id column="INPATIENT_NO" property="inpatientNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="COUN_CODE" property="counCode" />
+        <result column="NATION_CODE" property="nationCode" />
+        <result column="PROF_CODE" property="profCode" />
+        <result column="BLOOD_CODE" property="bloodCode" />
+        <result column="MARI" property="mari" />
+        <result column="IN_SOURCE" property="inSource" />
+        <result column="HOME_ADD" property="homeAdd" />
+        <result column="HOME_TEL" property="homeTel" />
+        <result column="HOME_ZIP" property="homeZip" />
+        <result column="WORK_NAME" property="workName" />
+        <result column="WORK_TEL" property="workTel" />
+        <result column="WORK_ZIP" property="workZip" />
+        <result column="LINKMA_NAME" property="linkmaName" />
+        <result column="RELA_CODE" property="relaCode" />
+        <result column="LINKMAN_TEL" property="linkmanTel" />
+        <result column="LINKMAN_ADD" property="linkmanAdd" />
+        <result column="CLINIC_ICD" property="clinicIcd" />
+        <result column="CLINIC_ICDNM" property="clinicIcdnm" />
+        <result column="IN_DATE" property="inDate" />
+        <result column="DEPT_IN" property="deptIn" />
+        <result column="DEPT_INNM" property="deptInnm" />
+        <result column="IN_AVENUE" property="inAvenue" />
+        <result column="IN_CIRCS" property="inCircs" />
+        <result column="DIAG_DATE" property="diagDate" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OUT_DATE" property="outDate" />
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="ZG" property="zg" />
+        <result column="DEAD_DATE" property="deadDate" />
+        <result column="DEAD_REASON" property="deadReason" />
+        <result column="IN_TIMES" property="inTimes" />
+        <result column="X_NUMB" property="xNumb" />
+        <result column="CT_NUMB" property="ctNumb" />
+        <result column="MRI_NUMB" property="mriNumb" />
+        <result column="PATH_NUMB" property="pathNumb" />
+        <result column="CE_PI" property="cePi" />
+        <result column="PI_PO" property="piPo" />
+        <result column="OPB_OPA" property="opbOpa" />
+        <result column="CL_X" property="clX" />
+        <result column="CL_CT" property="clCt" />
+        <result column="CL_MRI" property="clMri" />
+        <result column="CL_PA" property="clPa" />
+        <result column="SALV_TIMES" property="salvTimes" />
+        <result column="SUCC_TIMES" property="succTimes" />
+        <result column="MR_QUAL" property="mrQual" />
+        <result column="MR_ELIG" property="mrElig" />
+        <result column="TECH_SERC" property="techSerc" />
+        <result column="VISI_STAT" property="visiStat" />
+        <result column="VISI_PERI" property="visiPeri" />
+        <result column="BODY_CHECK" property="bodyCheck" />
+        <result column="ANAPHY_FLAG" property="anaphyFlag" />
+        <result column="HOUSE_DOC_CODE" property="houseDocCode" />
+        <result column="HOUSE_DOC_NAME" property="houseDocName" />
+        <result column="CHARGE_DOC_CODE" property="chargeDocCode" />
+        <result column="CHARGE_DOC_NAME" property="chargeDocName" />
+        <result column="CHIEF_DOC_CODE" property="chiefDocCode" />
+        <result column="CHIEF_DOC_NAME" property="chiefDocName" />
+        <result column="SECO_IN" property="secoIn" />
+        <result column="TYPE_167" property="type167" />
+        <result column="TYPE_167E" property="type167e" />
+        <result column="DIAG_DAYS" property="diagDays" />
+        <result column="PI_DAYS" property="piDays" />
+        <result column="PI_TIMES" property="piTimes" />
+        <result column="DIAG_TOE" property="diagToe" />
+        <result column="DEAD_KIND" property="deadKind" />
+        <result column="OUT_DATE2" property="outDate2" />
+        <result column="TEND_YN" property="tendYn" />
+        <result column="ICD_KIND" property="icdKind" />
+        <result column="ICD_OTHER" property="icdOther" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="MOTHER" property="mother" />
+        <result column="YN_INFECT" property="ynInfect" />
+        <result column="YN_LOWWEIGH" property="ynLowweigh" />
+        <result column="BIRTH_MODE" property="birthMode" />
+        <result column="BIRTH_END" property="birthEnd" />
+        <result column="YNBABY" property="ynbaby" />
+        <result column="MOTHER_NAME" property="motherName" />
+        <result column="MRMS_NO" property="mrmsNo" />
+        <result column="LEN_STUS" property="lenStus" />
+        <result column="HBSAG" property="hbsag" />
+        <result column="HCV_AB" property="hcvAb" />
+        <result column="HIV_AB" property="hivAb" />
+        <result column="FS_BL" property="fsBl" />
+        <result column="DEPT_CHIEF_CODE" property="deptChiefCode" />
+        <result column="JX_DOC_CODE" property="jxDocCode" />
+        <result column="GRA_DOC_CODE" property="graDocCode" />
+        <result column="PRA_DOC_CODE" property="praDocCode" />
+        <result column="CODEING_CODE" property="codeingCode" />
+        <result column="QUALITY_DOC" property="qualityDoc" />
+        <result column="QUALITY_NURSE" property="qualityNurse" />
+        <result column="CHECK_DATE" property="checkDate" />
+        <result column="YN_FIRST" property="ynFirst" />
+        <result column="RH_BLOOD" property="rhBlood" />
+        <result column="REACTION_BLOOD" property="reactionBlood" />
+        <result column="BLOOD_KIND" property="bloodKind" />
+        <result column="YN_PRINT" property="ynPrint" />
+        <result column="PRE_DATE" property="preDate" />
+        <result column="LASE_OPERDATE" property="laseOperdate" />
+        <result column="IDCARDNO" property="idcardno" />
+        <result column="HOMEPLACE" property="homeplace" />
+        <result column="LAST_OPERATOR" property="lastOperator" />
+        <result column="DSA_NUMB" property="dsaNumb" />
+        <result column="PET_NUMB" property="petNumb" />
+        <result column="ECT_NUMB" property="ectNumb" />
+        <result column="X_TIMES" property="xTimes" />
+        <result column="CT_TIMES" property="ctTimes" />
+        <result column="MR_TIMES" property="mrTimes" />
+        <result column="DSA_TIMES" property="dsaTimes" />
+        <result column="PET_TIMES" property="petTimes" />
+        <result column="ECT_TIMES" property="ectTimes" />
+        <result column="BLOOD_RED" property="bloodRed" />
+        <result column="BLOOD_PLATELET" property="bloodPlatelet" />
+        <result column="BLOOD_PLASMA" property="bloodPlasma" />
+        <result column="BLOOD_WHOLE" property="bloodWhole" />
+        <result column="BLOOD_OTHER" property="bloodOther" />
+        <result column="REMARK" property="remark" />
+        <result column="BEFOREOPER_DAYS" property="beforeoperDays" />
+        <result column="CHANGEDEPT_DATE" property="changedeptDate" />
+        <result column="CHANGEDEPTCODE" property="changedeptcode" />
+        <result column="CHANGEDEPTCODE2" property="changedeptcode2" />
+        <result column="BODY_ANOTOMIZE" property="bodyAnotomize" />
+        <result column="ANAPHY_NAME" property="anaphyName" />
+        <result column="YB_NO" property="ybNo" />
+        <result column="YN_INFECTNAME" property="ynInfectname" />
+        <result column="AGE" property="age" />
+        <result column="SICKROOM_IN" property="sickroomIn" />
+        <result column="SICKROOM_CHANGE" property="sickroomChange" />
+        <result column="SICKROOM_OUT" property="sickroomOut" />
+        <result column="UNIT_AGE" property="unitAge" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, PATIENT_NO, CARD_NO, NAME, SEX, BIRTHDAY, COUN_CODE, NATION_CODE, PROF_CODE, BLOOD_CODE, MARI, IN_SOURCE, HOME_ADD, HOME_TEL, HOME_ZIP, WORK_NAME, WORK_TEL, WORK_ZIP, LINKMA_NAME, RELA_CODE, LINKMAN_TEL, LINKMAN_ADD, CLINIC_ICD, CLINIC_ICDNM, IN_DATE, DEPT_IN, DEPT_INNM, IN_AVENUE, IN_CIRCS, DIAG_DATE, OPER_DATE, OUT_DATE, ICD_CODE, DEPT_CODE, DEPT_NAME, ZG, DEAD_DATE, DEAD_REASON, IN_TIMES, X_NUMB, CT_NUMB, MRI_NUMB, PATH_NUMB, CE_PI, PI_PO, OPB_OPA, CL_X, CL_CT, CL_MRI, CL_PA, SALV_TIMES, SUCC_TIMES, MR_QUAL, MR_ELIG, TECH_SERC, VISI_STAT, VISI_PERI, BODY_CHECK, ANAPHY_FLAG, HOUSE_DOC_CODE, HOUSE_DOC_NAME, CHARGE_DOC_CODE, CHARGE_DOC_NAME, CHIEF_DOC_CODE, CHIEF_DOC_NAME, SECO_IN, TYPE_167, TYPE_167E, DIAG_DAYS, PI_DAYS, PI_TIMES, DIAG_TOE, DEAD_KIND, OUT_DATE2, TEND_YN, ICD_KIND, ICD_OTHER, PAYKIND_CODE, MOTHER, YN_INFECT, YN_LOWWEIGH, BIRTH_MODE, BIRTH_END, YNBABY, MOTHER_NAME, MRMS_NO, LEN_STUS, HBSAG, HCV_AB, HIV_AB, FS_BL, DEPT_CHIEF_CODE, JX_DOC_CODE, GRA_DOC_CODE, PRA_DOC_CODE, CODEING_CODE, QUALITY_DOC, QUALITY_NURSE, CHECK_DATE, YN_FIRST, RH_BLOOD, REACTION_BLOOD, BLOOD_KIND, YN_PRINT, PRE_DATE, LASE_OPERDATE, IDCARDNO, HOMEPLACE, LAST_OPERATOR, DSA_NUMB, PET_NUMB, ECT_NUMB, X_TIMES, CT_TIMES, MR_TIMES, DSA_TIMES, PET_TIMES, ECT_TIMES, BLOOD_RED, BLOOD_PLATELET, BLOOD_PLASMA, BLOOD_WHOLE, BLOOD_OTHER, REMARK, BEFOREOPER_DAYS, CHANGEDEPT_DATE, CHANGEDEPTCODE, CHANGEDEPTCODE2, BODY_ANOTOMIZE, ANAPHY_NAME, YB_NO, YN_INFECTNAME, AGE, SICKROOM_IN, SICKROOM_CHANGE, SICKROOM_OUT, UNIT_AGE
+    </sql>
+
+</mapper>

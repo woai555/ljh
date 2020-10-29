@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmpldept;
-import com.ljh.mapper.REmpldeptMapper;
+import com.ljh.daoMz.REmpldeptMapper;
 import com.ljh.service.REmpldeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

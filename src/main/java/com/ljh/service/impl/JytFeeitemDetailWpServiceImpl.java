@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytFeeitemDetailWp;
-import com.ljh.mapper.JytFeeitemDetailWpMapper;
+import com.ljh.daoMz.JytFeeitemDetailWpMapper;
 import com.ljh.service.JytFeeitemDetailWpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

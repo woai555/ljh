@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MedicineFunctiondetail;
-import com.ljh.mapper.MedicineFunctiondetailMapper;
+import com.ljh.daoMz.MedicineFunctiondetailMapper;
 import com.ljh.service.MedicineFunctiondetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

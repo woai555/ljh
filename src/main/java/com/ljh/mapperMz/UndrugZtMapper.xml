@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.UndrugZtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.UndrugZt">
+        <id column="ZT_ORDER" property="ztOrder" />
+        <result column="ZT_CODE" property="ztCode" />
+        <result column="ZT_NAME" property="ztName" />
+        <result column="SPELL_CODE" property="spellCode" />
+        <result column="WB_CODE" property="wbCode" />
+        <result column="INPUT_CODE" property="inputCode" />
+        <result column="STOP_FLAG" property="stopFlag" />
+        <result column="PARENT_CODE" property="parentCode" />
+        <result column="PARENT_FLAG" property="parentFlag" />
+        <result column="UNDRUG_CODE" property="undrugCode" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="SYS_CLASS" property="sysClass" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="CONFIRM_FLAG" property="confirmFlag" />
+        <result column="START_DATE" property="startDate" />
+        <result column="STOP_DATE" property="stopDate" />
+        <result column="ONCE_DOSE" property="onceDose" />
+        <result column="ONCE_UNIT" property="onceUnit" />
+        <result column="USAGE_CODE" property="usageCode" />
+        <result column="FREQ_CODE" property="freqCode" />
+        <result column="QTY" property="qty" />
+        <result column="INFORM_CONSENT" property="informConsent" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ZT_CODE, ZT_NAME, SPELL_CODE, WB_CODE, INPUT_CODE, STOP_FLAG, PARENT_CODE, PARENT_FLAG, UNDRUG_CODE, UNIT_PRICE, SYS_CLASS, FEE_CODE, DEPT_CODE, DEPT_NAME, ZT_ORDER, CONFIRM_FLAG, START_DATE, STOP_DATE, ONCE_DOSE, ONCE_UNIT, USAGE_CODE, FREQ_CODE, QTY, INFORM_CONSENT
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdDocvsdeptXiny;
-import com.ljh.mapper.OrdDocvsdeptXinyMapper;
+import com.ljh.daoMz.OrdDocvsdeptXinyMapper;
 import com.ljh.service.OrdDocvsdeptXinyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHrpPreBalZifu;
-import com.ljh.mapper.ViewHrpPreBalZifuMapper;
+import com.ljh.daoMz.ViewHrpPreBalZifuMapper;
 import com.ljh.service.ViewHrpPreBalZifuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

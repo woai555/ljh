@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VWebDrugguidance;
-import com.ljh.mapper.VWebDrugguidanceMapper;
+import com.ljh.daoMz.VWebDrugguidanceMapper;
 import com.ljh.service.VWebDrugguidanceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

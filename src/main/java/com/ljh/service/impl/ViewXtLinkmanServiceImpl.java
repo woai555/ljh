@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewXtLinkman;
-import com.ljh.mapper.ViewXtLinkmanMapper;
+import com.ljh.daoMz.ViewXtLinkmanMapper;
 import com.ljh.service.ViewXtLinkmanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

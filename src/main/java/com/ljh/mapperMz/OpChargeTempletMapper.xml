@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OpChargeTempletMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpChargeTemplet">
+        <id column="DEPT_CODE" property="deptCode" />
+        <result column="TEMPLET_CODE" property="templetCode" />
+        <result column="TEMPLET_NAME" property="templetName" />
+        <result column="TEMPLET_TYPE" property="templetType" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_SPELL" property="itemSpell" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="ITEM_PRICE" property="itemPrice" />
+        <result column="ITEM_UNIT" property="itemUnit" />
+        <result column="ITEM_POS" property="itemPos" />
+        <result column="ITEM_PROPERTY" property="itemProperty" />
+        <result column="ITEM_INPUT" property="itemInput" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, TEMPLET_CODE, TEMPLET_NAME, TEMPLET_TYPE, ITEM_CODE, ITEM_SPELL, ITEM_NAME, ITEM_PRICE, ITEM_UNIT, ITEM_POS, ITEM_PROPERTY, ITEM_INPUT, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdrpatientRealtime;
-import com.ljh.mapper.ViewHlhtCdrpatientRealtimeMapper;
+import com.ljh.daoMz.ViewHlhtCdrpatientRealtimeMapper;
 import com.ljh.service.ViewHlhtCdrpatientRealtimeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

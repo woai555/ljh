@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDeptFunctionPope;
-import com.ljh.mapper.RDeptFunctionPopeMapper;
+import com.ljh.daoMz.RDeptFunctionPopeMapper;
 import com.ljh.service.RDeptFunctionPopeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

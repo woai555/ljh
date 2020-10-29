@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMdyFrequency;
-import com.ljh.mapper.ViewMdyFrequencyMapper;
+import com.ljh.daoMz.ViewMdyFrequencyMapper;
 import com.ljh.service.ViewMdyFrequencyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

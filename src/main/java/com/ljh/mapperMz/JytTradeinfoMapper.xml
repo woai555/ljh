@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytTradeinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytTradeinfo">
+        <id column="TRADENO" property="tradeno" />
+        <result column="FEENO" property="feeno" />
+        <result column="TRANSTYPE" property="transtype" />
+        <result column="TRADESUBCLASS" property="tradesubclass" />
+        <result column="CLIENTTYPE" property="clienttype" />
+        <result column="FEEALL" property="feeall" />
+        <result column="BALANCEBEFORE" property="balancebefore" />
+        <result column="BALANCEAFTER" property="balanceafter" />
+        <result column="PLANTEXT" property="plantext" />
+        <result column="SIGN" property="sign" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="OPERID" property="operid" />
+        <result column="OPERNAME" property="opername" />
+        <result column="TRADEDATE" property="tradedate" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="CANCEL_FEENO" property="cancelFeeno" />
+        <result column="TRADENO_OLD" property="tradenoOld" />
+        <result column="TRADESTATE" property="tradestate" />
+        <result column="PRINTBILL" property="printbill" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TRADENO, FEENO, TRANSTYPE, TRADESUBCLASS, CLIENTTYPE, FEEALL, BALANCEBEFORE, BALANCEAFTER, PLANTEXT, SIGN, CARD_NO, CARDNO_JYT, PATIENT_NAME, OPERID, OPERNAME, TRADEDATE, OPER_DATE, CANCEL_FEENO, TRADENO_OLD, TRADESTATE, PRINTBILL, CANCEL_FLAG
+    </sql>
+
+</mapper>

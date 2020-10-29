@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewQianyongEmergencyApp;
-import com.ljh.mapper.ViewQianyongEmergencyAppMapper;
+import com.ljh.daoMz.ViewQianyongEmergencyAppMapper;
 import com.ljh.service.ViewQianyongEmergencyAppService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

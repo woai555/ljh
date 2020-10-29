@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.StorgeVsDrugtypeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.StorgeVsDrugtype">
+        <id column="FEE_CODE" property="feeCode" />
+        <result column="OPER_DTIME" property="operDtime" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_DTIME, FEE_CODE, DEPT_CODE, OPER_CODE, OPER_NAME
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrUserControlSet;
-import com.ljh.mapper.PrUserControlSetMapper;
+import com.ljh.daoMz.PrUserControlSetMapper;
 import com.ljh.service.PrUserControlSetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

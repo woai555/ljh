@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpPfGroup;
-import com.ljh.mapper.OpPfGroupMapper;
+import com.ljh.daoMz.OpPfGroupMapper;
 import com.ljh.service.OpPfGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

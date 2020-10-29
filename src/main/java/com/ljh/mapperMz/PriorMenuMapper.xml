@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.PriorMenuMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PriorMenu">
+        <id column="MNU_COL" property="mnuCol" />
+        <result column="MNU_GROUP" property="mnuGroup" />
+        <result column="MNU_ROW" property="mnuRow" />
+        <result column="MNU_NAME" property="mnuName" />
+        <result column="SYS_CODE" property="sysCode" />
+        <result column="MNU_WIN" property="mnuWin" />
+        <result column="MNU_PARM" property="mnuParm" />
+        <result column="MNU_REMARK" property="mnuRemark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MNU_GROUP, MNU_COL, MNU_ROW, MNU_NAME, SYS_CODE, MNU_WIN, MNU_PARM, MNU_REMARK
+    </sql>
+
+</mapper>

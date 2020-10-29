@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VMeeting;
-import com.ljh.mapper.VMeetingMapper;
+import com.ljh.daoMz.VMeetingMapper;
 import com.ljh.service.VMeetingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

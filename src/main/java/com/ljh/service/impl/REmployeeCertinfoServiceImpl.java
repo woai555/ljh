@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmployeeCertinfo;
-import com.ljh.mapper.REmployeeCertinfoMapper;
+import com.ljh.daoMz.REmployeeCertinfoMapper;
 import com.ljh.service.REmployeeCertinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

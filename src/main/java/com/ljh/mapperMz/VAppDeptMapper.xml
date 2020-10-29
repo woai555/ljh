@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppDept">
+        <result column="DEPTNAME" property="deptname" />
+        <result column="DEPTID" property="deptid" />
+        <result column="SECTID" property="sectid" />
+        <result column="RESUME" property="resume" />
+        <result column="DETAIL" property="detail" />
+        <result column="ADDR" property="addr" />
+        <result column="DEPTTYPE" property="depttype" />
+        <result column="PRIORITY" property="priority" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPTNAME, DEPTID, SECTID, RESUME, DETAIL, ADDR, DEPTTYPE, PRIORITY
+    </sql>
+
+    <select id="appDept" resultType="com.ljh.bean.VAppDept">
+        select deptid,deptName,sectId,resume,detail,addr,deptType,priority from v_app_dept
+    </select>
+
+</mapper>

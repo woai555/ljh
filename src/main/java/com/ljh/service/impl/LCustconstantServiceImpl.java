@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LCustconstant;
-import com.ljh.mapper.LCustconstantMapper;
+import com.ljh.daoMz.LCustconstantMapper;
 import com.ljh.service.LCustconstantService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

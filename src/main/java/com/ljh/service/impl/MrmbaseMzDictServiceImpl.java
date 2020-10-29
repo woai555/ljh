@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MrmbaseMzDict;
-import com.ljh.mapper.MrmbaseMzDictMapper;
+import com.ljh.daoMz.MrmbaseMzDictMapper;
 import com.ljh.service.MrmbaseMzDictService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

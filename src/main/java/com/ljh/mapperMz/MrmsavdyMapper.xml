@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsavdyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsavdy">
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="OUTDATE" property="outdate" />
+        <result column="REC_ATTR" property="recAttr" />
+        <result column="DATE_IN" property="dateIn" />
+        <result column="DATE_OUT" property="dateOut" />
+        <result column="DATE_OPER" property="dateOper" />
+        <result column="ICD_CODE" property="icdCode" />
+        <result column="ICD_KIND" property="icdKind" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, DEPT_CODE, OUTDATE, REC_ATTR, DATE_IN, DATE_OUT, DATE_OPER, ICD_CODE, ICD_KIND
+    </sql>
+
+</mapper>

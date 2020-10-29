@@ -8,10 +8,16 @@ import org.dom4j.DocumentException;
 
 import java.lang.reflect.Field;
 import java.util.List;
+import java.util.Map;
 
 public class Json2Xml<T> {
     public Json2Xml() {
     }
+
+
+//    public String mapToXml(Map<String,Object>){
+//
+//    }
 
     public String jsonToXml(List<T> list, String node, String subNode,ResultObject resultObject) throws DocumentException {
 

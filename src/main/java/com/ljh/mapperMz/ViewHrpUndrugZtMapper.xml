@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHrpUndrugZtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpUndrugZt">
+        <result column="组套编码" property="组套编码" />
+        <result column="组套名称" property="组套名称" />
+        <result column="执行科室" property="执行科室" />
+        <result column="对应项目编码" property="对应项目编码" />
+        <result column="组套中项目数量" property="组套中项目数量" />
+        <result column="版本号" property="版本号" />
+        <result column="启用时间" property="启用时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        组套编码, 组套名称, 执行科室, 对应项目编码, 组套中项目数量, 版本号, 启用时间
+    </sql>
+
+</mapper>

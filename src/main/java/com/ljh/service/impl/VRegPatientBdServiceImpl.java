@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRegPatientBd;
-import com.ljh.mapper.VRegPatientBdMapper;
+import com.ljh.daoMz.VRegPatientBdMapper;
 import com.ljh.service.VRegPatientBdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

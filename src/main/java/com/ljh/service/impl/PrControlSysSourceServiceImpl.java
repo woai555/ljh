@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrControlSysSource;
-import com.ljh.mapper.PrControlSysSourceMapper;
+import com.ljh.daoMz.PrControlSysSourceMapper;
 import com.ljh.service.PrControlSysSourceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

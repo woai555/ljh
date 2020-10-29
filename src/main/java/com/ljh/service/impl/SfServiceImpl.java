@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Sf;
-import com.ljh.mapper.SfMapper;
+import com.ljh.daoMz.SfMapper;
 import com.ljh.service.SfService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

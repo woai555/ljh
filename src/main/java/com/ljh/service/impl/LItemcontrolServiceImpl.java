@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LItemcontrol;
-import com.ljh.mapper.LItemcontrolMapper;
+import com.ljh.daoMz.LItemcontrolMapper;
 import com.ljh.service.LItemcontrolService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

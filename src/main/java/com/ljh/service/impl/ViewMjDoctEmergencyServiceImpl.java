@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMjDoctEmergency;
-import com.ljh.mapper.ViewMjDoctEmergencyMapper;
+import com.ljh.daoMz.ViewMjDoctEmergencyMapper;
 import com.ljh.service.ViewMjDoctEmergencyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

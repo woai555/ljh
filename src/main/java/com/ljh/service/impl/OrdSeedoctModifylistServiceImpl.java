@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdSeedoctModifylist;
-import com.ljh.mapper.OrdSeedoctModifylistMapper;
+import com.ljh.daoMz.OrdSeedoctModifylistMapper;
 import com.ljh.service.OrdSeedoctModifylistService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

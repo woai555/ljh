@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytClinicPayDiaginfo11Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytClinicPayDiaginfo11">
+        <result column="HISREGNO" property="hisregno" />
+        <result column="RECIPENO" property="recipeno" />
+        <result column="RECIPEDATE" property="recipedate" />
+        <result column="DIAGNOSENAME" property="diagnosename" />
+        <result column="DIAGNOSECODE" property="diagnosecode" />
+        <result column="MEDICALRECORD" property="medicalrecord" />
+        <result column="SECTIONCODE" property="sectioncode" />
+        <result column="SECTIONNAME" property="sectionname" />
+        <result column="HISSECTIONNAME" property="hissectionname" />
+        <result column="DRID" property="drid" />
+        <result column="DRNAME" property="drname" />
+        <result column="RECIPETYPE" property="recipetype" />
+        <result column="REGISTERTRADENO" property="registertradeno" />
+        <result column="BILLSTYPE" property="billstype" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="DOCT_CODE" property="doctCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HISREGNO, RECIPENO, RECIPEDATE, DIAGNOSENAME, DIAGNOSECODE, MEDICALRECORD, SECTIONCODE, SECTIONNAME, HISSECTIONNAME, DRID, DRNAME, RECIPETYPE, REGISTERTRADENO, BILLSTYPE, DEPT_CODE, PAYKIND_CODE, DOCT_CODE
+    </sql>
+
+</mapper>

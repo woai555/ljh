@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PhaComBaseinfo;
-import com.ljh.mapper.PhaComBaseinfoMapper;
+import com.ljh.daoMz.PhaComBaseinfoMapper;
 import com.ljh.service.PhaComBaseinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

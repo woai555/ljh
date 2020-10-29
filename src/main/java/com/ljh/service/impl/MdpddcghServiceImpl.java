@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mdpddcgh;
-import com.ljh.mapper.MdpddcghMapper;
+import com.ljh.daoMz.MdpddcghMapper;
 import com.ljh.service.MdpddcghService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

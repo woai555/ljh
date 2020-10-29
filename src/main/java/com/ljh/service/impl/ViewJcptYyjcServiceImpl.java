@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJcptYyjc;
-import com.ljh.mapper.ViewJcptYyjcMapper;
+import com.ljh.daoMz.ViewJcptYyjcMapper;
 import com.ljh.service.ViewJcptYyjcService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

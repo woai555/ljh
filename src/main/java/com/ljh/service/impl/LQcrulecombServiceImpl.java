@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LQcrulecomb;
-import com.ljh.mapper.LQcrulecombMapper;
+import com.ljh.daoMz.LQcrulecombMapper;
 import com.ljh.service.LQcrulecombService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LAntibiotic;
-import com.ljh.mapper.LAntibioticMapper;
+import com.ljh.daoMz.LAntibioticMapper;
 import com.ljh.service.LAntibioticService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

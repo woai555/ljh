@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtCdrdrugdispenseListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrdrugdispenseList">
+        <result column="PATTIENT_NO" property="pattientNo" />
+        <result column="VISIT_NO" property="visitNo" />
+        <result column="FORM_NO" property="formNo" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="DRUGITEM_CODE" property="drugitemCode" />
+        <result column="PHARMACY_STORE" property="pharmacyStore" />
+        <result column="DRUG_SPEC" property="drugSpec" />
+        <result column="ORDERED_QTY" property="orderedQty" />
+        <result column="ORDERED_QTY_UOM_CODE" property="orderedQtyUomCode" />
+        <result column="ORDERED_QTY_UOM_DESC" property="orderedQtyUomDesc" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="RECIPE_NO" property="recipeNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATTIENT_NO, VISIT_NO, FORM_NO, ORDER_NO, DRUGITEM_CODE, PHARMACY_STORE, DRUG_SPEC, ORDERED_QTY, ORDERED_QTY_UOM_CODE, ORDERED_QTY_UOM_DESC, OPER_DATE, RECIPE_NO
+    </sql>
+
+</mapper>

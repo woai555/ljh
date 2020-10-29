@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LInpatienttemp;
-import com.ljh.mapper.LInpatienttempMapper;
+import com.ljh.daoMz.LInpatienttempMapper;
 import com.ljh.service.LInpatienttempService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

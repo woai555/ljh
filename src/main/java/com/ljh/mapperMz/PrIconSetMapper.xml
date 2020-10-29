@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.PrIconSetMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PrIconSet">
+        <id column="ICONCODE" property="iconcode" />
+        <result column="ICONNAME" property="iconname" />
+        <result column="ICONINFO" property="iconinfo" />
+        <result column="ORDERID" property="orderid" />
+        <result column="BACK" property="back" />
+        <result column="OPERATORNO" property="operatorno" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ICONCODE, ICONNAME, ICONINFO, ORDERID, BACK, OPERATORNO, OPERATORTIME
+    </sql>
+
+</mapper>

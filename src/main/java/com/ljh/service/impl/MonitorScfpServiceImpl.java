@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MonitorScfp;
-import com.ljh.mapper.MonitorScfpMapper;
+import com.ljh.daoMz.MonitorScfpMapper;
 import com.ljh.service.MonitorScfpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

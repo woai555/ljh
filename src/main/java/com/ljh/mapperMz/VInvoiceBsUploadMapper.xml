@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VInvoiceBsUploadMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VInvoiceBsUpload">
+        <result column="INVOICE_BS" property="invoiceBs" />
+        <result column="INVOICE_DTIME" property="invoiceDtime" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="REGISTER_OUTPBILL" property="registerOutpbill" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="COST" property="cost" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="INVOICE_NO_JYT" property="invoiceNoJyt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INVOICE_BS, INVOICE_DTIME, INVOICE_NO, TRANS_TYPE, REGISTER_OUTPBILL, PATIENT_NAME, CARD_NO, COST, OPER_CODE, INVOICE_NO_JYT
+    </sql>
+
+</mapper>

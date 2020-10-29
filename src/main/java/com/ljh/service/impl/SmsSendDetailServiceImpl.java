@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SmsSendDetail;
-import com.ljh.mapper.SmsSendDetailMapper;
+import com.ljh.daoMz.SmsSendDetailMapper;
 import com.ljh.service.SmsSendDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NrsTendImportant;
-import com.ljh.mapper.NrsTendImportantMapper;
+import com.ljh.daoMz.NrsTendImportantMapper;
 import com.ljh.service.NrsTendImportantService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

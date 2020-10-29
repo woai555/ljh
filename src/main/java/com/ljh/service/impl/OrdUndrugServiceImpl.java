@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdUndrug;
-import com.ljh.mapper.OrdUndrugMapper;
+import com.ljh.daoMz.OrdUndrugMapper;
 import com.ljh.service.OrdUndrugService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

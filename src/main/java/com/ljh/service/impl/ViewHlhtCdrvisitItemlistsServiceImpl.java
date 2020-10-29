@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdrvisitItemlists;
-import com.ljh.mapper.ViewHlhtCdrvisitItemlistsMapper;
+import com.ljh.daoMz.ViewHlhtCdrvisitItemlistsMapper;
 import com.ljh.service.ViewHlhtCdrvisitItemlistsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

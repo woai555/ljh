@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Output;
-import com.ljh.mapper.OutputMapper;
+import com.ljh.daoMz.OutputMapper;
 import com.ljh.service.OutputService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

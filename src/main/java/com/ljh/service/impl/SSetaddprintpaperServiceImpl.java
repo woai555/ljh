@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SSetaddprintpaper;
-import com.ljh.mapper.SSetaddprintpaperMapper;
+import com.ljh.daoMz.SSetaddprintpaperMapper;
 import com.ljh.service.SSetaddprintpaperService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

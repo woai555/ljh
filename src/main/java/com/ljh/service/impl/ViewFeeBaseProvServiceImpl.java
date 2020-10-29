@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewFeeBaseProv;
-import com.ljh.mapper.ViewFeeBaseProvMapper;
+import com.ljh.daoMz.ViewFeeBaseProvMapper;
 import com.ljh.service.ViewFeeBaseProvService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

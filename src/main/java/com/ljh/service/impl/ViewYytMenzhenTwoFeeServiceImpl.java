@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewYytMenzhenTwoFee;
-import com.ljh.mapper.ViewYytMenzhenTwoFeeMapper;
+import com.ljh.daoMz.ViewYytMenzhenTwoFeeMapper;
 import com.ljh.service.ViewYytMenzhenTwoFeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

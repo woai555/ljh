@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VJhIpmomdodMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VJhIpmomdod">
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DECMPS_STATE" property="decmpsState" />
+        <result column="DATE_BGN" property="dateBgn" />
+        <result column="DATE_END" property="dateEnd" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="DOSE_ONCE" property="doseOnce" />
+        <result column="DOSE_UNIT" property="doseUnit" />
+        <result column="DFQ_FREQ" property="dfqFreq" />
+        <result column="DFQ_CEXP" property="dfqCexp" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INPATIENT_NO, PATIENT_NO, DEPT_CODE, DECMPS_STATE, DATE_BGN, DATE_END, ITEM_CODE, ITEM_NAME, DOSE_ONCE, DOSE_UNIT, DFQ_FREQ, DFQ_CEXP
+    </sql>
+
+</mapper>

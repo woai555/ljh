@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RHisvsyb;
-import com.ljh.mapper.RHisvsybMapper;
+import com.ljh.daoMz.RHisvsybMapper;
 import com.ljh.service.RHisvsybService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

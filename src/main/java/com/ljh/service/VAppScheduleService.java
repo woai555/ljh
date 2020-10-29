@@ -14,5 +14,5 @@ import org.dom4j.DocumentException;
  */
 public interface VAppScheduleService extends IService<VAppSchedule> {
 
-    String getRemainQuery(String message) throws DocumentException;
+    String getSchedule(String message) throws Exception;
 }

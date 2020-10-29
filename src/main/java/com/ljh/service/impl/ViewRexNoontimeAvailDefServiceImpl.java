@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRexNoontimeAvailDef;
-import com.ljh.mapper.ViewRexNoontimeAvailDefMapper;
+import com.ljh.daoMz.ViewRexNoontimeAvailDefMapper;
 import com.ljh.service.ViewRexNoontimeAvailDefService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RProfessionYdyb;
-import com.ljh.mapper.RProfessionYdybMapper;
+import com.ljh.daoMz.RProfessionYdybMapper;
 import com.ljh.service.RProfessionYdybService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

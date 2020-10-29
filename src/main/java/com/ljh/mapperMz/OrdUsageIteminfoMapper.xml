@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdUsageIteminfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdUsageIteminfo">
+        <id column="DOCT_CODE" property="doctCode" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="SPECS" property="specs" />
+        <result column="USAGE_CODE" property="usageCode" />
+        <result column="FREQUENCY_CODE" property="frequencyCode" />
+        <result column="DAYS" property="days" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="ORDERID" property="orderid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DOCT_CODE, ITEM_CODE, SPECS, USAGE_CODE, FREQUENCY_CODE, DAYS, OPER_CODE, OPER_DATE, ORDERID
+    </sql>
+
+</mapper>

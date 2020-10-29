@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpPersonarr;
-import com.ljh.mapper.OpPersonarrMapper;
+import com.ljh.daoMz.OpPersonarrMapper;
 import com.ljh.service.OpPersonarrService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

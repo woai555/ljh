@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsficd;
-import com.ljh.mapper.MrmsficdMapper;
+import com.ljh.daoMz.MrmsficdMapper;
 import com.ljh.service.MrmsficdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

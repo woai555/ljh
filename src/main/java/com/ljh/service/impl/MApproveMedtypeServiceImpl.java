@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MApproveMedtype;
-import com.ljh.mapper.MApproveMedtypeMapper;
+import com.ljh.daoMz.MApproveMedtypeMapper;
 import com.ljh.service.MApproveMedtypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

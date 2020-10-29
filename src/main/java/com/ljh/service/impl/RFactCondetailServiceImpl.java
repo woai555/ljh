@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFactCondetail;
-import com.ljh.mapper.RFactCondetailMapper;
+import com.ljh.daoMz.RFactCondetailMapper;
 import com.ljh.service.RFactCondetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

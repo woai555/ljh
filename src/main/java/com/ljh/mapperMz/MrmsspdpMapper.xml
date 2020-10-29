@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsspdpMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsspdp">
+        <id column="DEPT_CODE" property="deptCode" />
+        <result column="SDEPT_CODE" property="sdeptCode" />
+        <result column="SDEPT_NAME" property="sdeptName" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_PY" property="deptPy" />
+        <result column="DEPT_ENAME" property="deptEname" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="DEPT_ORDER" property="deptOrder" />
+        <result column="RLTV_REPT" property="rltvRept" />
+        <result column="OPER_MAN" property="operMan" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SDEPT_CODE, SDEPT_NAME, DEPT_CODE, DEPT_NAME, DEPT_PY, DEPT_ENAME, DEPT_TYPE, DEPT_ORDER, RLTV_REPT, OPER_MAN, OPER_DATE
+    </sql>
+
+</mapper>

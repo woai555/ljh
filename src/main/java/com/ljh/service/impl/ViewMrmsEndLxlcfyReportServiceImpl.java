@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsEndLxlcfyReport;
-import com.ljh.mapper.ViewMrmsEndLxlcfyReportMapper;
+import com.ljh.daoMz.ViewMrmsEndLxlcfyReportMapper;
 import com.ljh.service.ViewMrmsEndLxlcfyReportService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

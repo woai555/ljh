@@ -1,6 +1,8 @@
 package com.ljh.bean;
 
 import java.math.BigDecimal;
+
+import com.alibaba.fastjson.annotation.JSONType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.time.LocalDateTime;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -14,6 +16,7 @@ import java.io.Serializable;
  * @author ljh
  * @since 2020-10-26
  */
+@JSONType(orders = {"accessschid","schdate","daytype","doctorid","doctorname","deptid","deptname","servicefee","regfee","resno","remain","isexpect","clinicaddr","titletype","numsrctype","state","specialty","remark"})
 public class VAppSchedule implements Serializable {
 
     private static final long serialVersionUID=1L;
@@ -40,9 +43,6 @@ public class VAppSchedule implements Serializable {
 
     private BigDecimal remain;
 
-    private LocalDateTime starttime;
-
-    private LocalDateTime endtime;
 
     private String isexpect;
 
@@ -147,21 +147,21 @@ public class VAppSchedule implements Serializable {
         this.remain = remain;
     }
 
-    public LocalDateTime getStarttime() {
-        return starttime;
-    }
-
-    public void setStarttime(LocalDateTime starttime) {
-        this.starttime = starttime;
-    }
-
-    public LocalDateTime getEndtime() {
-        return endtime;
-    }
-
-    public void setEndtime(LocalDateTime endtime) {
-        this.endtime = endtime;
-    }
+//    public LocalDateTime getStarttime() {
+//        return starttime;
+//    }
+//
+//    public void setStarttime(LocalDateTime starttime) {
+//        this.starttime = starttime;
+//    }
+//
+//    public LocalDateTime getEndtime() {
+//        return endtime;
+//    }
+//
+//    public void setEndtime(LocalDateTime endtime) {
+//        this.endtime = endtime;
+//    }
 
     public String getIsexpect() {
         return isexpect;
@@ -233,8 +233,8 @@ public class VAppSchedule implements Serializable {
         ", regfee=" + regfee +
         ", resno=" + resno +
         ", remain=" + remain +
-        ", starttime=" + starttime +
-        ", endtime=" + endtime +
+//        ", starttime=" + starttime +
+//        ", endtime=" + endtime +
         ", isexpect=" + isexpect +
         ", clinicaddr=" + clinicaddr +
         ", titletype=" + titletype +

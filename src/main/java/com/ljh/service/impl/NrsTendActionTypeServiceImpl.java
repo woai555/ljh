@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NrsTendActionType;
-import com.ljh.mapper.NrsTendActionTypeMapper;
+import com.ljh.daoMz.NrsTendActionTypeMapper;
 import com.ljh.service.NrsTendActionTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

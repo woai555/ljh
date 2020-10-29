@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VMrms167PrintAge;
-import com.ljh.mapper.VMrms167PrintAgeMapper;
+import com.ljh.daoMz.VMrms167PrintAgeMapper;
 import com.ljh.service.VMrms167PrintAgeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

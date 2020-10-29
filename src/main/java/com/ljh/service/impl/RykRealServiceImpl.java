@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RykReal;
-import com.ljh.mapper.RykRealMapper;
+import com.ljh.daoMz.RykRealMapper;
 import com.ljh.service.RykRealService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OutputMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Output">
+        <result column="COMPUTE_0001" property="compute0001" />
+        <result column="COMPUTE_0002" property="compute0002" />
+        <result column="COMPUTE_0003" property="compute0003" />
+        <result column="COMPUTE_0004" property="compute0004" />
+        <result column="COMPUTE_0005" property="compute0005" />
+        <result column="COMPUTE_0006" property="compute0006" />
+        <result column="COMPUTE_0007" property="compute0007" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        COMPUTE_0001, COMPUTE_0002, COMPUTE_0003, COMPUTE_0004, COMPUTE_0005, COMPUTE_0006, COMPUTE_0007
+    </sql>
+
+</mapper>

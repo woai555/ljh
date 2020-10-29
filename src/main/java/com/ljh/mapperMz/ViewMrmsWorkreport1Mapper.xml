@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMrmsWorkreport1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsWorkreport1">
+        <result column="SDEPT" property="sdept" />
+        <result column="SUM_CLI" property="sumCli" />
+        <result column="SUM_EMC" property="sumEmc" />
+        <result column="SUM_EMCD" property="sumEmcd" />
+        <result column="SUM_OBSRV" property="sumObsrv" />
+        <result column="SUM_OBSRVD" property="sumObsrvd" />
+        <result column="SUM_BDCHK" property="sumBdchk" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SDEPT, SUM_CLI, SUM_EMC, SUM_EMCD, SUM_OBSRV, SUM_OBSRVD, SUM_BDCHK
+    </sql>
+
+</mapper>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.TpatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Tpatient">
+        <id column="MISSION_CODE" property="missionCode" />
+        <result column="BRANCH_NAME" property="branchName" />
+        <result column="CALL_TIME" property="callTime" />
+        <result column="ORDER_TIME" property="orderTime" />
+        <result column="DEPART_TIME" property="departTime" />
+        <result column="ARRIVE_TIME" property="arriveTime" />
+        <result column="LEAVE_TIME" property="leaveTime" />
+        <result column="REACH_TIME" property="reachTime" />
+        <result column="COMPLETE_TIME" property="completeTime" />
+        <result column="SCENE_ADDRESS" property="sceneAddress" />
+        <result column="CALL_NUMBER" property="callNumber" />
+        <result column="CONTACT_NUMBER" property="contactNumber" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="NATIONALITY" property="nationality" />
+        <result column="MARRIAGE" property="marriage" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="DELIVERY_ADDRESS" property="deliveryAddress" />
+        <result column="IDCARDNO" property="idcardno" />
+        <result column="CHIEF_COMPLAINT" property="chiefComplaint" />
+        <result column="HPI" property="hpi" />
+        <result column="APOPLEXY" property="apoplexy" />
+        <result column="FACE" property="face" />
+        <result column="UPPER_LIMB" property="upperLimb" />
+        <result column="SPEECH" property="speech" />
+        <result column="HEART_DISEASE" property="heartDisease" />
+        <result column="TYPE_OF_HEART_DISEASE" property="typeOfHeartDisease" />
+        <result column="HYPERTENSION" property="hypertension" />
+        <result column="HYPERTENSION_HISTORY" property="hypertensionHistory" />
+        <result column="HYPERTENSION_HISTORY_UNIT" property="hypertensionHistoryUnit" />
+        <result column="DIABETES" property="diabetes" />
+        <result column="DIABETES_HISTORY" property="diabetesHistory" />
+        <result column="DIABETES_HISTORY_UNIT" property="diabetesHistoryUnit" />
+        <result column="BP1" property="bp1" />
+        <result column="BP2" property="bp2" />
+        <result column="P" property="p" />
+        <result column="R" property="r" />
+        <result column="HR" property="hr" />
+        <result column="T" property="t" />
+        <result column="ELECTROCARDIOGRAM" property="electrocardiogram" />
+        <result column="BLOOD_SUGAR" property="bloodSugar" />
+        <result column="BLOOD_SUGAR_TIME" property="bloodSugarTime" />
+        <result column="BLOOD_OXYGEN_SATURATION" property="bloodOxygenSaturation" />
+        <result column="BLOOD_OXYGEN_TIME" property="bloodOxygenTime" />
+        <result column="HEMOGLOBIN" property="hemoglobin" />
+        <result column="HEMOGLOBIN_TIME" property="hemoglobinTime" />
+        <result column="ISCOPYFROMPAD" property="iscopyfrompad" />
+        <result column="ISCOPYFROMCENTER" property="iscopyfromcenter" />
+        <result column="LASTUPDATETIME" property="lastupdatetime" />
+        <result column="YN_DEALED" property="ynDealed" />
+        <result column="DEALED_CODE" property="dealedCode" />
+        <result column="DEALED_DATE" property="dealedDate" />
+        <result column="CARD_NO" property="cardNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MISSION_CODE, BRANCH_NAME, CALL_TIME, ORDER_TIME, DEPART_TIME, ARRIVE_TIME, LEAVE_TIME, REACH_TIME, COMPLETE_TIME, SCENE_ADDRESS, CALL_NUMBER, CONTACT_NUMBER, PATIENT_NAME, SEX, AGE, NATIONALITY, MARRIAGE, OCCUPATION, DELIVERY_ADDRESS, IDCARDNO, CHIEF_COMPLAINT, HPI, APOPLEXY, FACE, UPPER_LIMB, SPEECH, HEART_DISEASE, TYPE_OF_HEART_DISEASE, HYPERTENSION, HYPERTENSION_HISTORY, HYPERTENSION_HISTORY_UNIT, DIABETES, DIABETES_HISTORY, DIABETES_HISTORY_UNIT, BP1, BP2, P, R, HR, T, ELECTROCARDIOGRAM, BLOOD_SUGAR, BLOOD_SUGAR_TIME, BLOOD_OXYGEN_SATURATION, BLOOD_OXYGEN_TIME, HEMOGLOBIN, HEMOGLOBIN_TIME, ISCOPYFROMPAD, ISCOPYFROMCENTER, LASTUPDATETIME, YN_DEALED, DEALED_CODE, DEALED_DATE, CARD_NO
+    </sql>
+
+</mapper>

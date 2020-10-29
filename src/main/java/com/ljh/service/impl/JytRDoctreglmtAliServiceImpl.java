@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytRDoctreglmtAli;
-import com.ljh.mapper.JytRDoctreglmtAliMapper;
+import com.ljh.daoMz.JytRDoctreglmtAliMapper;
 import com.ljh.service.JytRDoctreglmtAliService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

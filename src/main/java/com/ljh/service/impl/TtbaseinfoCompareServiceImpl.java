@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TtbaseinfoCompare;
-import com.ljh.mapper.TtbaseinfoCompareMapper;
+import com.ljh.daoMz.TtbaseinfoCompareMapper;
 import com.ljh.service.TtbaseinfoCompareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

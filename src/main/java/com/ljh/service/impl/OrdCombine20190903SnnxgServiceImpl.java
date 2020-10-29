@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdCombine20190903Snnxg;
-import com.ljh.mapper.OrdCombine20190903SnnxgMapper;
+import com.ljh.daoMz.OrdCombine20190903SnnxgMapper;
 import com.ljh.service.OrdCombine20190903SnnxgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

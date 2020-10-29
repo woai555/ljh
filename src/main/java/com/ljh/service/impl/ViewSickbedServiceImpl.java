@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSickbed;
-import com.ljh.mapper.ViewSickbedMapper;
+import com.ljh.daoMz.ViewSickbedMapper;
 import com.ljh.service.ViewSickbedService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

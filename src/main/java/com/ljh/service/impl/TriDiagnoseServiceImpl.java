@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TriDiagnose;
-import com.ljh.mapper.TriDiagnoseMapper;
+import com.ljh.daoMz.TriDiagnoseMapper;
 import com.ljh.service.TriDiagnoseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdCombdetailBak;
-import com.ljh.mapper.OrdCombdetailBakMapper;
+import com.ljh.daoMz.OrdCombdetailBakMapper;
 import com.ljh.service.OrdCombdetailBakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDeptStaticJingyitongold;
-import com.ljh.mapper.RDeptStaticJingyitongoldMapper;
+import com.ljh.daoMz.RDeptStaticJingyitongoldMapper;
 import com.ljh.service.RDeptStaticJingyitongoldService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

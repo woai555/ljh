@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LQcmaterial;
-import com.ljh.mapper.LQcmaterialMapper;
+import com.ljh.daoMz.LQcmaterialMapper;
 import com.ljh.service.LQcmaterialService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

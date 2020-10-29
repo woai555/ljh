@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UneCbill;
-import com.ljh.mapper.UneCbillMapper;
+import com.ljh.daoMz.UneCbillMapper;
 import com.ljh.service.UneCbillService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

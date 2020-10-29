@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.StorgeVsDrugtype;
-import com.ljh.mapper.StorgeVsDrugtypeMapper;
+import com.ljh.daoMz.StorgeVsDrugtypeMapper;
 import com.ljh.service.StorgeVsDrugtypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

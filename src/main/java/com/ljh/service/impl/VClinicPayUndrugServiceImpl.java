@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VClinicPayUndrug;
-import com.ljh.mapper.VClinicPayUndrugMapper;
+import com.ljh.daoMz.VClinicPayUndrugMapper;
 import com.ljh.service.VClinicPayUndrugService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSingleitemYlm;
-import com.ljh.mapper.ViewSingleitemYlmMapper;
+import com.ljh.daoMz.ViewSingleitemYlmMapper;
 import com.ljh.service.ViewSingleitemYlmService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

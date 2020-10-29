@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmsReportDictMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmsReportDict">
+        <id column="RPT_ID" property="rptId" />
+        <result column="RPT_SUBID" property="rptSubid" />
+        <result column="RPT_SIDNUM" property="rptSidnum" />
+        <result column="RPT_NAME" property="rptName" />
+        <result column="RPT_SUBNAME" property="rptSubname" />
+        <result column="ICD_BEGIN" property="icdBegin" />
+        <result column="ICD_END" property="icdEnd" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        RPT_ID, RPT_SUBID, RPT_SIDNUM, RPT_NAME, RPT_SUBNAME, ICD_BEGIN, ICD_END
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheSeedoctrecord;
-import com.ljh.mapper.ViewJiaheSeedoctrecordMapper;
+import com.ljh.daoMz.ViewJiaheSeedoctrecordMapper;
 import com.ljh.service.ViewJiaheSeedoctrecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

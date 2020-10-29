@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtOcost;
-import com.ljh.mapper.ViewHlhtOcostMapper;
+import com.ljh.daoMz.ViewHlhtOcostMapper;
 import com.ljh.service.ViewHlhtOcostService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

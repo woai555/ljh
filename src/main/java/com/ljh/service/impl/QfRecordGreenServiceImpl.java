@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfRecordGreen;
-import com.ljh.mapper.QfRecordGreenMapper;
+import com.ljh.daoMz.QfRecordGreenMapper;
 import com.ljh.service.QfRecordGreenService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

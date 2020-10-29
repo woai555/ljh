@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UsageCodeVsYl;
-import com.ljh.mapper.UsageCodeVsYlMapper;
+import com.ljh.daoMz.UsageCodeVsYlMapper;
 import com.ljh.service.UsageCodeVsYlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

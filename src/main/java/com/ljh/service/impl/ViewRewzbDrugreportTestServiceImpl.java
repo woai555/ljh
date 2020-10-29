@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRewzbDrugreportTest;
-import com.ljh.mapper.ViewRewzbDrugreportTestMapper;
+import com.ljh.daoMz.ViewRewzbDrugreportTestMapper;
 import com.ljh.service.ViewRewzbDrugreportTestService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

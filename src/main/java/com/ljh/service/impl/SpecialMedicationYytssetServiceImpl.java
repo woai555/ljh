@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SpecialMedicationYytsset;
-import com.ljh.mapper.SpecialMedicationYytssetMapper;
+import com.ljh.daoMz.SpecialMedicationYytssetMapper;
 import com.ljh.service.SpecialMedicationYytssetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

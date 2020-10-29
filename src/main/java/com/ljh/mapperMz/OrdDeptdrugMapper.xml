@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdDeptdrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdDeptdrug">
+        <id column="ITEM_CODE" property="itemCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="ITEM_TYPE" property="itemType" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="FREQUENCY_CODE" property="frequencyCode" />
+        <result column="USAGE_CODE" property="usageCode" />
+        <result column="ONCE_DOSE" property="onceDose" />
+        <result column="QTY" property="qty" />
+        <result column="MIN_UNIT" property="minUnit" />
+        <result column="DAYS" property="days" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, ITEM_TYPE, ITEM_CODE, ITEM_NAME, FREQUENCY_CODE, USAGE_CODE, ONCE_DOSE, QTY, MIN_UNIT, DAYS
+    </sql>
+
+</mapper>

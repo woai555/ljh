@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpAnaesthesia;
-import com.ljh.mapper.OpAnaesthesiaMapper;
+import com.ljh.daoMz.OpAnaesthesiaMapper;
 import com.ljh.service.OpAnaesthesiaService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

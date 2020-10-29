@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdrpatientDaypush;
-import com.ljh.mapper.ViewHlhtCdrpatientDaypushMapper;
+import com.ljh.daoMz.ViewHlhtCdrpatientDaypushMapper;
 import com.ljh.service.ViewHlhtCdrpatientDaypushService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

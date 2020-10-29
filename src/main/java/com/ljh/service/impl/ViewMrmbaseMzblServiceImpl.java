@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmbaseMzbl;
-import com.ljh.mapper.ViewMrmbaseMzblMapper;
+import com.ljh.daoMz.ViewMrmbaseMzblMapper;
 import com.ljh.service.ViewMrmbaseMzblService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

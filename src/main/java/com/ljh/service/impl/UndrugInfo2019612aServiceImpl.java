@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UndrugInfo2019612a;
-import com.ljh.mapper.UndrugInfo2019612aMapper;
+import com.ljh.daoMz.UndrugInfo2019612aMapper;
 import com.ljh.service.UndrugInfo2019612aService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrIconSet;
-import com.ljh.mapper.PrIconSetMapper;
+import com.ljh.daoMz.PrIconSetMapper;
 import com.ljh.service.PrIconSetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

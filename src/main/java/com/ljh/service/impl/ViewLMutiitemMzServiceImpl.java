@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewLMutiitemMz;
-import com.ljh.mapper.ViewLMutiitemMzMapper;
+import com.ljh.daoMz.ViewLMutiitemMzMapper;
 import com.ljh.service.ViewLMutiitemMzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

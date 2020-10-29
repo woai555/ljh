@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RYpout20200430;
-import com.ljh.mapper.RYpout20200430Mapper;
+import com.ljh.daoMz.RYpout20200430Mapper;
 import com.ljh.service.RYpout20200430Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

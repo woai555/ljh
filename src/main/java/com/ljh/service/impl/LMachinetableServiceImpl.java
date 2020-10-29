@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LMachinetable;
-import com.ljh.mapper.LMachinetableMapper;
+import com.ljh.daoMz.LMachinetableMapper;
 import com.ljh.service.LMachinetableService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

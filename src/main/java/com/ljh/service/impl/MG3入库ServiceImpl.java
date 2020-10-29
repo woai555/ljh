@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MG3入库;
-import com.ljh.mapper.MG3入库Mapper;
+import com.ljh.daoMz.MG3入库Mapper;
 import com.ljh.service.MG3入库Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

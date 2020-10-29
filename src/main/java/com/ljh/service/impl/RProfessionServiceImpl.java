@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RProfession;
-import com.ljh.mapper.RProfessionMapper;
+import com.ljh.daoMz.RProfessionMapper;
 import com.ljh.service.RProfessionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmployeeArea;
-import com.ljh.mapper.REmployeeAreaMapper;
+import com.ljh.daoMz.REmployeeAreaMapper;
 import com.ljh.service.REmployeeAreaService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

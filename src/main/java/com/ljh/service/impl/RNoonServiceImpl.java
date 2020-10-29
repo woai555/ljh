@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RNoon;
-import com.ljh.mapper.RNoonMapper;
+import com.ljh.daoMz.RNoonMapper;
 import com.ljh.service.RNoonService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

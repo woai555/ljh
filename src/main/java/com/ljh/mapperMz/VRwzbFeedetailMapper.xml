@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VRwzbFeedetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRwzbFeedetail">
+        <result column="STREAM_NO" property="streamNo" />
+        <result column="TRADE_NO" property="tradeNo" />
+        <result column="CHARGE" property="charge" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="TRANS_DATE" property="transDate" />
+        <result column="HIS_NO" property="hisNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="PAY_WAY_JYT" property="payWayJyt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STREAM_NO, TRADE_NO, CHARGE, PATIENT_ID, TRANS_DATE, HIS_NO, TRANS_TYPE, PAY_WAY_JYT
+    </sql>
+
+</mapper>

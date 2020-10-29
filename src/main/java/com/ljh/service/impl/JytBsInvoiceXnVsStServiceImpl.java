@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytBsInvoiceXnVsSt;
-import com.ljh.mapper.JytBsInvoiceXnVsStMapper;
+import com.ljh.daoMz.JytBsInvoiceXnVsStMapper;
 import com.ljh.service.JytBsInvoiceXnVsStService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

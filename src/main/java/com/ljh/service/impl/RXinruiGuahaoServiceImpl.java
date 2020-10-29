@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RXinruiGuahao;
-import com.ljh.mapper.RXinruiGuahaoMapper;
+import com.ljh.daoMz.RXinruiGuahaoMapper;
 import com.ljh.service.RXinruiGuahaoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtPtAmbulatoryesd;
-import com.ljh.mapper.ViewHlhtPtAmbulatoryesdMapper;
+import com.ljh.daoMz.ViewHlhtPtAmbulatoryesdMapper;
 import com.ljh.service.ViewHlhtPtAmbulatoryesdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

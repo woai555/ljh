@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppRemainqueryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppRemainquery">
+        <result column="ACCESSSCHID" property="accessschid" />
+        <result column="REMAIN" property="remainNo" />
+        <result column="STATE" property="state" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACCESSSCHID, SCHDATE, DAYTYPE, DOCTORID, DOCTORNAME, DEPTID, DEPTNAME, SERVICEFEE, REGFEE, RESNO, REMAIN, STARTTIME, ENDTIME, ISEXPECT, CLINICADDR, TITLETYPE, NUMSRCTYPE, STATE
+    </sql>
+
+    <select id="getRemainQuery" parameterType="java.util.List" resultType="com.ljh.bean.VAppRemainquery">
+        select AccessSchId,remain as RemainNo,State from v_app_remainquery
+        <where>
+            <if test="list!=null and list.size() > 0">
+                AccessSchId in
+                <foreach collection="list" item="list" index="index" open="(" close=")" separator=",">
+                    #{list}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+</mapper>

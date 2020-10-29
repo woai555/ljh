@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewFeelistE;
-import com.ljh.mapper.ViewFeelistEMapper;
+import com.ljh.daoMz.ViewFeelistEMapper;
 import com.ljh.service.ViewFeelistEService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

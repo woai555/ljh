@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSfxmoutCompare;
-import com.ljh.mapper.RSfxmoutCompareMapper;
+import com.ljh.daoMz.RSfxmoutCompareMapper;
 import com.ljh.service.RSfxmoutCompareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

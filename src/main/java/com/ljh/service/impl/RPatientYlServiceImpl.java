@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientYl;
-import com.ljh.mapper.RPatientYlMapper;
+import com.ljh.daoMz.RPatientYlMapper;
 import com.ljh.service.RPatientYlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

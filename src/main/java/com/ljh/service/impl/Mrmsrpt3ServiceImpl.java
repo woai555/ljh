@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsrpt3;
-import com.ljh.mapper.Mrmsrpt3Mapper;
+import com.ljh.daoMz.Mrmsrpt3Mapper;
 import com.ljh.service.Mrmsrpt3Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

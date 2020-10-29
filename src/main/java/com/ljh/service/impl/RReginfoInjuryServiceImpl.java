@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RReginfoInjury;
-import com.ljh.mapper.RReginfoInjuryMapper;
+import com.ljh.daoMz.RReginfoInjuryMapper;
 import com.ljh.service.RReginfoInjuryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewIfInprepayNocancel;
-import com.ljh.mapper.ViewIfInprepayNocancelMapper;
+import com.ljh.daoMz.ViewIfInprepayNocancelMapper;
 import com.ljh.service.ViewIfInprepayNocancelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

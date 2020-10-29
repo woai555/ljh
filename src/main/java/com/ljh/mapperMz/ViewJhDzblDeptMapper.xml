@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJhDzblDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhDzblDept">
+        <result column="SERIAL_NO" property="serialNo" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_ALIAS" property="deptAlias" />
+        <result column="OUTP_OR_INP" property="outpOrInp" />
+        <result column="INTERNAL_OR_SERGERY" property="internalOrSergery" />
+        <result column="INPUT_CODE" property="inputCode" />
+        <result column="TYPE_CODE" property="typeCode" />
+        <result column="LOCATION" property="location" />
+        <result column="SYNCHRO_FLAG" property="synchroFlag" />
+        <result column="DEPT_EMR" property="deptEmr" />
+        <result column="DEPT_EMR_DATE_TIME" property="deptEmrDateTime" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="HOSPITAL_NO" property="hospitalNo" />
+        <result column="PYM" property="pym" />
+        <result column="WBM" property="wbm" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SERIAL_NO, DEPT_CODE, DEPT_NAME, DEPT_ALIAS, OUTP_OR_INP, INTERNAL_OR_SERGERY, INPUT_CODE, TYPE_CODE, LOCATION, SYNCHRO_FLAG, DEPT_EMR, DEPT_EMR_DATE_TIME, DEPT_TYPE, HOSPITAL_NO, PYM, WBM
+    </sql>
+
+</mapper>

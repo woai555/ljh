@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LQcitem;
-import com.ljh.mapper.LQcitemMapper;
+import com.ljh.daoMz.LQcitemMapper;
 import com.ljh.service.LQcitemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

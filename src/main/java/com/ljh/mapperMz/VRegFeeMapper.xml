@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VRegFeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRegFee">
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="FEE" property="fee" />
+        <result column="HISID" property="hisid" />
+        <result column="HISNAME" property="hisname" />
+        <result column="YBID" property="ybid" />
+        <result column="YBNAME" property="ybname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, REGLEVL_CODE, FEE, HISID, HISNAME, YBID, YBNAME
+    </sql>
+
+</mapper>

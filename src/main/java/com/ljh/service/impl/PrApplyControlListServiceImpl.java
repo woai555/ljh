@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrApplyControlList;
-import com.ljh.mapper.PrApplyControlListMapper;
+import com.ljh.daoMz.PrApplyControlListMapper;
 import com.ljh.service.PrApplyControlListService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

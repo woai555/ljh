@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHrpStaticnexus;
-import com.ljh.mapper.ViewHrpStaticnexusMapper;
+import com.ljh.daoMz.ViewHrpStaticnexusMapper;
 import com.ljh.service.ViewHrpStaticnexusService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

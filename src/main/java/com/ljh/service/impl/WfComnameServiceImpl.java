@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WfComname;
-import com.ljh.mapper.WfComnameMapper;
+import com.ljh.daoMz.WfComnameMapper;
 import com.ljh.service.WfComnameService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

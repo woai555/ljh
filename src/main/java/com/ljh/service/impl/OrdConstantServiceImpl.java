@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdConstant;
-import com.ljh.mapper.OrdConstantMapper;
+import com.ljh.daoMz.OrdConstantMapper;
 import com.ljh.service.OrdConstantService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytBillQuerynewTestMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytBillQuerynewTest">
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="HIS_REG_NO" property="hisRegNo" />
+        <result column="TREATMENT_NO" property="treatmentNo" />
+        <result column="GROUP_ID" property="groupId" />
+        <result column="PAYABLE" property="payable" />
+        <result column="UNPAYABLE_REASON" property="unpayableReason" />
+        <result column="DEPT_CODE1" property="deptCode1" />
+        <result column="DEPT_NAME1" property="deptName1" />
+        <result column="DEPT_CODE2" property="deptCode2" />
+        <result column="DEPT_NAME2" property="deptName2" />
+        <result column="DOCTOR_CODE" property="doctorCode" />
+        <result column="RECIPE_TYPE" property="recipeType" />
+        <result column="RECIPE_DATE" property="recipeDate" />
+        <result column="HOS_CODE" property="hosCode" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="PAY_STATUS" property="payStatus" />
+        <result column="TOTAL_COST" property="totalCost" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="RT_SETTLEMENT" property="rtSettlement" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REG_DTIME, RECIPE_NO, HIS_REG_NO, TREATMENT_NO, GROUP_ID, PAYABLE, UNPAYABLE_REASON, DEPT_CODE1, DEPT_NAME1, DEPT_CODE2, DEPT_NAME2, DOCTOR_CODE, RECIPE_TYPE, RECIPE_DATE, HOS_CODE, CARD_NO, PAY_STATUS, TOTAL_COST, MCARD_NO, CARDNO_JYT, RT_SETTLEMENT
+    </sql>
+
+</mapper>

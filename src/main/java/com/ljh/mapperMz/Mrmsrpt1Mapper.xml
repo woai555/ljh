@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.Mrmsrpt1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmsrpt1">
+        <id column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_ORDER" property="deptOrder" />
+        <result column="BED_REAL" property="bedReal" />
+        <result column="PATIENT_ORIGN" property="patientOrign" />
+        <result column="PATIENT_CLIN" property="patientClin" />
+        <result column="PATIENT_EMIN" property="patientEmin" />
+        <result column="PATIENT_TRIN" property="patientTrin" />
+        <result column="MAN_OUT" property="manOut" />
+        <result column="PATIENT_OUT" property="patientOut" />
+        <result column="PATIENT_RTN1" property="patientRtn1" />
+        <result column="PATIENT_RTN2" property="patientRtn2" />
+        <result column="PATIENT_RTN3" property="patientRtn3" />
+        <result column="PATIENT_RTN4" property="patientRtn4" />
+        <result column="PATIENT_TROUT" property="patientTrout" />
+        <result column="PATIENT_REAL" property="patientReal" />
+        <result column="BED_DAYSOPEN" property="bedDaysopen" />
+        <result column="BED_DAYSUSE" property="bedDaysuse" />
+        <result column="BED_DAYSOP" property="bedDaysop" />
+        <result column="BED_AVGOPEN" property="bedAvgopen" />
+        <result column="PATIENT_OPER" property="patientOper" />
+        <result column="DIAG_OKNUM" property="diagOknum" />
+        <result column="DIAG_AVGDAY" property="diagAvgday" />
+        <result column="NICK_NUM" property="nickNum" />
+        <result column="CICA_NUM1" property="cicaNum1" />
+        <result column="CICA_NUM3" property="cicaNum3" />
+        <result column="NICK_NUM2" property="nickNum2" />
+        <result column="CICA_NUM4" property="cicaNum4" />
+        <result column="CICA_NUM6" property="cicaNum6" />
+        <result column="SNDA_NUM" property="sndaNum" />
+        <result column="ACCORD_CEPI" property="accordCepi" />
+        <result column="ACCORD_PIPO" property="accordPipo" />
+        <result column="ACCORD_OPBA" property="accordOpba" />
+        <result column="ACCORD_CLX" property="accordClx" />
+        <result column="SUM_CLX" property="sumClx" />
+        <result column="ACCORD_CLCT" property="accordClct" />
+        <result column="SUM_CLCT" property="sumClct" />
+        <result column="ACCORD_CLMR" property="accordClmr" />
+        <result column="SUM_CLMR" property="sumClmr" />
+        <result column="ACCORD_CLPA" property="accordClpa" />
+        <result column="SUM_CLPA" property="sumClpa" />
+        <result column="MR_ELIGNUM" property="mrElignum" />
+        <result column="MR_QUAL1" property="mrQual1" />
+        <result column="MR_QUAL2" property="mrQual2" />
+        <result column="SALV_NUM" property="salvNum" />
+        <result column="SUCC_NUM" property="succNum" />
+        <result column="BODY_CHKNUM" property="bodyChknum" />
+        <result column="SECO_INNUM" property="secoInnum" />
+        <result column="IN_SORC1" property="inSorc1" />
+        <result column="IN_SORC2" property="inSorc2" />
+        <result column="IN_SORC3" property="inSorc3" />
+        <result column="IN_SORC4" property="inSorc4" />
+        <result column="IN_SORC5" property="inSorc5" />
+        <result column="TODAYIN_INCHANGE" property="todayinInchange" />
+        <result column="STAT_DAYS" property="statDays" />
+        <result column="TODAYIN_OUTCHANGE" property="todayinOutchange" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_CODE, DEPT_NAME, DEPT_ORDER, BED_REAL, PATIENT_ORIGN, PATIENT_CLIN, PATIENT_EMIN, PATIENT_TRIN, MAN_OUT, PATIENT_OUT, PATIENT_RTN1, PATIENT_RTN2, PATIENT_RTN3, PATIENT_RTN4, PATIENT_TROUT, PATIENT_REAL, BED_DAYSOPEN, BED_DAYSUSE, BED_DAYSOP, BED_AVGOPEN, PATIENT_OPER, DIAG_OKNUM, DIAG_AVGDAY, NICK_NUM, CICA_NUM1, CICA_NUM3, NICK_NUM2, CICA_NUM4, CICA_NUM6, SNDA_NUM, ACCORD_CEPI, ACCORD_PIPO, ACCORD_OPBA, ACCORD_CLX, SUM_CLX, ACCORD_CLCT, SUM_CLCT, ACCORD_CLMR, SUM_CLMR, ACCORD_CLPA, SUM_CLPA, MR_ELIGNUM, MR_QUAL1, MR_QUAL2, SALV_NUM, SUCC_NUM, BODY_CHKNUM, SECO_INNUM, IN_SORC1, IN_SORC2, IN_SORC3, IN_SORC4, IN_SORC5, TODAYIN_INCHANGE, STAT_DAYS, TODAYIN_OUTCHANGE
+    </sql>
+
+</mapper>

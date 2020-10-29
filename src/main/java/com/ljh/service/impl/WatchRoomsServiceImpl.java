@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WatchRooms;
-import com.ljh.mapper.WatchRoomsMapper;
+import com.ljh.daoMz.WatchRoomsMapper;
 import com.ljh.service.WatchRoomsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

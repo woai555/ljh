@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMdyIcd;
-import com.ljh.mapper.ViewMdyIcdMapper;
+import com.ljh.daoMz.ViewMdyIcdMapper;
 import com.ljh.service.ViewMdyIcdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

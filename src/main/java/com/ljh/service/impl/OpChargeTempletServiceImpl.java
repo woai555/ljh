@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpChargeTemplet;
-import com.ljh.mapper.OpChargeTempletMapper;
+import com.ljh.daoMz.OpChargeTempletMapper;
 import com.ljh.service.OpChargeTempletService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdContagion;
-import com.ljh.mapper.OrdContagionMapper;
+import com.ljh.daoMz.OrdContagionMapper;
 import com.ljh.service.OrdContagionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

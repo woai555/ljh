@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytLog;
-import com.ljh.mapper.JytLogMapper;
+import com.ljh.daoMz.JytLogMapper;
 import com.ljh.service.JytLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

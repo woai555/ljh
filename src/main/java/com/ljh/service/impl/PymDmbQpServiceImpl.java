@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PymDmbQp;
-import com.ljh.mapper.PymDmbQpMapper;
+import com.ljh.daoMz.PymDmbQpMapper;
 import com.ljh.service.PymDmbQpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

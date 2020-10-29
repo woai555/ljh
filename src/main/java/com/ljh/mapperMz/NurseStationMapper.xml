@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.NurseStationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.NurseStation">
+        <id column="STATION_CODE" property="stationCode" />
+        <result column="STATION_NAME" property="stationName" />
+        <result column="SEND_DRUGTIME" property="sendDrugtime" />
+        <result column="STATION_PY" property="stationPy" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_TYPE" property="deptType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STATION_CODE, STATION_NAME, SEND_DRUGTIME, STATION_PY, DEPT_CODE, DEPT_TYPE
+    </sql>
+
+</mapper>

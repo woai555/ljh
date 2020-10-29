@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Lsk0;
-import com.ljh.mapper.Lsk0Mapper;
+import com.ljh.daoMz.Lsk0Mapper;
 import com.ljh.service.Lsk0Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

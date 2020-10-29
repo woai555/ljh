@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHzyhFeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHzyhFee">
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="RX_CODE" property="rxCode" />
+        <result column="RCPT_CODE" property="rcptCode" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="FEE_NAME" property="feeName" />
+        <result column="CHARGE_COUNT" property="chargeCount" />
+        <result column="CHARGE_TIME" property="chargeTime" />
+        <result column="MONEY" property="money" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PATIENT_ID, VISIT_ID, RX_CODE, RCPT_CODE, FEE_CODE, FEE_NAME, CHARGE_COUNT, CHARGE_TIME, MONEY
+    </sql>
+
+</mapper>

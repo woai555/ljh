@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VRegPatientBdMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VRegPatientBd">
+        <result column="PAR_HIS_REG_NO" property="parHisRegNo" />
+        <result column="KSMC" property="ksmc" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="PAR_REG_NO" property="parRegNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PAR_HIS_REG_NO, KSMC, CARD_TYPE, CARD_NO, PAR_REG_NO
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VUndruginfoVsYb;
-import com.ljh.mapper.VUndruginfoVsYbMapper;
+import com.ljh.daoMz.VUndruginfoVsYbMapper;
 import com.ljh.service.VUndruginfoVsYbService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LMultisingleitemBak20170419;
-import com.ljh.mapper.LMultisingleitemBak20170419Mapper;
+import com.ljh.daoMz.LMultisingleitemBak20170419Mapper;
 import com.ljh.service.LMultisingleitemBak20170419Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytPrivatecloudRegQueryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytPrivatecloudRegQuery">
+        <result column="REG_NO" property="regNo" />
+        <result column="HIS_REG_NO" property="hisRegNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="STATUS" property="status" />
+        <result column="PAY_STATUS" property="payStatus" />
+        <result column="FEE" property="fee" />
+        <result column="USER_AMOUNT" property="userAmount" />
+        <result column="MEDICARE_AMOUNT" property="medicareAmount" />
+        <result column="MEDICARE_PERSON_FEE" property="medicarePersonFee" />
+        <result column="PAY_SOURCE" property="paySource" />
+        <result column="TAKE_SOURCE" property="takeSource" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        REG_NO, HIS_REG_NO, CARD_NO, CARD_TYPE, STATUS, PAY_STATUS, FEE, USER_AMOUNT, MEDICARE_AMOUNT, MEDICARE_PERSON_FEE, PAY_SOURCE, TAKE_SOURCE
+    </sql>
+
+</mapper>

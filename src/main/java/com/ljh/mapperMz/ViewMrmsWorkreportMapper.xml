@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMrmsWorkreportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsWorkreport">
+        <result column="S_DEPT" property="sDept" />
+        <result column="SUM_CLI" property="sumCli" />
+        <result column="SUM_EMC" property="sumEmc" />
+        <result column="SUM_EMCD" property="sumEmcd" />
+        <result column="SUM_OBSRV" property="sumObsrv" />
+        <result column="SUM_OBSRVD" property="sumObsrvd" />
+        <result column="SUM_BDCHK" property="sumBdchk" />
+        <result column="SUM_ORIGN" property="sumOrign" />
+        <result column="SUM_IN" property="sumIn" />
+        <result column="SUM_TRIN" property="sumTrin" />
+        <result column="SUM_MANOUT" property="sumManout" />
+        <result column="SUM_RTN1" property="sumRtn1" />
+        <result column="SUM_RTN2" property="sumRtn2" />
+        <result column="SUM_RTN3" property="sumRtn3" />
+        <result column="SUM_RTN4" property="sumRtn4" />
+        <result column="SUM_TROUT" property="sumTrout" />
+        <result column="SUM_REAL" property="sumReal" />
+        <result column="SUM_BEDREAL" property="sumBedreal" />
+        <result column="SUM_BEDDAYSOPEN" property="sumBeddaysopen" />
+        <result column="SUM_BEDAVGOPEN" property="sumBedavgopen" />
+        <result column="SUM_BEDDAYSUSE" property="sumBeddaysuse" />
+        <result column="SUM_BED_DAYSOP" property="sumBedDaysop" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        S_DEPT, SUM_CLI, SUM_EMC, SUM_EMCD, SUM_OBSRV, SUM_OBSRVD, SUM_BDCHK, SUM_ORIGN, SUM_IN, SUM_TRIN, SUM_MANOUT, SUM_RTN1, SUM_RTN2, SUM_RTN3, SUM_RTN4, SUM_TROUT, SUM_REAL, SUM_BEDREAL, SUM_BEDDAYSOPEN, SUM_BEDAVGOPEN, SUM_BEDDAYSUSE, SUM_BED_DAYSOP
+    </sql>
+
+</mapper>

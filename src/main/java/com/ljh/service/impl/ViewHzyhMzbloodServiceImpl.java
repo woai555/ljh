@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHzyhMzblood;
-import com.ljh.mapper.ViewHzyhMzbloodMapper;
+import com.ljh.daoMz.ViewHzyhMzbloodMapper;
 import com.ljh.service.ViewHzyhMzbloodService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

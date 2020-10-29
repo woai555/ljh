@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VTsyby;
-import com.ljh.mapper.VTsybyMapper;
+import com.ljh.daoMz.VTsybyMapper;
 import com.ljh.service.VTsybyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

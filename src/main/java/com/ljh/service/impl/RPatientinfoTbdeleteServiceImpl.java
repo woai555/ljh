@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientinfoTbdelete;
-import com.ljh.mapper.RPatientinfoTbdeleteMapper;
+import com.ljh.daoMz.RPatientinfoTbdeleteMapper;
 import com.ljh.service.RPatientinfoTbdeleteService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SpecialDiagnosisRecord;
-import com.ljh.mapper.SpecialDiagnosisRecordMapper;
+import com.ljh.daoMz.SpecialDiagnosisRecordMapper;
 import com.ljh.service.SpecialDiagnosisRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

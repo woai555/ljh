@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmplvsfinagrp;
-import com.ljh.mapper.REmplvsfinagrpMapper;
+import com.ljh.daoMz.REmplvsfinagrpMapper;
 import com.ljh.service.REmplvsfinagrpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

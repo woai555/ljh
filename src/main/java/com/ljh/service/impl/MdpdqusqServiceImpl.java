@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mdpdqusq;
-import com.ljh.mapper.MdpdqusqMapper;
+import com.ljh.daoMz.MdpdqusqMapper;
 import com.ljh.service.MdpdqusqService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

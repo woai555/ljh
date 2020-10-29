@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewInvoiceReturn;
-import com.ljh.mapper.ViewInvoiceReturnMapper;
+import com.ljh.daoMz.ViewInvoiceReturnMapper;
 import com.ljh.service.ViewInvoiceReturnService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

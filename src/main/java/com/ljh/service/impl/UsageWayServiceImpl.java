@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UsageWay;
-import com.ljh.mapper.UsageWayMapper;
+import com.ljh.daoMz.UsageWayMapper;
 import com.ljh.service.UsageWayService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

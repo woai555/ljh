@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientSpecialDel;
-import com.ljh.mapper.RPatientSpecialDelMapper;
+import com.ljh.daoMz.RPatientSpecialDelMapper;
 import com.ljh.service.RPatientSpecialDelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,10 +1,9 @@
 package com.ljh.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ljh.ToolUtil.Json2Xml;
 import com.ljh.ToolUtil.ParseXml;
 import com.ljh.bean.VAppDoctorinfo;
-import com.ljh.mapper.VAppDoctorinfoMapper;
+import com.ljh.daoMz.VAppDoctorinfoMapper;
 import com.ljh.returnjson.ResultObject;
 import com.ljh.service.VAppDoctorinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

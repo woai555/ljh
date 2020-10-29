@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RGhBooktypeVsYlm;
-import com.ljh.mapper.RGhBooktypeVsYlmMapper;
+import com.ljh.daoMz.RGhBooktypeVsYlmMapper;
 import com.ljh.service.RGhBooktypeVsYlmService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

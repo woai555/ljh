@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Table2;
-import com.ljh.mapper.Table2Mapper;
+import com.ljh.daoMz.Table2Mapper;
 import com.ljh.service.Table2Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VQyylDoctorInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VQyylDoctorInfo">
+        <result column="HOSORGCODE" property="hosorgcode" />
+        <result column="RESOURCECODE" property="resourcecode" />
+        <result column="RESOURCENAME" property="resourcename" />
+        <result column="DOCTTILE" property="docttile" />
+        <result column="PERSONTYPE" property="persontype" />
+        <result column="PERSONID" property="personid" />
+        <result column="DOCTSEX" property="doctsex" />
+        <result column="DOCTINFO" property="doctinfo" />
+        <result column="DOCTSPECIALTY" property="doctspecialty" />
+        <result column="ONEDEPTCODE" property="onedeptcode" />
+        <result column="DEPTCODE" property="deptcode" />
+        <result column="ISREGISTER" property="isregister" />
+        <result column="ISDELETE" property="isdelete" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSORGCODE, RESOURCECODE, RESOURCENAME, DOCTTILE, PERSONTYPE, PERSONID, DOCTSEX, DOCTINFO, DOCTSPECIALTY, ONEDEPTCODE, DEPTCODE, ISREGISTER, ISDELETE
+    </sql>
+
+</mapper>

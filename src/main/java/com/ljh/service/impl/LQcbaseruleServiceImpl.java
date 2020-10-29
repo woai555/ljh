@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LQcbaserule;
-import com.ljh.mapper.LQcbaseruleMapper;
+import com.ljh.daoMz.LQcbaseruleMapper;
 import com.ljh.service.LQcbaseruleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

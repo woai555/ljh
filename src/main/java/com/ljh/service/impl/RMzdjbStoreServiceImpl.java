@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RMzdjbStore;
-import com.ljh.mapper.RMzdjbStoreMapper;
+import com.ljh.daoMz.RMzdjbStoreMapper;
 import com.ljh.service.RMzdjbStoreService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

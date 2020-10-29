@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheEmplDict;
-import com.ljh.mapper.ViewJiaheEmplDictMapper;
+import com.ljh.daoMz.ViewJiaheEmplDictMapper;
 import com.ljh.service.ViewJiaheEmplDictService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

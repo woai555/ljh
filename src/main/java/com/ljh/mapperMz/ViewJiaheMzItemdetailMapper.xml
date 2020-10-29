@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheMzItemdetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzItemdetail">
+        <result column="ACT_ID" property="actId" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="OUTP_ID" property="outpId" />
+        <result column="PRESC_NO" property="prescNo" />
+        <result column="APPLY_PERSON" property="applyPerson" />
+        <result column="APPLY_PERSON_NAME" property="applyPersonName" />
+        <result column="APPLY_DEPARTMENT" property="applyDepartment" />
+        <result column="APPLY_DEPARTMENT_NAME" property="applyDepartmentName" />
+        <result column="CHARGING_ITEM" property="chargingItem" />
+        <result column="CHARGING_ITEM_NAME" property="chargingItemName" />
+        <result column="CHARGING_CATEGORY" property="chargingCategory" />
+        <result column="CHARGING_CATEGORY_NAME" property="chargingCategoryName" />
+        <result column="CHARGING_CATEGORY_DL" property="chargingCategoryDl" />
+        <result column="CHARGING_CATEGORY_DL_NAME" property="chargingCategoryDlName" />
+        <result column="CHARGING_ITEM_NUM" property="chargingItemNum" />
+        <result column="CHARGING_ITEM_FEE" property="chargingItemFee" />
+        <result column="CHARGING_ITEM_TIME" property="chargingItemTime" />
+        <result column="CHARGING_TYPE" property="chargingType" />
+        <result column="CHARGING_TYPE_NAME" property="chargingTypeName" />
+        <result column="VISIT_TYPE" property="visitType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACT_ID, PATIENT_ID, OUTP_ID, PRESC_NO, APPLY_PERSON, APPLY_PERSON_NAME, APPLY_DEPARTMENT, APPLY_DEPARTMENT_NAME, CHARGING_ITEM, CHARGING_ITEM_NAME, CHARGING_CATEGORY, CHARGING_CATEGORY_NAME, CHARGING_CATEGORY_DL, CHARGING_CATEGORY_DL_NAME, CHARGING_ITEM_NUM, CHARGING_ITEM_FEE, CHARGING_ITEM_TIME, CHARGING_TYPE, CHARGING_TYPE_NAME, VISIT_TYPE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppCrisis;
-import com.ljh.mapper.VAppCrisisMapper;
+import com.ljh.daoMz.VAppCrisisMapper;
 import com.ljh.service.VAppCrisisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

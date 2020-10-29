@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDepartmentXinyUnnecessary;
-import com.ljh.mapper.RDepartmentXinyUnnecessaryMapper;
+import com.ljh.daoMz.RDepartmentXinyUnnecessaryMapper;
 import com.ljh.service.RDepartmentXinyUnnecessaryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

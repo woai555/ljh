@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WfCountry;
-import com.ljh.mapper.WfCountryMapper;
+import com.ljh.daoMz.WfCountryMapper;
 import com.ljh.service.WfCountryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

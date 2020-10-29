@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMdyPhysicianClass;
-import com.ljh.mapper.ViewMdyPhysicianClassMapper;
+import com.ljh.daoMz.ViewMdyPhysicianClassMapper;
 import com.ljh.service.ViewMdyPhysicianClassService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

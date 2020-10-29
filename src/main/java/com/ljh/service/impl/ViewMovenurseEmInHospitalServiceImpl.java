@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMovenurseEmInHospital;
-import com.ljh.mapper.ViewMovenurseEmInHospitalMapper;
+import com.ljh.daoMz.ViewMovenurseEmInHospitalMapper;
 import com.ljh.service.ViewMovenurseEmInHospitalService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

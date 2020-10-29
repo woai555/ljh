@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MzBlshdjMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MzBlshdj">
+        <id column="BINGLI_NO" property="bingliNo" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="PATIENT_IDEN" property="patientIden" />
+        <result column="REPLACE_NAME" property="replaceName" />
+        <result column="REPLACE_IDEN" property="replaceIden" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_NAME" property="operName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BINGLI_NO, PATIENT_NAME, PATIENT_IDEN, REPLACE_NAME, REPLACE_IDEN, OPER_DATE, OPER_NAME
+    </sql>
+
+</mapper>

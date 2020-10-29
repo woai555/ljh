@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LPermission;
-import com.ljh.mapper.LPermissionMapper;
+import com.ljh.daoMz.LPermissionMapper;
 import com.ljh.service.LPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

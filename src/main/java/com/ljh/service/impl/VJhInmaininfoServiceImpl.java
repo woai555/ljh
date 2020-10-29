@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VJhInmaininfo;
-import com.ljh.mapper.VJhInmaininfoMapper;
+import com.ljh.daoMz.VJhInmaininfoMapper;
 import com.ljh.service.VJhInmaininfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

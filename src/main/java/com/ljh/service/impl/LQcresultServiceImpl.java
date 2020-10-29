@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LQcresult;
-import com.ljh.mapper.LQcresultMapper;
+import com.ljh.daoMz.LQcresultMapper;
 import com.ljh.service.LQcresultService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.QfLevelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.QfLevel">
+        <id column="QF_LIMITCODE" property="qfLimitcode" />
+        <result column="QF_LIMITNAME" property="qfLimitname" />
+        <result column="VALUE" property="value" />
+        <result column="VALUE_TYPE" property="valueType" />
+        <result column="IF_ZR" property="ifZr" />
+        <result column="CONTENT" property="content" />
+        <result column="IF_CONTROL" property="ifControl" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPERATORID" property="operatorid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        QF_LIMITCODE, QF_LIMITNAME, VALUE, VALUE_TYPE, IF_ZR, CONTENT, IF_CONTROL, OPER_DATE, OPERATORID
+    </sql>
+
+</mapper>

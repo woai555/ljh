@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LSkillstatic;
-import com.ljh.mapper.LSkillstaticMapper;
+import com.ljh.daoMz.LSkillstaticMapper;
 import com.ljh.service.LSkillstaticService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RBranch;
-import com.ljh.mapper.RBranchMapper;
+import com.ljh.daoMz.RBranchMapper;
 import com.ljh.service.RBranchService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewAlldeptZyrate;
-import com.ljh.mapper.ViewAlldeptZyrateMapper;
+import com.ljh.daoMz.ViewAlldeptZyrateMapper;
 import com.ljh.service.ViewAlldeptZyrateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

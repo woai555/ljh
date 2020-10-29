@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WbmDmb;
-import com.ljh.mapper.WbmDmbMapper;
+import com.ljh.daoMz.WbmDmbMapper;
 import com.ljh.service.WbmDmbService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

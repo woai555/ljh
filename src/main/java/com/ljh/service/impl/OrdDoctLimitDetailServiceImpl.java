@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdDoctLimitDetail;
-import com.ljh.mapper.OrdDoctLimitDetailMapper;
+import com.ljh.daoMz.OrdDoctLimitDetailMapper;
 import com.ljh.service.OrdDoctLimitDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

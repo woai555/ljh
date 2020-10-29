@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.PrControlProListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.PrControlProList">
+        <id column="PRO_TYPE_CODE" property="proTypeCode" />
+        <result column="PRO_ORDER" property="proOrder" />
+        <result column="PB_PRO_CODE" property="pbProCode" />
+        <result column="PRO_NAME" property="proName" />
+        <result column="OPERATORNO" property="operatorno" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PRO_TYPE_CODE, PRO_ORDER, PB_PRO_CODE, PRO_NAME, OPERATORNO, OPERATORTIME
+    </sql>
+
+</mapper>

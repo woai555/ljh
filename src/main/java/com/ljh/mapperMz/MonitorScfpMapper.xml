@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MonitorScfpMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MonitorScfp">
+        <result column="BEG_DATE" property="begDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="IF_AVG" property="ifAvg" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="M_MED_CST" property="mMedCst" />
+        <result column="M_PHARM_CST" property="mPharmCst" />
+        <result column="M_MAT_CST" property="mMatCst" />
+        <result column="M_AVG_MED_CST" property="mAvgMedCst" />
+        <result column="M_AVG_PHARM_CST" property="mAvgPharmCst" />
+        <result column="M_AVG_MAT_CST" property="mAvgMatCst" />
+        <result column="M_MC_MED_CST" property="mMcMedCst" />
+        <result column="M_MC_PHARM_CST" property="mMcPharmCst" />
+        <result column="M_MC_MAT_CST" property="mMcMatCst" />
+        <result column="M_MC_AVG_MED_CST" property="mMcAvgMedCst" />
+        <result column="M_MC_AVG_PHARM_CST" property="mMcAvgPharmCst" />
+        <result column="M_MC_AVG_MAT_CST" property="mMcAvgMatCst" />
+        <result column="M_MC_SELF_CST" property="mMcSelfCst" />
+        <result column="M_MC_AVG_SELF_CST" property="mMcAvgSelfCst" />
+        <result column="Z_O_MED_CST" property="zOMedCst" />
+        <result column="Z_O_PHARM_CST" property="zOPharmCst" />
+        <result column="Z_O_MAT_CST" property="zOMatCst" />
+        <result column="Z_O_NUM" property="zONum" />
+        <result column="Z_O_BED_DAYS" property="zOBedDays" />
+        <result column="Z_O_AVG_MED_CST" property="zOAvgMedCst" />
+        <result column="Z_O_AVG_PHARM_CST" property="zOAvgPharmCst" />
+        <result column="Z_O_AVG_MAT_CST" property="zOAvgMatCst" />
+        <result column="Z_O_MC_MED_CST" property="zOMcMedCst" />
+        <result column="Z_O_MC_PHARM_CST" property="zOMcPharmCst" />
+        <result column="Z_O_MC_MAT_CST" property="zOMcMatCst" />
+        <result column="Z_O_MC_NUM" property="zOMcNum" />
+        <result column="Z_O_MC_AVG_MED_CST" property="zOMcAvgMedCst" />
+        <result column="Z_O_MC_AVG_PHARM_CST" property="zOMcAvgPharmCst" />
+        <result column="Z_O_MC_AVG_MAT_CST" property="zOMcAvgMatCst" />
+        <result column="Z_O_MC_SELF_CST" property="zOMcSelfCst" />
+        <result column="Z_O_MC_AVG_SELF_CST" property="zOMcAvgSelfCst" />
+        <result column="Z_I_MED_CST" property="zIMedCst" />
+        <result column="Z_I_PHARM_CST" property="zIPharmCst" />
+        <result column="Z_I_MC_MED_CST" property="zIMcMedCst" />
+        <result column="Z_I_MC_PHARM_CST" property="zIMcPharmCst" />
+        <result column="NUM_RAY_X" property="numRayX" />
+        <result column="NUM_RAY_CT" property="numRayCt" />
+        <result column="NUM_RAY_MRI" property="numRayMri" />
+        <result column="NUM_RAY_B" property="numRayB" />
+        <result column="ANALY_BLOOD" property="analyBlood" />
+        <result column="MC_NUM_RAY_X" property="mcNumRayX" />
+        <result column="MC_NUM_RAY_CT" property="mcNumRayCt" />
+        <result column="MC_NUM_RAY_MRI" property="mcNumRayMri" />
+        <result column="MC_NUM_RAY_B" property="mcNumRayB" />
+        <result column="MC_ANALY_BLOOD" property="mcAnalyBlood" />
+        <result column="M_MAN_TIME" property="mManTime" />
+        <result column="M_C_MAN_TIME" property="mCManTime" />
+        <result column="M_V_MAN_TIME" property="mVManTime" />
+        <result column="M_D_MAN_TIME" property="mDManTime" />
+        <result column="M_F_MAN_TIME" property="mFManTime" />
+        <result column="M_E_MAN_TIME" property="mEManTime" />
+        <result column="M_MAN_TIME_NATIVE" property="mManTimeNative" />
+        <result column="M_NATIVE_RATE" property="mNativeRate" />
+        <result column="M_NONLOCAL_RATE" property="mNonlocalRate" />
+        <result column="M_MC_MAN_TIME" property="mMcManTime" />
+        <result column="M_MC_C_MAN_TIME" property="mMcCManTime" />
+        <result column="M_MC_V_MAN_TIME" property="mMcVManTime" />
+        <result column="M_MC_D_MAN_TIME" property="mMcDManTime" />
+        <result column="M_MC_F_MAN_TIME" property="mMcFManTime" />
+        <result column="M_MC_E_MAN_TIME" property="mMcEManTime" />
+        <result column="R_REG_SOURCE_V" property="rRegSourceV" />
+        <result column="R_REG_SOURCE_D" property="rRegSourceD" />
+        <result column="R_REG_SOURCE_F" property="rRegSourceF" />
+        <result column="R_MC_REG_SOURCE_V" property="rMcRegSourceV" />
+        <result column="R_MC_REG_SOURCE_D" property="rMcRegSourceD" />
+        <result column="R_MC_REG_SOURCE_F" property="rMcRegSourceF" />
+        <result column="MED_SERVICE_CST_O" property="medServiceCstO" />
+        <result column="MED_SERVICE_CST_E" property="medServiceCstE" />
+        <result column="MED_SERVICE_CST_I" property="medServiceCstI" />
+        <result column="MC_MED_SERVICE_CST_O" property="mcMedServiceCstO" />
+        <result column="MC_MED_SERVICE_CST_E" property="mcMedServiceCstE" />
+        <result column="MC_MED_SERVICE_CST_I" property="mcMedServiceCstI" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BEG_DATE, END_DATE, IF_AVG, DEPT_TYPE, M_MED_CST, M_PHARM_CST, M_MAT_CST, M_AVG_MED_CST, M_AVG_PHARM_CST, M_AVG_MAT_CST, M_MC_MED_CST, M_MC_PHARM_CST, M_MC_MAT_CST, M_MC_AVG_MED_CST, M_MC_AVG_PHARM_CST, M_MC_AVG_MAT_CST, M_MC_SELF_CST, M_MC_AVG_SELF_CST, Z_O_MED_CST, Z_O_PHARM_CST, Z_O_MAT_CST, Z_O_NUM, Z_O_BED_DAYS, Z_O_AVG_MED_CST, Z_O_AVG_PHARM_CST, Z_O_AVG_MAT_CST, Z_O_MC_MED_CST, Z_O_MC_PHARM_CST, Z_O_MC_MAT_CST, Z_O_MC_NUM, Z_O_MC_AVG_MED_CST, Z_O_MC_AVG_PHARM_CST, Z_O_MC_AVG_MAT_CST, Z_O_MC_SELF_CST, Z_O_MC_AVG_SELF_CST, Z_I_MED_CST, Z_I_PHARM_CST, Z_I_MC_MED_CST, Z_I_MC_PHARM_CST, NUM_RAY_X, NUM_RAY_CT, NUM_RAY_MRI, NUM_RAY_B, ANALY_BLOOD, MC_NUM_RAY_X, MC_NUM_RAY_CT, MC_NUM_RAY_MRI, MC_NUM_RAY_B, MC_ANALY_BLOOD, M_MAN_TIME, M_C_MAN_TIME, M_V_MAN_TIME, M_D_MAN_TIME, M_F_MAN_TIME, M_E_MAN_TIME, M_MAN_TIME_NATIVE, M_NATIVE_RATE, M_NONLOCAL_RATE, M_MC_MAN_TIME, M_MC_C_MAN_TIME, M_MC_V_MAN_TIME, M_MC_D_MAN_TIME, M_MC_F_MAN_TIME, M_MC_E_MAN_TIME, R_REG_SOURCE_V, R_REG_SOURCE_D, R_REG_SOURCE_F, R_MC_REG_SOURCE_V, R_MC_REG_SOURCE_D, R_MC_REG_SOURCE_F, MED_SERVICE_CST_O, MED_SERVICE_CST_E, MED_SERVICE_CST_I, MC_MED_SERVICE_CST_O, MC_MED_SERVICE_CST_E, MC_MED_SERVICE_CST_I
+    </sql>
+
+</mapper>

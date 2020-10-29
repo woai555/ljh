@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RevolutionDayHos;
-import com.ljh.mapper.RevolutionDayHosMapper;
+import com.ljh.daoMz.RevolutionDayHosMapper;
 import com.ljh.service.RevolutionDayHosService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

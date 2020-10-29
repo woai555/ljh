@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.Mrms167Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrms167">
+        <result column="DISEASE_CODE" property="diseaseCode" />
+        <result column="DISEASE_NAME" property="diseaseName" />
+        <result column="SUM_ALL" property="sumAll" />
+        <result column="SUM_PART" property="sumPart" />
+        <result column="RTN_1" property="rtn1" />
+        <result column="RTN_2" property="rtn2" />
+        <result column="RTN_3" property="rtn3" />
+        <result column="RTN_4" property="rtn4" />
+        <result column="INBED_DAYS" property="inbedDays" />
+        <result column="PARENTITEM" property="parentitem" />
+        <result column="SUBLINES" property="sublines" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DISEASE_CODE, DISEASE_NAME, SUM_ALL, SUM_PART, RTN_1, RTN_2, RTN_3, RTN_4, INBED_DAYS, PARENTITEM, SUBLINES
+    </sql>
+
+</mapper>

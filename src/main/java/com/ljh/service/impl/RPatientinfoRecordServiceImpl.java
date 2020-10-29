@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPatientinfoRecord;
-import com.ljh.mapper.RPatientinfoRecordMapper;
+import com.ljh.daoMz.RPatientinfoRecordMapper;
 import com.ljh.service.RPatientinfoRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

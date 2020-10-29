@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MzdjbDownloadLog;
-import com.ljh.mapper.MzdjbDownloadLogMapper;
+import com.ljh.daoMz.MzdjbDownloadLogMapper;
 import com.ljh.service.MzdjbDownloadLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

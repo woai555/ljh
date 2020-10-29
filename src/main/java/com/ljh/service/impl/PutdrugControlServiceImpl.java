@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PutdrugControl;
-import com.ljh.mapper.PutdrugControlMapper;
+import com.ljh.daoMz.PutdrugControlMapper;
 import com.ljh.service.PutdrugControlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Prgeneraldeal;
-import com.ljh.mapper.PrgeneraldealMapper;
+import com.ljh.daoMz.PrgeneraldealMapper;
 import com.ljh.service.PrgeneraldealService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

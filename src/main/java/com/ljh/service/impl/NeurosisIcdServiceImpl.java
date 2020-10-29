@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NeurosisIcd;
-import com.ljh.mapper.NeurosisIcdMapper;
+import com.ljh.daoMz.NeurosisIcdMapper;
 import com.ljh.service.NeurosisIcdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

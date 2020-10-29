@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RDeptFunctionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RDeptFunction">
+        <id column="DEPT_FUNCTIONCODE" property="deptFunctioncode" />
+        <result column="DEPT_FUNCTIONNAME" property="deptFunctionname" />
+        <result column="DEPT_FUNCTIONPRO" property="deptFunctionpro" />
+        <result column="LEVELLIMIT" property="levellimit" />
+        <result column="ORDERID" property="orderid" />
+        <result column="REMARK" property="remark" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_FUNCTIONCODE, DEPT_FUNCTIONNAME, DEPT_FUNCTIONPRO, LEVELLIMIT, ORDERID, REMARK, OPERATORID, OPERATORTIME
+    </sql>
+
+</mapper>

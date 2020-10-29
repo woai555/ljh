@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VNeuChargeMz;
-import com.ljh.mapper.VNeuChargeMzMapper;
+import com.ljh.daoMz.VNeuChargeMzMapper;
 import com.ljh.service.VNeuChargeMzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Th3BsUserInfo;
-import com.ljh.mapper.Th3BsUserInfoMapper;
+import com.ljh.daoMz.Th3BsUserInfoMapper;
 import com.ljh.service.Th3BsUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

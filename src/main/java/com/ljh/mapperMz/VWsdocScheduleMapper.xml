@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VWsdocScheduleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VWsdocSchedule">
+        <result column="SCHEDULINGDATE" property="schedulingdate" />
+        <result column="DOCTID" property="doctid" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="DEPTID" property="deptid" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="LEVELID" property="levelid" />
+        <result column="LEVELNAME" property="levelname" />
+        <result column="TOTALFEE" property="totalfee" />
+        <result column="TIMEOFDAYID" property="timeofdayid" />
+        <result column="VALUABLENUMBER" property="valuablenumber" />
+        <result column="TOTALNUMBER" property="totalnumber" />
+        <result column="TINGZHEN" property="tingzhen" />
+        <result column="STARTTIME" property="starttime" />
+        <result column="ENDTIME" property="endtime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SCHEDULINGDATE, DOCTID, DOCT_NAME, DEPTID, DEPT_NAME, LEVELID, LEVELNAME, TOTALFEE, TIMEOFDAYID, VALUABLENUMBER, TOTALNUMBER, TINGZHEN, STARTTIME, ENDTIME
+    </sql>
+
+</mapper>

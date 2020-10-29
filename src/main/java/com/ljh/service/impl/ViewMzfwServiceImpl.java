@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMzfw;
-import com.ljh.mapper.ViewMzfwMapper;
+import com.ljh.daoMz.ViewMzfwMapper;
 import com.ljh.service.ViewMzfwService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

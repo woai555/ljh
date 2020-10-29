@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRwzbFeebase;
-import com.ljh.mapper.ViewRwzbFeebaseMapper;
+import com.ljh.daoMz.ViewRwzbFeebaseMapper;
 import com.ljh.service.ViewRwzbFeebaseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

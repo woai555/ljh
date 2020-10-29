@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VQyylOrderNumberInfo;
-import com.ljh.mapper.VQyylOrderNumberInfoMapper;
+import com.ljh.daoMz.VQyylOrderNumberInfoMapper;
 import com.ljh.service.VQyylOrderNumberInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

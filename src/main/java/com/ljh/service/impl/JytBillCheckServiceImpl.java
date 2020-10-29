@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytBillCheck;
-import com.ljh.mapper.JytBillCheckMapper;
+import com.ljh.daoMz.JytBillCheckMapper;
 import com.ljh.service.JytBillCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

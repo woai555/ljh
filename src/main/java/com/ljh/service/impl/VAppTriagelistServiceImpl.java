@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppTriagelist;
-import com.ljh.mapper.VAppTriagelistMapper;
+import com.ljh.daoMz.VAppTriagelistMapper;
 import com.ljh.service.VAppTriagelistService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewSj诊疗卡Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj诊疗卡">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="姓名" property="姓名" />
+        <result column="患者类别" property="患者类别" />
+        <result column="性别" property="性别" />
+        <result column="出生年月" property="出生年月" />
+        <result column="身份证号" property="身份证号" />
+        <result column="医保卡号" property="医保卡号" />
+        <result column="建诊疗卡时间" property="建诊疗卡时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 姓名, 患者类别, 性别, 出生年月, 身份证号, 医保卡号, 建诊疗卡时间
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewDictChargetype;
-import com.ljh.mapper.ViewDictChargetypeMapper;
+import com.ljh.daoMz.ViewDictChargetypeMapper;
 import com.ljh.service.ViewDictChargetypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

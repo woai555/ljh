@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MedicationSumLimit;
-import com.ljh.mapper.MedicationSumLimitMapper;
+import com.ljh.daoMz.MedicationSumLimitMapper;
 import com.ljh.service.MedicationSumLimitService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

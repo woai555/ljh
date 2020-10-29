@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsbasetime1;
-import com.ljh.mapper.Mrmsbasetime1Mapper;
+import com.ljh.daoMz.Mrmsbasetime1Mapper;
 import com.ljh.service.Mrmsbasetime1Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

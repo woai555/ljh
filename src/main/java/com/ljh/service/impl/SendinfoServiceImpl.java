@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Sendinfo;
-import com.ljh.mapper.SendinfoMapper;
+import com.ljh.daoMz.SendinfoMapper;
 import com.ljh.service.SendinfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

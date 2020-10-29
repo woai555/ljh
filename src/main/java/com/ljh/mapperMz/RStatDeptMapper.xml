@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RStatDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RStatDept">
+        <id column="STAT_ZONE" property="statZone" />
+        <result column="STAT_DATE" property="statDate" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="REGLEVL_NAME" property="reglevlName" />
+        <result column="NUM" property="num" />
+        <result column="RECNUM" property="recnum" />
+        <result column="CANCEL_SUM" property="cancelSum" />
+        <result column="DEBT" property="debt" />
+        <result column="CASH" property="cash" />
+        <result column="ACCOUNT_IS" property="accountIs" />
+        <result column="ACCOUNT" property="account" />
+        <result column="AMT" property="amt" />
+        <result column="EMRNUM" property="emrnum" />
+        <result column="REPNUM" property="repnum" />
+        <result column="FIRNUM" property="firnum" />
+        <result column="EMRCALNUM" property="emrcalnum" />
+        <result column="REPCALNUM" property="repcalnum" />
+        <result column="FIRCALNUM" property="fircalnum" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="BOOK_SUM" property="bookSum" />
+        <result column="SICANCELNUM" property="sicancelnum" />
+        <result column="SIREGNUM" property="siregnum" />
+        <result column="SIREGNUM_PROVINCE" property="siregnumProvince" />
+        <result column="SICANCELNUM_PROVINCE" property="sicancelnumProvince" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        STAT_ZONE, STAT_DATE, DEPT_CODE, DEPT_NAME, REGLEVL_CODE, REGLEVL_NAME, NUM, RECNUM, CANCEL_SUM, DEBT, CASH, ACCOUNT_IS, ACCOUNT, AMT, EMRNUM, REPNUM, FIRNUM, EMRCALNUM, REPCALNUM, FIRCALNUM, OPER_CODE, BOOK_SUM, SICANCELNUM, SIREGNUM, SIREGNUM_PROVINCE, SICANCELNUM_PROVINCE
+    </sql>
+
+</mapper>

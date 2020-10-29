@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PmiMerge;
-import com.ljh.mapper.PmiMergeMapper;
+import com.ljh.daoMz.PmiMergeMapper;
 import com.ljh.service.PmiMergeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

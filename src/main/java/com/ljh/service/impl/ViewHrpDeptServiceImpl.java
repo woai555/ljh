@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHrpDept;
-import com.ljh.mapper.ViewHrpDeptMapper;
+import com.ljh.daoMz.ViewHrpDeptMapper;
 import com.ljh.service.ViewHrpDeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

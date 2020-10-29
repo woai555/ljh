@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VQyylUpordermedicin;
-import com.ljh.mapper.VQyylUpordermedicinMapper;
+import com.ljh.daoMz.VQyylUpordermedicinMapper;
 import com.ljh.service.VQyylUpordermedicinService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

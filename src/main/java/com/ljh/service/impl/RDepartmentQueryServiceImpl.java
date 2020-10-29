@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDepartmentQuery;
-import com.ljh.mapper.RDepartmentQueryMapper;
+import com.ljh.daoMz.RDepartmentQueryMapper;
 import com.ljh.service.RDepartmentQueryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

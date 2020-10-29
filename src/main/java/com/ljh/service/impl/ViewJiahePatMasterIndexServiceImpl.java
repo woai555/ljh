@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiahePatMasterIndex;
-import com.ljh.mapper.ViewJiahePatMasterIndexMapper;
+import com.ljh.daoMz.ViewJiahePatMasterIndexMapper;
 import com.ljh.service.ViewJiahePatMasterIndexService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

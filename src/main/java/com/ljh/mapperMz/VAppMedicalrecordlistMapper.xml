@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppMedicalrecordlistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppMedicalrecordlist">
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="RECORD_ID" property="recordId" />
+        <result column="IN_HOS_DATE" property="inHosDate" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="LEAVE_HOS_DATE" property="leaveHosDate" />
+        <result column="TYPE" property="type" />
+        <result column="EXPECT_TIME" property="expectTime" />
+        <result column="DOC_NAME" property="docName" />
+        <result column="DOC_ID" property="docId" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="DEPT_ID" property="deptId" />
+        <result column="EXPECT_ADDR" property="expectAddr" />
+        <result column="DIAG_TYPE" property="diagType" />
+        <result column="DIAG_RESULT" property="diagResult" />
+        <result column="AGE" property="age" />
+        <result column="SEX" property="sex" />
+        <result column="ACCESS_PAT_ID" property="accessPatId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MCARD_NO, CARDNO_JYT, RECORD_ID, IN_HOS_DATE, START_DATE, END_DATE, LEAVE_HOS_DATE, TYPE, EXPECT_TIME, DOC_NAME, DOC_ID, DEPT_NAME, DEPT_ID, EXPECT_ADDR, DIAG_TYPE, DIAG_RESULT, AGE, SEX, ACCESS_PAT_ID
+    </sql>
+
+</mapper>

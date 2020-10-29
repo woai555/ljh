@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpStaOpeitem;
-import com.ljh.mapper.OpStaOpeitemMapper;
+import com.ljh.daoMz.OpStaOpeitemMapper;
 import com.ljh.service.OpStaOpeitemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

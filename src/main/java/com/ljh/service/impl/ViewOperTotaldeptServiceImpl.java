@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewOperTotaldept;
-import com.ljh.mapper.ViewOperTotaldeptMapper;
+import com.ljh.daoMz.ViewOperTotaldeptMapper;
 import com.ljh.service.ViewOperTotaldeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

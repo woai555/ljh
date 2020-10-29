@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdrobsp;
-import com.ljh.mapper.ViewHlhtCdrobspMapper;
+import com.ljh.daoMz.ViewHlhtCdrobspMapper;
 import com.ljh.service.ViewHlhtCdrobspService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

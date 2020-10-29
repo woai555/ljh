@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewYzReport;
-import com.ljh.mapper.ViewYzReportMapper;
+import com.ljh.daoMz.ViewYzReportMapper;
 import com.ljh.service.ViewYzReportService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

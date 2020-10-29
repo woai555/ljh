@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LMachineid;
-import com.ljh.mapper.LMachineidMapper;
+import com.ljh.daoMz.LMachineidMapper;
 import com.ljh.service.LMachineidService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

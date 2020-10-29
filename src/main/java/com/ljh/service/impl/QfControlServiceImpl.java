@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfControl;
-import com.ljh.mapper.QfControlMapper;
+import com.ljh.daoMz.QfControlMapper;
 import com.ljh.service.QfControlService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SupIn;
-import com.ljh.mapper.SupInMapper;
+import com.ljh.daoMz.SupInMapper;
 import com.ljh.service.SupInService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

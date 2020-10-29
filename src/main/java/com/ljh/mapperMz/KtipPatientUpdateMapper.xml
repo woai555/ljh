@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.KtipPatientUpdateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.KtipPatientUpdate">
+        <result column="LOCAL_PATIENTNO" property="localPatientno" />
+        <result column="YNUPDATE" property="ynupdate" />
+        <result column="UPDATETIME" property="updatetime" />
+        <result column="ID_NO" property="idNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LOCAL_PATIENTNO, YNUPDATE, UPDATETIME, ID_NO
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SupStore;
-import com.ljh.mapper.SupStoreMapper;
+import com.ljh.daoMz.SupStoreMapper;
 import com.ljh.service.SupStoreService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

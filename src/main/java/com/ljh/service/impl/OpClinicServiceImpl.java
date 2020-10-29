@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpClinic;
-import com.ljh.mapper.OpClinicMapper;
+import com.ljh.daoMz.OpClinicMapper;
 import com.ljh.service.OpClinicService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

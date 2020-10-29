@@ -1,18 +1,27 @@
 server:
-  port: 8080
+  port: 9997
 spring:
+  application:
+    name: jyt
+  profiles:
+    active: dev
   datasource:
-    username: mzhis
-    password: mzhis
-    url: jdbc:oracle:thin:@100
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    datasourcemz:
+      username: mzhis
+      password: mzhis
+      jdbc-url: jdbc:oracle:thin:@100
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+    datasourcezy:
+      username: tthis
+      password: tthis
+      jdbc-url: jdbc:oracle:thin:@zytest
+      driver-class-name: oracle.jdbc.driver.OracleDriver
 mybatis:
   mapper-locations: classpath:com/ljh/mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
 logging:
-  level:
-    com:
-      ljh:
-        mapper:
-          common: debug
+  config: classpath:logback-spring.xml
+
+#mybatis-plus:
+#  config-location: classpath:mybatis-plus-config.xml

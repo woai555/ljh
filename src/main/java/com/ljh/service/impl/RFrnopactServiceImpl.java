@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFrnopact;
-import com.ljh.mapper.RFrnopactMapper;
+import com.ljh.daoMz.RFrnopactMapper;
 import com.ljh.service.RFrnopactService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppInspectionappquerydetail;
-import com.ljh.mapper.VAppInspectionappquerydetailMapper;
+import com.ljh.daoMz.VAppInspectionappquerydetailMapper;
 import com.ljh.service.VAppInspectionappquerydetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

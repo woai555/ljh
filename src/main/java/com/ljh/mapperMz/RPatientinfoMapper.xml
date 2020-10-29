@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RPatientinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPatientinfo">
+        <id column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="IDENNO" property="idenno" />
+        <result column="BLOOD_CODE" property="bloodCode" />
+        <result column="PROF_CODE" property="profCode" />
+        <result column="WORK_NAME" property="workName" />
+        <result column="WORK_TEL" property="workTel" />
+        <result column="WORK_ZIP" property="workZip" />
+        <result column="HOME" property="home" />
+        <result column="HOME_TEL" property="homeTel" />
+        <result column="HOME_ZIP" property="homeZip" />
+        <result column="DIST" property="dist" />
+        <result column="NATION_CODE" property="nationCode" />
+        <result column="LINKMAN_NAME" property="linkmanName" />
+        <result column="LINKMAN_TEL" property="linkmanTel" />
+        <result column="LINKMAN_ADD" property="linkmanAdd" />
+        <result column="RELA_CODE" property="relaCode" />
+        <result column="MARI" property="mari" />
+        <result column="COUN_CODE" property="counCode" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="PAYKIND_NAME" property="paykindName" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="PACT_NAME" property="pactName" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="AREA" property="area" />
+        <result column="FRAMT" property="framt" />
+        <result column="YNALGY" property="ynalgy" />
+        <result column="YNDRUG" property="yndrug" />
+        <result column="YNDISE" property="yndise" />
+        <result column="ACT_CODE" property="actCode" />
+        <result column="ACT_AMT" property="actAmt" />
+        <result column="LACT_SUM" property="lactSum" />
+        <result column="LBANK_SUM" property="lbankSum" />
+        <result column="ARREAR_TIMES" property="arrearTimes" />
+        <result column="ARREAR_SUM" property="arrearSum" />
+        <result column="INHOS_SRC" property="inhosSrc" />
+        <result column="INHOS_DATE" property="inhosDate" />
+        <result column="INHOS_TIMES" property="inhosTimes" />
+        <result column="OUTHOS_DATE" property="outhosDate" />
+        <result column="FIR_SEE_DATE" property="firSeeDate" />
+        <result column="LREG_DATE" property="lregDate" />
+        <result column="DISOBY_CNT" property="disobyCnt" />
+        <result column="END_DATE" property="endDate" />
+        <result column="PAGE" property="page" />
+        <result column="MARK" property="mark" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="CLINIC_NO" property="clinicNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="BANK_NO" property="bankNo" />
+        <result column="WORK_ADD" property="workAdd" />
+        <result column="FACTCODE" property="factcode" />
+        <result column="FACTJZKH" property="factjzkh" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="MCARD_ID" property="mcardId" />
+        <result column="YLCARD_NO" property="ylcardNo" />
+        <result column="YLCARD_UNLOAD" property="ylcardUnload" />
+        <result column="DIST_PROVINCE" property="distProvince" />
+        <result column="DIST_CITY" property="distCity" />
+        <result column="DIST_DISTRICT" property="distDistrict" />
+        <result column="DIST_STREET" property="distStreet" />
+        <result column="HOME_PROVINCE" property="homeProvince" />
+        <result column="HOME_CITY" property="homeCity" />
+        <result column="HOME_DISTRICT" property="homeDistrict" />
+        <result column="HOME_STREET" property="homeStreet" />
+        <result column="BLTZ_FLAG" property="bltzFlag" />
+        <result column="BL_CREATETIME" property="blCreatetime" />
+        <result column="BL_DEPT" property="blDept" />
+        <result column="PATI_SOURCE" property="patiSource" />
+        <result column="PATI_JG_SHENG" property="patiJgSheng" />
+        <result column="PATI_JG_SHI" property="patiJgShi" />
+        <result column="PATI_JG_XIAN" property="patiJgXian" />
+        <result column="PATI_CSD_SHENG" property="patiCsdSheng" />
+        <result column="PATI_CSD_SHI" property="patiCsdShi" />
+        <result column="PATI_CSD_XIAN" property="patiCsdXian" />
+        <result column="YB_FUN" property="ybFun" />
+        <result column="WEIGHT" property="weight" />
+        <result column="MONTHS" property="months" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="YLT_FLAG" property="yltFlag" />
+        <result column="IDENTYPE" property="identype" />
+        <result column="MCARDNO_NEW" property="mcardnoNew" />
+        <result column="JCPTNO" property="jcptno" />
+        <result column="PATI_TYPE" property="patiType" />
+        <result column="CREDIT_ID" property="creditId" />
+        <result column="BJ_DISTRICT" property="bjDistrict" />
+        <result column="BJ_ADDRESS" property="bjAddress" />
+        <result column="BLDC_FLAG" property="bldcFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, NAME, BIRTHDAY, SEX_CODE, IDENNO, BLOOD_CODE, PROF_CODE, WORK_NAME, WORK_TEL, WORK_ZIP, HOME, HOME_TEL, HOME_ZIP, DIST, NATION_CODE, LINKMAN_NAME, LINKMAN_TEL, LINKMAN_ADD, RELA_CODE, MARI, COUN_CODE, PAYKIND_CODE, PAYKIND_NAME, PACT_CODE, PACT_NAME, MCARD_NO, AREA, FRAMT, YNALGY, YNDRUG, YNDISE, ACT_CODE, ACT_AMT, LACT_SUM, LBANK_SUM, ARREAR_TIMES, ARREAR_SUM, INHOS_SRC, INHOS_DATE, INHOS_TIMES, OUTHOS_DATE, FIR_SEE_DATE, LREG_DATE, DISOBY_CNT, END_DATE, PAGE, MARK, OPER_DATE, OPER_CODE, CLINIC_NO, PATIENT_NO, BANK_NO, WORK_ADD, FACTCODE, FACTJZKH, DJB_FLAG, MCARD_ID, YLCARD_NO, YLCARD_UNLOAD, DIST_PROVINCE, DIST_CITY, DIST_DISTRICT, DIST_STREET, HOME_PROVINCE, HOME_CITY, HOME_DISTRICT, HOME_STREET, BLTZ_FLAG, BL_CREATETIME, BL_DEPT, PATI_SOURCE, PATI_JG_SHENG, PATI_JG_SHI, PATI_JG_XIAN, PATI_CSD_SHENG, PATI_CSD_SHI, PATI_CSD_XIAN, YB_FUN, WEIGHT, MONTHS, CARDNO_JYT, YLT_FLAG, IDENTYPE, MCARDNO_NEW, JCPTNO, PATI_TYPE, CREDIT_ID, BJ_DISTRICT, BJ_ADDRESS, BLDC_FLAG
+    </sql>
+
+</mapper>

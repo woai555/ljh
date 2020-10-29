@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RYbypSpecialDel;
-import com.ljh.mapper.RYbypSpecialDelMapper;
+import com.ljh.daoMz.RYbypSpecialDelMapper;
 import com.ljh.service.RYbypSpecialDelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

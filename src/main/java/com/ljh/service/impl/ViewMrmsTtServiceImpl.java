@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsTt;
-import com.ljh.mapper.ViewMrmsTtMapper;
+import com.ljh.daoMz.ViewMrmsTtMapper;
 import com.ljh.service.ViewMrmsTtService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

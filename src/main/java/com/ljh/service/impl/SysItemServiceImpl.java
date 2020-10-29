@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SysItem;
-import com.ljh.mapper.SysItemMapper;
+import com.ljh.daoMz.SysItemMapper;
 import com.ljh.service.SysItemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

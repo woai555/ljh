@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpSwitch;
-import com.ljh.mapper.OpSwitchMapper;
+import com.ljh.daoMz.OpSwitchMapper;
 import com.ljh.service.OpSwitchService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

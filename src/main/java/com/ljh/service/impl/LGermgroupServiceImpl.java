@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LGermgroup;
-import com.ljh.mapper.LGermgroupMapper;
+import com.ljh.daoMz.LGermgroupMapper;
 import com.ljh.service.LGermgroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

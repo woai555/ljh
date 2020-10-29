@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WfDiscard;
-import com.ljh.mapper.WfDiscardMapper;
+import com.ljh.daoMz.WfDiscardMapper;
 import com.ljh.service.WfDiscardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

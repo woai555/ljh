@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppRecipe;
-import com.ljh.mapper.VAppRecipeMapper;
+import com.ljh.daoMz.VAppRecipeMapper;
 import com.ljh.service.VAppRecipeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

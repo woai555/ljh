@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.QfWarnOpen;
-import com.ljh.mapper.QfWarnOpenMapper;
+import com.ljh.daoMz.QfWarnOpenMapper;
 import com.ljh.service.QfWarnOpenService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

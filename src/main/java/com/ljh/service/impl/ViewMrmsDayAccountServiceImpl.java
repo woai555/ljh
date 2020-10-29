@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsDayAccount;
-import com.ljh.mapper.ViewMrmsDayAccountMapper;
+import com.ljh.daoMz.ViewMrmsDayAccountMapper;
 import com.ljh.service.ViewMrmsDayAccountService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdmdfqMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Ordmdfq">
+        <id column="DFQ_FREQ" property="dfqFreq" />
+        <result column="DFQ_DEPT" property="dfqDept" />
+        <result column="DFQ_CYCL" property="dfqCycl" />
+        <result column="DFQ_CONT" property="dfqCont" />
+        <result column="DFQ_INTV" property="dfqIntv" />
+        <result column="DFQ_CEXP" property="dfqCexp" />
+        <result column="DFQ_NOTE" property="dfqNote" />
+        <result column="DFQ_HICD" property="dfqHicd" />
+        <result column="DFQ_ORDER" property="dfqOrder" />
+        <result column="DFQ_01H" property="dfq01h" />
+        <result column="DFQ_02H" property="dfq02h" />
+        <result column="DFQ_03H" property="dfq03h" />
+        <result column="DFQ_04H" property="dfq04h" />
+        <result column="DFQ_05H" property="dfq05h" />
+        <result column="DFQ_06H" property="dfq06h" />
+        <result column="DFQ_07H" property="dfq07h" />
+        <result column="DFQ_08H" property="dfq08h" />
+        <result column="DFQ_09H" property="dfq09h" />
+        <result column="DFQ_10H" property="dfq10h" />
+        <result column="DFQ_11H" property="dfq11h" />
+        <result column="DFQ_12H" property="dfq12h" />
+        <result column="DFQ_13H" property="dfq13h" />
+        <result column="DFQ_14H" property="dfq14h" />
+        <result column="DFQ_15H" property="dfq15h" />
+        <result column="DFQ_16H" property="dfq16h" />
+        <result column="DFQ_17H" property="dfq17h" />
+        <result column="DFQ_18H" property="dfq18h" />
+        <result column="DFQ_19H" property="dfq19h" />
+        <result column="DFQ_20H" property="dfq20h" />
+        <result column="DFQ_21H" property="dfq21h" />
+        <result column="DFQ_22H" property="dfq22h" />
+        <result column="DFQ_23H" property="dfq23h" />
+        <result column="DFQ_24H" property="dfq24h" />
+        <result column="MR_CODE" property="mrCode" />
+        <result column="MR_NAME" property="mrName" />
+        <result column="DAY_DETAIL" property="dayDetail" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DFQ_DEPT, DFQ_FREQ, DFQ_CYCL, DFQ_CONT, DFQ_INTV, DFQ_CEXP, DFQ_NOTE, DFQ_HICD, DFQ_ORDER, DFQ_01H, DFQ_02H, DFQ_03H, DFQ_04H, DFQ_05H, DFQ_06H, DFQ_07H, DFQ_08H, DFQ_09H, DFQ_10H, DFQ_11H, DFQ_12H, DFQ_13H, DFQ_14H, DFQ_15H, DFQ_16H, DFQ_17H, DFQ_18H, DFQ_19H, DFQ_20H, DFQ_21H, DFQ_22H, DFQ_23H, DFQ_24H, MR_CODE, MR_NAME, DAY_DETAIL
+    </sql>
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdPatientLimitdrugLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdPatientLimitdrugLog">
+        <id column="SEQNO" property="seqno" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="OPER_KIND" property="operKind" />
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="OPER_CONTENT" property="operContent" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DATE" property="operDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEQNO, CARD_NO, OPER_KIND, DRUG_CODE, OPER_CONTENT, OPER_CODE, OPER_DATE
+    </sql>
+
+</mapper>

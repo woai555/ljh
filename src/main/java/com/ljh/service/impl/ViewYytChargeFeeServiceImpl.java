@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewYytChargeFee;
-import com.ljh.mapper.ViewYytChargeFeeMapper;
+import com.ljh.daoMz.ViewYytChargeFeeMapper;
 import com.ljh.service.ViewYytChargeFeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VWsdocDepartment;
-import com.ljh.mapper.VWsdocDepartmentMapper;
+import com.ljh.daoMz.VWsdocDepartmentMapper;
 import com.ljh.service.VWsdocDepartmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RIdcard;
-import com.ljh.mapper.RIdcardMapper;
+import com.ljh.daoMz.RIdcardMapper;
 import com.ljh.service.RIdcardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpBlood;
-import com.ljh.mapper.OpBloodMapper;
+import com.ljh.daoMz.OpBloodMapper;
 import com.ljh.service.OpBloodService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdLittledoseDrug;
-import com.ljh.mapper.OrdLittledoseDrugMapper;
+import com.ljh.daoMz.OrdLittledoseDrugMapper;
 import com.ljh.service.OrdLittledoseDrugService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

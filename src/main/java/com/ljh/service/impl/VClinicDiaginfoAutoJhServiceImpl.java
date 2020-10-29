@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VClinicDiaginfoAutoJh;
-import com.ljh.mapper.VClinicDiaginfoAutoJhMapper;
+import com.ljh.daoMz.VClinicDiaginfoAutoJhMapper;
 import com.ljh.service.VClinicDiaginfoAutoJhService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

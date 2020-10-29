@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MInstitution;
-import com.ljh.mapper.MInstitutionMapper;
+import com.ljh.daoMz.MInstitutionMapper;
 import com.ljh.service.MInstitutionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

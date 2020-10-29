@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SupWorklog;
-import com.ljh.mapper.SupWorklogMapper;
+import com.ljh.daoMz.SupWorklogMapper;
 import com.ljh.service.SupWorklogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

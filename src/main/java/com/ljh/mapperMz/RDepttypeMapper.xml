@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RDepttypeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RDepttype">
+        <id column="DEPTTYPE_NO" property="depttypeNo" />
+        <result column="DEPTTYPE_NAME" property="depttypeName" />
+        <result column="SPELL" property="spell" />
+        <result column="ORDERID" property="orderid" />
+        <result column="REMARK" property="remark" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPTTYPE_NO, DEPTTYPE_NAME, SPELL, ORDERID, REMARK, OPERATORID, OPERATORTIME
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LAntiresult;
-import com.ljh.mapper.LAntiresultMapper;
+import com.ljh.daoMz.LAntiresultMapper;
 import com.ljh.service.LAntiresultService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

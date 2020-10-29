@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RYbypExclude;
-import com.ljh.mapper.RYbypExcludeMapper;
+import com.ljh.daoMz.RYbypExcludeMapper;
 import com.ljh.service.RYbypExcludeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

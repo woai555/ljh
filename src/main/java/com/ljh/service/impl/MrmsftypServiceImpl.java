@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Mrmsftyp;
-import com.ljh.mapper.MrmsftypMapper;
+import com.ljh.daoMz.MrmsftypMapper;
 import com.ljh.service.MrmsftypService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

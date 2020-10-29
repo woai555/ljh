@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewPatinfoZy1Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewPatinfoZy1">
+        <result column="CARDID" property="cardid" />
+        <result column="INDATE" property="indate" />
+        <result column="INTIME" property="intime" />
+        <result column="BED_INTIME" property="bedIntime" />
+        <result column="INPATIENTNO" property="inpatientno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARDID, INDATE, INTIME, BED_INTIME, INPATIENTNO
+    </sql>
+
+</mapper>

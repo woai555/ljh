@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsCollate;
-import com.ljh.mapper.ViewMrmsCollateMapper;
+import com.ljh.daoMz.ViewMrmsCollateMapper;
 import com.ljh.service.ViewMrmsCollateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

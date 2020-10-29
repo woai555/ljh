@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MrmsConstant;
-import com.ljh.mapper.MrmsConstantMapper;
+import com.ljh.daoMz.MrmsConstantMapper;
 import com.ljh.service.MrmsConstantService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

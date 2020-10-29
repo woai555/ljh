@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.UsageCode;
-import com.ljh.mapper.UsageCodeMapper;
+import com.ljh.daoMz.UsageCodeMapper;
 import com.ljh.service.UsageCodeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WfDeprecord;
-import com.ljh.mapper.WfDeprecordMapper;
+import com.ljh.daoMz.WfDeprecordMapper;
 import com.ljh.service.WfDeprecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpAnaezt;
-import com.ljh.mapper.OpAnaeztMapper;
+import com.ljh.daoMz.OpAnaeztMapper;
 import com.ljh.service.OpAnaeztService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

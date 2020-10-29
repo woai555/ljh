@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdropayoffd;
-import com.ljh.mapper.ViewHlhtCdropayoffdMapper;
+import com.ljh.daoMz.ViewHlhtCdropayoffdMapper;
 import com.ljh.service.ViewHlhtCdropayoffdService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

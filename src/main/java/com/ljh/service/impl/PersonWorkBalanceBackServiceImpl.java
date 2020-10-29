@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PersonWorkBalanceBack;
-import com.ljh.mapper.PersonWorkBalanceBackMapper;
+import com.ljh.daoMz.PersonWorkBalanceBackMapper;
 import com.ljh.service.PersonWorkBalanceBackService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

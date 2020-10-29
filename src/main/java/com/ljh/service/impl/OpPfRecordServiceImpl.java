@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpPfRecord;
-import com.ljh.mapper.OpPfRecordMapper;
+import com.ljh.daoMz.OpPfRecordMapper;
 import com.ljh.service.OpPfRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrConsantSet;
-import com.ljh.mapper.PrConsantSetMapper;
+import com.ljh.daoMz.PrConsantSetMapper;
 import com.ljh.service.PrConsantSetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RevolutionMonthYhProject;
-import com.ljh.mapper.RevolutionMonthYhProjectMapper;
+import com.ljh.daoMz.RevolutionMonthYhProjectMapper;
 import com.ljh.service.RevolutionMonthYhProjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

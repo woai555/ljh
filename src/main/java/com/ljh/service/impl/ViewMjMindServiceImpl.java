@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMjMind;
-import com.ljh.mapper.ViewMjMindMapper;
+import com.ljh.daoMz.ViewMjMindMapper;
 import com.ljh.service.ViewMjMindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

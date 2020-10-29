@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JyzbMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Jyzb">
+        <id column="STATIC_DATE" property="staticDate" />
+        <result column="JGMC" property="jgmc" />
+        <result column="JYPZS" property="jypzs" />
+        <result column="PZS" property="pzs" />
+        <result column="JYDGJE" property="jydgje" />
+        <result column="DGJE" property="dgje" />
+        <result column="JYCGJEB" property="jycgjeb" />
+        <result column="JYCGJEBDF" property="jycgjebdf" />
+        <result column="UPLOAD_DATE" property="uploadDate" />
+        <result column="QYSJ" property="qysj" />
+        <result column="TDMC" property="tdmc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JGMC, JYPZS, PZS, JYDGJE, DGJE, JYCGJEB, JYCGJEBDF, STATIC_DATE, UPLOAD_DATE, QYSJ, TDMC
+    </sql>
+
+</mapper>

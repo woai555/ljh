@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSj记账费用明细;
-import com.ljh.mapper.ViewSj记账费用明细Mapper;
+import com.ljh.daoMz.ViewSj记账费用明细Mapper;
 import com.ljh.service.ViewSj记账费用明细Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

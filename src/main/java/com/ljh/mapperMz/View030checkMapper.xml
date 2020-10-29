@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.View030checkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.View030check">
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="SALE_PRICE" property="salePrice" />
+        <result column="TRADE_PRICE" property="tradePrice" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DRUG_CODE, SALE_PRICE, TRADE_PRICE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RPosition;
-import com.ljh.mapper.RPositionMapper;
+import com.ljh.daoMz.RPositionMapper;
 import com.ljh.service.RPositionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpAttention;
-import com.ljh.mapper.OpAttentionMapper;
+import com.ljh.daoMz.OpAttentionMapper;
 import com.ljh.service.OpAttentionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

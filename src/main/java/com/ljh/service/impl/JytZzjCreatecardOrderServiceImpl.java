@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytZzjCreatecardOrder;
-import com.ljh.mapper.JytZzjCreatecardOrderMapper;
+import com.ljh.daoMz.JytZzjCreatecardOrderMapper;
 import com.ljh.service.JytZzjCreatecardOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

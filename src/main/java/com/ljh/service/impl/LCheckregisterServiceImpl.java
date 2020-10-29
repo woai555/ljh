@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LCheckregister;
-import com.ljh.mapper.LCheckregisterMapper;
+import com.ljh.daoMz.LCheckregisterMapper;
 import com.ljh.service.LCheckregisterService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

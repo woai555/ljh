@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LapseState;
-import com.ljh.mapper.LapseStateMapper;
+import com.ljh.daoMz.LapseStateMapper;
 import com.ljh.service.LapseStateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

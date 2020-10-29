@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.JytBillPrintItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.JytBillPrintItem">
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="FEE_ITEM_CODE" property="feeItemCode" />
+        <result column="FEE_ITEM_TYPE" property="feeItemType" />
+        <result column="FEE_ITEM_NAME" property="feeItemName" />
+        <result column="FEE_LEVEL" property="feeLevel" />
+        <result column="UNIT_PRICE" property="unitPrice" />
+        <result column="COUNT" property="count" />
+        <result column="FEE" property="fee" />
+        <result column="SPECIFICATION" property="specification" />
+        <result column="UNIT" property="unit" />
+        <result column="USAGE" property="usage" />
+        <result column="DOSE" property="dose" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="PACKAGING" property="packaging" />
+        <result column="DAYS" property="days" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INVOICE_NO, FEE_ITEM_CODE, FEE_ITEM_TYPE, FEE_ITEM_NAME, FEE_LEVEL, UNIT_PRICE, COUNT, FEE, SPECIFICATION, UNIT, USAGE, DOSE, DOSAGE, PACKAGING, DAYS
+    </sql>
+
+</mapper>

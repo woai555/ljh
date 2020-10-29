@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewXtDisease;
-import com.ljh.mapper.ViewXtDiseaseMapper;
+import com.ljh.daoMz.ViewXtDiseaseMapper;
 import com.ljh.service.ViewXtDiseaseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

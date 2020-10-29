@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VLisitemlist;
-import com.ljh.mapper.VLisitemlistMapper;
+import com.ljh.daoMz.VLisitemlistMapper;
 import com.ljh.service.VLisitemlistService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

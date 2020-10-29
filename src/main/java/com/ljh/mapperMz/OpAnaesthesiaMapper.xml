@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OpAnaesthesiaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OpAnaesthesia">
+        <id column="ANAE_APPNO" property="anaeAppno" />
+        <result column="ANAE_APPSRC" property="anaeAppsrc" />
+        <result column="ANAE_APPGAL" property="anaeAppgal" />
+        <result column="INPATIENT_NO" property="inpatientNo" />
+        <result column="PATIENT_NO" property="patientNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="ANAESCODE" property="anaescode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="APP_USERCD" property="appUsercd" />
+        <result column="APP_USERNM" property="appUsernm" />
+        <result column="USE_TIME" property="useTime" />
+        <result column="APP_STAT" property="appStat" />
+        <result column="OPS_APPNO" property="opsAppno" />
+        <result column="ANAE_NOTE" property="anaeNote" />
+        <result column="ANAE_DOCCODE" property="anaeDoccode" />
+        <result column="ANAE_DOCNAME" property="anaeDocname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ANAE_APPNO, ANAE_APPSRC, ANAE_APPGAL, INPATIENT_NO, PATIENT_NO, CARD_NO, NAME, SEX, BIRTHDAY, ANAESCODE, DEPT_CODE, DEPT_NAME, APP_USERCD, APP_USERNM, USE_TIME, APP_STAT, OPS_APPNO, ANAE_NOTE, ANAE_DOCCODE, ANAE_DOCNAME
+    </sql>
+
+</mapper>

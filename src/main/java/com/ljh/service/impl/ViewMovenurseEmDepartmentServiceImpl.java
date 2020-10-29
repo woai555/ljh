@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMovenurseEmDepartment;
-import com.ljh.mapper.ViewMovenurseEmDepartmentMapper;
+import com.ljh.daoMz.ViewMovenurseEmDepartmentMapper;
 import com.ljh.service.ViewMovenurseEmDepartmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

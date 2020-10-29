@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRegisterBook;
-import com.ljh.mapper.VRegisterBookMapper;
+import com.ljh.daoMz.VRegisterBookMapper;
 import com.ljh.service.VRegisterBookService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

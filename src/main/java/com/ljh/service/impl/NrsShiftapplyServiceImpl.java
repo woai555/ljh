@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NrsShiftapply;
-import com.ljh.mapper.NrsShiftapplyMapper;
+import com.ljh.daoMz.NrsShiftapplyMapper;
 import com.ljh.service.NrsShiftapplyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

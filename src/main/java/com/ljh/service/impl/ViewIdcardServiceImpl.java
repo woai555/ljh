@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewIdcard;
-import com.ljh.mapper.ViewIdcardMapper;
+import com.ljh.daoMz.ViewIdcardMapper;
 import com.ljh.service.ViewIdcardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

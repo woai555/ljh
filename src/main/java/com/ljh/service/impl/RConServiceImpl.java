@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RCon;
-import com.ljh.mapper.RConMapper;
+import com.ljh.daoMz.RConMapper;
 import com.ljh.service.RConService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

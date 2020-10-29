@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LSingleitemBak20170419;
-import com.ljh.mapper.LSingleitemBak20170419Mapper;
+import com.ljh.daoMz.LSingleitemBak20170419Mapper;
 import com.ljh.service.LSingleitemBak20170419Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

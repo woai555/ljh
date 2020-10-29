@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewBlEmployeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewBlEmployee">
+        <result column="DOCTOR_CODE" property="doctorCode" />
+        <result column="DOCTOR_NAME" property="doctorName" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="TITLE_CODE" property="titleCode" />
+        <result column="TITLE_NAME" property="titleName" />
+        <result column="GROUP_CODE" property="groupCode" />
+        <result column="GROUP_NAME" property="groupName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DOCTOR_CODE, DOCTOR_NAME, DEPT_CODE, DEPT_NAME, TITLE_CODE, TITLE_NAME, GROUP_CODE, GROUP_NAME
+    </sql>
+
+</mapper>

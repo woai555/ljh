@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdMeetingFzyykMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdMeetingFzyyk">
+        <id column="YY_CARDNO" property="yyCardno" />
+        <result column="ORDER_ID" property="orderId" />
+        <result column="REGISTER_DATE" property="registerDate" />
+        <result column="REGISTER_OPER" property="registerOper" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="IDENNO" property="idenno" />
+        <result column="AREA" property="area" />
+        <result column="LINK_TEL" property="linkTel" />
+        <result column="LINK_MOBILE" property="linkMobile" />
+        <result column="EXPERT" property="expert" />
+        <result column="PREPAY_COST" property="prepayCost" />
+        <result column="CONFIRM_FLAG" property="confirmFlag" />
+        <result column="CONFIRM_OPER" property="confirmOper" />
+        <result column="CONFIRM_DATE" property="confirmDate" />
+        <result column="MEET_DATE" property="meetDate" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="YNVALID" property="ynvalid" />
+        <result column="CANCEL_OPER" property="cancelOper" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ORDER_ID, YY_CARDNO, REGISTER_DATE, REGISTER_OPER, CARD_NO, NAME, SEX, IDENNO, AREA, LINK_TEL, LINK_MOBILE, EXPERT, PREPAY_COST, CONFIRM_FLAG, CONFIRM_OPER, CONFIRM_DATE, MEET_DATE, SEE_DATE, YNVALID, CANCEL_OPER, CANCEL_DATE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VAppFeedetail;
-import com.ljh.mapper.VAppFeedetailMapper;
+import com.ljh.daoMz.VAppFeedetailMapper;
 import com.ljh.service.VAppFeedetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

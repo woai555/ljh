@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VQyylOrderNumberInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VQyylOrderNumberInfo">
+        <result column="HOSORGCODE" property="hosorgcode" />
+        <result column="ONEDEPTCODE" property="onedeptcode" />
+        <result column="DEPTCODE" property="deptcode" />
+        <result column="RESOURCECODE" property="resourcecode" />
+        <result column="STARTTIME" property="starttime" />
+        <result column="ENDTIME" property="endtime" />
+        <result column="SCHEDULEID" property="scheduleid" />
+        <result column="NUMSOURCEID" property="numsourceid" />
+        <result column="ORDERTYPE" property="ordertype" />
+        <result column="HOSNAME" property="hosname" />
+        <result column="ONEDEPTNAME" property="onedeptname" />
+        <result column="DEPTNAME" property="deptname" />
+        <result column="RESOURCENAME" property="resourcename" />
+        <result column="VISITCOST" property="visitcost" />
+        <result column="SCHEDULEDATE" property="scheduledate" />
+        <result column="TIMERANGE" property="timerange" />
+        <result column="STARTTIME1" property="starttime1" />
+        <result column="ENDTIME1" property="endtime1" />
+        <result column="REMAINNUM" property="remainnum" />
+        <result column="RESERVEORDERNUM" property="reserveordernum" />
+        <result column="ORDERNUMTYPE100" property="ordernumtype100" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        HOSORGCODE, ONEDEPTCODE, DEPTCODE, RESOURCECODE, STARTTIME, ENDTIME, SCHEDULEID, NUMSOURCEID, ORDERTYPE, HOSNAME, ONEDEPTNAME, DEPTNAME, RESOURCENAME, VISITCOST, SCHEDULEDATE, TIMERANGE, STARTTIME1, ENDTIME1, REMAINNUM, RESERVEORDERNUM, ORDERNUMTYPE100
+    </sql>
+
+</mapper>

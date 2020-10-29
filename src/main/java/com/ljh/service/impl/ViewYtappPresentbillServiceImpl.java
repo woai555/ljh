@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewYtappPresentbill;
-import com.ljh.mapper.ViewYtappPresentbillMapper;
+import com.ljh.daoMz.ViewYtappPresentbillMapper;
 import com.ljh.service.ViewYtappPresentbillService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

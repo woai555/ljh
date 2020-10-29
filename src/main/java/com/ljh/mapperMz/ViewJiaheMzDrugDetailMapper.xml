@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheMzDrugDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzDrugDetail">
+        <result column="PRESC_NO" property="prescNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="OUTP_ID" property="outpId" />
+        <result column="REG_DTIME" property="regDtime" />
+        <result column="PHARMACEUTICAL_CODE" property="pharmaceuticalCode" />
+        <result column="PHARMACEUTICAL_NAME" property="pharmaceuticalName" />
+        <result column="SPEC" property="spec" />
+        <result column="RECIPE_FLAG" property="recipeFlag" />
+        <result column="SELF_MADE" property="selfMade" />
+        <result column="PRICE" property="price" />
+        <result column="QTY" property="qty" />
+        <result column="DAYS" property="days" />
+        <result column="FREQ_CODE" property="freqCode" />
+        <result column="FREQ_NAME" property="freqName" />
+        <result column="USE_WAY_CODE" property="useWayCode" />
+        <result column="USAGE_CODE" property="usageCode" />
+        <result column="USAGE_NAME" property="usageName" />
+        <result column="DOSAGE" property="dosage" />
+        <result column="DOSE_UNIT" property="doseUnit" />
+        <result column="AMOUNT" property="amount" />
+        <result column="AMOUNT_UNIT" property="amountUnit" />
+        <result column="PACK_QTY" property="packQty" />
+        <result column="PACK_UNIT" property="packUnit" />
+        <result column="MIN_UNIT" property="minUnit" />
+        <result column="CENTER_CODE" property="centerCode" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PAY_FLAG" property="payFlag" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+        <result column="DRUG_QUALITY" property="drugQuality" />
+        <result column="DATA_FROM" property="dataFrom" />
+        <result column="FEE_CODE" property="feeCode" />
+        <result column="STOCK_CODE" property="stockCode" />
+        <result column="MINUS_STOCK_FLAG" property="minusStockFlag" />
+        <result column="GET_DRUG_FLAG" property="getDrugFlag" />
+        <result column="RECORDER" property="recorder" />
+        <result column="RECORD_DATE" property="recordDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_DTIME" property="operDtime" />
+        <result column="APPR_NO" property="apprNo" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="ITEM_GRADE" property="itemGrade" />
+        <result column="PHARMACY_DOCTOR" property="pharmacyDoctor" />
+        <result column="PHARMACY_DOCTORNAME" property="pharmacyDoctorname" />
+        <result column="UPDATE_SEQUENCENO" property="updateSequenceno" />
+        <result column="IF_FRU" property="ifFru" />
+        <result column="PHARMACY_DEPT" property="pharmacyDept" />
+        <result column="PHARMACY_DEPTNAME" property="pharmacyDeptname" />
+        <result column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="CHECK_DATE" property="checkDate" />
+        <result column="CONFIRM_FLAG" property="confirmFlag" />
+        <result column="CONFIRM_OPER_CODE" property="confirmOperCode" />
+        <result column="CONFIRM_DATE" property="confirmDate" />
+        <result column="CANCEL_OPER_CODE" property="cancelOperCode" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="MACHINE_CODE" property="machineCode" />
+        <result column="EXEC_OPER_CODE" property="execOperCode" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="MO_ORDER" property="moOrder" />
+        <result column="REFEE_FLAG" property="refeeFlag" />
+        <result column="KSS" property="kss" />
+        <result column="ZSJ" property="zsj" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PRESC_NO, SEQUENCE_NO, TRANS_TYPE, OUTP_ID, REG_DTIME, PHARMACEUTICAL_CODE, PHARMACEUTICAL_NAME, SPEC, RECIPE_FLAG, SELF_MADE, PRICE, QTY, DAYS, FREQ_CODE, FREQ_NAME, USE_WAY_CODE, USAGE_CODE, USAGE_NAME, DOSAGE, DOSE_UNIT, AMOUNT, AMOUNT_UNIT, PACK_QTY, PACK_UNIT, MIN_UNIT, CENTER_CODE, PUB_COST, PAY_COST, OWN_COST, PAY_FLAG, CANCEL_FLAG, DRUG_QUALITY, DATA_FROM, FEE_CODE, STOCK_CODE, MINUS_STOCK_FLAG, GET_DRUG_FLAG, RECORDER, RECORD_DATE, OPER_CODE, OPER_DTIME, APPR_NO, INVOICE_NO, ITEM_GRADE, PHARMACY_DOCTOR, PHARMACY_DOCTORNAME, UPDATE_SEQUENCENO, IF_FRU, PHARMACY_DEPT, PHARMACY_DEPTNAME, CHECK_OPER_CODE, CHECK_DATE, CONFIRM_FLAG, CONFIRM_OPER_CODE, CONFIRM_DATE, CANCEL_OPER_CODE, CANCEL_DATE, MACHINE_CODE, EXEC_OPER_CODE, DJB_FLAG, CLINIC_CODE, MO_ORDER, REFEE_FLAG, KSS, ZSJ
+    </sql>
+
+</mapper>

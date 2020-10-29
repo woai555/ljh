@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHlhtCdroutappoint;
-import com.ljh.mapper.ViewHlhtCdroutappointMapper;
+import com.ljh.daoMz.ViewHlhtCdroutappointMapper;
 import com.ljh.service.ViewHlhtCdroutappointService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

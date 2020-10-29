@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TStoreLianyh;
-import com.ljh.mapper.TStoreLianyhMapper;
+import com.ljh.daoMz.TStoreLianyhMapper;
 import com.ljh.service.TStoreLianyhService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

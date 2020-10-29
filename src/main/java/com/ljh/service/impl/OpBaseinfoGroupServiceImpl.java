@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpBaseinfoGroup;
-import com.ljh.mapper.OpBaseinfoGroupMapper;
+import com.ljh.daoMz.OpBaseinfoGroupMapper;
 import com.ljh.service.OpBaseinfoGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

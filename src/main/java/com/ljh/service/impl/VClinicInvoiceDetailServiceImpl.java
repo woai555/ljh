@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VClinicInvoiceDetail;
-import com.ljh.mapper.VClinicInvoiceDetailMapper;
+import com.ljh.daoMz.VClinicInvoiceDetailMapper;
 import com.ljh.service.VClinicInvoiceDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

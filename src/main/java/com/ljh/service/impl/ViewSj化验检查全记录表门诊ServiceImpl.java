@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSj化验检查全记录表门诊;
-import com.ljh.mapper.ViewSj化验检查全记录表门诊Mapper;
+import com.ljh.daoMz.ViewSj化验检查全记录表门诊Mapper;
 import com.ljh.service.ViewSj化验检查全记录表门诊Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

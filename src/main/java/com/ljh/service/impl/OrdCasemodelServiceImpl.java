@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdCasemodel;
-import com.ljh.mapper.OrdCasemodelMapper;
+import com.ljh.daoMz.OrdCasemodelMapper;
 import com.ljh.service.OrdCasemodelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

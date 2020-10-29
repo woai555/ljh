@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMdyRoute;
-import com.ljh.mapper.ViewMdyRouteMapper;
+import com.ljh.daoMz.ViewMdyRouteMapper;
 import com.ljh.service.ViewMdyRouteService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

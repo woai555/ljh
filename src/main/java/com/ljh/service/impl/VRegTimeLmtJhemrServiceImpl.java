@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VRegTimeLmtJhemr;
-import com.ljh.mapper.VRegTimeLmtJhemrMapper;
+import com.ljh.daoMz.VRegTimeLmtJhemrMapper;
 import com.ljh.service.VRegTimeLmtJhemrService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

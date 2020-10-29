@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.KtipPatientUpdate;
-import com.ljh.mapper.KtipPatientUpdateMapper;
+import com.ljh.daoMz.KtipPatientUpdateMapper;
 import com.ljh.service.KtipPatientUpdateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

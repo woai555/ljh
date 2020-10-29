@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Pbcatedt;
-import com.ljh.mapper.PbcatedtMapper;
+import com.ljh.daoMz.PbcatedtMapper;
 import com.ljh.service.PbcatedtService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytEmployee;
-import com.ljh.mapper.JytEmployeeMapper;
+import com.ljh.daoMz.JytEmployeeMapper;
 import com.ljh.service.JytEmployeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

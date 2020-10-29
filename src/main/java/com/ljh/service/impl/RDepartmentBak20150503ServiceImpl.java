@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RDepartmentBak20150503;
-import com.ljh.mapper.RDepartmentBak20150503Mapper;
+import com.ljh.daoMz.RDepartmentBak20150503Mapper;
 import com.ljh.service.RDepartmentBak20150503Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

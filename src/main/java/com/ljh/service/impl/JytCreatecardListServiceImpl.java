@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytCreatecardList;
-import com.ljh.mapper.JytCreatecardListMapper;
+import com.ljh.daoMz.JytCreatecardListMapper;
 import com.ljh.service.JytCreatecardListService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

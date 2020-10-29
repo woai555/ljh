@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VMyd;
-import com.ljh.mapper.VMydMapper;
+import com.ljh.daoMz.VMydMapper;
 import com.ljh.service.VMydService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

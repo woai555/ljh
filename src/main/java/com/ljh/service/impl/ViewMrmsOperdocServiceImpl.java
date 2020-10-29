@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMrmsOperdoc;
-import com.ljh.mapper.ViewMrmsOperdocMapper;
+import com.ljh.daoMz.ViewMrmsOperdocMapper;
 import com.ljh.service.ViewMrmsOperdocService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

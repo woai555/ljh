@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHrpRegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpRegister">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="NAME" property="name" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="DOCT_NAME" property="doctName" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="NOON" property="noon" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="REGLEVL_NAME" property="reglevlName" />
+        <result column="ITEMID" property="itemid" />
+        <result column="FEE" property="fee" />
+        <result column="BX_FEE" property="bxFee" />
+        <result column="PAY_WAY" property="payWay" />
+        <result column="FEE_DATE" property="feeDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="YNCANCEL" property="yncancel" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="CANCEL_OPERCODE" property="cancelOpercode" />
+        <result column="BACK_FEE" property="backFee" />
+        <result column="BACK_BX_FEE" property="backBxFee" />
+        <result column="PAY_WAY_QUIT" property="payWayQuit" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, NAME, DEPT_CODE, DEPT_NAME, EMPL_CODE, DOCT_NAME, SEE_DATE, NOON, REGLEVL_CODE, REGLEVL_NAME, ITEMID, FEE, BX_FEE, PAY_WAY, FEE_DATE, OPER_CODE, YNCANCEL, CANCEL_DATE, CANCEL_OPERCODE, BACK_FEE, BACK_BX_FEE, PAY_WAY_QUIT
+    </sql>
+
+</mapper>

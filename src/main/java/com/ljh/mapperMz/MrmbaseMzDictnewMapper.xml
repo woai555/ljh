@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmbaseMzDictnewMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MrmbaseMzDictnew">
+        <result column="CATEGORY" property="category" />
+        <result column="ITEM_ID" property="itemId" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="SPELL" property="spell" />
+        <result column="BZ1" property="bz1" />
+        <result column="BZ2" property="bz2" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CATEGORY, ITEM_ID, ITEM_NAME, SPELL, BZ1, BZ2
+    </sql>
+
+</mapper>

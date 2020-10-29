@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OrdSeedoctrecordByd20200620Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OrdSeedoctrecordByd20200620">
+        <result column="SEE_NO" property="seeNo" />
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="SEX" property="sex" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="REGLVL_CODE" property="reglvlCode" />
+        <result column="SEE_DEPTID" property="seeDeptid" />
+        <result column="SEE_DOCTID" property="seeDoctid" />
+        <result column="SEE_DOCTNM" property="seeDoctnm" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="TOT_COST" property="totCost" />
+        <result column="HOST_TELL" property="hostTell" />
+        <result column="CURRENT_ILLNESS" property="currentIllness" />
+        <result column="ANAMNESIS" property="anamnesis" />
+        <result column="ALLERGEN" property="allergen" />
+        <result column="CHECKBODY" property="checkbody" />
+        <result column="DIAG_CODE1" property="diagCode1" />
+        <result column="DIAG_NAME1" property="diagName1" />
+        <result column="DIAG_CODE2" property="diagCode2" />
+        <result column="DIAG_NAME2" property="diagName2" />
+        <result column="DIAG_CODE3" property="diagCode3" />
+        <result column="DIAG_NAME3" property="diagName3" />
+        <result column="REMARK" property="remark" />
+        <result column="SEE_DEPTNM" property="seeDeptnm" />
+        <result column="STATUS" property="status" />
+        <result column="AGE" property="age" />
+        <result column="MARRI" property="marri" />
+        <result column="PROF_CODE" property="profCode" />
+        <result column="TELL_OWNER" property="tellOwner" />
+        <result column="HEPATITIS_FLAG" property="hepatitisFlag" />
+        <result column="ALLERGEN_FLAG" property="allergenFlag" />
+        <result column="INDIVIDUAL" property="individual" />
+        <result column="OTHER" property="other" />
+        <result column="ADMINICAL" property="adminical" />
+        <result column="DISPOSITION" property="disposition" />
+        <result column="EM_LEAVE" property="emLeave" />
+        <result column="LEAVE_DEPT" property="leaveDept" />
+        <result column="DIAG_CODE4" property="diagCode4" />
+        <result column="DIAG_CODE5" property="diagCode5" />
+        <result column="DIAG_NAME4" property="diagName4" />
+        <result column="DIAG_NAME5" property="diagName5" />
+        <result column="DIAG_TEMP" property="diagTemp" />
+        <result column="ROOM_CODE" property="roomCode" />
+        <result column="EXECUTOR" property="executor" />
+        <result column="EXECUTOR_SEX" property="executorSex" />
+        <result column="EXECUTOR_AGE" property="executorAge" />
+        <result column="EXECUTOR_ID" property="executorId" />
+        <result column="RECIPE_TYPE" property="recipeType" />
+        <result column="YLCARD_SENDFLAG" property="ylcardSendflag" />
+        <result column="DISABLED_FLAG" property="disabledFlag" />
+        <result column="TB_FLAG" property="tbFlag" />
+        <result column="RECIPE_TB_FLAG" property="recipeTbFlag" />
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="INVOICE_OPERID" property="invoiceOperid" />
+        <result column="GREEN_CHANNEL" property="greenChannel" />
+        <result column="INVOICE_NO_DJY" property="invoiceNoDjy" />
+        <result column="WEIGHT" property="weight" />
+        <result column="DIAG_CATE" property="diagCate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_NO, CLINIC_CODE, CARD_NO, REG_DATE, PATIENT_NAME, PAYKIND_CODE, SEX, MCARD_NO, REGLVL_CODE, SEE_DEPTID, SEE_DOCTID, SEE_DOCTNM, SEE_DATE, TOT_COST, HOST_TELL, CURRENT_ILLNESS, ANAMNESIS, ALLERGEN, CHECKBODY, DIAG_CODE1, DIAG_NAME1, DIAG_CODE2, DIAG_NAME2, DIAG_CODE3, DIAG_NAME3, REMARK, SEE_DEPTNM, STATUS, AGE, MARRI, PROF_CODE, TELL_OWNER, HEPATITIS_FLAG, ALLERGEN_FLAG, INDIVIDUAL, OTHER, ADMINICAL, DISPOSITION, EM_LEAVE, LEAVE_DEPT, DIAG_CODE4, DIAG_CODE5, DIAG_NAME4, DIAG_NAME5, DIAG_TEMP, ROOM_CODE, EXECUTOR, EXECUTOR_SEX, EXECUTOR_AGE, EXECUTOR_ID, RECIPE_TYPE, YLCARD_SENDFLAG, DISABLED_FLAG, TB_FLAG, RECIPE_TB_FLAG, INVOICE_NO, INVOICE_OPERID, GREEN_CHANNEL, INVOICE_NO_DJY, WEIGHT, DIAG_CATE
+    </sql>
+
+</mapper>

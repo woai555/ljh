@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MjEcisMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MjEcis">
+        <id column="TRIAGESERIALNO" property="triageserialno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="DOCUMENTNO" property="documentno" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="NATION" property="nation" />
+        <result column="CHARGETYPE" property="chargetype" />
+        <result column="CONTACTPERSON" property="contactperson" />
+        <result column="CONTACTPHONE" property="contactphone" />
+        <result column="ADDRESS" property="address" />
+        <result column="CARDNO" property="cardno" />
+        <result column="CARDTYPE" property="cardtype" />
+        <result column="TRIAGEDIRECTIONCODE" property="triagedirectioncode" />
+        <result column="TRIAGEDIRECTIONNAME" property="triagedirectionname" />
+        <result column="OPERATORNAME" property="operatorname" />
+        <result column="CHARGETYPECODE" property="chargetypecode" />
+        <result column="IDENTYPE" property="identype" />
+        <result column="ECISLEVEL" property="ecislevel" />
+        <result column="OPERDATE" property="operdate" />
+        <result column="ANIMAL_HEAT" property="animalHeat" />
+        <result column="BLOOD_PRESSURE" property="bloodPressure" />
+        <result column="MIND" property="mind" />
+        <result column="PULSE" property="pulse" />
+        <result column="BREATH" property="breath" />
+        <result column="BLOOD_OXYGEN" property="bloodOxygen" />
+        <result column="WEIGHT" property="weight" />
+        <result column="SYMPTOM_CODE1" property="symptomCode1" />
+        <result column="SYMPTOM_CODE2" property="symptomCode2" />
+        <result column="SYMPTOM_CODE3" property="symptomCode3" />
+        <result column="SYMPTOM_CODE4" property="symptomCode4" />
+        <result column="SYMPTOM_CODE5" property="symptomCode5" />
+        <result column="SYMPTOMDETAIL_CODE1" property="symptomdetailCode1" />
+        <result column="SYMPTOMDETAIL_NAME1" property="symptomdetailName1" />
+        <result column="SYMPTOMDETAIL_CODE2" property="symptomdetailCode2" />
+        <result column="SYMPTOMDETAIL_NAME2" property="symptomdetailName2" />
+        <result column="SYMPTOMDETAIL_CODE3" property="symptomdetailCode3" />
+        <result column="SYMPTOMDETAIL_NAME3" property="symptomdetailName3" />
+        <result column="SYMPTOMDETAIL_CODE4" property="symptomdetailCode4" />
+        <result column="SYMPTOMDETAIL_NAME4" property="symptomdetailName4" />
+        <result column="SYMPTOMDETAIL_CODE5" property="symptomdetailCode5" />
+        <result column="SYMPTOMDETAIL_NAME5" property="symptomdetailName5" />
+        <result column="COME_TYPE" property="comeType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TRIAGESERIALNO, PATIENTID, DOCUMENTNO, NAME, SEX, BIRTHDAY, NATION, CHARGETYPE, CONTACTPERSON, CONTACTPHONE, ADDRESS, CARDNO, CARDTYPE, TRIAGEDIRECTIONCODE, TRIAGEDIRECTIONNAME, OPERATORNAME, CHARGETYPECODE, IDENTYPE, ECISLEVEL, OPERDATE, ANIMAL_HEAT, BLOOD_PRESSURE, MIND, PULSE, BREATH, BLOOD_OXYGEN, WEIGHT, SYMPTOM_CODE1, SYMPTOM_CODE2, SYMPTOM_CODE3, SYMPTOM_CODE4, SYMPTOM_CODE5, SYMPTOMDETAIL_CODE1, SYMPTOMDETAIL_NAME1, SYMPTOMDETAIL_CODE2, SYMPTOMDETAIL_NAME2, SYMPTOMDETAIL_CODE3, SYMPTOMDETAIL_NAME3, SYMPTOMDETAIL_CODE4, SYMPTOMDETAIL_NAME4, SYMPTOMDETAIL_CODE5, SYMPTOMDETAIL_NAME5, COME_TYPE
+    </sql>
+
+</mapper>

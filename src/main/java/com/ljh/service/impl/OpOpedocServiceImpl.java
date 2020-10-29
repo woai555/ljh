@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OpOpedoc;
-import com.ljh.mapper.OpOpedocMapper;
+import com.ljh.daoMz.OpOpedocMapper;
 import com.ljh.service.OpOpedocService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

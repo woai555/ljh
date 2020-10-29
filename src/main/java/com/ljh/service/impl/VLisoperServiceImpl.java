@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VLisoper;
-import com.ljh.mapper.VLisoperMapper;
+import com.ljh.daoMz.VLisoperMapper;
 import com.ljh.service.VLisoperService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

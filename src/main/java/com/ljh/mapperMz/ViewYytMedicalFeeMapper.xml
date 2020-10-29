@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewYytMedicalFeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYytMedicalFee">
+        <result column="NAME" property="name" />
+        <result column="PINYIN" property="pinyin" />
+        <result column="PRICE" property="price" />
+        <result column="UNIT" property="unit" />
+        <result column="STANDARD_ENCODING" property="standardEncoding" />
+        <result column="YIJU" property="yiju" />
+        <result column="TEXT" property="text" />
+        <result column="EVENT_MEANING" property="eventMeaning" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        NAME, PINYIN, PRICE, UNIT, STANDARD_ENCODING, YIJU, TEXT, EVENT_MEANING
+    </sql>
+
+</mapper>

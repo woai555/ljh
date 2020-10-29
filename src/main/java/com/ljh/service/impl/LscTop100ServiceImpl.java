@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LscTop100;
-import com.ljh.mapper.LscTop100Mapper;
+import com.ljh.daoMz.LscTop100Mapper;
 import com.ljh.service.LscTop100Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

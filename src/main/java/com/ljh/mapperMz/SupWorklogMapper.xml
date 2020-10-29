@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SupWorklogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SupWorklog">
+        <id column="N_CODE" property="nCode" />
+        <result column="IN_DEPT" property="inDept" />
+        <result column="IN_PERSON" property="inPerson" />
+        <result column="IN_DATE" property="inDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="ACCEPT_DATE" property="acceptDate" />
+        <result column="APPEND_COST" property="appendCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        N_CODE, IN_DEPT, IN_PERSON, IN_DATE, OPER_CODE, ACCEPT_DATE, APPEND_COST
+    </sql>
+
+</mapper>

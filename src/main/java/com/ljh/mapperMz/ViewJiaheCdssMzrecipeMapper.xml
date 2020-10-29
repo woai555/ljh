@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheCdssMzrecipeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheCdssMzrecipe">
+        <result column="ORDER_CLASS_NAME" property="orderClassName" />
+        <result column="ORDER_CLASS_CODE" property="orderClassCode" />
+        <result column="FREQUENCY_CODE" property="frequencyCode" />
+        <result column="FREQUENCY_NAME" property="frequencyName" />
+        <result column="ORDER_TIME" property="orderTime" />
+        <result column="PRESC_TIME" property="prescTime" />
+        <result column="DOSAGE_VALUE" property="dosageValue" />
+        <result column="DOSAGE_UNIT" property="dosageUnit" />
+        <result column="PHARMACY_WAY_NAME" property="pharmacyWayName" />
+        <result column="PATIENT_ID" property="patientId" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="CHARGE_NAME" property="chargeName" />
+        <result column="ORDER_CLASS_CONVERT_NAME" property="orderClassConvertName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ORDER_CLASS_NAME, ORDER_CLASS_CODE, FREQUENCY_CODE, FREQUENCY_NAME, ORDER_TIME, PRESC_TIME, DOSAGE_VALUE, DOSAGE_UNIT, PHARMACY_WAY_NAME, PATIENT_ID, VISIT_ID, CHARGE_NAME, ORDER_CLASS_CONVERT_NAME
+    </sql>
+
+</mapper>

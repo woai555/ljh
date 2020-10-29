@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.REmplvsfinagrpMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.REmplvsfinagrp">
+        <id column="EMPL_CODE" property="emplCode" />
+        <result column="FINAGRPID" property="finagrpid" />
+        <result column="FINAGRPNAME" property="finagrpname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FINAGRPID, FINAGRPNAME, EMPL_CODE
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewDeptUndrug;
-import com.ljh.mapper.ViewDeptUndrugMapper;
+import com.ljh.daoMz.ViewDeptUndrugMapper;
 import com.ljh.service.ViewDeptUndrugService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

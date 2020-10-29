@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppRecipeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppRecipe">
+        <result column="ACCESS_PAT_ID" property="accessPatId" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARDNO_JYT" property="cardnoJyt" />
+        <result column="PAT_NAME" property="patName" />
+        <result column="ACC_PRES_ID" property="accPresId" />
+        <result column="PRESCRIPTION_TYPE" property="prescriptionType" />
+        <result column="PRESCRIPTION_NO" property="prescriptionNo" />
+        <result column="PRESCRIPTION_DATE" property="prescriptionDate" />
+        <result column="PRESCRIPTION_NAME" property="prescriptionName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ACCESS_PAT_ID, MCARD_NO, CARDNO_JYT, PAT_NAME, ACC_PRES_ID, PRESCRIPTION_TYPE, PRESCRIPTION_NO, PRESCRIPTION_DATE, PRESCRIPTION_NAME
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LOrder;
-import com.ljh.mapper.LOrderMapper;
+import com.ljh.daoMz.LOrderMapper;
 import com.ljh.service.LOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

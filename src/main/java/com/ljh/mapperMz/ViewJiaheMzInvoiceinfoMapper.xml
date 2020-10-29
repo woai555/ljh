@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheMzInvoiceinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzInvoiceinfo">
+        <result column="INVOICE_NO" property="invoiceNo" />
+        <result column="TRANS_TYPE" property="transType" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="PAYKIND_CODE" property="paykindCode" />
+        <result column="PAYKIND_NAME" property="paykindName" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="PACT_CODE" property="pactCode" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="COST" property="cost" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="OWN_COST" property="ownCost" />
+        <result column="PAY_COST" property="payCost" />
+        <result column="REAL_COST" property="realCost" />
+        <result column="INVOICE_DTIME" property="invoiceDtime" />
+        <result column="CANCEL_FLAG" property="cancelFlag" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_NAME" property="operName" />
+        <result column="BANK_COST" property="bankCost" />
+        <result column="CANCEL_INVOICE" property="cancelInvoice" />
+        <result column="PAY_WAY" property="payWay" />
+        <result column="CANCEL_MAN" property="cancelMan" />
+        <result column="CANCEL_DATE" property="cancelDate" />
+        <result column="MEDICAL_TYPE" property="medicalType" />
+        <result column="GWY_COST" property="gwyCost" />
+        <result column="DEBZ_COST" property="debzCost" />
+        <result column="CHECK_OPER_CODE" property="checkOperCode" />
+        <result column="CHECK_DATE" property="checkDate" />
+        <result column="CASH_COST" property="cashCost" />
+        <result column="DJB_FLAG" property="djbFlag" />
+        <result column="TRADENO" property="tradeno" />
+        <result column="PAST_COST" property="pastCost" />
+        <result column="EVALUE_SCORE" property="evalueScore" />
+        <result column="INVOICE_KIND" property="invoiceKind" />
+        <result column="INVOICE_YNPRINT_JYT" property="invoiceYnprintJyt" />
+        <result column="INVOICE_NO_JYT" property="invoiceNoJyt" />
+        <result column="TRADENO_JYT" property="tradenoJyt" />
+        <result column="INVOICE_PNT_OPER" property="invoicePntOper" />
+        <result column="INVOICE_PNT_DATE" property="invoicePntDate" />
+        <result column="KSS" property="kss" />
+        <result column="HY" property="hy" />
+        <result column="JC" property="jc" />
+        <result column="QT" property="qt" />
+        <result column="SS" property="ss" />
+        <result column="WC" property="wc" />
+        <result column="XY" property="xy" />
+        <result column="ZL" property="zl" />
+        <result column="ZCY" property="zcy" />
+        <result column="ZCHY" property="zchy" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INVOICE_NO, TRANS_TYPE, CARD_NO, PAYKIND_CODE, PAYKIND_NAME, MCARD_NO, PACT_CODE, PATIENT_NAME, COST, PUB_COST, OWN_COST, PAY_COST, REAL_COST, INVOICE_DTIME, CANCEL_FLAG, OPER_CODE, OPER_NAME, BANK_COST, CANCEL_INVOICE, PAY_WAY, CANCEL_MAN, CANCEL_DATE, MEDICAL_TYPE, GWY_COST, DEBZ_COST, CHECK_OPER_CODE, CHECK_DATE, CASH_COST, DJB_FLAG, TRADENO, PAST_COST, EVALUE_SCORE, INVOICE_KIND, INVOICE_YNPRINT_JYT, INVOICE_NO_JYT, TRADENO_JYT, INVOICE_PNT_OPER, INVOICE_PNT_DATE, KSS, HY, JC, QT, SS, WC, XY, ZL, ZCY, ZCHY
+    </sql>
+
+</mapper>

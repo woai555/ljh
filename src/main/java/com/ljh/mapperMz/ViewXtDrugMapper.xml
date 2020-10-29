@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewXtDrugMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewXtDrug">
+        <result column="DRUGTERMID" property="drugtermid" />
+        <result column="TRADENAME" property="tradename" />
+        <result column="PRICEREF" property="priceref" />
+        <result column="DOSEUNIT" property="doseunit" />
+        <result column="MINUNIT" property="minunit" />
+        <result column="BASEDOSE" property="basedose" />
+        <result column="SPECS" property="specs" />
+        <result column="TERMCLASSID" property="termclassid" />
+        <result column="TERMCLASSNAME" property="termclassname" />
+        <result column="DOSEMODEL" property="dosemodel" />
+        <result column="USAGECODE" property="usagecode" />
+        <result column="FREQUENCYCODE" property="frequencycode" />
+        <result column="BAKDOSEUNIT" property="bakdoseunit" />
+        <result column="BAKBASEDOSE" property="bakbasedose" />
+        <result column="HYPOFLAG" property="hypoflag" />
+        <result column="VALIDFLAG" property="validflag" />
+        <result column="TRADEENAME" property="tradeename" />
+        <result column="SPELLCODE" property="spellcode" />
+        <result column="WBCODE" property="wbcode" />
+        <result column="CUSTOMCODE" property="customcode" />
+        <result column="OPER_TIME" property="operTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DRUGTERMID, TRADENAME, PRICEREF, DOSEUNIT, MINUNIT, BASEDOSE, SPECS, TERMCLASSID, TERMCLASSNAME, DOSEMODEL, USAGECODE, FREQUENCYCODE, BAKDOSEUNIT, BAKBASEDOSE, HYPOFLAG, VALIDFLAG, TRADEENAME, SPELLCODE, WBCODE, CUSTOMCODE, OPER_TIME
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VwAuthor;
-import com.ljh.mapper.VwAuthorMapper;
+import com.ljh.daoMz.VwAuthorMapper;
 import com.ljh.service.VwAuthorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--See https://logback.qos.ch/manual/configuration.html for details-->
+<configuration debug="false">
+    <property name="LOG_PATH" value="./logs"/>
+    <property name="CONSOLE_LOG_PATTERN" value="%yellow(%d{yyyy-MM-dd HH:mm:ss.SSS}) %highlight(%-5p) %magenta([%10.10t]) %cyan(%30.30class{30}[%5.10L]) %boldGreen(-) %msg %n"/>
+    <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level [%10.10thread] %30.30class{30}[%5.10L] - %msg %n"/>
+    <springProperty scope="context" name="project" source="spring.project.name" defaultValue="jyt"/>
+    <springProperty scope="context" name="module" source="spring.application.name"/>
+    <springProperty scope="context" name="level" source="project.logging.level"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ${LOG_PATH}/stdout.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <maxHistory>90</maxHistory>
+            <fileNamePattern>${LOG_PATH}/stdout.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <maxHistory>90</maxHistory>
+            <fileNamePattern>${LOG_PATH}/error.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <maxHistory>90</maxHistory>
+            <fileNamePattern>${LOG_PATH}/info.log.%d{yyyy-MM-dd}</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>info</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <springProfile name="dev">
+        <root level="DEBUG">
+            <appender-ref ref="ERROR"/>
+            <appender-ref ref="INFO"/>
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </springProfile>
+
+
+
+    <springProfile name="prod">
+        <root level="INFO">
+            <appender-ref ref="ERROR"/>
+            <appender-ref ref="INFO"/>
+            <appender-ref ref="ROLLING_FILE"/>
+        </root>
+    </springProfile>
+</configuration>

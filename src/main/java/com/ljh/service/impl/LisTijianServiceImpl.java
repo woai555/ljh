@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LisTijian;
-import com.ljh.mapper.LisTijianMapper;
+import com.ljh.daoMz.LisTijianMapper;
 import com.ljh.service.LisTijianService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

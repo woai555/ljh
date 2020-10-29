@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RMzdjbClearInfo;
-import com.ljh.mapper.RMzdjbClearInfoMapper;
+import com.ljh.daoMz.RMzdjbClearInfoMapper;
 import com.ljh.service.RMzdjbClearInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

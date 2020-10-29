@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.SupKind;
-import com.ljh.mapper.SupKindMapper;
+import com.ljh.daoMz.SupKindMapper;
 import com.ljh.service.SupKindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

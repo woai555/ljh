@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LicenceReg;
-import com.ljh.mapper.LicenceRegMapper;
+import com.ljh.daoMz.LicenceRegMapper;
 import com.ljh.service.LicenceRegService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

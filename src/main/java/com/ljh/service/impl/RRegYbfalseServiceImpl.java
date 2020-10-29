@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RRegYbfalse;
-import com.ljh.mapper.RRegYbfalseMapper;
+import com.ljh.daoMz.RRegYbfalseMapper;
 import com.ljh.service.RRegYbfalseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

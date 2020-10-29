@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TEquipToMachine;
-import com.ljh.mapper.TEquipToMachineMapper;
+import com.ljh.daoMz.TEquipToMachineMapper;
 import com.ljh.service.TEquipToMachineService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

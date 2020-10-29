@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RFactErrmsg;
-import com.ljh.mapper.RFactErrmsgMapper;
+import com.ljh.daoMz.RFactErrmsgMapper;
 import com.ljh.service.RFactErrmsgService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

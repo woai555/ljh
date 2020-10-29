@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VDoctAvailableTelecom;
-import com.ljh.mapper.VDoctAvailableTelecomMapper;
+import com.ljh.daoMz.VDoctAvailableTelecomMapper;
 import com.ljh.service.VDoctAvailableTelecomService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

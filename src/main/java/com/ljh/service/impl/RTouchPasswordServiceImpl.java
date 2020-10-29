@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RTouchPassword;
-import com.ljh.mapper.RTouchPasswordMapper;
+import com.ljh.daoMz.RTouchPasswordMapper;
 import com.ljh.service.RTouchPasswordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

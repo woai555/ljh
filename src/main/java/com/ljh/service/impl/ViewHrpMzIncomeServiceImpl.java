@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHrpMzIncome;
-import com.ljh.mapper.ViewHrpMzIncomeMapper;
+import com.ljh.daoMz.ViewHrpMzIncomeMapper;
 import com.ljh.service.ViewHrpMzIncomeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

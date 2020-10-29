@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewInteractmedItemdetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewInteractmedItemdetail">
+        <result column="SEE_NO" property="seeNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="RECIPE_NO" property="recipeNo" />
+        <result column="SEQUENCE_NO" property="sequenceNo" />
+        <result column="ITEM_CODE" property="itemCode" />
+        <result column="ITEM_NAME" property="itemName" />
+        <result column="DRUG_FLAG" property="drugFlag" />
+        <result column="SPEC" property="spec" />
+        <result column="ONCEDOSE" property="oncedose" />
+        <result column="ONCEUNIT" property="onceunit" />
+        <result column="FREQCODE" property="freqcode" />
+        <result column="FREQNAME" property="freqname" />
+        <result column="USAGECODE" property="usagecode" />
+        <result column="USAGENAME" property="usagename" />
+        <result column="PRICE" property="price" />
+        <result column="ITEMQTY" property="itemqty" />
+        <result column="COST" property="cost" />
+        <result column="USE_DAYS" property="useDays" />
+        <result column="REMARK" property="remark" />
+        <result column="APP_TIME" property="appTime" />
+        <result column="DRUG_TYPE" property="drugType" />
+        <result column="HERB_DAYS" property="herbDays" />
+        <result column="YYJC_REMARK" property="yyjcRemark" />
+        <result column="HOS_BRANCH" property="hosBranch" />
+        <result column="FORMALNAME" property="formalname" />
+        <result column="STATUS" property="status" />
+        <result column="GROUP_CODE" property="groupCode" />
+        <result column="ITEM_TYPE" property="itemType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_NO, CARD_NO, RECIPE_NO, SEQUENCE_NO, ITEM_CODE, ITEM_NAME, DRUG_FLAG, SPEC, ONCEDOSE, ONCEUNIT, FREQCODE, FREQNAME, USAGECODE, USAGENAME, PRICE, ITEMQTY, COST, USE_DAYS, REMARK, APP_TIME, DRUG_TYPE, HERB_DAYS, YYJC_REMARK, HOS_BRANCH, FORMALNAME, STATUS, GROUP_CODE, ITEM_TYPE
+    </sql>
+
+</mapper>

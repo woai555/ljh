@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MydMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Myd">
+        <id column="STATIC_DATE" property="staticDate" />
+        <result column="TDMC" property="tdmc" />
+        <result column="FWHDG" property="fwhdg" />
+        <result column="LYMYD" property="lymyd" />
+        <result column="XQYY" property="xqyy" />
+        <result column="QYJMMYD" property="qyjmmyd" />
+        <result column="YYJZMYD" property="yyjzmyd" />
+        <result column="FWHDGDF" property="fwhdgdf" />
+        <result column="LYMYDDF" property="lymyddf" />
+        <result column="QYJMMYDDF" property="qyjmmyddf" />
+        <result column="YYJZMYDDF" property="yyjzmyddf" />
+        <result column="MYDZF" property="mydzf" />
+        <result column="UPLOAD_DATE" property="uploadDate" />
+        <result column="QYSJ" property="qysj" />
+        <result column="JGMC" property="jgmc" />
+        <result column="QYFWRZD" property="qyfwrzd" />
+        <result column="QYFWRZDDF" property="qyfwrzddf" />
+        <result column="JTYSTDMYD" property="jtystdmyd" />
+        <result column="JTYSTDMYDDF" property="jtystdmyddf" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TDMC, FWHDG, LYMYD, XQYY, QYJMMYD, YYJZMYD, FWHDGDF, LYMYDDF, QYJMMYDDF, YYJZMYDDF, MYDZF, STATIC_DATE, UPLOAD_DATE, QYSJ, JGMC, QYFWRZD, QYFWRZDDF, JTYSTDMYD, JTYSTDMYDDF
+    </sql>
+
+</mapper>

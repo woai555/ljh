@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Nrsexedw;
-import com.ljh.mapper.NrsexedwMapper;
+import com.ljh.daoMz.NrsexedwMapper;
 import com.ljh.service.NrsexedwService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

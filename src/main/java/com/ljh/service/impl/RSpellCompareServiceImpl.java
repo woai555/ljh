@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSpellCompare;
-import com.ljh.mapper.RSpellCompareMapper;
+import com.ljh.daoMz.RSpellCompareMapper;
 import com.ljh.service.RSpellCompareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

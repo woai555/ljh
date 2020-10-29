@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.Jyt2MsgSendinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Jyt2MsgSendinfo">
+        <result column="ADDRESS" property="address" />
+        <result column="XMLTEXT" property="xmltext" />
+        <result column="FLAG" property="flag" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="REG_DATE" property="regDate" />
+        <result column="TRADESTATE" property="tradestate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ADDRESS, XMLTEXT, FLAG, OPER_DATE, OPER_CODE, EMPL_CODE, SEE_DATE, CARD_NO, REG_DATE, TRADESTATE
+    </sql>
+
+</mapper>

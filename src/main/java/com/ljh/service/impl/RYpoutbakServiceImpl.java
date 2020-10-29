@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RYpoutbak;
-import com.ljh.mapper.RYpoutbakMapper;
+import com.ljh.daoMz.RYpoutbakMapper;
 import com.ljh.service.RYpoutbakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

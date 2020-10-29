@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytPrivatecloudZz;
-import com.ljh.mapper.JytPrivatecloudZzMapper;
+import com.ljh.daoMz.JytPrivatecloudZzMapper;
 import com.ljh.service.JytPrivatecloudZzService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

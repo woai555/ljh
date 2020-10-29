@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RevolutionMonthMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RevolutionMonth">
+        <id column="BEGINDATE" property="begindate" />
+        <result column="ENDDATE" property="enddate" />
+        <result column="OPERTIME" property="opertime" />
+        <result column="DAY1" property="day1" />
+        <result column="DAY2" property="day2" />
+        <result column="DAY3" property="day3" />
+        <result column="DAY4" property="day4" />
+        <result column="DAY5" property="day5" />
+        <result column="DAY6" property="day6" />
+        <result column="DAY7" property="day7" />
+        <result column="DAY8" property="day8" />
+        <result column="DAY9" property="day9" />
+        <result column="DAY10" property="day10" />
+        <result column="DAY11" property="day11" />
+        <result column="DAY12" property="day12" />
+        <result column="DAY13" property="day13" />
+        <result column="DAY14" property="day14" />
+        <result column="DAY15" property="day15" />
+        <result column="DAY16" property="day16" />
+        <result column="DAY17" property="day17" />
+        <result column="DAY18" property="day18" />
+        <result column="DAY19" property="day19" />
+        <result column="DAY20" property="day20" />
+        <result column="DAY21" property="day21" />
+        <result column="DAY22" property="day22" />
+        <result column="DAY23" property="day23" />
+        <result column="DAY24" property="day24" />
+        <result column="DAY25" property="day25" />
+        <result column="DAY26" property="day26" />
+        <result column="DAY27" property="day27" />
+        <result column="DAY28" property="day28" />
+        <result column="DAY29" property="day29" />
+        <result column="DAY30" property="day30" />
+        <result column="DAY31" property="day31" />
+        <result column="DAY32" property="day32" />
+        <result column="DAY33" property="day33" />
+        <result column="DAY34" property="day34" />
+        <result column="DAY35" property="day35" />
+        <result column="DAY36" property="day36" />
+        <result column="DAY37" property="day37" />
+        <result column="DAY38" property="day38" />
+        <result column="DAY39" property="day39" />
+        <result column="DAY40" property="day40" />
+        <result column="DAY41" property="day41" />
+        <result column="DAY42" property="day42" />
+        <result column="DAY43" property="day43" />
+        <result column="DAY44" property="day44" />
+        <result column="DAY45" property="day45" />
+        <result column="DAY46" property="day46" />
+        <result column="DAY47" property="day47" />
+        <result column="DAY48" property="day48" />
+        <result column="DAY49" property="day49" />
+        <result column="DAY50" property="day50" />
+        <result column="DAY51" property="day51" />
+        <result column="DAY52" property="day52" />
+        <result column="DAY53" property="day53" />
+        <result column="DAY54" property="day54" />
+        <result column="DAY55" property="day55" />
+        <result column="DAY56" property="day56" />
+        <result column="DAY57" property="day57" />
+        <result column="DAY58" property="day58" />
+        <result column="DAY59" property="day59" />
+        <result column="DAY60" property="day60" />
+        <result column="DAY61" property="day61" />
+        <result column="DAY62" property="day62" />
+        <result column="DAY63" property="day63" />
+        <result column="DAY64" property="day64" />
+        <result column="DAY65" property="day65" />
+        <result column="DAY66" property="day66" />
+        <result column="DAY67" property="day67" />
+        <result column="DAY68" property="day68" />
+        <result column="DAY69" property="day69" />
+        <result column="DAY70" property="day70" />
+        <result column="DAY71" property="day71" />
+        <result column="DAY72" property="day72" />
+        <result column="DAY73" property="day73" />
+        <result column="DAY74" property="day74" />
+        <result column="DAY75" property="day75" />
+        <result column="DAY76" property="day76" />
+        <result column="DAY77" property="day77" />
+        <result column="DAY78" property="day78" />
+        <result column="DAY79" property="day79" />
+        <result column="DAY80" property="day80" />
+        <result column="DAY81" property="day81" />
+        <result column="DAY82" property="day82" />
+        <result column="DAY83" property="day83" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BEGINDATE, ENDDATE, OPERTIME, DAY1, DAY2, DAY3, DAY4, DAY5, DAY6, DAY7, DAY8, DAY9, DAY10, DAY11, DAY12, DAY13, DAY14, DAY15, DAY16, DAY17, DAY18, DAY19, DAY20, DAY21, DAY22, DAY23, DAY24, DAY25, DAY26, DAY27, DAY28, DAY29, DAY30, DAY31, DAY32, DAY33, DAY34, DAY35, DAY36, DAY37, DAY38, DAY39, DAY40, DAY41, DAY42, DAY43, DAY44, DAY45, DAY46, DAY47, DAY48, DAY49, DAY50, DAY51, DAY52, DAY53, DAY54, DAY55, DAY56, DAY57, DAY58, DAY59, DAY60, DAY61, DAY62, DAY63, DAY64, DAY65, DAY66, DAY67, DAY68, DAY69, DAY70, DAY71, DAY72, DAY73, DAY74, DAY75, DAY76, DAY77, DAY78, DAY79, DAY80, DAY81, DAY82, DAY83
+    </sql>
+
+</mapper>

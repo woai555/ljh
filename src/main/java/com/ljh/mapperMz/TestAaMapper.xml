@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.TestAaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.TestAa">
+        <result column="ID" property="id" />
+        <result column="NAME1" property="name1" />
+        <result column="QIAN" property="qian" />
+        <result column="QIAN1" property="qian1" />
+        <result column="NO" property="no" />
+        <result column="IDENNO" property="idenno" />
+        <result column="YP1" property="yp1" />
+        <result column="YP2" property="yp2" />
+        <result column="YP3" property="yp3" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, NAME1, QIAN, QIAN1, NO, IDENNO, YP1, YP2, YP3
+    </sql>
+
+</mapper>

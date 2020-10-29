@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OldAccountCheckNewLast;
-import com.ljh.mapper.OldAccountCheckNewLastMapper;
+import com.ljh.daoMz.OldAccountCheckNewLastMapper;
 import com.ljh.service.OldAccountCheckNewLastService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

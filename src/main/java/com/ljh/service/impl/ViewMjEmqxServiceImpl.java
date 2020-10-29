@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMjEmqx;
-import com.ljh.mapper.ViewMjEmqxMapper;
+import com.ljh.daoMz.ViewMjEmqxMapper;
 import com.ljh.service.ViewMjEmqxService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

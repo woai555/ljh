@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.MjEcis;
-import com.ljh.mapper.MjEcisMapper;
+import com.ljh.daoMz.MjEcisMapper;
 import com.ljh.service.MjEcisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OutpatientArrearage;
-import com.ljh.mapper.OutpatientArrearageMapper;
+import com.ljh.daoMz.OutpatientArrearageMapper;
 import com.ljh.service.OutpatientArrearageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

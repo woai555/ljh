@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VEmployee;
-import com.ljh.mapper.VEmployeeMapper;
+import com.ljh.daoMz.VEmployeeMapper;
 import com.ljh.service.VEmployeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

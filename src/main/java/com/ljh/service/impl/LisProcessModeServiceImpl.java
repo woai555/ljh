@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LisProcessMode;
-import com.ljh.mapper.LisProcessModeMapper;
+import com.ljh.daoMz.LisProcessModeMapper;
 import com.ljh.service.LisProcessModeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

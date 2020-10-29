@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.NrsTendPlan;
-import com.ljh.mapper.NrsTendPlanMapper;
+import com.ljh.daoMz.NrsTendPlanMapper;
 import com.ljh.service.NrsTendPlanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

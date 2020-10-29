@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.Mrms167AgeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrms167Age">
+        <result column="DISEASE_CODE" property="diseaseCode" />
+        <result column="DISEASE_NAME" property="diseaseName" />
+        <result column="SUM_PART" property="sumPart" />
+        <result column="AGE_1" property="age1" />
+        <result column="AGE_2" property="age2" />
+        <result column="AGE_3" property="age3" />
+        <result column="AGE_4" property="age4" />
+        <result column="AGE_5" property="age5" />
+        <result column="INBED_DAYS" property="inbedDays" />
+        <result column="PARENTITEM" property="parentitem" />
+        <result column="SUBLINES" property="sublines" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DISEASE_CODE, DISEASE_NAME, SUM_PART, AGE_1, AGE_2, AGE_3, AGE_4, AGE_5, INBED_DAYS, PARENTITEM, SUBLINES
+    </sql>
+
+</mapper>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RPatientYlMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RPatientYl">
+        <id column="YLCARD_ID" property="ylcardId" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="INDENNO_TYPE" property="indennoType" />
+        <result column="ENDENNO" property="endenno" />
+        <result column="NATION" property="nation" />
+        <result column="COUNTRY" property="country" />
+        <result column="MARY" property="mary" />
+        <result column="COME_BJ" property="comeBj" />
+        <result column="WORK_NAME" property="workName" />
+        <result column="ADRESS_BJ" property="adressBj" />
+        <result column="ADRESSCODE_BJ" property="adresscodeBj" />
+        <result column="LINKMAN_NAME" property="linkmanName" />
+        <result column="LINKMAN_IDENNO" property="linkmanIdenno" />
+        <result column="LINKMAN_TEL" property="linkmanTel" />
+        <result column="HIS_CARDNO" property="hisCardno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        YLCARD_ID, NAME, SEX, BIRTHDAY, INDENNO_TYPE, ENDENNO, NATION, COUNTRY, MARY, COME_BJ, WORK_NAME, ADRESS_BJ, ADRESSCODE_BJ, LINKMAN_NAME, LINKMAN_IDENNO, LINKMAN_TEL, HIS_CARDNO
+    </sql>
+
+</mapper>

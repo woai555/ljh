@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtIpmoHisPacsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtIpmoHisPacs">
+        <result column="APPLICATIONID" property="applicationid" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="HISPATIENTTYPEID" property="hispatienttypeid" />
+        <result column="HISPATIENTID" property="hispatientid" />
+        <result column="IMAGENO" property="imageno" />
+        <result column="PATIENTINDEXID" property="patientindexid" />
+        <result column="PATIENTNAME" property="patientname" />
+        <result column="GENDER" property="gender" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="PHONENUMBER" property="phonenumber" />
+        <result column="ADDRESS" property="address" />
+        <result column="REQUESTTIME" property="requesttime" />
+        <result column="REQDEPARTMENTID" property="reqdepartmentid" />
+        <result column="REQDEPARTMENTNAME" property="reqdepartmentname" />
+        <result column="HOSPITALID" property="hospitalid" />
+        <result column="REQDOCTORID" property="reqdoctorid" />
+        <result column="REQDOCTORNAME" property="reqdoctorname" />
+        <result column="CHIEFCOMPLAINT" property="chiefcomplaint" />
+        <result column="BEDNO" property="bedno" />
+        <result column="DIAGNOSE" property="diagnose" />
+        <result column="ABSTRACTHISTORY" property="abstracthistory" />
+        <result column="DEVICETYPEID" property="devicetypeid" />
+        <result column="DEVICETYPENAME" property="devicetypename" />
+        <result column="DEVICEID" property="deviceid" />
+        <result column="COSTS" property="costs" />
+        <result column="POSITIONID" property="positionid" />
+        <result column="POSITIONNAME" property="positionname" />
+        <result column="CHECKMETHODID" property="checkmethodid" />
+        <result column="CHECKMETHODNAME" property="checkmethodname" />
+        <result column="CHECKITEMCODE" property="checkitemcode" />
+        <result column="CHECKITEMNAME" property="checkitemname" />
+        <result column="ESTIMATETIME" property="estimatetime" />
+        <result column="ESTIMATETYPEID" property="estimatetypeid" />
+        <result column="EXEDEPTID" property="exedeptid" />
+        <result column="EXEDEPTNAME" property="exedeptname" />
+        <result column="QUEUENO" property="queueno" />
+        <result column="IDNUMBER" property="idnumber" />
+        <result column="SICKROOM" property="sickroom" />
+        <result column="HOSPITALNAME" property="hospitalname" />
+        <result column="CARDNO" property="cardno" />
+        <result column="SOCIETYID" property="societyid" />
+        <result column="REMARK" property="remark" />
+        <result column="OPERATE_TIME" property="operateTime" />
+        <result column="STATUS" property="status" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="IN_PATIENT_ID" property="inPatientId" />
+        <result column="EXCUTEDEPTID" property="excutedeptid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        APPLICATIONID, ORDER_NO, HISPATIENTTYPEID, HISPATIENTID, IMAGENO, PATIENTINDEXID, PATIENTNAME, GENDER, BIRTHDAY, PHONENUMBER, ADDRESS, REQUESTTIME, REQDEPARTMENTID, REQDEPARTMENTNAME, HOSPITALID, REQDOCTORID, REQDOCTORNAME, CHIEFCOMPLAINT, BEDNO, DIAGNOSE, ABSTRACTHISTORY, DEVICETYPEID, DEVICETYPENAME, DEVICEID, COSTS, POSITIONID, POSITIONNAME, CHECKMETHODID, CHECKMETHODNAME, CHECKITEMCODE, CHECKITEMNAME, ESTIMATETIME, ESTIMATETYPEID, EXEDEPTID, EXEDEPTNAME, QUEUENO, IDNUMBER, SICKROOM, HOSPITALNAME, CARDNO, SOCIETYID, REMARK, OPERATE_TIME, STATUS, OPERATE_TYPE, IN_PATIENT_ID, EXCUTEDEPTID
+    </sql>
+
+</mapper>

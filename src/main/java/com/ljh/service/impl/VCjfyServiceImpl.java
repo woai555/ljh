@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VCjfy;
-import com.ljh.mapper.VCjfyMapper;
+import com.ljh.daoMz.VCjfyMapper;
 import com.ljh.service.VCjfyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

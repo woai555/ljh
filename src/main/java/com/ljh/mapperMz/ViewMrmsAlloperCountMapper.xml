@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewMrmsAlloperCountMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewMrmsAlloperCount">
+        <result column="OPER_CODE" property="operCode" />
+        <result column="OPER_CNNAME" property="operCnname" />
+        <result column="OPER_COUNT" property="operCount" />
+        <result column="ONE_COUNT" property="oneCount" />
+        <result column="ONE_A_NUM" property="oneANum" />
+        <result column="ONE_B_NUM" property="oneBNum" />
+        <result column="ONE_C_NUM" property="oneCNum" />
+        <result column="TWO_COUNT" property="twoCount" />
+        <result column="TWO_A_NUM" property="twoANum" />
+        <result column="TWO_B_NUM" property="twoBNum" />
+        <result column="TWO_C_NUM" property="twoCNum" />
+        <result column="THREE_COUNT" property="threeCount" />
+        <result column="THREE_A_NUM" property="threeANum" />
+        <result column="THREE_B_NUM" property="threeBNum" />
+        <result column="THREE_C_NUM" property="threeCNum" />
+        <result column="SYND_NUM" property="syndNum" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPER_CODE, OPER_CNNAME, OPER_COUNT, ONE_COUNT, ONE_A_NUM, ONE_B_NUM, ONE_C_NUM, TWO_COUNT, TWO_A_NUM, TWO_B_NUM, TWO_C_NUM, THREE_COUNT, THREE_A_NUM, THREE_B_NUM, THREE_C_NUM, SYND_NUM
+    </sql>
+
+</mapper>

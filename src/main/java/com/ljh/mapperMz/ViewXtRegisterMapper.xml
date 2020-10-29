@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewXtRegisterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewXtRegister">
+        <result column="CLINIC_CODE" property="clinicCode" />
+        <result column="NAME" property="name" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="RELA_PHONE" property="relaPhone" />
+        <result column="MCARD_NO" property="mcardNo" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="IDENNO" property="idenno" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="DOCT_CODE" property="doctCode" />
+        <result column="REG_DATE" property="regDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CLINIC_CODE, NAME, SEX_CODE, BIRTHDAY, RELA_PHONE, MCARD_NO, CARD_NO, IDENNO, DEPT_CODE, DOCT_CODE, REG_DATE
+    </sql>
+
+</mapper>

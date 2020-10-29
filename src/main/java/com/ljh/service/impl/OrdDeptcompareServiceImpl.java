@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdDeptcompare;
-import com.ljh.mapper.OrdDeptcompareMapper;
+import com.ljh.daoMz.OrdDeptcompareMapper;
 import com.ljh.service.OrdDeptcompareService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

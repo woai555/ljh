@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHrpLgtbYbincome;
-import com.ljh.mapper.ViewHrpLgtbYbincomeMapper;
+import com.ljh.daoMz.ViewHrpLgtbYbincomeMapper;
 import com.ljh.service.ViewHrpLgtbYbincomeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

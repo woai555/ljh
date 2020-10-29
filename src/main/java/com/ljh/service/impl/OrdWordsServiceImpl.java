@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdWords;
-import com.ljh.mapper.OrdWordsMapper;
+import com.ljh.daoMz.OrdWordsMapper;
 import com.ljh.service.OrdWordsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

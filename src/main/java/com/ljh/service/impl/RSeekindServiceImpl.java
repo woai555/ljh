@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSeekind;
-import com.ljh.mapper.RSeekindMapper;
+import com.ljh.daoMz.RSeekindMapper;
 import com.ljh.service.RSeekindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

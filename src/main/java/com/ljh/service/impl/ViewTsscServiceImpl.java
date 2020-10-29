@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewTssc;
-import com.ljh.mapper.ViewTsscMapper;
+import com.ljh.daoMz.ViewTsscMapper;
 import com.ljh.service.ViewTsscService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

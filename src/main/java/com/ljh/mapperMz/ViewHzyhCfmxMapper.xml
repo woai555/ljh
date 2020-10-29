@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHzyhCfmxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHzyhCfmx">
+        <result column="CFHM" property="cfhm" />
+        <result column="YPXH" property="ypxh" />
+        <result column="YPMC" property="ypmc" />
+        <result column="GG" property="gg" />
+        <result column="JLSL" property="jlsl" />
+        <result column="JLDW" property="jldw" />
+        <result column="PC" property="pc" />
+        <result column="YF" property="yf" />
+        <result column="ZB" property="zb" />
+        <result column="ZXRQ" property="zxrq" />
+        <result column="YPSL" property="ypsl" />
+        <result column="PSPB" property="pspb" />
+        <result column="PSJG" property="psjg" />
+        <result column="NOTES" property="notes" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CFHM, YPXH, YPMC, GG, JLSL, JLDW, PC, YF, ZB, ZXRQ, YPSL, PSPB, PSJG, NOTES
+    </sql>
+
+</mapper>

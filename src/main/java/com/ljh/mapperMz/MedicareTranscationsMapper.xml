@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MedicareTranscationsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MedicareTranscations">
+        <id column="TRANSACTION_SERIAL_NUMBER" property="transactionSerialNumber" />
+        <result column="TRANSACTION_DATE" property="transactionDate" />
+        <result column="INSURANCE_TYPE" property="insuranceType" />
+        <result column="MEDICAL_TYPE" property="medicalType" />
+        <result column="MEDICARE_NUMBER" property="medicareNumber" />
+        <result column="ID_NUMBER" property="idNumber" />
+        <result column="PATIENT_NAME" property="patientName" />
+        <result column="SEX" property="sex" />
+        <result column="INVOICE_NUMBER" property="invoiceNumber" />
+        <result column="SUM_PAYMENTS" property="sumPayments" />
+        <result column="FUND_PAYMENTS" property="fundPayments" />
+        <result column="INDIVIDUAL_PAYMENTS" property="individualPayments" />
+        <result column="DETAIL_ERROR" property="detailError" />
+        <result column="WESTERN_MEDICINE_COSTS" property="westernMedicineCosts" />
+        <result column="CHN_PATENT_MED_COSTS" property="chnPatentMedCosts" />
+        <result column="CHN_TRADITONAL_DRUG_COSTS" property="chnTraditonalDrugCosts" />
+        <result column="ROUTINE_EXAM_COSTS" property="routineExamCosts" />
+        <result column="CT_COSTS" property="ctCosts" />
+        <result column="NMR_COSTS" property="nmrCosts" />
+        <result column="B_ULTRASOUND_COSTS" property="bUltrasoundCosts" />
+        <result column="OXYGEN_COSTS" property="oxygenCosts" />
+        <result column="SURGERY_COSTS" property="surgeryCosts" />
+        <result column="TREATMENT_COSTS" property="treatmentCosts" />
+        <result column="RADIOTHERAPY_COSTS" property="radiotherapyCosts" />
+        <result column="ASSAY_COSTS" property="assayCosts" />
+        <result column="ORTHODONTICS_COSTS" property="orthodonticsCosts" />
+        <result column="DENTURISTS_COSTS" property="denturistsCosts" />
+        <result column="PSHCHO_TEST_COSTS" property="pshchoTestCosts" />
+        <result column="JUDICIAL_APPRAISAL_COSTS" property="judicialAppraisalCosts" />
+        <result column="MATERIAL_COSTS" property="materialCosts" />
+        <result column="UNIT_PAYMENTS" property="unitPayments" />
+        <result column="OTHER_COSTS" property="otherCosts" />
+        <result column="UPLOAD_NUMBER" property="uploadNumber" />
+        <result column="UPLOAD_TIME" property="uploadTime" />
+        <result column="UPLOAD_STATUS" property="uploadStatus" />
+        <result column="STORAGE_STATUS" property="storageStatus" />
+        <result column="AUDIT_STATUS" property="auditStatus" />
+        <result column="REFUND_MARK" property="refundMark" />
+        <result column="PRE_TRAN_SERIAL_NUMBER" property="preTranSerialNumber" />
+        <result column="REPORT_NUMBER" property="reportNumber" />
+        <result column="TRANSCATION_STATUS" property="transcationStatus" />
+        <result column="HIS_VERSION_NUMBER" property="hisVersionNumber" />
+        <result column="BLOOD_TRANSFUSION_COSTS" property="bloodTransfusionCosts" />
+        <result column="ROW_NUMBER" property="rowNumber" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TRANSACTION_SERIAL_NUMBER, TRANSACTION_DATE, INSURANCE_TYPE, MEDICAL_TYPE, MEDICARE_NUMBER, ID_NUMBER, PATIENT_NAME, SEX, INVOICE_NUMBER, SUM_PAYMENTS, FUND_PAYMENTS, INDIVIDUAL_PAYMENTS, DETAIL_ERROR, WESTERN_MEDICINE_COSTS, CHN_PATENT_MED_COSTS, CHN_TRADITONAL_DRUG_COSTS, ROUTINE_EXAM_COSTS, CT_COSTS, NMR_COSTS, B_ULTRASOUND_COSTS, OXYGEN_COSTS, SURGERY_COSTS, TREATMENT_COSTS, RADIOTHERAPY_COSTS, ASSAY_COSTS, ORTHODONTICS_COSTS, DENTURISTS_COSTS, PSHCHO_TEST_COSTS, JUDICIAL_APPRAISAL_COSTS, MATERIAL_COSTS, UNIT_PAYMENTS, OTHER_COSTS, UPLOAD_NUMBER, UPLOAD_TIME, UPLOAD_STATUS, STORAGE_STATUS, AUDIT_STATUS, REFUND_MARK, PRE_TRAN_SERIAL_NUMBER, REPORT_NUMBER, TRANSCATION_STATUS, HIS_VERSION_NUMBER, BLOOD_TRANSFUSION_COSTS, ROW_NUMBER
+    </sql>
+
+</mapper>

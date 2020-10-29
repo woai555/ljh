@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LOverresultMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LOverresult">
+        <id column="PRESCRIPTNO" property="prescriptno" />
+        <result column="INOROUT" property="inorout" />
+        <result column="CARDID" property="cardid" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="NAME" property="name" />
+        <result column="SEX" property="sex" />
+        <result column="AGE" property="age" />
+        <result column="ADDRESS" property="address" />
+        <result column="HOMEPLACE" property="homeplace" />
+        <result column="CHECKDEPTID" property="checkdeptid" />
+        <result column="CHECKDATE" property="checkdate" />
+        <result column="CHECKRESULT" property="checkresult" />
+        <result column="ITEM_CODE" property="itemCode" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        PRESCRIPTNO, INOROUT, CARDID, PATIENTID, INPATIENTNO, NAME, SEX, AGE, ADDRESS, HOMEPLACE, CHECKDEPTID, CHECKDATE, CHECKRESULT, ITEM_CODE
+    </sql>
+
+</mapper>

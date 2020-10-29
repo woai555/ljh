@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.OOpsdesklogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.OOpsdesklog">
+        <id column="ROOMID" property="roomid" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="OPSROOMID" property="opsroomid" />
+        <result column="OPSROOMNAME" property="opsroomname" />
+        <result column="OPSDESKCODE" property="opsdeskcode" />
+        <result column="OPSDEKSNAME" property="opsdeksname" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ROOMID, ROOMNAME, OPSROOMID, OPSROOMNAME, OPSDESKCODE, OPSDEKSNAME
+    </sql>
+
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppRegisterYyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppRegisterYy">
+        <result column="CARD_NO" property="cardNo" />
+        <result column="CARD_TYPE" property="cardType" />
+        <result column="PAT_NAME" property="patName" />
+        <result column="PHONE" property="phone" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="ACCESS_PAT_ID" property="accessPatId" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="ACCESS_REG_ID" property="accessRegId" />
+        <result column="REG_STATUS" property="regStatus" />
+        <result column="PAY_STATUS" property="payStatus" />
+        <result column="MEDICAL_SERVICE_CHARGE" property="medicalServiceCharge" />
+        <result column="ORDER_TIME" property="orderTime" />
+        <result column="PAY_BY" property="payBy" />
+        <result column="EXPECT_DATE" property="expectDate" />
+        <result column="EXPECT_STIME" property="expectStime" />
+        <result column="EXPECT_ETIME" property="expectEtime" />
+        <result column="EXPECT_ADDR" property="expectAddr" />
+        <result column="REG_FEE" property="regFee" />
+        <result column="DAY_TYPE" property="dayType" />
+        <result column="DOC_ID" property="docId" />
+        <result column="MEDI_LEVEL" property="mediLevel" />
+        <result column="DOC_VIRTUAL_NAME" property="docVirtualName" />
+        <result column="TAKE_PASSWORD" property="takePassword" />
+        <result column="WAIT_ADDR" property="waitAddr" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARD_NO, CARD_TYPE, PAT_NAME, PHONE, ID_CARD_NO, ID_CARD_TYPE, ACCESS_PAT_ID, DEPT_NAME, ACCESS_REG_ID, REG_STATUS, PAY_STATUS, MEDICAL_SERVICE_CHARGE, ORDER_TIME, PAY_BY, EXPECT_DATE, EXPECT_STIME, EXPECT_ETIME, EXPECT_ADDR, REG_FEE, DAY_TYPE, DOC_ID, MEDI_LEVEL, DOC_VIRTUAL_NAME, TAKE_PASSWORD, WAIT_ADDR
+    </sql>
+
+</mapper>

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewEmChangeroom;
-import com.ljh.mapper.ViewEmChangeroomMapper;
+import com.ljh.daoMz.ViewEmChangeroomMapper;
 import com.ljh.service.ViewEmChangeroomService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJhyltGh;
-import com.ljh.mapper.ViewJhyltGhMapper;
+import com.ljh.daoMz.ViewJhyltGhMapper;
 import com.ljh.service.ViewJhyltGhService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdCombine;
-import com.ljh.mapper.OrdCombineMapper;
+import com.ljh.daoMz.OrdCombineMapper;
 import com.ljh.service.OrdCombineService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

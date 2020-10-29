@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OOpsfeelog;
-import com.ljh.mapper.OOpsfeelogMapper;
+import com.ljh.daoMz.OOpsfeelogMapper;
 import com.ljh.service.OOpsfeelogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

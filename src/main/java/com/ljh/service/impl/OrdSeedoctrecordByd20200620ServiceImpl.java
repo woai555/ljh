@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdSeedoctrecordByd20200620;
-import com.ljh.mapper.OrdSeedoctrecordByd20200620Mapper;
+import com.ljh.daoMz.OrdSeedoctrecordByd20200620Mapper;
 import com.ljh.service.OrdSeedoctrecordByd20200620Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RSfxmoutbak;
-import com.ljh.mapper.RSfxmoutbakMapper;
+import com.ljh.daoMz.RSfxmoutbakMapper;
 import com.ljh.service.RSfxmoutbakService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

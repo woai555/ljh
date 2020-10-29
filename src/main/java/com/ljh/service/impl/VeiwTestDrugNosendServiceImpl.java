@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VeiwTestDrugNosend;
-import com.ljh.mapper.VeiwTestDrugNosendMapper;
+import com.ljh.daoMz.VeiwTestDrugNosendMapper;
 import com.ljh.service.VeiwTestDrugNosendService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

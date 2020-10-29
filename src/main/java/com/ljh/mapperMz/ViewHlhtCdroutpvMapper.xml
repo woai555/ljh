@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtCdroutpvMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdroutpv">
+        <result column="OUT_PATIENT_ID" property="outPatientId" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="OUTP_NO" property="outpNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="EMERGENCY_VISIT_IND" property="emergencyVisitInd" />
+        <result column="PERSON_NAME" property="personName" />
+        <result column="CHARGE_TYPE" property="chargeType" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="SEX" property="sex" />
+        <result column="MARITAL_STATUS" property="maritalStatus" />
+        <result column="OCCUPATION" property="occupation" />
+        <result column="PHONE_NUMBER" property="phoneNumber" />
+        <result column="MAILING_ADDRESS" property="mailingAddress" />
+        <result column="VISIT_DEPT" property="visitDept" />
+        <result column="VISIT_DOCTOR" property="visitDoctor" />
+        <result column="REG_CATEGORY" property="regCategory" />
+        <result column="REG_TYPE" property="regType" />
+        <result column="REG_VISIT_SECTION" property="regVisitSection" />
+        <result column="REGISTER_BY" property="registerBy" />
+        <result column="REGISTING_TIME" property="registingTime" />
+        <result column="MARK_BY" property="markBy" />
+        <result column="MARK_TIME" property="markTime" />
+        <result column="REGISTER_CANCEL_BY" property="registerCancelBy" />
+        <result column="REGISTER_CANCEL_TIME" property="registerCancelTime" />
+        <result column="SEPARATE_TIME" property="separateTime" />
+        <result column="SEPARATE_OPER" property="separateOper" />
+        <result column="SEPARATE_NO" property="separateNo" />
+        <result column="FIRSTV_INDICATOR" property="firstvIndicator" />
+        <result column="VISIT_TIME" property="visitTime" />
+        <result column="VISIT_CONSALT_ROOM" property="visitConsaltRoom" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUT_PATIENT_ID, HEALTH_CARD_NO, OUTP_NO, VISIT_ID, VISIT_TYPE, EMERGENCY_VISIT_IND, PERSON_NAME, CHARGE_TYPE, DATE_OF_BIRTH, ID_CARD_NO, SEX, MARITAL_STATUS, OCCUPATION, PHONE_NUMBER, MAILING_ADDRESS, VISIT_DEPT, VISIT_DOCTOR, REG_CATEGORY, REG_TYPE, REG_VISIT_SECTION, REGISTER_BY, REGISTING_TIME, MARK_BY, MARK_TIME, REGISTER_CANCEL_BY, REGISTER_CANCEL_TIME, SEPARATE_TIME, SEPARATE_OPER, SEPARATE_NO, FIRSTV_INDICATOR, VISIT_TIME, VISIT_CONSALT_ROOM, OPERATE_TYPE, OPERATORTIME
+    </sql>
+
+</mapper>

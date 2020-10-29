@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TriSeeRecord;
-import com.ljh.mapper.TriSeeRecordMapper;
+import com.ljh.daoMz.TriSeeRecordMapper;
 import com.ljh.service.TriSeeRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

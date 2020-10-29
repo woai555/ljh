@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJhDzblUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJhDzblUser">
+        <result column="DB_USER" property="dbUser" />
+        <result column="USER_ID" property="userId" />
+        <result column="USER_NAME" property="userName" />
+        <result column="USER_DEPT" property="userDept" />
+        <result column="CREATE_DATE" property="createDate" />
+        <result column="USER_PWD" property="userPwd" />
+        <result column="INPUT_CODE" property="inputCode" />
+        <result column="PYM" property="pym" />
+        <result column="WBM" property="wbm" />
+        <result column="DOMAINUSER" property="domainuser" />
+        <result column="SECRET_LEVEL" property="secretLevel" />
+        <result column="USER_LOGIN_NAME" property="userLoginName" />
+        <result column="GROUP_CODE" property="groupCode" />
+        <result column="EDUCATION_TITLE" property="educationTitle" />
+        <result column="EDUCATION_TITLE_CODE" property="educationTitleCode" />
+        <result column="EDUCATION_FLAG" property="educationFlag" />
+        <result column="CA_NO" property="caNo" />
+        <result column="USER_TYPE" property="userType" />
+        <result column="USER_DUTY_NAME" property="userDutyName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DB_USER, USER_ID, USER_NAME, USER_DEPT, CREATE_DATE, USER_PWD, INPUT_CODE, PYM, WBM, DOMAINUSER, SECRET_LEVEL, USER_LOGIN_NAME, GROUP_CODE, EDUCATION_TITLE, EDUCATION_TITLE_CODE, EDUCATION_FLAG, CA_NO, USER_TYPE, USER_DUTY_NAME
+    </sql>
+
+</mapper>

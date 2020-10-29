@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.VEmployeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VEmployee">
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="EMPL_NAME" property="emplName" />
+        <result column="EMPL_ENAME" property="emplEname" />
+        <result column="SEX_CODE" property="sexCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="YNEXPERT" property="ynexpert" />
+        <result column="GROUP_NAME" property="groupName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        EMPL_CODE, EMPL_NAME, EMPL_ENAME, SEX_CODE, DEPT_CODE, YNEXPERT, GROUP_NAME
+    </sql>
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.LGermantibioticMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.LGermantibiotic">
+        <id column="GERMGROUPID" property="germgroupid" />
+        <result column="ITEMCODE" property="itemcode" />
+        <result column="ITEMNAME" property="itemname" />
+        <result column="DISPORDER" property="disporder" />
+        <result column="UPPERLIMIT" property="upperlimit" />
+        <result column="LOWERLIMIT" property="lowerlimit" />
+        <result column="RESULTUNIT" property="resultunit" />
+        <result column="OPERATORID" property="operatorid" />
+        <result column="OPERDATE" property="operdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        GERMGROUPID, ITEMCODE, ITEMNAME, DISPORDER, UPPERLIMIT, LOWERLIMIT, RESULTUNIT, OPERATORID, OPERDATE
+    </sql>
+
+</mapper>

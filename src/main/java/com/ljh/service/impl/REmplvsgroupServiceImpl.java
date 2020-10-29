@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.REmplvsgroup;
-import com.ljh.mapper.REmplvsgroupMapper;
+import com.ljh.daoMz.REmplvsgroupMapper;
 import com.ljh.service.REmplvsgroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

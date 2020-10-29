@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytNewacountHis;
-import com.ljh.mapper.JytNewacountHisMapper;
+import com.ljh.daoMz.JytNewacountHisMapper;
 import com.ljh.service.JytNewacountHisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

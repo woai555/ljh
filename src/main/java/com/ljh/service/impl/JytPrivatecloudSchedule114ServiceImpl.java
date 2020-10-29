@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytPrivatecloudSchedule114;
-import com.ljh.mapper.JytPrivatecloudSchedule114Mapper;
+import com.ljh.daoMz.JytPrivatecloudSchedule114Mapper;
 import com.ljh.service.JytPrivatecloudSchedule114Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

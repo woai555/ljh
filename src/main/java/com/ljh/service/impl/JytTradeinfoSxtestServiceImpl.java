@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytTradeinfoSxtest;
-import com.ljh.mapper.JytTradeinfoSxtestMapper;
+import com.ljh.daoMz.JytTradeinfoSxtestMapper;
 import com.ljh.service.JytTradeinfoSxtestService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

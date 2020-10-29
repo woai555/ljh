@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.WfDeprule;
-import com.ljh.mapper.WfDepruleMapper;
+import com.ljh.daoMz.WfDepruleMapper;
 import com.ljh.service.WfDepruleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

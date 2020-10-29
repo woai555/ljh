@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MrmtlendMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.Mrmtlend">
+        <id column="LEN_INPATIENTNO" property="lenInpatientno" />
+        <result column="LEN_CARDNO" property="lenCardno" />
+        <result column="LEN_PNAME" property="lenPname" />
+        <result column="LEN_SEX" property="lenSex" />
+        <result column="LEN_BIRTH" property="lenBirth" />
+        <result column="LEN_STUS" property="lenStus" />
+        <result column="LEN_LNDTIME" property="lenLndtime" />
+        <result column="LEN_PRDTIME" property="lenPrdtime" />
+        <result column="LEN_REDTIME" property="lenRedtime" />
+        <result column="LEN_RSON" property="lenRson" />
+        <result column="LEN_LCODE" property="lenLcode" />
+        <result column="LEN_LNAME" property="lenLname" />
+        <result column="LEN_DEPT" property="lenDept" />
+        <result column="LEN_OPER" property="lenOper" />
+        <result column="LEN_OPDTIME" property="lenOpdtime" />
+        <result column="LEN_BACKOPER" property="lenBackoper" />
+        <result column="LEN_BACKOPDTIME" property="lenBackopdtime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        LEN_INPATIENTNO, LEN_CARDNO, LEN_PNAME, LEN_SEX, LEN_BIRTH, LEN_STUS, LEN_LNDTIME, LEN_PRDTIME, LEN_REDTIME, LEN_RSON, LEN_LCODE, LEN_LNAME, LEN_DEPT, LEN_OPER, LEN_OPDTIME, LEN_BACKOPER, LEN_BACKOPDTIME
+    </sql>
+
+</mapper>

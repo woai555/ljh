@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RInsource;
-import com.ljh.mapper.RInsourceMapper;
+import com.ljh.daoMz.RInsourceMapper;
 import com.ljh.service.RInsourceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

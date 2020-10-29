@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewJiaheMzDruginfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewJiaheMzDruginfo">
+        <result column="DRUG_CODE" property="drugCode" />
+        <result column="TRADE_NAME" property="tradeName" />
+        <result column="FORMAL_NAME" property="formalName" />
+        <result column="BASE_DOSE" property="baseDose" />
+        <result column="DOSE_UNIT" property="doseUnit" />
+        <result column="MIN_UNIT" property="minUnit" />
+        <result column="PACK_UNIT" property="packUnit" />
+        <result column="PACK_QTY" property="packQty" />
+        <result column="SPECS" property="specs" />
+        <result column="ANTIBIOTIC_TYPE" property="antibioticType" />
+        <result column="ANTIBIOTIC_TYPE_NAME" property="antibioticTypeName" />
+        <result column="PSY_FLAG" property="psyFlag" />
+        <result column="PSY_FLAG_NAME" property="psyFlagName" />
+        <result column="DRUG_TYPE" property="drugType" />
+        <result column="DRUG_TYPE_NAME" property="drugTypeName" />
+        <result column="DRUG_QUALITY" property="drugQuality" />
+        <result column="DRUG_QUALITY_NAME" property="drugQualityName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DRUG_CODE, TRADE_NAME, FORMAL_NAME, BASE_DOSE, DOSE_UNIT, MIN_UNIT, PACK_UNIT, PACK_QTY, SPECS, ANTIBIOTIC_TYPE, ANTIBIOTIC_TYPE_NAME, PSY_FLAG, PSY_FLAG_NAME, DRUG_TYPE, DRUG_TYPE_NAME, DRUG_QUALITY, DRUG_QUALITY_NAME
+    </sql>
+
+</mapper>

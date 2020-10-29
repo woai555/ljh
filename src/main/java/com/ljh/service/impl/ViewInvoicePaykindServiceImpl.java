@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewInvoicePaykind;
-import com.ljh.mapper.ViewInvoicePaykindMapper;
+import com.ljh.daoMz.ViewInvoicePaykindMapper;
 import com.ljh.service.ViewInvoicePaykindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

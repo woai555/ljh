@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.MedicineFunctionclassMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.MedicineFunctionclass">
+        <id column="FUNCTION_CODE" property="functionCode" />
+        <result column="FUNCTION_NAME" property="functionName" />
+        <result column="USE_STATUS" property="useStatus" />
+        <result column="REMARK" property="remark" />
+        <result column="TYPE" property="type" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FUNCTION_CODE, FUNCTION_NAME, USE_STATUS, REMARK, TYPE
+    </sql>
+
+</mapper>

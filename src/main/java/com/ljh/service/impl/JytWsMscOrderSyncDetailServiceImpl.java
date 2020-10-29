@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytWsMscOrderSyncDetail;
-import com.ljh.mapper.JytWsMscOrderSyncDetailMapper;
+import com.ljh.daoMz.JytWsMscOrderSyncDetailMapper;
 import com.ljh.service.JytWsMscOrderSyncDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

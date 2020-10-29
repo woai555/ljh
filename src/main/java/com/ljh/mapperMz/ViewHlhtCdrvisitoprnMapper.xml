@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtCdrvisitoprnMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdrvisitoprn">
+        <result column="OUT_PATIENT_ID" property="outPatientId" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="PATIENT_TYPE" property="patientType" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="PERSON_NAME" property="personName" />
+        <result column="SEX" property="sex" />
+        <result column="DATE_OF_BIRTH" property="dateOfBirth" />
+        <result column="AGE" property="age" />
+        <result column="ID_CARD_TYPE" property="idCardType" />
+        <result column="ID_CARD_NO" property="idCardNo" />
+        <result column="PHONE_NUMBER" property="phoneNumber" />
+        <result column="CHARGE_TYPE" property="chargeType" />
+        <result column="ORDER_NO" property="orderNo" />
+        <result column="CHARGE_NO" property="chargeNo" />
+        <result column="ORDER_ITEM" property="orderItem" />
+        <result column="APPLY_NO" property="applyNo" />
+        <result column="APPLY_DOCTOR" property="applyDoctor" />
+        <result column="APPLY_DEPT" property="applyDept" />
+        <result column="APPLY_TIME" property="applyTime" />
+        <result column="APPLY_MEMO" property="applyMemo" />
+        <result column="DIAGNOSIS" property="diagnosis" />
+        <result column="DIAGNOSIS_DESC" property="diagnosisDesc" />
+        <result column="HEIGHT" property="height" />
+        <result column="WEIGHT" property="weight" />
+        <result column="APPLY_MATTERS" property="applyMatters" />
+        <result column="EXAM_PART" property="examPart" />
+        <result column="EXAM_CLAS" property="examClas" />
+        <result column="EXAM_SUB_CLASS" property="examSubClass" />
+        <result column="EXAM_ITEM" property="examItem" />
+        <result column="METAL_FLAG" property="metalFlag" />
+        <result column="ENHANCE_FLAG" property="enhanceFlag" />
+        <result column="PLAN_EXAM_TIME" property="planExamTime" />
+        <result column="LIVER_KIDNEY_LACK" property="liverKidneyLack" />
+        <result column="DOSE_ALLERGIC" property="doseAllergic" />
+        <result column="SAMPLE_NO" property="sampleNo" />
+        <result column="SAMPLE_REQUIRE" property="sampleRequire" />
+        <result column="LAB_TYPE" property="labType" />
+        <result column="SAMPLE_NURSE" property="sampleNurse" />
+        <result column="SPECIMAN_TYPE" property="specimanType" />
+        <result column="SAMPLING_POSITION" property="samplingPosition" />
+        <result column="SAMPLE_METHOD" property="sampleMethod" />
+        <result column="SAMPLE_VOLUME" property="sampleVolume" />
+        <result column="PLAN_SAMPLE_TIME" property="planSampleTime" />
+        <result column="PLAN_SAMPLE_WINDOW" property="planSampleWindow" />
+        <result column="ORDER_STATUS" property="orderStatus" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUT_PATIENT_ID, HEALTH_CARD_NO, PATIENT_TYPE, VISIT_ID, VISIT_TYPE, PERSON_NAME, SEX, DATE_OF_BIRTH, AGE, ID_CARD_TYPE, ID_CARD_NO, PHONE_NUMBER, CHARGE_TYPE, ORDER_NO, CHARGE_NO, ORDER_ITEM, APPLY_NO, APPLY_DOCTOR, APPLY_DEPT, APPLY_TIME, APPLY_MEMO, DIAGNOSIS, DIAGNOSIS_DESC, HEIGHT, WEIGHT, APPLY_MATTERS, EXAM_PART, EXAM_CLAS, EXAM_SUB_CLASS, EXAM_ITEM, METAL_FLAG, ENHANCE_FLAG, PLAN_EXAM_TIME, LIVER_KIDNEY_LACK, DOSE_ALLERGIC, SAMPLE_NO, SAMPLE_REQUIRE, LAB_TYPE, SAMPLE_NURSE, SPECIMAN_TYPE, SAMPLING_POSITION, SAMPLE_METHOD, SAMPLE_VOLUME, PLAN_SAMPLE_TIME, PLAN_SAMPLE_WINDOW, ORDER_STATUS, OPERATE_TYPE, OPERATORTIME
+    </sql>
+
+</mapper>

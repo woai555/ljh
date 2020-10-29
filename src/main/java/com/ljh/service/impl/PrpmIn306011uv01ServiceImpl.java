@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrpmIn306011uv01;
-import com.ljh.mapper.PrpmIn306011uv01Mapper;
+import com.ljh.daoMz.PrpmIn306011uv01Mapper;
 import com.ljh.service.PrpmIn306011uv01Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

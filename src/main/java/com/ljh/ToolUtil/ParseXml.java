@@ -44,43 +44,21 @@ public class ParseXml {
         return hashMap;
     }
 
-    public static List<Map<String,String>> parseXmltoArray(String xml,String nodeName) throws DocumentException {
+    public static List<String> parseXmltoArray(String xml,String nodeName,String subNodename) throws DocumentException {
 //        SAXReader saxReader = new SAXReader();
         Document document = null;
-        List<Map<String,String>> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         try {
             document = DocumentHelper.parseText(xml);
             Element root = document.getRootElement();
             Element input = root.element("Input");
-//            Element node = input.element(nodeName);
+            Element node = input.element(nodeName);
 
-            Iterator iterator = input.elementIterator();
+            Iterator iterator = node.elementIterator();
 
             while(iterator.hasNext()){
-                Map<String,String> map = new HashMap<>();
                 Element element = (Element) iterator.next();
-//                Iterator iterator1 = element.elementIterator();
-//                while(iterator1.hasNext()){
-//                    Element element1 = (Element) iterator1.next();
-//                    map.put(element1.getName(),element1.getText());
-//                }
-
-                if(element.getName().equals(nodeName)){
-                    Iterator iterator1 = element.elementIterator();
-                    while (iterator1.hasNext()){
-                        Map<String,String> subMap = new HashMap<>();
-                        Element element1 = (Element) iterator1.next();
-                        subMap.put(element1.getName(),element1.getText());
-                        list.add(subMap);
-//                        System.out.println(list);
-                    }
-                }else {
-                    map.put(element.getName(),element.getText());
-                }
-                if(!map.isEmpty()){
-                    list.add(map);
-                }
-
+                list.add(element.element(subNodename).getText());
             }
         } catch (DocumentException e) {
             e.printStackTrace();
@@ -118,7 +96,7 @@ public class ParseXml {
 
         Element appendXml = appendDocument.getRootElement();
         Element root = document.getRootElement();
-        Element body = root.element("Body");
+        Element body = root.element("Output");
         body.add(appendXml);
         return document.asXML();
     }
@@ -217,4 +195,7 @@ public class ParseXml {
         json.put(nodeName, object);
         return ;
     }
+
+
+
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.RDoctreglmtMaintanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.RDoctreglmtMaintance">
+        <id column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="WEEK" property="week" />
+        <result column="FIR_REG_LMT" property="firRegLmt" />
+        <result column="OPER_DATE" property="operDate" />
+        <result column="OPER_CODE" property="operCode" />
+        <result column="MAX_REG_LMT" property="maxRegLmt" />
+        <result column="SPECIALGROUP" property="specialgroup" />
+        <result column="FLAG" property="flag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, EMPL_CODE, DEPT_CODE, REGLEVL_CODE, WEEK, FIR_REG_LMT, OPER_DATE, OPER_CODE, MAX_REG_LMT, SPECIALGROUP, FLAG
+    </sql>
+
+</mapper>

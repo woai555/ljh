@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TriQueueRecord;
-import com.ljh.mapper.TriQueueRecordMapper;
+import com.ljh.daoMz.TriQueueRecordMapper;
 import com.ljh.service.TriQueueRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

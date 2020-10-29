@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewRexNoontimeAvailZzdefMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewRexNoontimeAvailZzdef">
+        <result column="SEE_DATE" property="seeDate" />
+        <result column="NOON_CODE" property="noonCode" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="EMPL_CODE" property="emplCode" />
+        <result column="REGLEVL_CODE" property="reglevlCode" />
+        <result column="FIR_REG_LMT" property="firRegLmt" />
+        <result column="TIME_CODE" property="timeCode" />
+        <result column="FLAG" property="flag" />
+        <result column="EMPL_NAME" property="emplName" />
+        <result column="LL_YY" property="llYy" />
+        <result column="LL_REG" property="llReg" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SEE_DATE, NOON_CODE, DEPT_CODE, EMPL_CODE, REGLEVL_CODE, FIR_REG_LMT, TIME_CODE, FLAG, EMPL_NAME, LL_YY, LL_REG
+    </sql>
+
+</mapper>

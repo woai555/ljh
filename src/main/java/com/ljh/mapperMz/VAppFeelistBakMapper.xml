@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.daoMz.VAppFeelistBakMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.VAppFeelistBak">
+        <result column="FEENO" property="feeno" />
+        <result column="FEENAME" property="feename" />
+        <result column="CRTREPTIME" property="crtreptime" />
+        <result column="TOTALCOST" property="totalcost" />
+        <result column="HEALCOST" property="healcost" />
+        <result column="SELFCOST" property="selfcost" />
+        <result column="PAYBY" property="payby" />
+        <result column="PAYTIME" property="paytime" />
+        <result column="PAYSTATUS" property="paystatus" />
+        <result column="VISITINGTIME" property="visitingtime" />
+        <result column="DIAGNOSIS" property="diagnosis" />
+        <result column="DEPTNAME" property="deptname" />
+        <result column="DOCNAME" property="docname" />
+        <result column="PATNAME" property="patname" />
+        <result column="IDCARDTYPE" property="idcardtype" />
+        <result column="IDCARDNO" property="idcardno" />
+        <result column="ACCESSPATID" property="accesspatid" />
+        <result column="PATCARDTYPE" property="patcardtype" />
+        <result column="PATCARDNO" property="patcardno" />
+        <result column="PAYBYNAME" property="paybyname" />
+        <result column="ELEPAYNO" property="elepayno" />
+        <result column="GUIDEINFO" property="guideinfo" />
+        <result column="FB1" property="fb1" />
+        <result column="REG_TIME" property="regTime" />
+        <result column="CARD_NO" property="cardNo" />
+        <result column="STARTDATE" property="startdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FEENO, FEENAME, CRTREPTIME, TOTALCOST, HEALCOST, SELFCOST, PAYBY, PAYTIME, PAYSTATUS, VISITINGTIME, DIAGNOSIS, DEPTNAME, DOCNAME, PATNAME, IDCARDTYPE, IDCARDNO, ACCESSPATID, PATCARDTYPE, PATCARDNO, PAYBYNAME, ELEPAYNO, GUIDEINFO, FB1, REG_TIME, CARD_NO, STARTDATE
+    </sql>
+
+</mapper>

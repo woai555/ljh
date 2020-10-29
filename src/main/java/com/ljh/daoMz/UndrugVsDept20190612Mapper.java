@@ -1,0 +1,16 @@
+package com.ljh.daoMz;
+
+import com.ljh.bean.UndrugVsDept20190612;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author ljh
+ * @since 2020-10-26
+ */
+public interface UndrugVsDept20190612Mapper extends BaseMapper<UndrugVsDept20190612> {
+
+}

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewCbhsMachine;
-import com.ljh.mapper.ViewCbhsMachineMapper;
+import com.ljh.daoMz.ViewCbhsMachineMapper;
 import com.ljh.service.ViewCbhsMachineService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

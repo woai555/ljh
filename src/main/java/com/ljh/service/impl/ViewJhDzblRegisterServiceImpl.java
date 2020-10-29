@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJhDzblRegister;
-import com.ljh.mapper.ViewJhDzblRegisterMapper;
+import com.ljh.daoMz.ViewJhDzblRegisterMapper;
 import com.ljh.service.ViewJhDzblRegisterService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

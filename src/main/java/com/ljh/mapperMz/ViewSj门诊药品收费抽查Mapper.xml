@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewSj门诊药品收费抽查Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj门诊药品收费抽查">
+        <result column="诊疗卡号" property="诊疗卡号" />
+        <result column="医嘱编号" property="医嘱编号" />
+        <result column="分项序号" property="分项序号" />
+        <result column="收费项目" property="收费项目" />
+        <result column="单价" property="单价" />
+        <result column="数量" property="数量" />
+        <result column="金额" property="金额" />
+        <result column="发药时间" property="发药时间" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        诊疗卡号, 医嘱编号, 分项序号, 收费项目, 单价, 数量, 金额, 发药时间
+    </sql>
+
+</mapper>

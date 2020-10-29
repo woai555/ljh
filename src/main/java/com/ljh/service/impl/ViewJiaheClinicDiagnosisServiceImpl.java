@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheClinicDiagnosis;
-import com.ljh.mapper.ViewJiaheClinicDiagnosisMapper;
+import com.ljh.daoMz.ViewJiaheClinicDiagnosisMapper;
 import com.ljh.service.ViewJiaheClinicDiagnosisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHrpLgtbYbincomeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHrpLgtbYbincome">
+        <result column="INVOICE_DTIME" property="invoiceDtime" />
+        <result column="CONSIGN_NO" property="consignNo" />
+        <result column="CONSIGN_NAME" property="consignName" />
+        <result column="KIND_NAME" property="kindName" />
+        <result column="ALL_COST" property="allCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INVOICE_DTIME, CONSIGN_NO, CONSIGN_NAME, KIND_NAME, ALL_COST
+    </sql>
+
+</mapper>

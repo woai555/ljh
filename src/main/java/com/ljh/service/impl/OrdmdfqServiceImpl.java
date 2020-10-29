@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.Ordmdfq;
-import com.ljh.mapper.OrdmdfqMapper;
+import com.ljh.daoMz.OrdmdfqMapper;
 import com.ljh.service.OrdmdfqService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SmsHqlisErrDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SmsHqlisErrDetail">
+        <id column="IPM_SQN" property="ipmSqn" />
+        <result column="BEDNO" property="bedno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="NAME" property="name" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="CONTECT" property="contect" />
+        <result column="ROOMID" property="roomid" />
+        <result column="SENDTIME" property="sendtime" />
+        <result column="YN_NURSE" property="ynNurse" />
+        <result column="NURSEID" property="nurseid" />
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="NURSE_TIME" property="nurseTime" />
+        <result column="NDATE" property="ndate" />
+        <result column="SPECIMENNO" property="specimenno" />
+        <result column="TESTINDEX" property="testindex" />
+        <result column="FIRST_NURSEID" property="firstNurseid" />
+        <result column="FIRST_NURSE_TIME" property="firstNurseTime" />
+        <result column="HANDLE_REMARK" property="handleRemark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        IPM_SQN, BEDNO, PATIENTID, NAME, ROOMNAME, CONTECT, ROOMID, SENDTIME, YN_NURSE, NURSEID, INPATIENTNO, NURSE_TIME, NDATE, SPECIMENNO, TESTINDEX, FIRST_NURSEID, FIRST_NURSE_TIME, HANDLE_REMARK
+    </sql>
+
+</mapper>

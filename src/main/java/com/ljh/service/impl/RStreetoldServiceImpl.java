@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RStreetold;
-import com.ljh.mapper.RStreetoldMapper;
+import com.ljh.daoMz.RStreetoldMapper;
 import com.ljh.service.RStreetoldService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

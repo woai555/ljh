@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RMeetkind;
-import com.ljh.mapper.RMeetkindMapper;
+import com.ljh.daoMz.RMeetkindMapper;
 import com.ljh.service.RMeetkindService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

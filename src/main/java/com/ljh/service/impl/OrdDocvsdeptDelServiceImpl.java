@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdDocvsdeptDel;
-import com.ljh.mapper.OrdDocvsdeptDelMapper;
+import com.ljh.daoMz.OrdDocvsdeptDelMapper;
 import com.ljh.service.OrdDocvsdeptDelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

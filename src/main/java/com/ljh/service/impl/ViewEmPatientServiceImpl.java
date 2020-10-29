@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewEmPatient;
-import com.ljh.mapper.ViewEmPatientMapper;
+import com.ljh.daoMz.ViewEmPatientMapper;
 import com.ljh.service.ViewEmPatientService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdHealthRecipe;
-import com.ljh.mapper.OrdHealthRecipeMapper;
+import com.ljh.daoMz.OrdHealthRecipeMapper;
 import com.ljh.service.OrdHealthRecipeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

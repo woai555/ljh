@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.VImsOutpatientVisit;
-import com.ljh.mapper.VImsOutpatientVisitMapper;
+import com.ljh.daoMz.VImsOutpatientVisitMapper;
 import com.ljh.service.VImsOutpatientVisitService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

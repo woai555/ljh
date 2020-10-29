@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.JytBillPrintItem;
-import com.ljh.mapper.JytBillPrintItemMapper;
+import com.ljh.daoMz.JytBillPrintItemMapper;
 import com.ljh.service.JytBillPrintItemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

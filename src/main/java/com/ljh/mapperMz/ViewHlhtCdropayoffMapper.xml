@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewHlhtCdropayoffMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewHlhtCdropayoff">
+        <result column="OUT_PATIENT_ID" property="outPatientId" />
+        <result column="HEALTH_CARD_NO" property="healthCardNo" />
+        <result column="OUTP_NO" property="outpNo" />
+        <result column="VISIT_ID" property="visitId" />
+        <result column="VISIT_TYPE" property="visitType" />
+        <result column="RECEIPT_SN" property="receiptSn" />
+        <result column="TRANSACTION_TYPE" property="transactionType" />
+        <result column="INVALID_RECEIPT_SN" property="invalidReceiptSn" />
+        <result column="RECEIPT_PRINT_TIME" property="receiptPrintTime" />
+        <result column="RECEIPT_PRINT_0NE" property="receiptPrint0ne" />
+        <result column="LEDGER_SN" property="ledgerSn" />
+        <result column="PAYOFF_TOTAL_FEE" property="payoffTotalFee" />
+        <result column="PUB_COST" property="pubCost" />
+        <result column="CANCEL_FALG" property="cancelFalg" />
+        <result column="INVALID_TIME" property="invalidTime" />
+        <result column="INVALID_PERSON" property="invalidPerson" />
+        <result column="PAYOFF_OPERATOR" property="payoffOperator" />
+        <result column="PAYOFF_TIME" property="payoffTime" />
+        <result column="PAYOFF_WINDOW" property="payoffWindow" />
+        <result column="PAYOFF_DEPT" property="payoffDept" />
+        <result column="PAYOFF_METHOD" property="payoffMethod" />
+        <result column="PAYMENT_FEE" property="paymentFee" />
+        <result column="PAYMENT_OPERATOR" property="paymentOperator" />
+        <result column="PAYMENT_TIME" property="paymentTime" />
+        <result column="PAYMENT_WINDOW" property="paymentWindow" />
+        <result column="PAYMENT_DEPT" property="paymentDept" />
+        <result column="PAYMENT_METHOD" property="paymentMethod" />
+        <result column="OPERATE_TYPE" property="operateType" />
+        <result column="OPERATORTIME" property="operatortime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OUT_PATIENT_ID, HEALTH_CARD_NO, OUTP_NO, VISIT_ID, VISIT_TYPE, RECEIPT_SN, TRANSACTION_TYPE, INVALID_RECEIPT_SN, RECEIPT_PRINT_TIME, RECEIPT_PRINT_0NE, LEDGER_SN, PAYOFF_TOTAL_FEE, PUB_COST, CANCEL_FALG, INVALID_TIME, INVALID_PERSON, PAYOFF_OPERATOR, PAYOFF_TIME, PAYOFF_WINDOW, PAYOFF_DEPT, PAYOFF_METHOD, PAYMENT_FEE, PAYMENT_OPERATOR, PAYMENT_TIME, PAYMENT_WINDOW, PAYMENT_DEPT, PAYMENT_METHOD, OPERATE_TYPE, OPERATORTIME
+    </sql>
+
+</mapper>

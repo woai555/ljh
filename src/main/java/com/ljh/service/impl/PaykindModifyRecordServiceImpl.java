@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PaykindModifyRecord;
-import com.ljh.mapper.PaykindModifyRecordMapper;
+import com.ljh.daoMz.PaykindModifyRecordMapper;
 import com.ljh.service.PaykindModifyRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

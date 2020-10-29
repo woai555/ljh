@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.RRegisterTuihaolog;
-import com.ljh.mapper.RRegisterTuihaologMapper;
+import com.ljh.daoMz.RRegisterTuihaologMapper;
 import com.ljh.service.RRegisterTuihaologService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

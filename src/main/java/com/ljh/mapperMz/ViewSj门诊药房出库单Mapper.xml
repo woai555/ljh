@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewSj门诊药房出库单Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewSj门诊药房出库单">
+        <result column="库名" property="库名" />
+        <result column="药品编号" property="药品编号" />
+        <result column="出库单号" property="出库单号" />
+        <result column="出库时间" property="出库时间" />
+        <result column="数量" property="数量" />
+        <result column="进价" property="进价" />
+        <result column="销价" property="销价" />
+        <result column="领用部门" property="领用部门" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        库名, 药品编号, 出库单号, 出库时间, 数量, 进价, 销价, 领用部门
+    </sql>
+
+</mapper>

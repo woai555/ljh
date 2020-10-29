@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewMjLevel;
-import com.ljh.mapper.ViewMjLevelMapper;
+import com.ljh.daoMz.ViewMjLevelMapper;
 import com.ljh.service.ViewMjLevelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.OrdLocation;
-import com.ljh.mapper.OrdLocationMapper;
+import com.ljh.daoMz.OrdLocationMapper;
 import com.ljh.service.OrdLocationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

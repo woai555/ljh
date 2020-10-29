@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewHzyhCfxx;
-import com.ljh.mapper.ViewHzyhCfxxMapper;
+import com.ljh.daoMz.ViewHzyhCfxxMapper;
 import com.ljh.service.ViewHzyhCfxxService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

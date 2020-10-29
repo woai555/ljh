@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.PrcDelException;
-import com.ljh.mapper.PrcDelExceptionMapper;
+import com.ljh.daoMz.PrcDelExceptionMapper;
 import com.ljh.service.PrcDelExceptionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

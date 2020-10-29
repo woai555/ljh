@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewRwzbFeeaccount;
-import com.ljh.mapper.ViewRwzbFeeaccountMapper;
+import com.ljh.daoMz.ViewRwzbFeeaccountMapper;
 import com.ljh.service.ViewRwzbFeeaccountService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

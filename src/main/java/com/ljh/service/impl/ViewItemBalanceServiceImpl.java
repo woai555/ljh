@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewItemBalance;
-import com.ljh.mapper.ViewItemBalanceMapper;
+import com.ljh.daoMz.ViewItemBalanceMapper;
 import com.ljh.service.ViewItemBalanceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

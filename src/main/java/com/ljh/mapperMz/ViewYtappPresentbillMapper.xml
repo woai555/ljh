@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.ViewYtappPresentbillMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.ViewYtappPresentbill">
+        <result column="TRADE_TYPE" property="tradeType" />
+        <result column="TRADE_FEE" property="tradeFee" />
+        <result column="OUT_TRADE_NO" property="outTradeNo" />
+        <result column="OUT_PAYMENT_NO" property="outPaymentNo" />
+        <result column="IN_TRADE_NO" property="inTradeNo" />
+        <result column="TRADE_TIME" property="tradeTime" />
+        <result column="TRADE_NO" property="tradeNo" />
+        <result column="PAYMENT_NO" property="paymentNo" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TRADE_TYPE, TRADE_FEE, OUT_TRADE_NO, OUT_PAYMENT_NO, IN_TRADE_NO, TRADE_TIME, TRADE_NO, PAYMENT_NO
+    </sql>
+
+</mapper>

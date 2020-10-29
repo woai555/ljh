@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LCheckconstant;
-import com.ljh.mapper.LCheckconstantMapper;
+import com.ljh.daoMz.LCheckconstantMapper;
 import com.ljh.service.LCheckconstantService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

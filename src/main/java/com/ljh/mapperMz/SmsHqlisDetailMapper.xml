@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljh.mapperMz.SmsHqlisDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ljh.bean.SmsHqlisDetail">
+        <id column="IPM_SQN" property="ipmSqn" />
+        <result column="BEDNO" property="bedno" />
+        <result column="PATIENTID" property="patientid" />
+        <result column="NAME" property="name" />
+        <result column="ROOMNAME" property="roomname" />
+        <result column="CONTECT" property="contect" />
+        <result column="ROOMID" property="roomid" />
+        <result column="SENDTIME" property="sendtime" />
+        <result column="YN_NURSE" property="ynNurse" />
+        <result column="NURSEID" property="nurseid" />
+        <result column="NURSE_TO_DOCTOR" property="nurseToDoctor" />
+        <result column="YN_DOCTOR_SEE" property="ynDoctorSee" />
+        <result column="DOCTORID_SEE" property="doctoridSee" />
+        <result column="DOCTOR_SEE_TIME" property="doctorSeeTime" />
+        <result column="YN_DOCTOR_DEAL" property="ynDoctorDeal" />
+        <result column="DOCTORID_DEAL" property="doctoridDeal" />
+        <result column="DOCTOR_DEAL_TIME" property="doctorDealTime" />
+        <result column="INPATIENTNO" property="inpatientno" />
+        <result column="NURSE_TIME" property="nurseTime" />
+        <result column="NDATE" property="ndate" />
+        <result column="SPECIMENNO" property="specimenno" />
+        <result column="TESTINDEX" property="testindex" />
+        <result column="MO_ORDER" property="moOrder" />
+        <result column="PROCESS_MODE" property="processMode" />
+        <result column="FIRST_NURSEID" property="firstNurseid" />
+        <result column="FIRST_NURSE_TIME" property="firstNurseTime" />
+        <result column="NURSE_TO_DOCNAME" property="nurseToDocname" />
+        <result column="SMS_TYPE" property="smsType" />
+        <result column="REAL_TIME" property="realTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        IPM_SQN, BEDNO, PATIENTID, NAME, ROOMNAME, CONTECT, ROOMID, SENDTIME, YN_NURSE, NURSEID, NURSE_TO_DOCTOR, YN_DOCTOR_SEE, DOCTORID_SEE, DOCTOR_SEE_TIME, YN_DOCTOR_DEAL, DOCTORID_DEAL, DOCTOR_DEAL_TIME, INPATIENTNO, NURSE_TIME, NDATE, SPECIMENNO, TESTINDEX, MO_ORDER, PROCESS_MODE, FIRST_NURSEID, FIRST_NURSE_TIME, NURSE_TO_DOCNAME, SMS_TYPE, REAL_TIME
+    </sql>
+
+</mapper>

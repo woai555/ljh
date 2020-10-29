@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewJiaheOrdersDocIndex;
-import com.ljh.mapper.ViewJiaheOrdersDocIndexMapper;
+import com.ljh.daoMz.ViewJiaheOrdersDocIndexMapper;
 import com.ljh.service.ViewJiaheOrdersDocIndexService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

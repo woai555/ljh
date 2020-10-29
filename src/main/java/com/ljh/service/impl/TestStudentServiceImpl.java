@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.TestStudent;
-import com.ljh.mapper.TestStudentMapper;
+import com.ljh.daoMz.TestStudentMapper;
 import com.ljh.service.TestStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

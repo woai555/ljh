@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.LisVsMzbalis;
-import com.ljh.mapper.LisVsMzbalisMapper;
+import com.ljh.daoMz.LisVsMzbalisMapper;
 import com.ljh.service.LisVsMzbalisService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

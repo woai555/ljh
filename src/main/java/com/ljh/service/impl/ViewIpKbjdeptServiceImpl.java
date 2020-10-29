@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewIpKbjdept;
-import com.ljh.mapper.ViewIpKbjdeptMapper;
+import com.ljh.daoMz.ViewIpKbjdeptMapper;
 import com.ljh.service.ViewIpKbjdeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

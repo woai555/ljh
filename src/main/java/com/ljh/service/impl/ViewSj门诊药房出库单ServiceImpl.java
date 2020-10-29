@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewSj门诊药房出库单;
-import com.ljh.mapper.ViewSj门诊药房出库单Mapper;
+import com.ljh.daoMz.ViewSj门诊药房出库单Mapper;
 import com.ljh.service.ViewSj门诊药房出库单Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;

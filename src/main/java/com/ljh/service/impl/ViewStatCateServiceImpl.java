@@ -1,7 +1,7 @@
 package com.ljh.service.impl;
 
 import com.ljh.bean.ViewStatCate;
-import com.ljh.mapper.ViewStatCateMapper;
+import com.ljh.daoMz.ViewStatCateMapper;
 import com.ljh.service.ViewStatCateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
